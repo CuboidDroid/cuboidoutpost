@@ -1,0 +1,23 @@
+[
+    {
+        "passive": true,
+        "dimension": 0,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:wandering_trader",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:vindicator",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:evoker",
+        "result": "deny"
+    }
+]

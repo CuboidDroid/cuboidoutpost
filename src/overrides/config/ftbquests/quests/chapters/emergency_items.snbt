@@ -1,0 +1,35 @@
+{
+	id: "1CD2D67D5E56DD13"
+	group: "73C2C2D59F8E4DE2"
+	order_index: 0
+	filename: "emergency_items"
+	title: "Emergency Items"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Missing: Dragon"
+		icon: "minecraft:dragon_head"
+		x: 0.0d
+		y: 0.0d
+		shape: "octagon"
+		description: [
+			"If the dragon is missing (which probably means you're playing on a server and someone beat you to it), you can get a new one to spawn in by placing these on the rim of the central area in the end in the 4 cardinal directions from the central spike."
+			""
+			"After a bit of fanfare, a new Dragon should appear and you can show it who's boss."
+		]
+		dependencies: ["10E3ABB4530A9F1A"]
+		optional: true
+		id: "49A42F0726EFA8CB"
+		tasks: [{
+			id: "0C9C5B8BEA683FF5"
+			type: "checkmark"
+			title: "Claim"
+		}]
+		rewards: [{
+			id: "3B9E66A13E06BEE7"
+			type: "item"
+			item: "minecraft:end_crystal"
+			count: 4
+		}]
+	}]
+}

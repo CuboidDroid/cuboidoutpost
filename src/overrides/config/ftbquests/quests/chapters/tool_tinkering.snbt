@@ -1,0 +1,78 @@
+{
+	id: "33F4535B8E4C3579"
+	group: "53EA7D6C6A1B0F69"
+	order_index: 2
+	filename: "tool_tinkering"
+	title: "Tool Tinkering"
+	icon: {
+		id: "tconstruct:cleaver"
+		Count: 1b
+		tag: {
+			tic_stats: {
+				"tconstruct:attack_speed": 0.9f
+				"tconstruct:reach": 6.0f
+				"tconstruct:attack_damage": 14.625f
+				"tconstruct:harvest_level": 4.0f
+				"tconstruct:durability": 6300.0f
+				"tconstruct:mining_speed": 2.0f
+			}
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					name: "tconstruct:insatiable"
+					level: 4s
+				}
+				{
+					name: "tconstruct:severing"
+					level: 2s
+				}
+				{
+					name: "tconstruct:silky_aoe_shears"
+					level: 1s
+				}
+				{
+					name: "tconstruct:two_handed"
+					level: 1s
+				}
+			]
+			tic_materials: [
+				"tconstruct:manyullyn"
+				"tconstruct:manyullyn"
+				"tconstruct:manyullyn"
+				"tconstruct:manyullyn"
+			]
+			Damage: 0
+			tic_persistent_data: {
+				abilities: 1
+				traits: 0
+				upgrades: 2
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 2.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		title: "Tool Tinkering"
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		description: ["Coming soon!"]
+		id: "32E874AAA865CA9C"
+		tasks: [{
+			id: "7265223373920E84"
+			type: "checkmark"
+		}]
+	}]
+}

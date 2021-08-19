@@ -1,0 +1,76 @@
+{
+	id: "674471B595CC747A"
+	group: "24F09E0B1AD125E9"
+	order_index: 3
+	filename: "gas_storage"
+	title: "Gas Storage"
+	icon: "mekanism:advanced_chemical_tank"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -2.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Gas Storage"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Coming soon"]
+			id: "2517962CE6D9B773"
+			tasks: [{
+				id: "442F69B791715FF1"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "32CD7133D7372A9E"
+			tasks: [{
+				id: "0DAE435F4E64463B"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "56CD9FBBBD7E2DA0"
+			tasks: [{
+				id: "68874B3EB064BA47"
+				type: "item"
+				item: "mekanism:advanced_chemical_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "56F77674B8BBE20F"
+			tasks: [{
+				id: "5B44618691754156"
+				type: "item"
+				item: "mekanism:elite_chemical_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			id: "0C5079AB1F530714"
+			tasks: [{
+				id: "2DB6419CD61A18A2"
+				type: "item"
+				item: "mekanism:ultimate_chemical_tank"
+			}]
+		}
+	]
+}

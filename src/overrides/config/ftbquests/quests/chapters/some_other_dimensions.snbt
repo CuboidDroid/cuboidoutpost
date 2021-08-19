@@ -1,0 +1,9 @@
+{
+	id: "19C2DCB2203F07D3",
+	group: "40232F59EC0C238D",
+	order_index: 2,
+	filename: "some_other_dimensions",
+	title: "Some other dimensions?",
+	default_quest_shape: "",
+	quests: []
+}

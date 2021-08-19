@@ -1,0 +1,123 @@
+{
+	id: "7245BEC5B17E8B67"
+	group: "033EC740B2EF1FC1"
+	order_index: 1
+	filename: "gas_transport"
+	title: "Gas Transport"
+	icon: "mekanism:basic_mechanical_pipe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -2.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Gas Transport"
+			x: 0.0d
+			y: -0.5d
+			shape: "gear"
+			id: "4D50DCFC7ABA3DE0"
+			tasks: [{
+				id: "7EE8E8F937DD11DB"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "0D3FF9FC5DB9F402"
+			tasks: [{
+				id: "1A607E38F25046D3"
+				type: "item"
+				item: "mekanism:basic_pressurized_tube"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0D3FF9FC5DB9F402"]
+			id: "115406F6904219FA"
+			tasks: [{
+				id: "3DAB2F18FDB037AC"
+				type: "item"
+				item: "mekanism:advanced_pressurized_tube"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["115406F6904219FA"]
+			id: "77C9370879035020"
+			tasks: [{
+				id: "6236FC5CDD50AAE7"
+				type: "item"
+				item: "mekanism:elite_pressurized_tube"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["77C9370879035020"]
+			id: "2E07B0C35F4790C5"
+			tasks: [{
+				id: "33D8789465679EA5"
+				type: "item"
+				item: "mekanism:ultimate_pressurized_tube"
+			}]
+		}
+		{
+			title: "XNet for Gasses"
+			x: -2.0d
+			y: 1.5d
+			dependency_requirement: "one_completed"
+			id: "48E08A97659F6B85"
+			tasks: [
+				{
+					id: "4D4094409BDB2182"
+					type: "item"
+					title: "Connector"
+					icon: "xnet:connector_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:connectors"
+						}
+					}
+				}
+				{
+					id: "1FFF9541C491E2DF"
+					type: "item"
+					title: "Network Cable"
+					icon: "xnet:netcable_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:cables"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "3CFDC5A35FD9DD08"
+			tasks: [{
+				id: "5137DFA5FFDA6EDA"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
+			}]
+		}
+	]
+}

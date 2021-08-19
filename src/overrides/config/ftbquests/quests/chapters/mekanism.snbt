@@ -1,0 +1,195 @@
+{
+	id: "6362652E582C4885"
+	group: "24F09E0B1AD125E9"
+	order_index: 2
+	filename: "mekanism"
+	title: "Fluid Storage"
+	icon: "mekanism:basic_fluid_tank"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -1.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 2.5d
+			id: "42653A59BE87EB10"
+			tasks: [{
+				id: "1586EEDD33F211F8"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			id: "106D46ACF4A554A1"
+			tasks: [{
+				id: "1D729892B72DACFC"
+				type: "item"
+				item: "mekanism:advanced_fluid_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "1D475D06EFC829B5"
+			tasks: [{
+				id: "73524C25A340E976"
+				type: "item"
+				item: "mekanism:elite_fluid_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			id: "7FB133615DC58178"
+			tasks: [{
+				id: "0A4AE2A91A70F726"
+				type: "item"
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			id: "6EA1BED42FEAFC0C"
+			tasks: [{
+				id: "77712FE8EB1ABC14"
+				type: "item"
+				item: "mekanism:dynamic_tank"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			id: "064A1B5AC31A3824"
+			tasks: [{
+				id: "4733423E499441B0"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			id: "5B3D08C917D40635"
+			tasks: [{
+				id: "0F33C3A0CF589972"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			id: "264E2498394090CF"
+			tasks: [{
+				id: "04AD57603F420461"
+				type: "item"
+				item: "tconstruct:seared_ingot_tank"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			id: "40870017816A89CA"
+			tasks: [{
+				id: "3EB0AAD5F85A21A7"
+				type: "item"
+				item: "tconstruct:scorched_fuel_tank"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			id: "0576A7A9C57F2EB8"
+			tasks: [{
+				id: "3747A93E54442B35"
+				type: "item"
+				item: "tconstruct:scorched_ingot_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			id: "14ACC056658FE59C"
+			tasks: [{
+				id: "665FD057DEBCF1C5"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			id: "7486BE3EE148DB62"
+			tasks: [{
+				id: "2E6F5247392D7BA1"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "126C76D1A7178D26"
+			tasks: [{
+				id: "35A97A70ED7C3974"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			id: "14F553BA1ABCEDEA"
+			tasks: [{
+				id: "2C0C70C069B020A5"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			id: "20BB802691FB3B2B"
+			tasks: [{
+				id: "40041A6C578B24AD"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			id: "6FBCCE519B37691C"
+			tasks: [{
+				id: "5FEE4E350CD93F12"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			title: "Fluid Storage"
+			x: 0.5d
+			y: 0.5d
+			shape: "gear"
+			id: "07ECB3D29598CFBC"
+			tasks: [{
+				id: "6143AF856557D38C"
+				type: "checkmark"
+			}]
+		}
+	]
+}

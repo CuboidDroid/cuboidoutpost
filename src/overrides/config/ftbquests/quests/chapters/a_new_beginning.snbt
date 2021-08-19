@@ -1,0 +1,121 @@
+{
+	id: "5E2656C57DE61A5F"
+	group: "298C586EA6E5A561"
+	order_index: 1
+	filename: "a_new_beginning"
+	title: "A New Beginning?"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 5.5d
+			shape: "square"
+			dependencies: [
+				"327A619C473DC760"
+				"2B6BC28B06186D7B"
+				"34D38F5115D8D5AB"
+				"7F08B486E9150C8E"
+				"36D099113E0B2042"
+				"1CF4D6DD0070E2A6"
+			]
+			id: "51C4DAB656980D21"
+			tasks: [{
+				id: "78AC14702F7E8F14"
+				type: "item"
+				item: "cuboidmod:energized_thatlduvium"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			shape: "gear"
+			id: "327A619C473DC760"
+			tasks: [{
+				id: "2AB6FCBB07234906"
+				type: "item"
+				item: "cuboidmod:thatldu_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			shape: "gear"
+			id: "2B6BC28B06186D7B"
+			tasks: [{
+				id: "4E02094658106539"
+				type: "item"
+				item: "appliedenergistics2:singularity"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			shape: "gear"
+			id: "34D38F5115D8D5AB"
+			tasks: [{
+				id: "37FD120055B298C1"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			shape: "gear"
+			id: "7F08B486E9150C8E"
+			tasks: [{
+				id: "0EB4E4487E4E04BB"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			shape: "gear"
+			id: "36D099113E0B2042"
+			tasks: [{
+				id: "6F8752D8D61DFDFD"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			shape: "gear"
+			id: "1CF4D6DD0070E2A6"
+			tasks: [{
+				id: "6960770C8EE6C80C"
+				type: "item"
+				item: "cuboidmod:dirt_quantum_singularity"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["51C4DAB656980D21"]
+			id: "16324378203BF827"
+			tasks: [{
+				id: "22F98966F6AC219A"
+				type: "dimension"
+				dimension: "cuboidmod:cuboid_overworld"
+			}]
+		}
+	]
+}

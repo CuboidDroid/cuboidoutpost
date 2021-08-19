@@ -1,0 +1,122 @@
+  // - A -
+  "agave" - fern + seed_cactus
+  "amaranth" - chilipepper + oats
+  "arrowroot" - lentil + quinoa
+  "artichoke" - leek + onion
+  "asparagus" - bamboo + wheat_seeds
+
+  // - B -
+  "barley" - corn + rye
+  "bean" - chickpea + lentil
+  "bellpepper" - okra + asparagus
+  "blackberry" - elderberry + candleberry
+  "blueberry" - juniperberry + kohlrabi
+  "broccoli" - rhubarb + kale
+  "brusselsprout" - agave + kale
+
+  // - C -
+  "cabbage" - lettuce + cauliflower
+  "cactusfruit" - agave + canteloupe
+  "candleberry" - jute + peas
+  "canteloupe" - seed_sugarcane + cactus
+  "cassava" - mustard + oats
+  "cauliflower" - broccoli + wintersquash
+  "celery" - broccoli + rhubarb
+  "chickpea" - peas + soybean
+  "chilipepper" - ginger + bellpepper
+  "coffeebean" - seed_fern + seed_cactus
+  "corn" - carrot + wheat
+  "cotton" - cauliflower + celery
+  "cranberry" - peas + mulberry
+  "cucumber" - asparagus + parsnip
+
+  // - D -
+  // - E -
+  "eggplant" - jute + pineapple
+  "elderberry" - pineapple + mulberry
+
+  // - F -
+  "flax" - arrowroot + bean
+
+  // - G - 
+  "garlic" - parsnip + rye
+  "ginger" - sweetpotato + asparagus
+  "grape" - okra + sweetpotato
+  "greengrape" - soybean + grape
+
+  // - H -
+  "huckleberry" - juniperberry + greengrape
+
+  // - I -
+  // - J -
+  "jicama" - ginger + kiwi
+  "juniperberry" - ginger + coffeebean
+  "jute" - wintersquash + cactusfruit
+
+  // - K -
+  "kale" - bamboo + seed_large_fern
+  "kenaf" - turnip + rutabaga
+  "kiwi" - okra + agave
+  "kohlrabi" - bellpepper + cucumber
+
+  // - L -
+  "leek" - barley + cucumber
+  "lentil" - soybean + greengrape
+  "lettuce" - canteloupe + brusselsprout
+
+  // - M -
+  "millet" - sisal + whitemushroom
+  "mulberry" - kiwi + grape
+  "mustard" - garlic + corn
+
+  // - N -
+  // - O -
+  "oats" - barley + rye
+  "okra" - seed_bamboo + cactus
+  "onion" - ginger + garlic
+
+  // - P -
+  "parsnip" - seed_carrot + potato
+  "peanut" - waterchestnut + millet
+  "peas" - brusselsprout + grape
+  "pineapple" - kiwi + cactusfruit
+
+  // - Q - 
+  "quinoa" - greengrape + coffeebean
+
+  // - R -
+  "radish" - chilipepper + onion
+  "raspberry" - mulberry + greengrape
+  "rhubarb" - sugar_cane + seed_bamboo
+  "rice" - oats + cassava
+  "rutabaga" - mulberry + jicama
+  "rye" - poisonous_potato + wheat
+
+  // - S -
+  "scallion" - leek + garlic
+  "sesame" - flax + spiceleaf
+  "sisal" - artichoke + amaranth
+  "soybean" - coffeebean + grape
+  "spiceleaf" - tealeaf + taro
+  "spinach" - lettuce + celery
+  "strawberry" - cranberry + raspberry
+  "sweetpotato" - sugar_cane + seed_potato
+
+  // - T -
+  "taro" - eggplant + cabbage
+  "tealeaf" - spinach + cotton
+  "tomatillo" - radish + zucchini
+  "tomato" - huckleberry + blueberry
+  "turnip" - jicama + onion
+
+  // - U -
+  // - V -
+  // - W -
+  "waterchestnut" - kenaf + tomatillo
+  "whitemushroom" - scallion + cassava
+  "wintersquash" - canteloupe + rhubarb
+
+  // - X -
+  // - Y -
+  // - Z -
+  "zucchini" - cucumber + leek

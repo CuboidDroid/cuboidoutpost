@@ -1,0 +1,232 @@
+{
+	id: "16F6E346E0584C7C"
+	group: "4F582DBBFACF1F69"
+	order_index: 6
+	filename: "networks_for_xmen"
+	title: "Networks for X-Men"
+	icon: "xnet:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 10.0d
+			y: -5.0d
+			width: 7.5d
+			height: 5.5d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/netherrack_gen.png"
+			hover: ["An Infinite Netherrack / End Stone Generator"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			width: 7.5d
+			height: 3.75d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/netherrack_gen_config.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			width: 6.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/under_construction.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			width: 7.5d
+			height: 6.54d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/energizing_orb.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 9.0d
+			width: 7.5d
+			height: 3.75d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/energizing_orb_config.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Networks for X-Men"
+			x: -2.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["3B00278F3DDF103C"]
+			id: "2EBE94F050C5DCA6"
+			tasks: [{
+				id: "6CCFBE7BFD955FFD"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Network Cable"
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["2EBE94F050C5DCA6"]
+			id: "08A8C51EB01F3C18"
+			tasks: [{
+				id: "75022431F4C6570E"
+				type: "item"
+				title: "Network Cable"
+				icon: "xnet:netcable_blue"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "xnet:cables"
+					}
+				}
+			}]
+		}
+		{
+			title: "Connectors"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["2EBE94F050C5DCA6"]
+			id: "3074D94C2567198F"
+			tasks: [{
+				id: "203465D598754FAB"
+				type: "item"
+				title: "Connector"
+				icon: "xnet:connector_blue"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "xnet:connectors"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: [
+				"08A8C51EB01F3C18"
+				"3074D94C2567198F"
+			]
+			id: "792D60E6C75B19E1"
+			tasks: [{
+				id: "62AE2F45FBBC7157"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["3074D94C2567198F"]
+			id: "693B99EEE4A98DDF"
+			tasks: [{
+				id: "2931062668143553"
+				type: "item"
+				title: "Advanced Connector"
+				icon: "xnet:advanced_connector_blue"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "xnet:advanced_connectors"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["3074D94C2567198F"]
+			optional: true
+			id: "36731AE0D76D7BEE"
+			tasks: [{
+				id: "1EB3C214AD11125F"
+				type: "item"
+				item: "xnet:connector_upgrade"
+			}]
+		}
+		{
+			title: "Infinite Netherrack / End Stone Generator"
+			x: 6.0d
+			y: -3.0d
+			description: [
+				"In this (somewhat contrived) example, X-Net is being used to move both items and fluids through a single set of cables (connectors in this instance)."
+				""
+				"Power is provided to the Controller via an SPG."
+				""
+				"There are two connectors to the right of the Controller and (clockwise from top left) there is:"
+				"- SRG producing redstone dust"
+				"- SRG producing diorite"
+				"- Stone Barrel"
+				"- Fired Crucible (with fire underneath)"
+				"- Output chest for the Netherrack"
+				""
+				"The first SRG could be producing glowstone, in which case the output chest would contain End Stone that gets produced. The SPG's could also easily be replaced by some other source of raw materials such as a chest or storage drawer - feasibly only one chest could be used for both input and output, but this setup is hopefully a bit easier to understand if you're new to X-Net."
+				""
+				"&aThe channel setup in the Controller is shown below.&f"
+				""
+				"&aChannel 1&f: The first channel is configured for Items. The SRG's are set to extract. The Fired Crucible is set to insert, with Diorite in the filter on the right-hand side. Similarly, the Stone Barrel is also set to insert, but with Redstone Dust in the filter."
+				""
+				"&aChannel 2&f: This channel is set to fluids, and is set to extract from the Fired Crucible and insert into the Stone Barrel."
+				""
+				"&aChannel 3&f: The last channel used is set to Items, and deals with the output. We need this additional channel because we can't insert and extract on the same channel with a single connector. We simply extract from the Stone Barrel and insert into our output chest."
+			]
+			id: "3597BCB5AFE09176"
+			tasks: [{
+				id: "1452B5581E97DEC3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Energizing Orb Automation"
+			x: 6.0d
+			y: 7.0d
+			description: [
+				"To the right you can see a simple setup for automating usage of an energizing orb."
+				""
+				"You should probably look to setup up multiple orbs rather than try to add more recipes to an orb as it becomes harder to keep ingredients separate the more complex you make these setups."
+				""
+				"The basic concept is to provide power to the Energizing Rod, link that to the orb, and then have the orb and a chest (or other inventory) attached to the controller (which also needs power)."
+				""
+				"In the configuration, you will see that channel 8 is being used for power."
+				""
+				"Channel 1 is being used to move a Gold Ingot from the chest to the Energizing Orb. In the configuration, you can see that we are able to apply a filter so that the insert to the energizing orb on channel 1 is filtered to be Gold Ingot, and the maximum number of this item to insert into the orb is 1 (the 1 in the # box). This means that if the chest (which is set to extract on channel 1) has Gold Ingots, 1 will be moved into the Energizing Orb if there isn't already a Gold Ingot in there, but if there is one, then additional ones will not be inserted."
+				""
+				"The second channel is set up the same way but for iron."
+				""
+				"Finally, channel 7 is set to extract from the orb and insert back into the chest."
+				""
+				"All you would need to do to make Energized Steel now is put equal amounts of Iron and Gold ingots in the chest, and leave it to work for a bit."
+				""
+				"You can expand this easily by adding more energizing orbs and using the remaining channels to insert the right ingredients into them. For example, channel 3 could extract from the chest and insert Blaze Powder (with a 4 in the # box) into the new Orb, that could have a new Energizing Rod assigned to it, and you can then set the extract on channel 7 for the orb to put the result (Blazing Crystal) back into the chest. Alternatively just duplicate the setup and have one of this sort of setup for each Energizing Orb output you're after (which would be simpler to manage for sure, if a bit more expensive)"
+			]
+			id: "045B1C5B7E2A3503"
+			tasks: [{
+				id: "3959BA1C1F566282"
+				type: "checkmark"
+			}]
+		}
+	]
+}

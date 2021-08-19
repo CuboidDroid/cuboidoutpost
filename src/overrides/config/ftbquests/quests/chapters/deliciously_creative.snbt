@@ -1,0 +1,36 @@
+{
+	id: "621C89BFC53401DE"
+	group: "6E3D5CD175F7344D"
+	order_index: 5
+	filename: "deliciously_creative"
+	title: "Deliciously Creative"
+	icon: "create:sweet_roll"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 2.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		title: "Deliciously Creative"
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		description: ["Coming soon!"]
+		dependencies: ["4D0F1810876E3DF6"]
+		id: "574CE4094B4ABC72"
+		tasks: [{
+			id: "78DE8945585F9088"
+			type: "checkmark"
+			title: "Deliciously Creative"
+		}]
+	}]
+}

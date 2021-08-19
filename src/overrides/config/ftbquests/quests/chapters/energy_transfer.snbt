@@ -1,0 +1,261 @@
+{
+	id: "74CA2AF06834E7BC"
+	group: "033EC740B2EF1FC1"
+	order_index: 2
+	filename: "energy_transfer"
+	title: "Energy Transfer"
+	icon: "immersiveengineering:wirecoil_copper"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -2.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Energy Transfer"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			id: "1872D6756F240C71"
+			tasks: [{
+				id: "76A45E6DB57E0A71"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["7040588235EC486C"]
+			id: "63CD676C5C5D1C1D"
+			tasks: [
+				{
+					id: "1D32E3E557C4ACEF"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+				{
+					id: "1AB05EB25B535C22"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+				}
+				{
+					id: "65329895A71BBD37"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "003426107E3CD473"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["63CD676C5C5D1C1D"]
+			id: "7F1EFBCEB7CF828D"
+			tasks: [
+				{
+					id: "7FA9708B1D381AC3"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+				{
+					id: "452B3629D415F349"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+				{
+					id: "1B9FBAC9EB84AFB0"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "7040588235EC486C"
+			tasks: [
+				{
+					id: "0988E26F33A8A08C"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "14AE4077C4CAABA2"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "1914C243D1285C74"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "7579E2A5FD29894A"
+			tasks: [{
+				id: "658D67B29297EFAD"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["7579E2A5FD29894A"]
+			id: "549C0E94F29DCF32"
+			tasks: [{
+				id: "0C6379F9ADDF5FB4"
+				type: "item"
+				item: "mekanism:advanced_universal_cable"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["549C0E94F29DCF32"]
+			id: "025DEAF9BABC8F66"
+			tasks: [{
+				id: "614FF834720CF255"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["025DEAF9BABC8F66"]
+			id: "6366AE3C13655BD1"
+			tasks: [{
+				id: "6CEEFE981FAA33C2"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+			}]
+		}
+		{
+			title: "XNet for Energy"
+			x: 2.0d
+			y: 2.0d
+			id: "4684D4B747C9FBB4"
+			tasks: [
+				{
+					id: "054FBCCC43077EAE"
+					type: "item"
+					title: "Connector"
+					icon: "xnet:connector_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:connectors"
+						}
+					}
+				}
+				{
+					id: "478A405F85CF52D6"
+					type: "item"
+					title: "Network Cable"
+					icon: "xnet:netcable_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:cables"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "10449893EC1BD735"
+			tasks: [{
+				id: "220E0886E740783B"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["10449893EC1BD735"]
+			id: "52CAE4A078362D76"
+			tasks: [{
+				id: "20E22F0D3834D78F"
+				type: "item"
+				item: "powah:energy_cable_basic"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["52CAE4A078362D76"]
+			id: "4B22B5E60F8E1C9D"
+			tasks: [{
+				id: "638AEF4BDBA08929"
+				type: "item"
+				item: "powah:energy_cable_hardened"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["4B22B5E60F8E1C9D"]
+			id: "34D8BA1A3C031B0B"
+			tasks: [{
+				id: "6D1A02B8C2261208"
+				type: "item"
+				item: "powah:energy_cable_blazing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			dependencies: ["34D8BA1A3C031B0B"]
+			id: "367D6CD950F4E48B"
+			tasks: [{
+				id: "5821E1C8FA8BAEBF"
+				type: "item"
+				item: "powah:energy_cable_niotic"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.5d
+			dependencies: ["367D6CD950F4E48B"]
+			id: "573B2B8B63121C43"
+			tasks: [{
+				id: "18910295FFD96E58"
+				type: "item"
+				item: "powah:energy_cable_spirited"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			dependencies: ["573B2B8B63121C43"]
+			id: "09D9978BC183F61F"
+			tasks: [{
+				id: "671EC127685853D3"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+			}]
+		}
+	]
+}

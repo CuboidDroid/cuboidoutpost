@@ -1,0 +1,281 @@
+{
+	id: "224354F4BDF62683"
+	group: "53EA7D6C6A1B0F69"
+	order_index: 5
+	filename: "exploring_the_nether_regions"
+	title: "Exploring Nether Regions"
+	icon: "exnihilosequentia:crushed_netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.0d
+		y: -1.0d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Exploring Nether Regions"
+			x: -1.0d
+			y: 2.0d
+			shape: "gear"
+			description: ["Coming soon!"]
+			id: "2280A6EEC1BFDEDD"
+			tasks: [
+				{
+					id: "598A8BA555915DF1"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+				}
+				{
+					id: "50FDF0F8AA087D2F"
+					type: "item"
+					item: "minecraft:nether_bricks"
+				}
+				{
+					id: "21E3DEA97509F418"
+					type: "item"
+					item: "powah:crystal_niotic"
+				}
+				{
+					id: "5C575C37D9D2698D"
+					type: "item"
+					item: "endergetic:boof_block"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			shape: "square"
+			dependencies: ["2280A6EEC1BFDEDD"]
+			id: "46821A52352BBC8F"
+			tasks: [{
+				id: "08117E8BF30437D8"
+				type: "item"
+				item: "cuboidmod:energized_nether_bricks"
+			}]
+			rewards: [{
+				id: "672DC08DB4F9A8FB"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "nether_access"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			shape: "square"
+			dependencies: ["46821A52352BBC8F"]
+			id: "248E373FA159A972"
+			tasks: [{
+				id: "62434700F775BD85"
+				type: "dimension"
+				title: "Enter The Nether"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["42F7BB732588FE2B"]
+			id: "1E782624571D6928"
+			tasks: [{
+				id: "68F7AB3C0286EEFA"
+				type: "advancement"
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			dependencies: ["42F7BB732588FE2B"]
+			id: "2CCD8D8A135B4012"
+			tasks: [{
+				id: "55930FCDE6793F9D"
+				type: "advancement"
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["248E373FA159A972"]
+			id: "42F7BB732588FE2B"
+			tasks: [{
+				id: "10EF5F1603135887"
+				type: "advancement"
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.5d
+			dependencies: ["2CCD8D8A135B4012"]
+			id: "5228AC6AE66600A9"
+			tasks: [{
+				id: "7F1ABEC7A490B886"
+				type: "item"
+				item: "tconstruct:necrotic_bone"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.5d
+			dependencies: ["2CCD8D8A135B4012"]
+			id: "201E274E8AF73865"
+			tasks: [{
+				id: "6D8923FBDC026412"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.5d
+			dependencies: ["1E782624571D6928"]
+			id: "14DD4220E654B1A5"
+			tasks: [{
+				id: "117DC9F090335B5A"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["248E373FA159A972"]
+			id: "244ED9B4D1CBE9AC"
+			tasks: [{
+				id: "5C6BD88342B2E516"
+				type: "advancement"
+				advancement: "tconstruct:world/blood_island"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["244ED9B4D1CBE9AC"]
+			id: "047B6EBAE1807B03"
+			tasks: [{
+				id: "4A86899259AAC5F4"
+				type: "item"
+				item: "tconstruct:blood_slime_sapling"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["244ED9B4D1CBE9AC"]
+			id: "3ACD607AE2660F6E"
+			tasks: [{
+				id: "0AB7BCC0128822A2"
+				type: "item"
+				item: "tconstruct:ichor_slime_dirt"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["244ED9B4D1CBE9AC"]
+			id: "2776F79EABC10B36"
+			tasks: [{
+				id: "61260AE125A05266"
+				type: "item"
+				item: "tconstruct:bloodshroom_log"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["248E373FA159A972"]
+			id: "52B9B245AEAB386B"
+			tasks: [{
+				id: "026869BFC0248580"
+				type: "advancement"
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			dependencies: ["248E373FA159A972"]
+			id: "793BD41368775901"
+			tasks: [{
+				id: "08ED9E2374B6AB91"
+				type: "advancement"
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["244ED9B4D1CBE9AC"]
+			id: "688ED713E6A8695F"
+			tasks: [{
+				id: "56A91D70C1CBBCA4"
+				type: "item"
+				item: "tconstruct:magma_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.0d
+			dependencies: ["14DD4220E654B1A5"]
+			id: "4E374394E023B1D1"
+			tasks: [{
+				id: "132BE3AF127CB479"
+				type: "item"
+				item: "quark:blaze_lantern"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 14.5d
+			dependencies: ["3C37857BCEA55086"]
+			id: "7D30BCCFA1ACF48B"
+			tasks: [{
+				id: "116D7BB3AEA275A0"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["248E373FA159A972"]
+			id: "68E5299643C9D8E3"
+			tasks: [{
+				id: "773788BEB5397CA1"
+				type: "advancement"
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: 13.0d
+			dependencies: ["201E274E8AF73865"]
+			id: "3C37857BCEA55086"
+			tasks: [{
+				id: "0991948E533FD474"
+				type: "advancement"
+				title: "Heathcliff!"
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+			}]
+		}
+	]
+}

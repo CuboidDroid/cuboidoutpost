@@ -1,0 +1,34 @@
+{
+	id: "1DFBC234A86906B5"
+	group: "24F09E0B1AD125E9"
+	order_index: 4
+	filename: "energy_storage"
+	title: "Energy Storage"
+	icon: "powah:energy_cell_basic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -2.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		title: "Energy Storage"
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		description: ["Coming soon"]
+		id: "19FD7F44BF12B9CC"
+		tasks: [{
+			id: "337CF673D763E1C0"
+			type: "checkmark"
+		}]
+	}]
+}

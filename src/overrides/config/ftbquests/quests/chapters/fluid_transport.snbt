@@ -1,0 +1,205 @@
+{
+	id: "7504D2F4D88313C5"
+	group: "033EC740B2EF1FC1"
+	order_index: 0
+	filename: "fluid_transport"
+	title: "Fluid Transport"
+	icon: "enderstorage:ender_tank"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 2.0d
+		y: -2.0d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/under_construction.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 2.5d
+			y: 2.0d
+			id: "5E419353EC2F2F44"
+			tasks: [{
+				id: "73B097E020BC0B9A"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["5E419353EC2F2F44"]
+			id: "721A102962C8373F"
+			tasks: [{
+				id: "472D4D80A157E367"
+				type: "item"
+				item: "mekanism:advanced_mechanical_pipe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["721A102962C8373F"]
+			id: "09EDB80081CCAA54"
+			tasks: [{
+				id: "1E916F420B2E1600"
+				type: "item"
+				item: "mekanism:elite_mechanical_pipe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["09EDB80081CCAA54"]
+			id: "14E47EE15819EF3D"
+			tasks: [{
+				id: "2639228F1B2DE6C9"
+				type: "item"
+				item: "mekanism:ultimate_mechanical_pipe"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			id: "725F5C52C894F657"
+			tasks: [{
+				id: "76D946183175597C"
+				type: "item"
+				item: "mekanism:electric_pump"
+			}]
+		}
+		{
+			title: "Immersive: Fluid Pipe"
+			x: -0.5d
+			y: 2.0d
+			id: "64B1FD08E6E2B140"
+			tasks: [{
+				id: "5DB02A4C6E1F26F8"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			id: "133AC42B97A5ACBF"
+			tasks: [{
+				id: "6A782A6A10284D31"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["133AC42B97A5ACBF"]
+			id: "25E394F9E9C727E5"
+			tasks: [{
+				id: "7A812FA6750FB272"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+		}
+		{
+			title: "Immersive: Fluid Pump"
+			x: -1.5d
+			y: 2.0d
+			id: "182026EEBE95B146"
+			tasks: [{
+				id: "236034ADD050CFCA"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			id: "1A189C9FA030E922"
+			tasks: [{
+				id: "3E5C822799E3A611"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			id: "3837867475B59F18"
+			tasks: [{
+				id: "0747AC7427213B38"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			title: "XNet for Fluids"
+			x: -3.5d
+			y: 2.0d
+			id: "26642B00376F3070"
+			tasks: [
+				{
+					id: "17CA4CE1C8650ECD"
+					type: "item"
+					title: "Connector"
+					icon: "xnet:connector_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:connectors"
+						}
+					}
+				}
+				{
+					id: "6603FA3C57ABF327"
+					type: "item"
+					title: "Network Cable"
+					icon: "xnet:netcable_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:cables"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fluid Transport"
+			x: 2.0d
+			y: 0.0d
+			shape: "gear"
+			id: "7F4EEC10573D1EB4"
+			tasks: [{
+				id: "2C676AA9A71CAFE9"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			id: "7DB74266994654BB"
+			tasks: [{
+				id: "74CE124D630B37CE"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			id: "47C3812B2944C18C"
+			tasks: [{
+				id: "04D8A47038A41DFF"
+				type: "item"
+				item: "immersiveengineering:jerrycan"
+			}]
+		}
+	]
+}

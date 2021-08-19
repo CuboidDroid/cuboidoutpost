@@ -1,0 +1,292 @@
+{
+	id: "39AE34428D014BEC"
+	group: "033EC740B2EF1FC1"
+	order_index: 3
+	filename: "moving_items"
+	title: "Moving Items"
+	icon: "enderstorage:ender_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "771FE160AB82E93D"
+			tasks: [{
+				id: "0BD379BA344489C2"
+				type: "item"
+				item: "mekanism:basic_logistical_transporter"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			id: "77164C9BAEC48316"
+			tasks: [{
+				id: "238C05BA44C21445"
+				type: "item"
+				item: "mekanism:advanced_logistical_transporter"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "6ABF0D13FB892268"
+			tasks: [{
+				id: "699E6DFA9FF05587"
+				type: "item"
+				item: "mekanism:elite_logistical_transporter"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			id: "11E0226EAE21EE6D"
+			tasks: [{
+				id: "534FD3B0C49A281D"
+				type: "item"
+				item: "mekanism:ultimate_logistical_transporter"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			id: "5B40CF0C26FA4D48"
+			tasks: [{
+				id: "4FDB062B18603C9B"
+				type: "item"
+				item: "mekanism:logistical_sorter"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "4023C40F3002AC45"
+			tasks: [{
+				id: "3CF13788C2B39FE3"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			id: "515712C92361FDD4"
+			tasks: [{
+				id: "6E2230C6B4BA4AFB"
+				type: "item"
+				item: "immersiveengineering:conveyor_vertical"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			id: "2CEE014FDACFB2AA"
+			tasks: [{
+				id: "2C6D31312B3B0C81"
+				type: "item"
+				item: "immersiveengineering:conveyor_dropper"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			id: "78E1C171E5D7755D"
+			tasks: [{
+				id: "717E71775F7F1BFD"
+				type: "item"
+				item: "immersiveengineering:conveyor_extract"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.0d
+			id: "511603C278061999"
+			tasks: [{
+				id: "03176BD4E21F9638"
+				type: "item"
+				item: "immersiveengineering:conveyor_splitter"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			id: "04FD705635701534"
+			tasks: [
+				{
+					id: "5CC333372A82FBF5"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "7A249A0113A94819"
+					type: "item"
+					item: "create:shaft"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			id: "76B554CC34945020"
+			tasks: [{
+				id: "7DB9FB4895D7C06C"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			id: "03C17F549EA160DE"
+			tasks: [{
+				id: "668C73363498DE8E"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			id: "020FC982F30FA0C0"
+			tasks: [{
+				id: "321A84D8C066D893"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			id: "7166B30D53F350AC"
+			tasks: [{
+				id: "0978D35D2967EF1F"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			id: "281118B8A2CCB6CD"
+			tasks: [{
+				id: "05CC428EEBA215C6"
+				type: "item"
+				item: "create:chute"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			id: "5537B428F502B4BA"
+			tasks: [{
+				id: "18BBA00035668CB3"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "0840404F4BEA3F27"
+			tasks: [{
+				id: "08788E205539D581"
+				type: "item"
+				item: "industrialforegoing:conveyor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "3410A58B0135A34E"
+			tasks: [{
+				id: "33C5038464A634A0"
+				type: "item"
+				item: "industrialforegoing:conveyor_extraction_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "51A6F17FF4F2EF65"
+			tasks: [{
+				id: "2A509C08624E23A8"
+				type: "item"
+				item: "industrialforegoing:conveyor_insertion_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			id: "7B0CEEB33A56911A"
+			tasks: [{
+				id: "2CA0369E08AC226F"
+				type: "item"
+				item: "industrialforegoing:conveyor_dropping_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			id: "5FB056E8F93D9CA0"
+			tasks: [{
+				id: "7E9B3579B74F3CDC"
+				type: "item"
+				item: "industrialforegoing:conveyor_splitting_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "5E674CC0FE9ECD44"
+			tasks: [{
+				id: "203EA348A09ECC3D"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			id: "5F95CF05B912275D"
+			tasks: [{
+				id: "7B383462518155B9"
+				type: "item"
+				item: "enderstorage:ender_pouch"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "2C69BA63A47A0E40"
+			tasks: [
+				{
+					id: "5ED38A1C95DD9D5C"
+					type: "item"
+					title: "Network Cable"
+					icon: "xnet:netcable_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:cables"
+						}
+					}
+				}
+				{
+					id: "363C1254FAE20EE1"
+					type: "item"
+					title: "Connector"
+					icon: "xnet:connector_blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "xnet:connectors"
+						}
+					}
+				}
+			]
+		}
+	]
+}
