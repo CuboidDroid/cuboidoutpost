@@ -12,8 +12,8 @@ I've spent a lot of time working on Quests (possibly the hardest thing to get ri
 
 I would really appreciate any issues you encounter while playing being reported in the Issues for the Cuboid Outpost ModPack in GitHub - I do only work on this in my (very limited) spare time, so I can't promise I'll resolve things immediately, but I do plan on trying to get around to fixing issues when I can. I would also appreciate a little bit of patience, and a civil tone when reporting issues - this is just something I'm doing for fun, for free, and in my own time, so if you could avoid sucking the life out of this experience for me by being rude or overly critical, I'd really appreciate that too!
 
+If you'd like to chat about Cuboid Outpost with other players, you can join my [Discord server](https://discord.gg/HRVyUVcD). Please keep it clean, and make sure you read the rules before posting anything on there! Thanks.
+
 If you want to support me financially (totally not required!), I have set up a [Patreon page](https://www.patreon.com/cuboiddroid). I'll try and post updates on progress regularly on there for my supporters to stay up to date with my efforts.
 
 Thanks for reading this, and hopefully you enjoy playing Cuboid Outpost even more than I have enjoyed making it!
-
-1
