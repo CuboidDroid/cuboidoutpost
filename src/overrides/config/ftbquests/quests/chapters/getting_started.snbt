@@ -537,7 +537,9 @@
 			shape: "square"
 			subtitle: "Mine it, generate it or transmute it"
 			description: [
-				"By this point you already know that in order to get Kudbedda, you can mine Kudbebedda ore to get your hands on the stuff. You also know that you can generate the stuff by putting a Kudbebedda Quantum Singularity into an SRG. Now there's a 3rd way... you can transmute two Notsogudium chunks or ore into the Kudbebedda version."
+				"Kudbebedda Ore can be found in a layer underneath the Notsogudium Ore."
+				""
+				"By this point you already know that in order to get ingots, you can mine ore to get your hands on pieces, then chunks, and smelt those. You also know that you can generate the chunks by putting a Kudbebedda Quantum Singularity into an SRG. Now there's a 3rd way... you can transmute two Notsogudium chunks or ore into the Kudbebedda version."
 				""
 				"Ok, not so impressive, and to complete this particular quest I really don't care how you get your hands on a chunk of the stuff, but it's worth knowing about!"
 				""
@@ -560,7 +562,7 @@
 			description: [
 				"As with Kudbebedda, you can obtain Notarfbadium in one of 3 ways."
 				""
-				"1. Mine it."
+				"1. Mine it (found under Kudbebedda Ore)."
 				""
 				"2. Make a Notarfbadium Quantum Singularity and then generate more in an SRG."
 				""

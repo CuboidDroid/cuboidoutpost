@@ -317,7 +317,7 @@
 			description: [
 				"Put a heat source underneath the Fired Crucible and it will slowly rise in temperature until it gets hot enough to turn stone into Lava."
 				""
-				"Different materials provide different amounts f molten rock (aka Lava). The most efficient method right now is likely to be 4 rocks, which will produce enough Lava to fill a standard Bucket."
+				"Different materials provide different amounts of molten rock (aka Lava). The most efficient method right now is likely to be 4 rocks, which will produce enough Lava to fill a standard Bucket."
 				""
 				"To start with, use a torch underneath the crucible - check JEI for more efficient methods you can work towards later."
 			]

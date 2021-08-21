@@ -270,7 +270,7 @@
 				{
 					id: "0DFCA5BFA48FC7CE"
 					type: "item"
-					title: "Any #forge:plates/nickel"
+					title: "Nickel Plates"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -278,6 +278,7 @@
 							value: "forge:plates/nickel"
 						}
 					}
+					count: 4L
 				}
 				{
 					id: "181389A8528A9BD7"
@@ -389,6 +390,7 @@
 			title: "Stress-Less Goggles"
 			x: -5.5d
 			y: -5.0d
+			description: ["Engineer's Goggles let you see information about rotation speed and stress."]
 			dependencies: ["4F1059D2C6DF9A47"]
 			id: "159C969EDD82D9E1"
 			tasks: [{

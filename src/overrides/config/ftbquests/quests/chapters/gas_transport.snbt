@@ -25,6 +25,7 @@
 			x: 0.0d
 			y: -0.5d
 			shape: "gear"
+			description: ["Not many machines use or produce gas, but if you plan on making some of the more advanced Mekanisms, you'll need to know how to get the gases moved around."]
 			id: "4D50DCFC7ABA3DE0"
 			tasks: [{
 				id: "7EE8E8F937DD11DB"
@@ -34,6 +35,13 @@
 		{
 			x: 0.0d
 			y: 1.5d
+			description: [
+				"The Basic Pressurized Tube can be used to pipe gas between machines and/or chemical tanks."
+				""
+				"Use a configurator on the end of a tube to change it to pull, push, disconnected or connected."
+				""
+				"The Basic Pressurized Tube pumps gas at a rate of 1000mb per tick."
+			]
 			id: "0D3FF9FC5DB9F402"
 			tasks: [{
 				id: "1A607E38F25046D3"
@@ -44,6 +52,11 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			description: [
+				"The Advanced Pressurized Tube can transfer gas at a rate of 4000mb per tick."
+				""
+				"You can upgrade up to 8 connected Basic Pressurized Tubes \"in world\" by using an Infused Alloy on one of them."
+			]
 			dependencies: ["0D3FF9FC5DB9F402"]
 			id: "115406F6904219FA"
 			tasks: [{
@@ -55,6 +68,11 @@
 		{
 			x: 0.0d
 			y: 4.5d
+			description: [
+				"The Elite Pressurized Tube can transfer gas at a rate of 128,000mb per tick."
+				""
+				"You can upgrade up to 8 connected Advanced Pressure Tubes \"in world\" by using a Reinforced Alloy on one of them."
+			]
 			dependencies: ["115406F6904219FA"]
 			id: "77C9370879035020"
 			tasks: [{
@@ -66,6 +84,11 @@
 		{
 			x: 0.0d
 			y: 6.0d
+			description: [
+				"The Ultimate Pressurized Tube can transfer gas at a rate of 1,024,000 mb per tick."
+				""
+				"You can upgrade up to 8 connected Elite Pressurized Tubes to the Ultimate version by using an Atomic Alloy on one of them."
+			]
 			dependencies: ["77C9370879035020"]
 			id: "2E07B0C35F4790C5"
 			tasks: [{
@@ -78,6 +101,7 @@
 			title: "XNet for Gasses"
 			x: -2.0d
 			y: 1.5d
+			description: ["XNet connectors and network cables can be used (in conjunction with an XNet Controller) to transfer gasses too. Just make sure you set the channel to process gases."]
 			dependency_requirement: "one_completed"
 			id: "48E08A97659F6B85"
 			tasks: [
@@ -112,6 +136,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
+			description: ["Chemical Tanks (Basic, Advanced, Elite and Ultimate) can be used to move gasses around. You can fill them up in a machine (or by piping gas into them) and they will retain the gas when picked up, allowing you to manually place them (or put them into the target machine) as needed."]
 			id: "3CFDC5A35FD9DD08"
 			tasks: [{
 				id: "5137DFA5FFDA6EDA"

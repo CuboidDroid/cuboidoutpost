@@ -22,7 +22,7 @@
 	quests: [
 		{
 			title: "Energy Transfer"
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 			shape: "gear"
 			id: "1872D6756F240C71"

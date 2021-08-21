@@ -65,10 +65,10 @@ onEvent('recipes', e => {
       'REP'
     ], {
       H: 'minecraft:hopper',
-      F: 'cuboidmod:notarfbadium_furnace',
-      T: 'cuboidmod:notarfbadium_crafting_table',
+      F: 'cuboidmod:notsogudium_furnace',
+      T: 'cuboidmod:notsogudium_crafting_table',
       C: 'thermal:machine_centrifuge',
-      R: 'cuboidmod:notarfbadium_singularity_resource_generator',
+      R: 'cuboidmod:notsogudium_singularity_resource_generator',
       E: 'mekanism:advanced_energy_cube',
       P: '#cuboidmod:quantum_singularities'
     })

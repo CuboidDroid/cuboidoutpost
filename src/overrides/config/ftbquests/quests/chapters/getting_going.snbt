@@ -162,7 +162,14 @@
 				{
 					id: "0E35258E81651894"
 					type: "item"
-					item: "minecraft:stripped_oak_log"
+					title: "Any #minecraft:logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
 					count: 4L
 				}
 				{
@@ -254,7 +261,7 @@
 			x: -12.0d
 			y: -7.0d
 			shape: "square"
-			description: ["Oak barrels can be used to mix dry ingredients into liquids. They can also be used to catch rain water."]
+			description: ["Oak barrels can be used to mix dry ingredients into liquids. They can also be used to catch rain water, as well as composting materials into Dirt."]
 			dependencies: ["3851A991AC7B9CC6"]
 			id: "53F89DDA31E8A134"
 			tasks: [{
@@ -313,11 +320,18 @@
 				"16F877D52D0B4336"
 			]
 			id: "33D7D002936CF024"
-			tasks: [{
-				id: "0D9587DB35A63716"
-				type: "item"
-				item: "minecraft:gravel"
-			}]
+			tasks: [
+				{
+					id: "044E88D2B894D650"
+					type: "item"
+					item: "cuboidmod:aggregate"
+				}
+				{
+					id: "0242E4869B6F5C89"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+			]
 		}
 		{
 			title: "The Flint Stones"
@@ -576,7 +590,7 @@
 			x: -11.5d
 			y: -3.0d
 			shape: "square"
-			description: ["Those \"hammer\" gadgets can also be made using some of those new rocks, giving you a stone hammer, which is a bit more durable than the wood version youve been using so far."]
+			description: ["Those \"hammer\" gadgets can also be made using some of those new rocks, giving you a Stone Hammer, which is a bit more durable than the wood version you have been using so far."]
 			dependencies: ["09E583ACB8521C0D"]
 			id: "5D41AFE88B363373"
 			tasks: [{
@@ -778,7 +792,7 @@
 				{
 					id: "360948DB752A3ACB"
 					type: "item"
-					title: "Any #forge:ingots/zinc"
+					title: "Zinc Ingots"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -812,7 +826,7 @@
 				{
 					id: "2395D797CD9E3FFE"
 					type: "item"
-					title: "Any #forge:ingots/tin"
+					title: "Tin Ingots"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -847,7 +861,7 @@
 				{
 					id: "1ED496BE95E1FFBF"
 					type: "item"
-					title: "Any #forge:ingots/copper"
+					title: "Copper Ingots"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -877,7 +891,7 @@
 				{
 					id: "60F8AAB4CCB5EC4E"
 					type: "item"
-					title: "Any #forge:ingots/nickel"
+					title: "Nickel Ingots"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -911,7 +925,7 @@
 				{
 					id: "257FA5A97A008C52"
 					type: "item"
-					title: "Any #forge:ingots/silver"
+					title: "Silver Ingots"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -946,7 +960,7 @@
 				{
 					id: "0836F6E4FB8DFD4A"
 					type: "item"
-					title: "Any #forge:ingots/aluminum"
+					title: "Aluminium Ingots"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1025,7 +1039,7 @@
 				""
 				"The Drying Cupboard allows for mass drying to occur. It can dry 8 things at once at no additional cost in energy - simply spread out the inputs into each of the 8 slots to make use of this feature."
 				""
-				"The Drying Cupboard can be used to dry out Wet Sponges, Dry out fish into Hardfiskur, and cured meats into Biltong. It's also used to dry our Aggregate in the production of Gravel."
+				"The Drying Cupboard can be used to dry out Wet Sponges, Dry out fish into Hardfiskur, and cured meats into Biltong. It's also used to dry out Aggregate in the production of Gravel."
 			]
 			dependencies: ["622A14D949B6F090"]
 			id: "16F877D52D0B4336"
