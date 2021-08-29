@@ -11,7 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Cuboid Outpost",
-  "author": "",
+  "version": "0.1.2",
+  "author": "CuboidDroid",
   "files": [
     {
       "projectID": 240630,
@@ -144,6 +145,11 @@
       "required": true
     },
     {
+      "projectID": 368293,
+      "fileID": 3424171,
+      "required": true
+    },
+    {
       "projectID": 245755,
       "fileID": 3332276,
       "required": true
@@ -199,6 +205,11 @@
       "required": true
     },
     {
+      "projectID": 399558,
+      "fileID": 3285196,
+      "required": true
+    },
+    {
       "projectID": 326041,
       "fileID": 3380271,
       "required": true
@@ -214,8 +225,18 @@
       "required": true
     },
     {
+      "projectID": 421850,
+      "fileID": 3412585,
+      "required": true
+    },
+    {
       "projectID": 314906,
       "fileID": 3409573,
+      "required": true
+    },
+    {
+      "projectID": 399022,
+      "fileID": 3161147,
       "required": true
     },
     {
@@ -264,6 +285,11 @@
       "required": true
     },
     {
+      "projectID": 324973,
+      "fileID": 3418221,
+      "required": true
+    },
+    {
       "projectID": 239197,
       "fileID": 3415429,
       "required": true
@@ -271,6 +297,16 @@
     {
       "projectID": 238086,
       "fileID": 3398140,
+      "required": true
+    },
+    {
+      "projectID": 442508,
+      "fileID": 3392240,
+      "required": true
+    },
+    {
+      "projectID": 340583,
+      "fileID": 3307879,
       "required": true
     },
     {
@@ -324,6 +360,11 @@
       "required": true
     },
     {
+      "projectID": 389665,
+      "fileID": 3344719,
+      "required": true
+    },
+    {
       "projectID": 289412,
       "fileID": 3409575,
       "required": true
@@ -354,6 +395,16 @@
       "required": true
     },
     {
+      "projectID": 238747,
+      "fileID": 3038982,
+      "required": true
+    },
+    {
+      "projectID": 517810,
+      "fileID": 3443270,
+      "required": true
+    },
+    {
       "projectID": 288885,
       "fileID": 3245271,
       "required": true
@@ -381,6 +432,11 @@
     {
       "projectID": 245453,
       "fileID": 3396509,
+      "required": true
+    },
+    {
+      "projectID": 404757,
+      "fileID": 3275061,
       "required": true
     },
     {
@@ -459,13 +515,28 @@
       "required": true
     },
     {
+      "projectID": 284497,
+      "fileID": 3375360,
+      "required": true
+    },
+    {
       "projectID": 428204,
       "fileID": 3174238,
       "required": true
     },
     {
+      "projectID": 480006,
+      "fileID": 3303283,
+      "required": true
+    },
+    {
       "projectID": 299540,
       "fileID": 3172796,
+      "required": true
+    },
+    {
+      "projectID": 510089,
+      "fileID": 3419642,
       "required": true
     },
     {
@@ -476,6 +547,11 @@
     {
       "projectID": 378646,
       "fileID": 3340793,
+      "required": true
+    },
+    {
+      "projectID": 500074,
+      "fileID": 3377109,
       "required": true
     },
     {
@@ -514,6 +590,11 @@
       "required": true
     },
     {
+      "projectID": 465575,
+      "fileID": 3412586,
+      "required": true
+    },
+    {
       "projectID": 271740,
       "fileID": 3172881,
       "required": true
@@ -536,6 +617,11 @@
     {
       "projectID": 256717,
       "fileID": 3348509,
+      "required": true
+    },
+    {
+      "projectID": 313536,
+      "fileID": 3104453,
       "required": true
     },
     {

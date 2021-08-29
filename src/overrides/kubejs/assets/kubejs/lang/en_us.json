@@ -3,5 +3,24 @@
     "item.kubejs.platinum_ingot": "Platinum Ingot",
     "item.kubejs.platinum_nugget": "Platinum Nugget",
 
-    "block.kubejs.platinum_block": "Block of Platinum"
+    "block.kubejs.platinum_block": "Block of Platinum",
+
+    "item.kubejs.rna": "Ribonucleic Acid (RNA)",
+    "item.kubejs.dna": "Deoxyribonucleic Acid (DNA)",
+    "item.kubejs.primordial_gloop": "Primordial Gloop",
+    "item.kubejs.albumen": "Albumen",
+    "item.kubejs.fullerine_fluid_bucket": "Bucket of Fullerine Fluid",
+    "item.kubejs.molten_notsogudium_bucket": "Bucket of Molten Notsogudium",
+    "item.kubejs.molten_kudbebedda_bucket": "Bucket of Molten Kudbebedda",
+    "item.kubejs.molten_notarfbadium_bucket": "Bucket of Molten Notarfbadium",
+    "item.kubejs.molten_wikidium_bucket": "Bucket of Molten Wikidium",
+    "item.kubejs.molten_thatldu_bucket": "Bucket of Molten Thatldu",
+    "item.kubejs.lactic_acid_bucket": "Bucket of Lactic Acid",
+    "fluid.kubejs.fullerine_fluid": "Fullerine Fluid",
+    "fluid.kubejs.molten_notsogudium": "Molten Notsogudium",
+    "fluid.kubejs.molten_kudbebedda": "Molten Kudbebedda",
+    "fluid.kubejs.molten_notarfbadium": "Molten Notarfbadium",
+    "fluid.kubejs.molten_wikidium": "Molten Wikidium",
+    "fluid.kubejs.molten_thatldu": "Molten Thatldu",
+    "fluid.kubejs.lactic_acid": "Lactic Acid"
 }

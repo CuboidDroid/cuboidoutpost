@@ -211,4 +211,10 @@ onEvent('recipes', e => {
       E: 'endergetic:eumus'
     })
 
+    // lactic acid bucket
+    e.shapeless('kubejs:lactic_acid_bucket', [
+      'minecraft:milk_bucket',
+      '#forge:dusts/salt'
+    ])
+    
 })

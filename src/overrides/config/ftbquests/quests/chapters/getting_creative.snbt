@@ -7,18 +7,44 @@
 	icon: "create:cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 4.5d
-		y: -8.5d
-		width: 12.5d
-		height: 4.62d
-		rotation: 0.0d
-		image: "kubejs:textures/quests/iron_contraption.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 4.5d
+			y: -8.5d
+			width: 12.5d
+			height: 4.62d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/iron_contraption.png"
+			hover: ["An example of a fully automated setup using conveyor belts, gears to change speed of fan vs. belt, gearboxes to turn corners, an funnels to put things onto / take things off the belt."]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			width: 10.5d
+			height: 6.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/create_water_wheel.png"
+			hover: ["Water wheel setup"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			width: 10.5d
+			height: 6.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/create_manual_washing.png"
+			hover: ["Manual bulk washer - toss gravel into the blue particles"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Getting Creative"
@@ -99,13 +125,13 @@
 			title: "Waterlogging"
 			x: -6.5d
 			y: -10.0d
-			shape: "square"
 			description: [
 				"Apparently you can waterlog a sieve by crouching down and using a Bucket of Water on it. Probably a good idea to set it in the ground first so the water doesn't flow everywhere..."
 				""
 				"Once it's waterlogged, you can sieve some Sand to get different things dropped instead of the usual stuff. Essentially there are two additional things - Sea Pickle Eggs, and Kelp Seeds."
 			]
 			dependencies: ["6C3E0C8B8576F980"]
+			optional: true
 			id: "4779353344322ACD"
 			tasks: [{
 				id: "58093165635F886B"
@@ -117,7 +143,6 @@
 			title: "Why did the beach blush?"
 			x: -4.5d
 			y: -10.0d
-			shape: "square"
 			subtitle: "The seaweed!"
 			description: [
 				"Kelp grows on sand under water."
@@ -129,6 +154,7 @@
 				"You can re-plant Kelp directly onto Sand to be able to grow more Kelp too."
 			]
 			dependencies: ["4779353344322ACD"]
+			optional: true
 			id: "17A54FEBE813E26D"
 			tasks: [
 				{
@@ -147,7 +173,6 @@
 			title: "Another useful snack"
 			x: -2.5d
 			y: -7.5d
-			shape: "square"
 			description: [
 				"Kelp can be dried out in a furnace or in the Drying cupboard."
 				""
@@ -156,6 +181,7 @@
 				"There are other ways they can be used too - have a look at the tooltips for it and press the key mentioning \"Ponder\" to get a better idea of other uses."
 			]
 			dependencies: ["17A54FEBE813E26D"]
+			optional: true
 			id: "28D3C01EE56D5B79"
 			tasks: [
 				{
@@ -178,7 +204,7 @@
 			description: [
 				"A Large Cogwheel can be used in conjunction with a standard Cogwheel to change the speed of rotation. It does, however, also affect the Stress Units affecting your contraption."
 				""
-				"All sources of rotational force can support a certain number Stress Units (SU). If you exceed the SU available, the contraption will start working."
+				"All sources of rotational force can support a certain number Stress Units (SU). If you exceed the SU available, the contraption will stop working."
 				""
 				"In some cases, stepping down the speed (small Cogwheel on the source, Large Cogwheel feeding the contraption) will increase the available SU. When done the other way around, the speed of your contraption can increase, but the total SU that can be used will decrease."
 			]
@@ -215,7 +241,7 @@
 		}
 		{
 			title: "Ye Olde Crank"
-			x: -4.5d
+			x: -5.0d
 			y: 0.0d
 			description: ["If you just want to test something, a Hand Crank can be a useful way of checking out your contraptions. Have a decent supply of food with you though - cranking by hand can be hard work!"]
 			dependencies: ["0A899DD696F50277"]
@@ -320,7 +346,10 @@
 				""
 				"Take a little time to \"Ponder\" their use (see tooltip) to ensure you understand their uses."
 			]
-			dependencies: ["3A506625FA262911"]
+			dependencies: [
+				"3A506625FA262911"
+				"1777B82D402C5471"
+			]
 			id: "23EBCB6229350FE6"
 			tasks: [
 				{
@@ -342,7 +371,11 @@
 			shape: "square"
 			subtitle: "Sort out that Iron deficiency!"
 			description: ["Collect up a few Iron Nuggets from your contraption - we're about to see how to mass produce iron in a much more efficient manner."]
-			dependencies: ["2EBBCC19159F245F"]
+			min_required_dependencies: 1
+			dependencies: [
+				"2EBBCC19159F245F"
+				"3373109DEB9D38F7"
+			]
 			id: "2CE12FAB0BE4E9A1"
 			tasks: [{
 				id: "69AB275F2D31E29C"
@@ -361,10 +394,12 @@
 		{
 			title: "May the Rotational Force be with you!"
 			x: 1.5d
-			y: -3.0d
+			y: -4.0d
 			shape: "diamond"
 			description: [
 				"At this point you have everything you need to bulk wash Gravel. Doing so will dissolve the Gravel, with a small chance of leaving behind Flint, an Iron Nugget, or nothing whatsoever."
+				""
+				"There are two routes forward - full automation, or a basic washing setup. The image above, and this description, explain the more creative fully automated version."
 				""
 				"You might want to put an SRG with a Gravel Singularity feeding into a chest, then use an Andesite Funnel on the side of the chest to pull out the gravel and put it onto a very slow-moving Mechanical Belt, at the end of which you can have another chest with an Andesite Funnel so that items coming off the belt end up in that output chest."
 				""
@@ -374,11 +409,7 @@
 				""
 				"Essentially, you will want to time things so that all pieces of gravel placed onto the belt by the Andesite Funnel have enough time to be converted before reaching the funnel at the end of the belt."
 			]
-			dependencies: [
-				"23EBCB6229350FE6"
-				"424DA7F111A49D0A"
-				"26816669B75CF243"
-			]
+			dependencies: ["23EBCB6229350FE6"]
 			id: "2EBBCC19159F245F"
 			tasks: [{
 				id: "15DA5E544423C952"
@@ -403,7 +434,6 @@
 			title: "Simple Funnels and Tunnels"
 			x: -0.5d
 			y: -5.0d
-			shape: "square"
 			description: [
 				"With just some Andesite Alloy and Dried Kelp you can now make Andesite Funnels (useful for transferring items to and from inventories) as well as Andesite Tunnels (which can cover up Mechanical Belts)."
 				""
@@ -412,6 +442,7 @@
 				"A bit later we'll have access to more advanced versions."
 			]
 			dependencies: ["28D3C01EE56D5B79"]
+			optional: true
 			id: "424DA7F111A49D0A"
 			tasks: [
 				{
@@ -428,9 +459,8 @@
 		}
 		{
 			title: "Stress Management"
-			x: -0.5d
-			y: -1.0d
-			shape: "square"
+			x: -1.5d
+			y: 0.5d
 			description: [
 				"It's important, in any contraption, to understand how much stress is being consumed, and how much you still have available to play with."
 				""
@@ -439,6 +469,7 @@
 				"In many cases, it's simpler to have a Stressometer attached so that you can see what's happening at a glance, and know when it's time to add more power through another Water Wheel or other source of SU."
 			]
 			dependencies: ["7969DD5D40849EA0"]
+			optional: true
 			id: "26816669B75CF243"
 			tasks: [{
 				id: "7A36DD3185B96966"
@@ -448,15 +479,15 @@
 		}
 		{
 			title: "Just how fast is this thing anyway?"
-			x: -2.5d
-			y: 0.5d
-			shape: "square"
+			x: -3.0d
+			y: 1.5d
 			description: [
 				"With a Compass, two SHAFT!s and an Andesite Casing you should be able to cobble together a gadget that will measure the speed of rotation when attached to a SHAFT or other source of rotational power."
 				""
 				"Make yourself 2 for now - 1 we'll keep, and the other we'll turn into something else."
 			]
 			dependencies: ["1777B82D402C5471"]
+			optional: true
 			id: "7969DD5D40849EA0"
 			tasks: [
 				{
@@ -512,6 +543,34 @@
 					count: 8L
 				}
 			]
+		}
+		{
+			title: "Feeling a little uncreative right now..."
+			x: 1.5d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"At this point you have everything you need to bulk wash Gravel. Doing so will dissolve the Gravel, with a small chance of leaving behind Flint, an Iron Nugget, or nothing whatsoever."
+				""
+				"If you're not feeling particularly creative right now and do not want to spend time trying to fully automate this bulk washing process, here's a basic shortcut for you... the image below shows what is being described."
+				""
+				"To make a basic (manual) setup, you need a source of rotational force (water wheel), some water, an encased fan, a half slab, and some blocks."
+				""
+				"Start by placing down your water wheel. add a shaft onto the axle on each side (you might need to move things around in a bit, so best to be prepared!)."
+				""
+				"Build around the water wheel such that water can flow around it in a C shape."
+				""
+				"Place the encased fan onto the end of one of the shafts - you want it to blow white particles away from the water wheel, so if it's not blowing, move it to the other side."
+				""
+				"Next, leave a gap, and place down a half slab in front of the fan, and a block on either side, then place water in front of the fan - you should now see blue water particles. Leave another gap, and then place down a block. You should now be able to drop some gravel in the gap before the block and it will be washed, resulting in one of 3 things - nothing, flint, or an iron nugget."
+			]
+			dependencies: ["23EBCB6229350FE6"]
+			id: "3373109DEB9D38F7"
+			tasks: [{
+				id: "4677694B59877CE6"
+				type: "checkmark"
+				title: "I like it simple!"
+			}]
 		}
 	]
 }

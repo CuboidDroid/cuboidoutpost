@@ -20,5 +20,8 @@ events.listen('fluid.registry', event => {
     
     event.create('molten_thatldu').textureThick(0x3A7E51)
         .displayName('Molten Thatldu').bucketColor(0x3A7E51)
-    
+        
+    event.create('lactic_acid').textureThick(0x6FA2F2)
+        .displayName('Lactic Acid').bucketColor(0x6FA2F2)
+
 })

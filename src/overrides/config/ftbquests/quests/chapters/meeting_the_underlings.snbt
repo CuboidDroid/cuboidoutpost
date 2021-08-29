@@ -14,7 +14,7 @@
 			y: 0.0d
 			shape: "gear"
 			description: [
-				"By now you've got the hand of that totally scientific method of creating Spawn Eggs. There are a few more creatures you can bring back into existence at this stage. Only one more requires a puddle of Witchwater, one requires Sea Water, and the rest can use some of the fruits of our labour so far - Milk."
+				"By now you've got the hand of that totally scientific method of creating Spawn Eggs. There are a few more creatures you can bring back into existence at this stage. Only one more requires a puddle of Witchwater, one requires Sea Water, and the rest can use some of the fruits of our labour so far - Milk, mixed with Salt, for Lactic Acid."
 				""
 				"Note that you only need any 3 of these spawn eggs to unlock the \"Utterly Delicious\" chapter. You will need the rest to complete the chapter if thats your kind of thing."
 			]
@@ -293,9 +293,9 @@
 			dependencies: ["659F614DFFD07509"]
 			id: "1344D5915E1DA763"
 			tasks: [{
-				id: "106B6EB5AE21D17F"
+				id: "1C467C1C45E1EFD8"
 				type: "item"
-				item: "minecraft:milk_bucket"
+				item: "kubejs:lactic_acid_bucket"
 			}]
 		}
 		{

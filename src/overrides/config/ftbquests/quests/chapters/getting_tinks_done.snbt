@@ -654,7 +654,7 @@
 				""
 				"Refer to the provided image as a reminder of how you could set this up."
 				""
-				"Note that for some simple automation you can use a Hopper to input items into the Seared Melter from the top, and you can extract materials that have been cast and completely cooled by using a hopper underneath the Seared Casting Table and Seared Casting Basin."
+				"Note that for some simple automation you can use a Hopper to input items into the Seared Melter from the top or sides, and you can extract materials that have been cast and completely cooled by using a hopper underneath the Seared Casting Table and Seared Casting Basin."
 			]
 			dependencies: [
 				"3468A1304A244F66"
@@ -699,7 +699,7 @@
 			title: "My Little Blazey"
 			x: 11.5d
 			y: -3.5d
-			description: ["Adding a Blazing Doll to a barrel of Witch Water will spawn a Blaze. This is particularly useful for getting your hands on some Blazing Blood."]
+			description: ["Adding a Blazing Doll to a barrel of Lava will spawn a Blaze. This is particularly useful for getting your hands on some Blazing Blood."]
 			dependencies: [
 				"5D14F476E568B129"
 				"742CB98CD34C3815"

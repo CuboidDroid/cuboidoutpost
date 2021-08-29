@@ -131,6 +131,13 @@
 				item: "minecraft:ink_sac"
 				count: 6L
 			}]
+			rewards: [{
+				id: "5265A33337D5D4DF"
+				type: "item"
+				item: "minecraft:ink_sac"
+				count: 10
+				random_bonus: 10
+			}]
 		}
 		{
 			title: "A Black Blank Canvas"
@@ -162,7 +169,7 @@
 				{
 					id: "76A1CE17547481D1"
 					type: "item"
-					title: "Any #forge:slimeballs"
+					title: "Any Slime Ball"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b

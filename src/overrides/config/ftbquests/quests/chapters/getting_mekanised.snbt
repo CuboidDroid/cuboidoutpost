@@ -286,7 +286,14 @@
 				id: "6D7A16FB467754E2"
 				type: "item"
 				item: "mekanism:steel_casing"
-				count: 7L
+				count: 4L
+			}]
+			rewards: [{
+				id: "30C9CD6E26A177EB"
+				type: "item"
+				item: "mekanism:steel_casing"
+				count: 3
+				random_bonus: 3
 			}]
 		}
 		{

@@ -151,9 +151,9 @@
 			y: -7.0d
 			shape: "gear"
 			description: [
-				"Now that we have some wood, we can put together a basic Sieve."
+				"Now that we have some wood, we can put together a basic Sieve (or more) to help with resource gathering."
 				""
-				"You'll need some stripped oak logs for this - you can use an axe to strip the bark off a log."
+				"Sieves can work \"meshed\" together in up to a 5x5 arrangement. It might be worth making at least 4 to help speed up your processing."
 			]
 			dependencies: ["3851A991AC7B9CC6"]
 			size: 1.5d
@@ -162,14 +162,8 @@
 				{
 					id: "0E35258E81651894"
 					type: "item"
-					title: "Any #minecraft:logs"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:logs"
-						}
-					}
+					title: "4x Oak Planks"
+					item: "minecraft:oak_planks"
 					count: 4L
 				}
 				{
@@ -992,7 +986,7 @@
 			title: "More than just a flavour enhancer"
 			x: -20.5d
 			y: -3.0d
-			description: ["Salt can be obtained by sieving Silica Dust"]
+			description: ["Salt can be obtained by sieving Blocks of Silica Dust"]
 			dependencies: ["6AF8FD5317351B8A"]
 			id: "38A57A4898341AFA"
 			tasks: [{
@@ -1083,7 +1077,7 @@
 			tasks: [{
 				id: "6E6DAD3B23E7535A"
 				type: "item"
-				title: "Any #minecraft:fishes"
+				title: "Any fish will do"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

@@ -57,7 +57,7 @@ onEvent('recipes', e => {
     qtc("quark:blue_blossom_sapling", "pamhc2trees:pecan_sapling", "pamhc2trees:starfruit_sapling")
 
     // - G - 
-    qtc("pamhc2trees:goodeberry_sapling", "pamhc2trees:chestnut_sapling", "pamhc2trees:plum_sapling")
+    qtc("pamhc2trees:gooseberry_sapling", "pamhc2trees:chestnut_sapling", "pamhc2trees:plum_sapling")
     qtc("pamhc2trees:grapefruit_sapling", "pamhc2trees:orange_sapling", "pamhc2trees:apricot_sapling")
     qtc("pamhc2trees:guava_sapling", "pamhc2trees:almond_sapling", "pamhc2trees:coconut_sapling")
 
