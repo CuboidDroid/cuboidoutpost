@@ -15,7 +15,7 @@
 			description: [
 				"Now that you've got access to some basic food items, you can really start working on improving your health and wellbeing, and benefiting from the Spice of Life."
 				""
-				"We're going to start by making some fairly basic dishes to get some variety in, and will follow up later with some real hunger busters. You might need to bounce around to other quest lines to be able to complete this one, but it'll all be worth it in the end."
+				"We're going to start by making some fairly basic dishes to get some variety in, and will follow up later with some real hunger busters. You might need to bounce around to other sections in this survival guide to be able to complete this one, but it'll all be worth it in the end."
 				""
 				"Or you can keep eating Gruel and slurping Broth if that's your thing!"
 				""
@@ -972,9 +972,9 @@
 			y: -2.5d
 			shape: "gear"
 			description: [
-				"You will be able to unlock the next chapter when all quests with a Pentagon shape have been completed."
+				"You will be able to unlock the next chapter when all steps with a Pentagon shape have been completed."
 				""
-				"Remember that the more different foods you eat, the better your health and wellbeing, so even though it's not a requirement to complete all of these quest items, it might help you on your way. And remember - there's plenty more food you can make too - we'll revisit food a bit later too once we've got a kitchen sorted out."
+				"Remember that the more different foods you eat, the better your health and wellbeing, so even though it's not a requirement to complete all of these steps, it might help you on your way. And remember - there's plenty more food you can make too - we'll revisit food a bit later too once we've got a kitchen sorted out."
 			]
 			hide_dependency_lines: true
 			dependencies: [

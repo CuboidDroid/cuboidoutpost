@@ -287,6 +287,7 @@
 				"3BB3CAC272887E20"
 				"7A055268E774D0C1"
 			]
+			optional: true
 			id: "5ED8E50C20DC774A"
 			tasks: [{
 				id: "1D0476373D16DC97"
@@ -305,6 +306,7 @@
 			x: 5.5d
 			y: 8.5d
 			dependencies: ["398F79AD501B5119"]
+			optional: true
 			id: "7A055268E774D0C1"
 			tasks: [{
 				id: "657B9DF990309332"
@@ -317,6 +319,7 @@
 			x: 5.5d
 			y: 7.5d
 			dependencies: ["398F79AD501B5119"]
+			optional: true
 			id: "3BB3CAC272887E20"
 			tasks: [{
 				id: "5B0548B4D880B319"
@@ -333,6 +336,7 @@
 				"536D0F7E72FE44CE"
 				"58C29DF76FB2F288"
 			]
+			optional: true
 			id: "398F79AD501B5119"
 			tasks: [{
 				id: "68C6155BAD60FDFD"
@@ -552,38 +556,28 @@
 		}
 		{
 			title: "Tier 3 Jetpack"
+			icon: {
+				id: "ironjetpacks:gold_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
 			x: 9.5d
 			y: 8.0d
-			dependencies: [
-				"51903865FE73BECD"
-				"5ED8E50C20DC774A"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["51903865FE73BECD"]
 			id: "02DF37426C10390C"
-			tasks: [
-				{
-					id: "347E42ABC52BFB6D"
-					type: "item"
-					item: {
-						id: "ironjetpacks:gold_jetpack"
-						Count: 1b
-						tag: {
-							Throttle: 1.0d
-						}
+			tasks: [{
+				id: "7AA9F883D52C1FFE"
+				type: "item"
+				item: {
+					id: "ironjetpacks:gold_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
 					}
 				}
-				{
-					id: "5DE0D6CDF62862E4"
-					type: "item"
-					item: {
-						id: "ironjetpacks:steel_jetpack"
-						Count: 1b
-						tag: {
-							Throttle: 1.0d
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			title: "Tier 4 Jetpack"

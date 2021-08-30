@@ -45,7 +45,7 @@
 			description: [
 				"A lot of the machinery and technology we're going to be building will require a special kind of Plastic."
 				""
-				"The create the stuff, you're going to need to go through a bit of a process. It's probably worth planning for automation here as, over time, you'll need more plastic anyway."
+				"To create the stuff, you're going to need to go through a bit of a process. It's probably worth planning for automation here as, over time, you'll need more plastic anyway."
 				""
 				"To get started, make a Fluid Extractor."
 			]
@@ -486,6 +486,11 @@
 			hide_dependency_lines: true
 			dependencies: ["0ED1096C2B8D864F"]
 			id: "68A756101256236A"
+			tasks: [{
+				id: "08335D6186F67020"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
 		}
 		{
 			title: "Manure"

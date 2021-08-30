@@ -139,7 +139,7 @@
 		}
 		{
 			x: 6.0d
-			y: 4.5d
+			y: 4.0d
 			description: ["Lumium can only be made in an Induction Smelter."]
 			dependencies: ["508B9043053F83F3"]
 			id: "751956F759096D80"
@@ -210,7 +210,7 @@
 		}
 		{
 			x: 8.0d
-			y: 4.5d
+			y: 4.0d
 			description: [
 				"The Phytogenic Insulator is like a farm in a box."
 				""
@@ -254,7 +254,7 @@
 		}
 		{
 			x: 10.0d
-			y: 4.5d
+			y: 4.0d
 			description: [
 				"If you were wondering what that Appatite stuff was actually for (apart from the easy access to Cyan Dye), then this is it."
 				""
@@ -478,7 +478,7 @@
 		}
 		{
 			x: 6.0d
-			y: 5.5d
+			y: 6.0d
 			shape: "gear"
 			description: [
 				"Enderium can only be made in an Induction Smelter."

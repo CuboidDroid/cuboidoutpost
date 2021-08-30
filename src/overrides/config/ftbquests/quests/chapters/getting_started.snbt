@@ -541,7 +541,7 @@
 				""
 				"By this point you already know that in order to get ingots, you can mine ore to get your hands on pieces, then chunks, and smelt those. You also know that you can generate the chunks by putting a Kudbebedda Quantum Singularity into an SRG. Now there's a 3rd way... you can transmute two Notsogudium chunks or ore into the Kudbebedda version."
 				""
-				"Ok, not so impressive, and to complete this particular quest I really don't care how you get your hands on a chunk of the stuff, but it's worth knowing about!"
+				"Ok, not so impressive, and to complete this particular task we really don't care how you get your hands on a chunk of the stuff, but it's worth knowing about!"
 				""
 				"Also worth knowing is that the Quantum Transmutation Chamber can be piped into from the top for the top ingredient, from any side for the bottom ingredient, and can be piped out the bottom."
 			]
@@ -568,7 +568,7 @@
 				""
 				"3. Transmute 2 Kudbebedda chunks or ores into 1 Notarfbadium equivalent."
 				""
-				"You can complete this quest using any method - just letting you know the options!"
+				"You can complete this task using any method - just letting you know the options!"
 			]
 			dependencies: ["16BB78A89729391F"]
 			id: "052685E351A93306"
@@ -608,7 +608,7 @@
 				""
 				"In most cases, using upgraded materials in the construction of items means a boost in productivity, speed, or effectiveness, but not always."
 				""
-				"The quests to the left of this one are all optional, but each explains the improvement (if any) over the previous Notsogudium tier of the same item."
+				"The tasks to the left of this one are all optional, but each explains the improvement (if any) over the previous Notsogudium tier of the same item."
 			]
 			dependencies: ["16BB78A89729391F"]
 			optional: true
@@ -623,9 +623,9 @@
 			x: -15.0d
 			y: -8.0d
 			description: [
-				"Optional quests for Completionists."
+				"Optional tasks for Completionists."
 				""
-				"The quests to the left of this one are all optional, but each explains the improvement (if any) over the previous Kudbebedda tier of the same item."
+				"The tasks to the left of this one are all optional, but each explains the improvement (if any) over the previous Kudbebedda tier of the same item."
 			]
 			dependencies: ["052685E351A93306"]
 			optional: true
@@ -640,9 +640,9 @@
 			x: -12.0d
 			y: -5.0d
 			description: [
-				"Optional quests for Completionists."
+				"Optional tasks for Completionists."
 				""
-				"The quests to the left of this one are all optional, but each explains the improvement (if any) over the previous Notarfbadium tier of the same item."
+				"The tasks to the left of this one are all optional, but each explains the improvement (if any) over the previous Notarfbadium tier of the same item."
 			]
 			dependencies: ["1D214D44162D304C"]
 			optional: true
@@ -1383,9 +1383,9 @@
 			x: -15.0d
 			y: -2.0d
 			description: [
-				"Quests for the Completionists."
+				"Tasks for the Completionists."
 				""
-				"The quests to the left of this one are all optional, but each explains the improvement (if any) over the previous Wikidium tier of the same item."
+				"The tasks to the left of this one are all optional, but each explains the improvement (if any) over the previous Wikidium tier of the same item."
 			]
 			dependencies: ["4A854F9DFEFFC80F"]
 			optional: true

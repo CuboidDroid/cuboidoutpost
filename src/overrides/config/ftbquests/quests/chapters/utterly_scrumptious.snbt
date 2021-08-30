@@ -73,6 +73,7 @@
 			x: 2.0d
 			y: 0.0d
 			shape: "square"
+			subtitle: "That's an instruction, not a name"
 			description: [
 				"The first thing you're going to need is a basic Cookbook."
 				""

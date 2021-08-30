@@ -31,6 +31,11 @@
 				"2CDC1C706AFA2E47"
 			]
 			id: "33B9229822CC74AF"
+			tasks: [{
+				id: "6C8DE9B0AA4D7B80"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
 		}
 		{
 			title: "The Slaughterhouse #1"

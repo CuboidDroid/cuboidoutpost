@@ -1,23 +1,40 @@
 [
     {
         "passive": true,
-        "dimension": 0,
+        "dimension": "minecraft:overworld",
         "result": "deny"
     },
     {
         "mob": "minecraft:wandering_trader",
+        "dimension": "minecraft:overworld",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:trader_llama",
+        "dimension": "minecraft:overworld",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie_villager",
+        "dimension": "minecraft:overworld",
+        "onjoin": true,
         "result": "deny"
     },
     {
         "mob": "minecraft:pillager",
+        "dimension": "minecraft:overworld",
         "result": "deny"
     },
     {
         "mob": "minecraft:vindicator",
+        "dimension": "minecraft:overworld",
         "result": "deny"
     },
     {
         "mob": "minecraft:evoker",
+        "dimension": "minecraft:overworld",
         "result": "deny"
     }
 ]

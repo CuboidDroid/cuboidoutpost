@@ -31,7 +31,7 @@
 			y: 4.5d
 			subtitle: "They want free food and keep talking about Mao"
 			description: [
-				"To make a Furbaby (aka Cat) Spawn Egg, toss these into a puddle of milk:"
+				"To make a Furbaby (aka Cat) Spawn Egg, toss these into a puddle of Lactic Acid:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- Raw Cod"
@@ -58,7 +58,7 @@
 			x: -10.0d
 			y: 4.0d
 			description: [
-				"To make a Wolf Spawn Egg, put down a puddle of milk and toss these in:"
+				"To make a Wolf Spawn Egg, put down a puddle of Lactic Acid and toss these in:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- Steak"
@@ -84,7 +84,7 @@
 			y: 3.0d
 			subtitle: "(Found at both the North and South Poles)"
 			description: [
-				"Making a Polar Bear Spawn Egg is as straight-forward as any other - just toss these ingredients into a puddle of Milk:"
+				"Making a Polar Bear Spawn Egg is as straight-forward as any other - just toss these ingredients into a puddle of Lactic Acid:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- Block of Snow"
@@ -108,7 +108,7 @@
 			y: 4.5d
 			subtitle: "It's the alpaca lips!"
 			description: [
-				"To make a Llama Spawn Egg, you just need a pool of Milk, and to toss in:"
+				"To make a Llama Spawn Egg, you just need a pool of Lactic Acid, and to toss in:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- A Lead (not the metal!)"
@@ -133,7 +133,7 @@
 			x: -5.0d
 			y: 3.0d
 			description: [
-				"A Mooshroom Spawn Egg is made by dropping the following items into a pool of Milk:"
+				"A Mooshroom Spawn Egg is made by dropping the following items into a pool of Lactic Acid:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- Red Mushroom"
@@ -160,7 +160,7 @@
 			x: -7.0d
 			y: 4.0d
 			description: [
-				"Making a Fox Spawn Egg couldn't be easier! Well, perhaps it could, but nevertheless, you just need a pool of Milk and to throw in:"
+				"Making a Fox Spawn Egg couldn't be easier! Well, perhaps it could, but nevertheless, you just need a pool of Lactic Acid and to throw in:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- Sweet Berries"
@@ -211,7 +211,7 @@
 			x: -6.0d
 			y: 3.5d
 			description: [
-				"To make a Rabbit Spawn Egg, toss these into a puddle of Milk:"
+				"To make a Rabbit Spawn Egg, toss these into a puddle of Lactic Acid:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- Carrot"
@@ -258,7 +258,7 @@
 			y: 3.5d
 			subtitle: "Except every selfie is always in black and white"
 			description: [
-				"To make a Panda Spawn Egg, toss these into a puddle of Milk:"
+				"To make a Panda Spawn Egg, toss these into a puddle of Lactic Acid:"
 				"- Egg"
 				"- Primordial Gloop"
 				"- Block of Snow"
@@ -290,6 +290,13 @@
 		{
 			x: -8.5d
 			y: 2.0d
+			description: [
+				"There are two ways to obtain a bucket of lactic acid."
+				""
+				"The easiest is to craft together a Bucket of Milk, some salt, and an empty Bucket (to mix it in)."
+				""
+				"A different way of doing this would be to place a barrel on a block of salt, and pump milk into it (for example, from a Tank that you can deposit Milk into)."
+			]
 			dependencies: ["659F614DFFD07509"]
 			id: "1344D5915E1DA763"
 			tasks: [{
