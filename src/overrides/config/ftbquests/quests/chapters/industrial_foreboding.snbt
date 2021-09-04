@@ -1,7 +1,7 @@
 {
 	id: "5443FFBF7205B186"
 	group: "4F582DBBFACF1F69"
-	order_index: 4
+	order_index: 3
 	filename: "industrial_foreboding"
 	title: "Industrial Foreboding"
 	icon: "industrialforegoing:fluid_extractor"
@@ -13,17 +13,20 @@
 			x: 3.5d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "(yes, I do know it's \"Foregoing\")"
+			subtitle: "(yes, we do know it's \"Foregoing\")"
 			description: [
 				"We're about to show you how to make some more industrial-grade machines."
 				""
-				"There's a definite process to these, and it can take a little while to get into at first, but the machines will definitely prove to be extremely useful, so it's definitely worth persisting with if you really want your quality of life to improve."
+				"There's a definite process to these, and it can take a little while to get into at first, but the machines will definitely prove to be extremely useful, so it's definitely worth persisting with if you really want your quality of life to improve. Definitely. For definite."
+				""
+				"Oh... and you'll need to do this if you ever want to see any other people too, of course."
 			]
 			dependencies: ["3B00278F3DDF103C"]
 			id: "77007FF168D85A8D"
 			tasks: [{
-				id: "3AA27B8694023F98"
-				type: "checkmark"
+				id: "589F46204B55BE43"
+				type: "item"
+				item: "minecraft:gold_ingot"
 			}]
 			rewards: [{
 				id: "0D50126C56656CDB"
@@ -90,7 +93,7 @@
 			y: 0.5d
 			shape: "square"
 			description: [
-				"Fluid extractors need to be placed facing a log. Have a look in JEI at the uses of a Fluid Extract to see the list, but the thing you should know is that different types of wood produce different amounts of Latex, and Acacia is king in this regard! When correctly positioned, the Fluid Extractor will (very) slowly start destroying the log placed in front of it, sucking out all of the Latex and putting it into it's internal tank."
+				"Fluid extractors need to be placed facing a log. Have a look at the uses of a Fluid Extractor to see the list, but the thing you should know is that different types of wood produce different amounts of Latex, and Acacia is king in this regard! When correctly positioned, the Fluid Extractor will (very) slowly start destroying the log placed in front of it, sucking out all of the Latex and putting it into it's internal tank."
 				""
 				"You'll very quickly notice that the Fluid Extractor runs quite slowly! There are a few ways you can speed this up..."
 				""
@@ -120,7 +123,7 @@
 				""
 				"You can bucket in both Latex and Water at first, but it will probably be worth piping them into the Unit instead to automate this process."
 				""
-				"For a steady supply of water you could consider using a Water Condensator, an Aqueous Accumulator or a Kitchen Sink."
+				"For a steady supply of water you could consider using a Water Condensator, an Aqueous Accumulator or a Sink (part of the multi-block kitchen)."
 			]
 			dependencies: ["2C246C82D6A79240"]
 			id: "24F0FE60CD37F65D"
@@ -192,8 +195,9 @@
 				""
 				"With plastic available, there are a number of new machines available to you too, as well as the Dissolution Chamber, which will be critical in the making of higher tier industrial machinery."
 				""
-				"&aRequired for: Industrial Foreboding: Ranching&f"
-				"&aRequired for: The Slaughter House #2&f"
+				"&aRequired for:&f"
+				"&a - The Slaughter House #2&f"
+				"&a - What's left in the End?&f"
 			]
 			dependencies: ["797FDDDF3D34F795"]
 			size: 1.5d
@@ -220,6 +224,8 @@
 				"The Simple Machine Frame is made in the Dissolution Chamber."
 				""
 				"It requires a Pity Machine Frame, two bits of Plastic, two Nether Bricks, two Iron Ingots and a Gold Gear in terms of items, but also requires 250mb (1/4 of a bucket) of Latex in its internal tank too."
+				""
+				"Completing this step will open up &a\"The Slaughter House #2\"&f and access to other machines in Appendix D's section &a\"Industrial Forbidding\".&f"
 			]
 			dependencies: ["35A217AE8B3D4016"]
 			size: 1.5d
@@ -256,73 +262,16 @@
 			}]
 		}
 		{
-			title: "Give the parents a break"
-			x: 13.5d
-			y: 4.5d
-			description: [
-				"The Animal Baby Separator will teleport baby animals from in front of it to behind it."
-				""
-				"This can be useful in situations where you want to keep some adult animals as breeding pairs, but move babies into a separate area for, um... processing?... once they have fattened up - I mean grown up!"
-			]
-			dependencies: ["01988C73F43B303F"]
-			id: "28F99B3D04EA44BA"
-			tasks: [{
-				id: "2C4FCAE9DA15688A"
-				type: "item"
-				item: "industrialforegoing:animal_baby_separator"
-			}]
-		}
-		{
-			title: "Breaking Bad"
-			x: 4.0d
-			y: 4.5d
-			description: ["The Block Breaker is a simple machine that simply breaks any block immediately in front of it and puts the block into it's inventory, ready to be piped out or picked up later."]
-			dependencies: ["0ED1096C2B8D864F"]
-			id: "47DDD84282C6DFC9"
-			tasks: [{
-				id: "142805B130948BD1"
-				type: "item"
-				item: "industrialforegoing:block_breaker"
-			}]
-		}
-		{
-			title: "Slurp!"
-			x: 5.0d
-			y: 4.5d
-			description: ["The Fluid Collector will drain a fluid source block in front of it and put it into it's internal tank, ready to be piped out."]
-			dependencies: ["0ED1096C2B8D864F"]
-			id: "1FA257AC6F1F99DF"
-			tasks: [{
-				id: "6E3460B6E16FC6B1"
-				type: "item"
-				item: "industrialforegoing:fluid_collector"
-			}]
-		}
-		{
-			title: "Plant Gatherer"
-			x: 6.0d
-			y: 6.0d
-			description: [
-				"The Plant Gatherer will harvest crops and trees in its range."
-				""
-				"By default, the range is just the single block in front of it. This can easily be adjusted through the use of Range Addons. A +1 Range Addon will move the centre of the area 1 block further away from the machine, and add 1 block range in each cardinal direction, resulting in a 3x3 area in which plants can be autmatically gathered."
-				""
-				"A by-product of gathering plants is Sludge, which can be processed using a Sludge Refiner."
-			]
-			dependencies: ["1766351AC5293605"]
-			id: "1A9A11E84C7ABD90"
-			tasks: [{
-				id: "6954FE65AE2A2F1F"
-				type: "item"
-				item: "industrialforegoing:plant_gatherer"
-			}]
-		}
-		{
 			title: "All the colours of the unicorn tails"
-			x: 7.0d
+			x: 6.5d
 			y: 4.5d
-			description: ["If supplied with Red, Green and Blue dyes (think Beetroot, Cactus and Lapis), then for a cost of just 30RF, it can make any other colour Dye."]
+			description: [
+				"If supplied with Red, Green and Blue dyes (think Beetroot, Cactus and Lapis), then for a cost of just 30RF, it can make any other colour Dye."
+				""
+				"This might prove to be a useful machine to have lying around..."
+			]
 			dependencies: ["0ED1096C2B8D864F"]
+			optional: true
 			id: "35BD67430303F011"
 			tasks: [{
 				id: "48B92B5EA61B5199"
@@ -331,260 +280,21 @@
 			}]
 		}
 		{
-			title: "Burp!"
-			x: 5.0d
-			y: 6.0d
-			description: ["The Fluid Placer will take a fluid from its internal tank and place it into the world in front of it."]
-			dependencies: ["1FA257AC6F1F99DF"]
-			id: "4FC3E39DE3B5AEED"
-			tasks: [{
-				id: "675FCA11F38BA70D"
-				type: "item"
-				item: "industrialforegoing:fluid_placer"
-			}]
-		}
-		{
-			title: "Dealing with the mess"
-			x: 15.5d
-			y: 2.5d
-			description: [
-				"Nobody likes a stinky farm!"
-				""
-				"And especially with automated breeding (if you go with an Animal Feeder), the problem of... well... poop... will only get worse! Luckily there's a solution that will allow for the Sewage waste product to be turned into something really useful."
-				""
-				"In addition, breeding animal will cause experience to drop, which over time can build up to be a real mess (induces lag!), so this Sewer will also collect up loose experience orbs and store them as Essence."
-				""
-				"Both the Sewage and the Essence can be piped out and dealt with in a more controlled (and somewhat more fragrant) manner."
-			]
-			dependencies: ["68A756101256236A"]
-			id: "3F1E123196EDCB71"
-			tasks: [{
-				id: "13913EB0CC939922"
-				type: "item"
-				item: "industrialforegoing:sewer"
-			}]
-		}
-		{
 			title: "Put it down!"
-			x: 4.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.5d
 			description: [
 				"The Block Placer will take blocks from its inventory and place them immediately in front of itself."
 				""
 				"This is really useful in doing things like automating the placement of logs in front of a Fluid Extractor."
 			]
-			dependencies: ["47DDD84282C6DFC9"]
+			dependencies: ["0ED1096C2B8D864F"]
+			optional: true
 			id: "0E79AC3B5E5E9BBB"
 			tasks: [{
 				id: "65B36F5D34E196C3"
 				type: "item"
 				item: "industrialforegoing:block_placer"
-			}]
-		}
-		{
-			title: "For lazy cowboys..."
-			x: 11.5d
-			y: 2.5d
-			description: [
-				"If a steady supply of milk or wool is what you need, look no further than the Animal Rancher."
-				""
-				"This machine can automatically shear sheep and milk cows in it's range."
-				""
-				"The range can be increased using range addons - for example a +1 Range Addon will move the centre of the area of effect 1 block further away from the Animal Rancher, and increase the area by 1 block in each direction, creating a 3x3 area of effect in front of the machine."
-				""
-				"Any cows or sheep walking into the area of effect will be milked or sheared as appropriate. Milk ends up being stored in the internal tank (and can be piped out) and wool is stored in the internal inventory (and can also be piped out)."
-			]
-			dependencies: ["68A756101256236A"]
-			id: "33B38E7FEBEAF3C0"
-			tasks: [{
-				id: "39BD7A4E928487D8"
-				type: "item"
-				item: "industrialforegoing:animal_rancher"
-			}]
-		}
-		{
-			title: "For lazy breeders..."
-			x: 13.5d
-			y: 2.5d
-			description: [
-				"The Animal Feeder can take animal feed items from its internal inventory and feed any animals in it's area of effect automatically as soon as they are hungry."
-				""
-				"If feeding the animal meets its requirements to breed (e.g. wheat being fed to two cows), then the animals will breed. So long as you are able to keep the feed items stocked up, the animals will continue to be bred."
-				""
-				"It's probably not a good idea to keep this running indefinitely though! At the very least you will want to ensure you're culling the herd a bit too! For that, you should look at using something like the Animal Baby Separator or Mob Filter (child) to automatically move baby animal into a separate area for processing."
-			]
-			dependencies: ["68A756101256236A"]
-			id: "01988C73F43B303F"
-			tasks: [{
-				id: "6D104F5C985988BC"
-				type: "item"
-				item: "industrialforegoing:animal_feeder"
-			}]
-		}
-		{
-			title: "Useful effluent"
-			x: 15.5d
-			y: 4.5d
-			description: [
-				"Sewage collected from the Sewer can be piped into the Sewage Composter and turned into Fertilizer."
-				""
-				"This Fertilizer can be used like bonemeal on crops, and can also be used in the creation of Hydroponic Beds."
-			]
-			dependencies: ["3F1E123196EDCB71"]
-			id: "10DAD90DCE408469"
-			tasks: [{
-				id: "096D03E84BD700A8"
-				type: "item"
-				item: "industrialforegoing:sewage_composter"
-			}]
-		}
-		{
-			title: "Refined Sludge"
-			x: 6.0d
-			y: 7.5d
-			description: [
-				"Sludge can be refined in a Sludge Refiner. This essentially takes the sludge produced as a by-product of a Plant Gatherer and turn it into something useful."
-				""
-				"What you get from each operation is random, but includes things like Sand, Dirt, Clay, Gravel and Soul Sand."
-			]
-			dependencies: ["1A9A11E84C7ABD90"]
-			id: "6BE85E96EDB009B3"
-			tasks: [{
-				id: "13225D130D378987"
-				type: "item"
-				item: "industrialforegoing:sludge_refiner"
-			}]
-		}
-		{
-			title: "Plant Sower"
-			x: 6.0d
-			y: 4.5d
-			description: [
-				"The Plant Sower will plant seeds in dirt above it, and will till the soil first if necessary."
-				""
-				"The range of the sowing can be increased easily by using Range Addons - these will increase the range in each direction by the addon amount. For example a +1 range addon will add a range of 1 north, 1 south, 1 east and 1 west, resulting in a 3x3 area that is covered."
-				""
-				"For more information about how to control what gets planted where, and what all of the options for the machine are, see the manual."
-				""
-				"This machine only plants seeds or saplings. To harvest them, you will need some other solution such as the Plant Gatherer."
-			]
-			dependencies: ["0ED1096C2B8D864F"]
-			id: "1766351AC5293605"
-			tasks: [{
-				id: "3B803B16ED6EAAA0"
-				type: "item"
-				item: "industrialforegoing:plant_sower"
-			}]
-		}
-		{
-			title: "Industrial Foreboding: Ranching"
-			icon: "industrialforegoing:plastic"
-			x: 13.5d
-			y: 0.5d
-			shape: "gear"
-			description: ["With Plastic available, some additional automated Mob farming is now available too..."]
-			hide_dependency_lines: true
-			dependencies: ["0ED1096C2B8D864F"]
-			id: "68A756101256236A"
-			tasks: [{
-				id: "08335D6186F67020"
-				type: "item"
-				item: "industrialforegoing:plastic"
-			}]
-		}
-		{
-			title: "Manure"
-			x: 15.5d
-			y: 6.5d
-			subtitle: "(a.k.a. Fertilizer)"
-			dependencies: ["10DAD90DCE408469"]
-			id: "2DAFD87E0C373C6E"
-			tasks: [{
-				id: "1D7D98C7DC6FD301"
-				type: "item"
-				item: "industrialforegoing:fertilizer"
-			}]
-			rewards: [{
-				id: "3A63BE5D4EB672C8"
-				type: "item"
-				item: "industrialforegoing:fertilizer"
-				count: 3
-				random_bonus: 5
-			}]
-		}
-		{
-			title: "Efficient Crop Growth"
-			x: 15.5d
-			y: 8.5d
-			description: [
-				"By default, if provided with power and water (or lava for nether crops), the Hydroponic Bed grows crops mildly faster than normal."
-				""
-				"Later on, when you have access to the stuff, adding a small amount of Ether Gas will drastically increase the rate of production, as well as allow for automated harvesting."
-				""
-				"In the meantime, coupling an array of Hydroponic Beds with a Plant Sower and Plant Gatherer should do the trick (i.e. replace the dirt in your Sower/Gatherer setup with Hydroponic beds instead)."
-				""
-				"Note that Hydroponic Beds placed adjacent to each other will automatically share power and water (or lava) - you don't need to supply these to every one individually."
-			]
-			dependencies: [
-				"2DAFD87E0C373C6E"
-				"402317CEEA15C618"
-			]
-			id: "59CF4C614CA0CB14"
-			tasks: [{
-				id: "48F09A80258A970C"
-				type: "item"
-				item: "industrialforegoing:hydroponic_bed"
-			}]
-		}
-		{
-			title: "For lazy fishermen..."
-			x: 11.5d
-			y: 8.5d
-			description: [
-				"The Marine Fisher uses fairly hefty amount of power to catch fish, but saves you from endless boredom starting at a pool of water!"
-				""
-				"When placed above a (at least) 3x3 pool of water, it will catch fish (and perhaps something else?) automatically at a cost of 5000 RF per operation."
-			]
-			dependencies: ["402317CEEA15C618"]
-			id: "12CD285ECE6BFD22"
-			tasks: [{
-				id: "1F7256B9D86D50BC"
-				type: "item"
-				item: "industrialforegoing:marine_fisher"
-			}]
-		}
-		{
-			title: "More farming machinery!"
-			disable_toast: true
-			x: 13.5d
-			y: 6.5d
-			shape: "gear"
-			hide_dependency_lines: true
-			dependencies: ["0654D844EC12E8A2"]
-			id: "402317CEEA15C618"
-			tasks: [{
-				id: "3D79C211EE89ECD6"
-				type: "item"
-				item: "industrialforegoing:machine_frame_simple"
-			}]
-		}
-		{
-			title: "Let it grow! Let it grow!"
-			x: 13.5d
-			y: 8.5d
-			description: [
-				"The Plant Fertilizer will apply Bone Meal or Fertilizer to crops in its area of effect."
-				""
-				"It does this by continuously applying it to a crop in a block until it accepts to more before moving on to the next one. This makes it unsuitable for some crops, but works wonders on most crops (assuming you have a steady supply of input material)."
-				""
-				"The area of effect is, by default a 1x1 block immediately in front of the machine. This can be increased through the use of Range Addons. For example, a +2 Range Addon will move the center of the area 2 blocks further away from the machine, and increase the range by 2 blocks in each cardinal direction, resulting in a 5x5 working area."
-			]
-			dependencies: ["402317CEEA15C618"]
-			id: "3016E8A8BAA59FD5"
-			tasks: [{
-				id: "3D094AA3A53C149F"
-				type: "item"
-				item: "industrialforegoing:plant_fertilizer"
 			}]
 		}
 	]

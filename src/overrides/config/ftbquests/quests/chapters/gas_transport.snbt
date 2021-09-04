@@ -7,18 +7,6 @@
 	icon: "mekanism:basic_mechanical_pipe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: -2.5d
-		width: 6.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "kubejs:textures/quests/under_construction.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Gas Transport"
@@ -26,6 +14,7 @@
 			y: -0.5d
 			shape: "gear"
 			description: ["Not many machines use or produce gas, but if you plan on making some of the more advanced Mekanisms, you'll need to know how to get the gases moved around."]
+			size: 1.5d
 			id: "4D50DCFC7ABA3DE0"
 			tasks: [{
 				id: "7EE8E8F937DD11DB"
@@ -101,7 +90,11 @@
 			title: "XNet for Gasses"
 			x: -2.0d
 			y: 1.5d
-			description: ["XNet connectors and network cables can be used (in conjunction with an XNet Controller) to transfer gasses too. Just make sure you set the channel to process gases."]
+			description: [
+				"XNet connectors and network cables can be used (in conjunction with an XNet Controller) to transfer gasses too. Just make sure you set the channel to process gases."
+				""
+				"If you would like some examples of how to use it, take a look at the \"Networks for XMen\" topic in this appendix."
+			]
 			dependency_requirement: "one_completed"
 			id: "48E08A97659F6B85"
 			tasks: [

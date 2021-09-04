@@ -731,7 +731,7 @@
 			description: [
 				"Blazing Blood can be obtained by putting a live Blaze inside a heated Smeltery. The Blaze will take damage, and produce Blazing Blood until it dies."
 				""
-				"Later on you'll be able to do things like set up a Spawner to create Blazes in other ways, or capture Blazes and release them strait into a smeltery, but early on, this might be your only way of achieving this."
+				"Later on you'll be able to do things like set up a Spawner to create Blazes in other ways, or capture Blazes and release them strait into a smeltery, but early on, using a Blazing Doll to summon a Blaze might be your only way of achieving this."
 			]
 			dependencies: ["6418606FCB78AE9F"]
 			id: "3725D438E369781D"

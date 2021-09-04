@@ -38,17 +38,4 @@ onEvent('recipes', e => {
     R: 'exnihilosequentia:crushed_granite'
   })
 
-  e.custom({
-    "type": "exnihilosequentia:fluid_transform",
-    "fluidInTank": {
-      "fluid": "minecraft:milk"
-    },
-    "catalyst": {
-      "item": "mekanism:block_salt"
-    },
-    "result": {
-      "fluid": "kubejs:lactic_acid"
-    }
-  })
-
 })

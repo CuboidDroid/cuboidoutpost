@@ -1,5 +1,7 @@
 {
 	version: 13
+	title: "Cuboid Outpost"
+	icon: "cuboidmod:thatldu_singularity_resource_generator"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

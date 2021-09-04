@@ -3,7 +3,7 @@
 	group: "53EA7D6C6A1B0F69"
 	order_index: 1
 	filename: "backpacking"
-	title: "Pack yer Bags"
+	title: "Pack Yer Bags"
 	icon: {
 		id: "sophisticatedbackpacks:backpack"
 		Count: 1b
@@ -23,15 +23,34 @@
 			description: [
 				"The time has come for you to try and work out what else is \"out there\". The veil between this dimension and the others seems to be thinning even more, and soon you might even be able to explore one or more of them."
 				""
-				"Before you go though, you might want to think about storage on the move. These backpacks are something special - no only do they offer more storage on your person, but they're upgradable in size and function too."
+				"Before you go, though, you might want to think about storage on the move. These backpacks are something special - no only do they offer more storage on your person, but they're upgradable in size and function too."
 			]
 			dependencies: ["4D0F1810876E3DF6"]
 			id: "7F60ADA33828168E"
-			tasks: [{
-				id: "74987619EF66D5F7"
-				type: "checkmark"
-				title: "Start packing!"
-			}]
+			tasks: [
+				{
+					id: "7343104B6FDF7AD2"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "741AAE5BF90175DB"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "1E7295CA3620E53F"
+					type: "item"
+					title: "Wooden Chest"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:chests/wooden"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Backpacking for Dummies"
@@ -41,6 +60,8 @@
 				"This entry-level backpack let's you carry the equivalent of a whole chest around with you."
 				""
 				"It's easily accesible (can be bound to a key - B by default), and has one upgrade slot to provide functional improvements."
+				""
+				"The other handy thing about it is that you can put it into a special back slot on your person that's specifically designed for it and save an extra slot in your inventory."
 			]
 			dependencies: ["7F60ADA33828168E"]
 			id: "36703E93A5A1585B"
@@ -147,6 +168,7 @@
 				"Plus 2 more upgrade slots, giving a total of 5!"
 			]
 			dependencies: ["2CE61518732516C0"]
+			optional: true
 			id: "7C5EBBE71A9C4AFA"
 			tasks: [{
 				id: "255806722824F551"
@@ -166,6 +188,7 @@
 			y: -5.0d
 			description: ["Topping out at a whopping 120 slots and 7 upgrades, the Netherite Backpack is just about enough to let you be a nomad if that's what you want!"]
 			dependencies: ["7C5EBBE71A9C4AFA"]
+			optional: true
 			id: "3675175CE7676E51"
 			tasks: [{
 				id: "1EE235797FED198B"

@@ -104,7 +104,7 @@
 			y: 4.0d
 			shape: "square"
 			description: [
-				"10mb of Redstone in the infusion tank plus an Osmium Ingot produces a Basic Control Circuit."
+				"20mb of Redstone in the infusion tank plus an Osmium Ingot produces a Basic Control Circuit."
 				""
 				"Basic Control Circuits can be upgraded to higher tiers, and are used as ingredients in many of the machines we're aiming to re-invent soon, so you might want to stock up a bit."
 			]
@@ -265,7 +265,7 @@
 			y: 6.0d
 			shape: "square"
 			description: [
-				"10mb of Diamond in the infusion tank of the Metallurgic Infuser and an Infused Alloy will produce a Reinforced Alloy."
+				"20mb of Diamond in the infusion tank of the Metallurgic Infuser and an Infused Alloy will produce a Reinforced Alloy."
 				""
 				"Reinforced Alloys are used in many machines, and can be infused again to produce a higher tier alloy."
 				""
@@ -292,7 +292,7 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"10mb of Refined Obsidian in the infusion tank of the Metallurgic Infuser and a Reinforced Alloy will produce an Atomic Alloy."
+				"40mb of Refined Obsidian in the infusion tank of the Metallurgic Infuser and a Reinforced Alloy will produce an Atomic Alloy."
 				""
 				"Atomic Alloys are used in many top-tier machines."
 				""
@@ -484,6 +484,8 @@
 				"If we build and Electrolytic Separator, we can get our hands on both simply by splitting water molecules into their component atoms."
 				""
 				"Once you've built an Electrolytic Separator, supply it with water and power and it will start producing Hydrogen and Oxygen gasses."
+				""
+				"You can use a bucket to manually put water into the Electrolytic Separator, or you can pipe it in - possibly using an Electric Pump, Fluid Pump or Sink."
 			]
 			dependencies: ["1DFD647EF1A8254C"]
 			id: "7F093389CF7E25F9"

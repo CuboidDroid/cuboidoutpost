@@ -1,9 +1,0 @@
-{
-	id: "774C1200B9B36D77",
-	group: "40232F59EC0C238D",
-	order_index: 0,
-	filename: "environmental_tech",
-	title: "Environmental Tech",
-	default_quest_shape: "",
-	quests: []
-}

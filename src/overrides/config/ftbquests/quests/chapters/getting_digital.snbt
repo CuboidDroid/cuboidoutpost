@@ -741,5 +741,26 @@
 				}
 			}]
 		}
+		{
+			x: 20.0d
+			y: 12.0d
+			description: [
+				"If you tried automating a standard Inscriber, you've probably figured out that it's not quite as easy as you'd hope. There is a Refined Inscriber you can make which might be of interest."
+				""
+				"The Refined Inscriber is slightly more power hungry (about 12.5% more per operation), but has the advantage of being able to queue up multiple input items in the input slots, which means you can effectively put in a full stack of what's needed for a recipe and leave it to run."
+				""
+				"It's also a bit faster than a standard Inscriber (that has not been upgraded with acceleration cards)."
+				""
+				"In addition, the sides have color-coding. The green side (the left, but also the front of the machine) will allow items to be piped into the top-left slot in the machine's user interface. The orange sides (right and back) accept items for the top-right slot in the user interface, and the top of the machine (purple) will accept items for the bottom middle slot in the user interface. Resulting items can be extracted from the bottom of the machine."
+			]
+			dependencies: ["0841F4A3C8B05581"]
+			optional: true
+			id: "163B031D52555C0F"
+			tasks: [{
+				id: "6CE38EE4DE616A3B"
+				type: "item"
+				item: "cuboidmod:refined_inscriber"
+			}]
+		}
 	]
 }

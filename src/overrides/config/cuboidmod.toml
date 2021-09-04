@@ -1,83 +1,4 @@
 
-#Settings
-[general]
-
-	[general.notsogudium_smasher]
-		# Durability for the Notsogudium Smasher.
-		# Default: 130
-		#Range: 1 ~ 32767
-		durability = 130
-		# Attack speed for the Notsogudium Smasher.
-		# Default: 1.4
-		#Range: 0.0 ~ 4.0
-		attackSpeed = 1.4
-		# Attack Damage for the Notsogudium Smasher.
-		# Default: 2
-		#Range: 0 ~ 20
-		attackDamage = 2
-
-	[general.smoosher]
-		# Durability for the Smoosher.
-		# Default: 481
-		#Range: 1 ~ 32767
-		durability = 481
-
-	[general.thatldu_smasher]
-		# Durability for the Thatldu Smasher.
-		# Default: 1974
-		#Range: 1 ~ 32767
-		durability = 1974
-		# Attack speed for the Thatldu Smasher.
-		# Default: 1.5
-		#Range: 0.0 ~ 4.0
-		attackSpeed = 1.5
-		# Attack Damage for the Thatldu Smasher.
-		# Default: 2
-		#Range: 0 ~ 20
-		attackDamage = 6
-
-	[general.notarfbadium_smasher]
-		# Durability for the Notarfbadium Smasher.
-		# Default: 363
-		#Range: 1 ~ 32767
-		durability = 363
-		# Attack speed for the Notarfbadium Smasher.
-		# Default: 1.4
-		#Range: 0.0 ~ 4.0
-		attackSpeed = 1.4
-		# Attack Damage for the Notarfbadium Smasher.
-		# Default: 4
-		#Range: 0 ~ 20
-		attackDamage = 4
-
-	[general.kudbebedda_smasher]
-		# Durability for the Kudbebedda Smasher.
-		# Default: 191
-		#Range: 1 ~ 32767
-		durability = 191
-		# Attack speed for the Kudbebedda Smasher.
-		# Default: 1.4
-		#Range: 0.0 ~ 4.0
-		attackSpeed = 1.4
-		# Attack Damage for the Kudbebedda Smasher.
-		# Default: 3
-		#Range: 0 ~ 20
-		attackDamage = 3
-
-	[general.wikidium_smasher]
-		# Durability for the Wikidium Smasher.
-		# Default: 727
-		#Range: 1 ~ 32767
-		durability = 727
-		# Attack speed for the Wikidium Smasher.
-		# Default: 1.4
-		#Range: 0.0 ~ 4.0
-		attackSpeed = 1.4
-		# Attack Damage for the Wikidium Smasher.
-		# Default: 2
-		#Range: 0 ~ 20
-		attackDamage = 5
-
 #Quantum Collapser Settings
 [quantum_collapsers]
 
@@ -223,6 +144,242 @@
 			#Range: 1 ~ 10000000
 			energy_capacity = 1000000
 
+#Chest Settings
+[chests]
+
+	[chests.notsogudium_chest]
+		# Whether the chest can open if there's a full block above it.
+		# If true then can always open.
+		# Default: false
+		can_open_obstructed = false
+		# Whether the chest keeps its inventory when broken.
+		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
+		# Default: false
+		retains_inventory = false
+
+	[chests.notarfbadium_chest]
+		# Whether the chest can open if there's a full block above it.
+		# If true then can always open.
+		# Default: false
+		can_open_obstructed = true
+		# Whether the chest keeps its inventory when broken.
+		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
+		# Default: false
+		retains_inventory = false
+
+	[chests.kudbebedda_chest]
+		# Whether the chest can open if there's a full block above it.
+		# If true then can always open.
+		# Default: false
+		can_open_obstructed = false
+		# Whether the chest keeps its inventory when broken.
+		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
+		# Default: false
+		retains_inventory = false
+
+	[chests.wikidium_chest]
+		# Whether the chest can open if there's a full block above it.
+		# If true then can always open.
+		# Default: false
+		can_open_obstructed = true
+		# Whether the chest keeps its inventory when broken.
+		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
+		# Default: false
+		retains_inventory = true
+
+	[chests.thatldu_chest]
+		# Whether the chest can open if there's a full block above it.
+		# If true then can always open.
+		# Default: false
+		can_open_obstructed = true
+		# Whether the chest keeps its inventory when broken.
+		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
+		# Default: false
+		retains_inventory = true
+
+#Refined Inscriber Settings
+[refined_inscriber]
+
+	[refined_inscriber.ri]
+		# The default number of ticks for recipes if not specified in the recipe itself.
+		# Default: 100
+		#Range: 1 ~ 10000
+		recipe_work_ticks = 200
+		# The default amount of FE required for recipes if not specified in the recipe itself.
+		# Default: 5000
+		#Range: 1 ~ 10000000
+		recipe_energy_required = 5000
+		# The internal energy capacity in FE.
+		# Default: 50000
+		#Range: 1 ~ 10000000
+		energy_capacity = 50000
+		# The maximum amount of FE per tick that the Refined Inscriber can receive.
+		# Default: 250
+		#Range: 1 ~ 10000000
+		max_energy_in_per_tick = 250
+
+#Furnace Settings
+[furnaces]
+
+	[furnaces.furnace]
+		# Show furnace settings errors in chat, used for debugging
+		errors = false
+
+	[furnaces.notarfbadium_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 140
+		#Range: 2 ~ 72000
+		speed = 140
+
+	[furnaces.furnace_xp_drop]
+		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
+		# Default: 10, Recipes
+		#Range: 1 ~ 500
+		value = 10
+		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
+		# Default: 100000, Single recipe uses
+		#Range: 1 ~ 1000000
+		value_two = 100000
+
+	[furnaces.thatldu_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 70
+		#Range: 2 ~ 72000
+		speed = 70
+
+	[furnaces.wikidium_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 110
+		#Range: 2 ~ 72000
+		speed = 110
+
+	[furnaces.eumus_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 200
+		#Range: 2 ~ 72000
+		speed = 200
+
+	[furnaces.notsogudium_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 180
+		#Range: 2 ~ 72000
+		speed = 180
+
+	[furnaces.kudbebedda_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 160
+		#Range: 2 ~ 72000
+		speed = 160
+
+#JEI Settings
+[jei]
+
+	[jei.jei]
+		# Enable or disable the Click Area inside the GUI in all Cuboid machines.
+		enable_jei_click_area = true
+		# Enable or disable the Catalysts in Jei for Cuboid machines.
+		enable_jei_catalysts = true
+		# Enable or disable the JeiPlugin of Cuboid machines.
+		enable_jei = true
+
+#Drying Cupboard Settings
+[drying_cupboard]
+
+	[drying_cupboard.drying_cupboard]
+		# The internal energy capacity in FE.
+		# Default: 10000
+		#Range: 1 ~ 10000000
+		energy_capacity = 10000
+		# The amount of FE per tick that the drying cupboard uses when active.
+		# Default: 8
+		#Range: 1 ~ 10000
+		max_energy_in_per_tick = 8
+
+#Settings
+[general]
+
+	[general.notsogudium_smasher]
+		# Durability for the Notsogudium Smasher.
+		# Default: 130
+		#Range: 1 ~ 32767
+		durability = 130
+		# Attack speed for the Notsogudium Smasher.
+		# Default: 1.4
+		#Range: 0.0 ~ 4.0
+		attackSpeed = 1.4
+		# Attack Damage for the Notsogudium Smasher.
+		# Default: 2
+		#Range: 0 ~ 20
+		attackDamage = 2
+
+	[general.smoosher]
+		# Durability for the Smoosher.
+		# Default: 481
+		#Range: 1 ~ 32767
+		durability = 481
+
+	[general.thatldu_smasher]
+		# Durability for the Thatldu Smasher.
+		# Default: 1974
+		#Range: 1 ~ 32767
+		durability = 1974
+		# Attack speed for the Thatldu Smasher.
+		# Default: 1.5
+		#Range: 0.0 ~ 4.0
+		attackSpeed = 1.5
+		# Attack Damage for the Thatldu Smasher.
+		# Default: 2
+		#Range: 0 ~ 20
+		attackDamage = 6
+
+	[general.notarfbadium_smasher]
+		# Durability for the Notarfbadium Smasher.
+		# Default: 363
+		#Range: 1 ~ 32767
+		durability = 363
+		# Attack speed for the Notarfbadium Smasher.
+		# Default: 1.4
+		#Range: 0.0 ~ 4.0
+		attackSpeed = 1.4
+		# Attack Damage for the Notarfbadium Smasher.
+		# Default: 4
+		#Range: 0 ~ 20
+		attackDamage = 4
+
+	[general.kudbebedda_smasher]
+		# Durability for the Kudbebedda Smasher.
+		# Default: 191
+		#Range: 1 ~ 32767
+		durability = 191
+		# Attack speed for the Kudbebedda Smasher.
+		# Default: 1.4
+		#Range: 0.0 ~ 4.0
+		attackSpeed = 1.4
+		# Attack Damage for the Kudbebedda Smasher.
+		# Default: 3
+		#Range: 0 ~ 20
+		attackDamage = 3
+
+	[general.wikidium_smasher]
+		# Durability for the Wikidium Smasher.
+		# Default: 727
+		#Range: 1 ~ 32767
+		durability = 727
+		# Attack speed for the Wikidium Smasher.
+		# Default: 1.4
+		#Range: 0.0 ~ 4.0
+		attackSpeed = 1.4
+		# Attack Damage for the Wikidium Smasher.
+		# Default: 2
+		#Range: 0 ~ 20
+		attackDamage = 5
+
 #Quantum Transmutation Chamber Settings
 [quantum_transmutation_chamber]
 
@@ -346,118 +503,6 @@
 		#Range: 1 ~ 50000
 		max_energy_in_per_tick = 5000
 
-#Chest Settings
-[chests]
-
-	[chests.notsogudium_chest]
-		# Whether the chest can open if there's a full block above it.
-		# If true then can always open.
-		# Default: false
-		can_open_obstructed = false
-		# Whether the chest keeps its inventory when broken.
-		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
-		# Default: false
-		retains_inventory = false
-
-	[chests.notarfbadium_chest]
-		# Whether the chest can open if there's a full block above it.
-		# If true then can always open.
-		# Default: false
-		can_open_obstructed = true
-		# Whether the chest keeps its inventory when broken.
-		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
-		# Default: false
-		retains_inventory = false
-
-	[chests.kudbebedda_chest]
-		# Whether the chest can open if there's a full block above it.
-		# If true then can always open.
-		# Default: false
-		can_open_obstructed = false
-		# Whether the chest keeps its inventory when broken.
-		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
-		# Default: false
-		retains_inventory = false
-
-	[chests.wikidium_chest]
-		# Whether the chest can open if there's a full block above it.
-		# If true then can always open.
-		# Default: false
-		can_open_obstructed = true
-		# Whether the chest keeps its inventory when broken.
-		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
-		# Default: false
-		retains_inventory = true
-
-	[chests.thatldu_chest]
-		# Whether the chest can open if there's a full block above it.
-		# If true then can always open.
-		# Default: false
-		can_open_obstructed = true
-		# Whether the chest keeps its inventory when broken.
-		# If true then chest retains inventory. If false, inventory is dumped on the ground when broken.
-		# Default: false
-		retains_inventory = true
-
-#Furnace Settings
-[furnaces]
-
-	[furnaces.furnace]
-		# Show furnace settings errors in chat, used for debugging
-		errors = false
-
-	[furnaces.notarfbadium_furnace]
-		# Number of ticks to complete one smelting operation.
-		# 200 ticks is what a regular furnace takes.
-		# Default: 140
-		#Range: 2 ~ 72000
-		speed = 140
-
-	[furnaces.furnace_xp_drop]
-		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
-		# Default: 10, Recipes
-		#Range: 1 ~ 500
-		value = 10
-		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
-		# Default: 100000, Single recipe uses
-		#Range: 1 ~ 1000000
-		value_two = 100000
-
-	[furnaces.thatldu_furnace]
-		# Number of ticks to complete one smelting operation.
-		# 200 ticks is what a regular furnace takes.
-		# Default: 70
-		#Range: 2 ~ 72000
-		speed = 70
-
-	[furnaces.wikidium_furnace]
-		# Number of ticks to complete one smelting operation.
-		# 200 ticks is what a regular furnace takes.
-		# Default: 110
-		#Range: 2 ~ 72000
-		speed = 110
-
-	[furnaces.eumus_furnace]
-		# Number of ticks to complete one smelting operation.
-		# 200 ticks is what a regular furnace takes.
-		# Default: 200
-		#Range: 2 ~ 72000
-		speed = 200
-
-	[furnaces.notsogudium_furnace]
-		# Number of ticks to complete one smelting operation.
-		# 200 ticks is what a regular furnace takes.
-		# Default: 180
-		#Range: 2 ~ 72000
-		speed = 180
-
-	[furnaces.kudbebedda_furnace]
-		# Number of ticks to complete one smelting operation.
-		# 200 ticks is what a regular furnace takes.
-		# Default: 160
-		#Range: 2 ~ 72000
-		speed = 160
-
 #Singularity Resource Generator Settings
 [singularity_resource_generators]
 
@@ -523,34 +568,10 @@
 			#Range: 1 ~ 1200
 			ticks_per_op = 5
 
-#JEI Settings
-[jei]
-
-	[jei.jei]
-		# Enable or disable the Click Area inside the GUI in all Cuboid machines.
-		enable_jei_click_area = true
-		# Enable or disable the Catalysts in Jei for Cuboid machines.
-		enable_jei_catalysts = true
-		# Enable or disable the JeiPlugin of Cuboid machines.
-		enable_jei = true
-
 #Misc
 [misc]
 
 	[misc.misc]
 		# Logs additional information when loading Quantum Singularity and Molecular Recycler Blacklist config files.
 		verbose_logging = false
-
-#Drying Cupboard Settings
-[drying_cupboard]
-
-	[drying_cupboard.drying_cupboard]
-		# The internal energy capacity in FE.
-		# Default: 10000
-		#Range: 1 ~ 10000000
-		energy_capacity = 10000
-		# The amount of FE per tick that the drying cupboard uses when active.
-		# Default: 8
-		#Range: 1 ~ 10000
-		max_energy_in_per_tick = 8
 

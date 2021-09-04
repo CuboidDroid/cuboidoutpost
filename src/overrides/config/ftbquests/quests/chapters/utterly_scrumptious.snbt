@@ -18,9 +18,9 @@
 				""
 				"Luckily, there are things that can help make this whole process a lot easier to deal with."
 				""
-				"This chapter shows you how to more easily make the most of your ingredients."
+				"The Science Division, in consultation with the Department of Health and Grub, has kindly provided this chapter in the Guide to show you how to more easily make the most of your ingredients."
 			]
-			dependencies: ["4D0F1810876E3DF6"]
+			dependencies: ["598456E909FF7AB8"]
 			id: "748E7FD5E332FB32"
 			tasks: [{
 				id: "55E3F106DBB85C93"
@@ -385,6 +385,8 @@
 				"Now that you have your kitchen sorted out (or at least could do!), making some nice meals should be easy."
 				""
 				"Let's try and make some different burgers, both for satisfying hunger, and to increase your nutritional variety and general wellbeing."
+				""
+				"Having some high saturation food to carry with you will be very important soon when we need to send you on, um... an adventure or two."
 			]
 			dependencies: [
 				"359E170D5C36CD2D"
@@ -487,6 +489,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
+			description: ["Curing beef is important before drying it out, otherwise there is a risk of contamination occurring. We wouldn't want to add food poisoning to your list of inconveniences out there in the Outpost."]
 			dependencies: ["748E7FD5E332FB32"]
 			id: "5D2D50215D16FDBE"
 			tasks: [{
@@ -498,6 +501,8 @@
 		{
 			x: 0.0d
 			y: 4.0d
+			subtitle: "The Ultimate Snack Food"
+			description: ["Biltong is essentially cured, spiced and dried meat, but is undoubtedly one of the best and most fulfilling snacks around."]
 			dependencies: ["5D2D50215D16FDBE"]
 			id: "467102366F29F4D8"
 			tasks: [{

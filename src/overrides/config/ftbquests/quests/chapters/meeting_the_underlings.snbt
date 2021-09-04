@@ -14,9 +14,9 @@
 			y: 0.0d
 			shape: "gear"
 			description: [
-				"By now you've got the hand of that totally scientific method of creating Spawn Eggs. There are a few more creatures you can bring back into existence at this stage. Only one more requires a puddle of Witchwater, one requires Sea Water, and the rest can use some of the fruits of our labour so far - Milk, mixed with Salt, for Lactic Acid."
+				"By now you've got the hang of that totally scientific method of creating Spawn Eggs. There are a few more creatures you can bring back into existence at this stage. Only one more requires a puddle of Witchwater, one requires Sea Water, and the rest can use some of the fruits of our labour so far - Milk, mixed with Salt, for Lactic Acid."
 				""
-				"Note that you only need any 3 of these spawn eggs to unlock the \"Utterly Delicious\" chapter. You will need the rest to complete the chapter if thats your kind of thing."
+				"Note that you only need any 3 of these spawn eggs to achieve sufficient biodiversity to move on to the \"Utterly Delicious\" chapter. If you'd really like more of a menagerie, please feel free to make them all!"
 			]
 			dependencies: ["4D0F1810876E3DF6"]
 			id: "659F614DFFD07509"
@@ -314,6 +314,32 @@
 				id: "1BE0F35C2E11D10E"
 				type: "item"
 				item: "exnihilosequentia:bucket_sea_water"
+			}]
+		}
+		{
+			title: "Ready to move on?"
+			x: -8.5d
+			y: 6.5d
+			shape: "gear"
+			hide_dependency_lines: true
+			min_required_dependencies: 3
+			dependencies: [
+				"7D5DF86B464F2092"
+				"1B0AF4CD426B9993"
+				"7C72EBDE2A4CEAAC"
+				"14BC194EDD82CE40"
+				"3EE876B0F4B1EE73"
+				"7574BCAE208819BB"
+				"59F7D370A16D9482"
+				"4A42D7760E366ACD"
+				"3EA0212C7626E6F0"
+				"4D7F418135FD9005"
+			]
+			id: "598456E909FF7AB8"
+			tasks: [{
+				id: "6C8FE1BEEC7D8D85"
+				type: "checkmark"
+				title: "Let's go!"
 			}]
 		}
 	]

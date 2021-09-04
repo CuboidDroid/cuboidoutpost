@@ -53,7 +53,7 @@
 	default_hide_dependency_lines: false
 	images: [{
 		x: 0.0d
-		y: 2.5d
+		y: -2.5d
 		width: 6.0d
 		height: 3.0d
 		rotation: 0.0d
@@ -69,6 +69,7 @@
 		y: 0.0d
 		shape: "gear"
 		description: ["Coming soon!"]
+		dependencies: ["335B313D35BDDF8C"]
 		id: "32E874AAA865CA9C"
 		tasks: [{
 			id: "7265223373920E84"

@@ -1,7 +1,7 @@
 {
 	id: "4C3211D7C7EB80CF"
 	group: "4F582DBBFACF1F69"
-	order_index: 3
+	order_index: 2
 	filename: "thermal_content"
 	title: "Ther-malcontents"
 	icon: "thermal:machine_pulverizer"
@@ -14,16 +14,45 @@
 			y: 0.0d
 			shape: "gear"
 			description: [
+				"You've managed to recreate a number of machines so far, but there are a few gaps we need to get you to fill in so that we're able to get your life back on track."
+				""
 				"Thermal Series machines offer an alternative to many other machines, as well as some new machines that can help solve specific problems you're likely to encounter."
 				""
 				"&aUnlocked by getting Gold in the \"Getting Tinks Done\" chapter.&f"
 			]
 			dependencies: ["3B00278F3DDF103C"]
 			id: "304B2612E56845AB"
-			tasks: [{
-				id: "4589F8F1EA17C003"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "40E39A53CB16A9DC"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "5132997F84207BD0"
+					type: "item"
+					title: "Tin Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/tin"
+						}
+					}
+				}
+				{
+					id: "7DF5C6055A7E2589"
+					type: "item"
+					title: "Copper Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Basic Gears"
@@ -65,7 +94,12 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "square"
-			description: ["Machine Frames are used to hold together all the other gubbins that goes into making Thermal Machines."]
+			subtitle: "Framing that machine"
+			description: [
+				"Machine Frames are used to hold together all the other gubbins that goes into making Thermal Machines."
+				""
+				"They're relatively cheap and easy to make, so it might be worth making a few to have some on-hand for later."
+			]
 			dependencies: ["5E3BB220C87D1E87"]
 			id: "177C75AD8B222FD5"
 			tasks: [{
@@ -83,6 +117,7 @@
 				"It's upgradable too and can be a very efficient way of smelting items very quickly just using energy."
 			]
 			dependencies: ["43FA19C5DEEEF7E2"]
+			optional: true
 			id: "7FCD766C2820B7F3"
 			tasks: [{
 				id: "16FFB95BAEC11B3C"
@@ -95,7 +130,11 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "square"
-			description: ["The Redstone Flux Coil is used in machines and augments requiring regulation of RF energy."]
+			description: [
+				"The Redstone Flux Coil is used in machines and augments requiring regulation of RF energy."
+				""
+				"These coils are needed in a lot of machines, so you might as well make a few of these two - we're sure they'll come in handy as we progress..."
+			]
 			dependencies: ["177C75AD8B222FD5"]
 			id: "43FA19C5DEEEF7E2"
 			tasks: [{
@@ -130,6 +169,7 @@
 				"It can pulverize things a Smoosher can't, and is quite efficient to boot!"
 			]
 			dependencies: ["43FA19C5DEEEF7E2"]
+			optional: true
 			id: "26CEE055CC89D4EC"
 			tasks: [{
 				id: "4C9D635160353E20"
@@ -194,6 +234,7 @@
 			subtitle: "(see how to make Constantan in the \"Allo? Allo? Alloy!\" chapter)"
 			dependencies: ["239ABB6920C2D4C2"]
 			dependency_requirement: "one_completed"
+			optional: true
 			id: "7E0F0541B4718277"
 			tasks: [{
 				id: "49390DD485B72533"
@@ -221,6 +262,7 @@
 				"Augments are available to increase yield or retain the input item for continuous production."
 			]
 			dependencies: ["751956F759096D80"]
+			optional: true
 			id: "5040463B5E776B76"
 			tasks: [{
 				id: "725D641063961DA7"
@@ -233,6 +275,7 @@
 			y: 4.0d
 			description: ["The Centrifugal Separator can separate certain materials into component items."]
 			dependencies: ["7E0F0541B4718277"]
+			optional: true
 			id: "50B1893A30931C26"
 			tasks: [{
 				id: "6C0370AB3BD82613"
@@ -245,6 +288,7 @@
 			y: 5.0d
 			description: ["The Multiservo Press is a very versatile machine that, when fitted with an appropriate Die, can do things like pack and unpack items to and from block form, turn ingots to gears or plates, and more. It's extremely useful in auto crafting setups and production lines."]
 			dependencies: ["7E0F0541B4718277"]
+			optional: true
 			id: "75FF9C12DE5741E0"
 			tasks: [{
 				id: "3541A8A76C5A8377"
@@ -261,6 +305,7 @@
 				"Phytogro is an extremely potent fertilizer that when used in the Phytogenic Insulator will significantly decrease growing times."
 			]
 			dependencies: ["5040463B5E776B76"]
+			optional: true
 			id: "49B3B842F3607B54"
 			tasks: [{
 				id: "776A551942C142F3"
@@ -294,6 +339,7 @@
 			y: 6.0d
 			description: ["The Alchemical Imbuer is used in mass-producing potions (usually piped through to something like a Fluid Encapsulator which can bottle up the potion fluids into usable bottled form)."]
 			dependencies: ["7E0F0541B4718277"]
+			optional: true
 			id: "71CA68F42A658AD1"
 			tasks: [{
 				id: "4016337303D01A7D"
@@ -306,6 +352,7 @@
 			y: 7.0d
 			description: ["The Pyrolyzer can be used to create Coke (not the drink!), Creosote Oil, Heavy Oil, Tar and Charcoal."]
 			dependencies: ["7E0F0541B4718277"]
+			optional: true
 			id: "4070E83E154D268C"
 			tasks: [{
 				id: "2645874E180406BB"
@@ -331,6 +378,7 @@
 			y: 4.0d
 			description: ["The Magma Crucible uses energy to melt solids into liquids."]
 			dependencies: ["6B6CBCB0904E17C4"]
+			optional: true
 			id: "60ECC7258A85864D"
 			tasks: [{
 				id: "64FE1EC996FD1B4C"
@@ -344,6 +392,8 @@
 			shape: "gear"
 			description: [
 				"The Blast Chiller is used to rapidly freeze certain liquids into their solid form."
+				""
+				"You'll definitely need one of these for an upcoming machine - something to do with cryogenics and dimensional travel, but more on that later."
 				""
 				"&aRequired for: What's left in the End?&f"
 			]
@@ -375,6 +425,7 @@
 			y: 0.0d
 			description: ["The Redstone Servo is a component used in the making of several simple machines, but also in the creation of a number of Augments that can be added to machines to increase their capabilities."]
 			dependencies: ["304B2612E56845AB"]
+			optional: true
 			id: "25C51F1B3C28DE9F"
 			tasks: [{
 				id: "3AB055309AA35766"
@@ -394,6 +445,7 @@
 				"A Filter Augment can also be applied to make the pick-up function more selective."
 			]
 			dependencies: ["25C51F1B3C28DE9F"]
+			optional: true
 			id: "57EC076D817C1485"
 			tasks: [{
 				id: "2980167E3F9857AB"
@@ -416,6 +468,7 @@
 				""
 			]
 			dependencies: ["25C51F1B3C28DE9F"]
+			optional: true
 			id: "17A8A53541D15D3F"
 			tasks: [{
 				id: "78AC9DA7FF42F898"
@@ -428,6 +481,7 @@
 			y: 7.0d
 			description: ["Signalum can only be made in an Induction Smelter."]
 			dependencies: ["508B9043053F83F3"]
+			optional: true
 			id: "649E4011A9875F66"
 			tasks: [{
 				id: "01AD9FE0D0C3F7D9"
@@ -454,6 +508,7 @@
 				"The first Integral Components upgrade is the Hardened Integral Components augment."
 			]
 			dependencies: ["370DC91DCE34BD2B"]
+			optional: true
 			id: "5807222BFBC0B66A"
 			tasks: [{
 				id: "3A164F4B53B08EF7"
@@ -469,6 +524,7 @@
 				"649E4011A9875F66"
 				"5807222BFBC0B66A"
 			]
+			optional: true
 			id: "7045B2B822678989"
 			tasks: [{
 				id: "5115AE24141071ED"
@@ -502,6 +558,7 @@
 				"7045B2B822678989"
 				"7DB0567D4BF1657C"
 			]
+			optional: true
 			id: "435B559A8CA70380"
 			tasks: [{
 				id: "1869DE0E3916DB51"

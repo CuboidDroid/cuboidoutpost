@@ -20,7 +20,7 @@
 			y: 2.0d
 			shape: "gear"
 			description: [
-				"Jetpacks are a great way to get around quickly."
+				"Jetpacks are a great way to get around quickly. The Science Division of Cuboid Corp (tm) highly recommends these, but assumes no responsibility for their reliability and/or accidents relating to their misuse or lack of maintenance. Just be careful when coming down again!"
 				""
 				"These ones use energy as a power source, so you might also want to look into something like a portable power source or even a Player Transmitter in the \"Powah to the Person!\" chapter to keep you moving."
 			]
@@ -29,10 +29,35 @@
 				"4D0F1810876E3DF6"
 			]
 			id: "2D7913541C49FFF6"
-			tasks: [{
-				id: "511C0312E90AF685"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "16139737BF70909C"
+					type: "item"
+					title: "Copper Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+				}
+				{
+					id: "7C0D53C8D8E0490D"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "6EDB636CB0BB15D6"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "4812DF820CCE5F27"
+					type: "item"
+					item: "minecraft:leather"
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -206,6 +231,7 @@
 				"2683972A5731A8DF"
 				"3B00278F3DDF103C"
 			]
+			optional: true
 			id: "536D0F7E72FE44CE"
 			tasks: [{
 				id: "7224CB16F52F601D"
@@ -228,6 +254,7 @@
 				"5AA74F9512E7AFB9"
 				"10B99EDF2D22FB4C"
 			]
+			optional: true
 			id: "51903865FE73BECD"
 			tasks: [{
 				id: "4930C1BF3B8BD840"
@@ -247,6 +274,7 @@
 			y: 6.0d
 			description: ["You will need a total of five of these energy cells - 3 for the capacitor, and 1 in each of the 2 thrusters."]
 			dependencies: ["536D0F7E72FE44CE"]
+			optional: true
 			id: "48118599BE29BDD1"
 			tasks: [{
 				id: "1761113EEAD3ADCF"
@@ -259,6 +287,7 @@
 			x: 5.5d
 			y: 5.5d
 			dependencies: ["48118599BE29BDD1"]
+			optional: true
 			id: "5AA74F9512E7AFB9"
 			tasks: [{
 				id: "0ADBD79BB30ABFB7"
@@ -271,6 +300,7 @@
 			x: 5.5d
 			y: 6.5d
 			dependencies: ["48118599BE29BDD1"]
+			optional: true
 			id: "10B99EDF2D22FB4C"
 			tasks: [{
 				id: "477AFF39F3545F10"
@@ -357,6 +387,7 @@
 				"536D0F7E72FE44CE"
 				"2B11E00B187113A9"
 			]
+			optional: true
 			id: "52CB46DFD78DF601"
 			tasks: [{
 				id: "52C0393AAAB5AE2D"
@@ -378,6 +409,7 @@
 			y: 10.0d
 			description: ["You will need a total of five of these energy cells - 3 for the capacitor, and 1 in each of the 2 thrusters."]
 			dependencies: ["52CB46DFD78DF601"]
+			optional: true
 			id: "456CD22C93DBBA9E"
 			tasks: [{
 				id: "170B60CEA0C162DD"
@@ -390,6 +422,7 @@
 			x: 5.5d
 			y: 9.5d
 			dependencies: ["456CD22C93DBBA9E"]
+			optional: true
 			id: "6609CDA9D443F376"
 			tasks: [{
 				id: "0C6BB7A401908D0E"
@@ -402,6 +435,7 @@
 			x: 5.5d
 			y: 10.5d
 			dependencies: ["456CD22C93DBBA9E"]
+			optional: true
 			id: "3E5A3234B1B9619A"
 			tasks: [{
 				id: "44F344CB820C6231"
@@ -418,6 +452,7 @@
 				"3E5A3234B1B9619A"
 				"6609CDA9D443F376"
 			]
+			optional: true
 			id: "3FCA1AB10413654F"
 			tasks: [{
 				id: "4E0798A6D488A865"
@@ -439,6 +474,7 @@
 				"12A160164ACE3348"
 				"406EE25D7FA0D23F"
 			]
+			optional: true
 			id: "729864A3652D31A5"
 			tasks: [{
 				id: "72E5D653BCB4B21B"
@@ -457,6 +493,7 @@
 			x: 5.5d
 			y: 12.5d
 			dependencies: ["0EF1118C3D13D65D"]
+			optional: true
 			id: "12A160164ACE3348"
 			tasks: [{
 				id: "1FFCC697C74E7C3F"
@@ -469,6 +506,7 @@
 			x: 5.5d
 			y: 11.5d
 			dependencies: ["0EF1118C3D13D65D"]
+			optional: true
 			id: "406EE25D7FA0D23F"
 			tasks: [{
 				id: "36B785C6517F4FD1"
@@ -482,6 +520,7 @@
 			y: 12.0d
 			description: ["You will need a total of five of these energy cells - 3 for the capacitor, and 1 in each of the 2 thrusters."]
 			dependencies: ["5B674C9861BBB1DC"]
+			optional: true
 			id: "0EF1118C3D13D65D"
 			tasks: [{
 				id: "48D14A909D41C9E6"
@@ -502,6 +541,7 @@
 				"52CB46DFD78DF601"
 				"14BB147EA5184E68"
 			]
+			optional: true
 			id: "5B674C9861BBB1DC"
 			tasks: [{
 				id: "19E957370A7B7841"
@@ -540,19 +580,31 @@
 			title: "Tier 2 Jetpack"
 			x: 9.5d
 			y: 4.0d
+			description: [
+				"An Iron Jetpack will probably do in a pinch. If you would like to be able to fly further and faster, then feel free to keep going!"
+				""
+				"Note that these Jetpacks are specially designed to fit on your special dedicated body slot, which means you can still wear a chestplate while using one."
+			]
 			dependencies: ["421C0BF503F1EC3D"]
 			id: "568EF73E9B1C470E"
-			tasks: [{
-				id: "462BD85C90079876"
-				type: "item"
-				item: {
-					id: "ironjetpacks:iron_jetpack"
-					Count: 1b
-					tag: {
-						Throttle: 1.0d
+			tasks: [
+				{
+					id: "462BD85C90079876"
+					type: "item"
+					item: {
+						id: "ironjetpacks:iron_jetpack"
+						Count: 1b
+						tag: {
+							Throttle: 1.0d
+						}
 					}
 				}
-			}]
+				{
+					id: "0E2378C31389EE2D"
+					type: "checkmark"
+					title: "Got it!"
+				}
+			]
 		}
 		{
 			title: "Tier 3 Jetpack"
@@ -566,6 +618,7 @@
 			x: 9.5d
 			y: 8.0d
 			dependencies: ["51903865FE73BECD"]
+			optional: true
 			id: "02DF37426C10390C"
 			tasks: [{
 				id: "7AA9F883D52C1FFE"
@@ -584,6 +637,7 @@
 			x: 9.5d
 			y: 10.0d
 			dependencies: ["3FCA1AB10413654F"]
+			optional: true
 			id: "6763445AB993ED25"
 			tasks: [{
 				id: "4A819D6A6CBA5570"
@@ -602,6 +656,7 @@
 			x: 9.5d
 			y: 12.0d
 			dependencies: ["729864A3652D31A5"]
+			optional: true
 			id: "5F75BDAC0B5C16DB"
 			tasks: [{
 				id: "1E5DAC9993B8CC0B"

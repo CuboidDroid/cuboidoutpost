@@ -1369,7 +1369,7 @@
 		{
 			x: -15.0d
 			y: -0.5d
-			description: ["The Wikidium Chest holds 54 stacks (6 rows), &akeeps&r its content when broken, and &acan&r be opened if obstructed above."]
+			description: ["The Thatldu Chest holds 54 stacks (6 rows), &akeeps&r its content when broken, and &acan&r be opened if obstructed above."]
 			dependencies: ["172866E6C0DDDE2E"]
 			optional: true
 			id: "66F5C500872FDA6A"

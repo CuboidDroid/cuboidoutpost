@@ -35,13 +35,46 @@
 				"09BC0B91BBCD00B8"
 				"0E9672A8D028CA06"
 				"131A4A51271715E2"
+				"58400C24E1A5B14B"
 			]
 			id: "3EB44710A602ED1E"
-			tasks: [{
-				id: "441C3675F6918790"
-				type: "checkmark"
-				title: "What's left in the End?"
-			}]
+			tasks: [
+				{
+					id: "489B46244C56D864"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+				}
+				{
+					id: "039832C9379F82A4"
+					type: "item"
+					item: "thermal:enderium_ingot"
+				}
+				{
+					id: "02BF74D604F29B44"
+					type: "item"
+					item: "powah:crystal_niotic"
+				}
+				{
+					id: "72DD36852D86144C"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+				{
+					id: "737EF7E5A68A6FFA"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+				{
+					id: "79FAE8B2E8970B31"
+					type: "item"
+					item: "thermal:machine_chiller"
+				}
+				{
+					id: "0BF6FBA2FCA09A1E"
+					type: "item"
+					item: "ironfurnaces:rainbow_core"
+				}
+			]
 		}
 		{
 			title: "The Key to the End"
@@ -51,11 +84,9 @@
 			description: [
 				"To enable the Cryogenic Dimensional Teleporter to pierce the veil between this dimension and our target Dimension (The End), we will need to attune it using an Energised End Stone Brick."
 				""
-				"Once you have that, use it on the CDT and you will see it in place. Once the CDT is fully charged, you will be able to right-click on it with an empty hand to be teleported to the target dimension. You'll know it's ready when the key item starts spinning."
+				"Once you have that, use it on the CDT and you will see it hovering in place above the CDT. Once the CDT is fully charged, you will be able to right-click on it with an empty hand to be teleported to the target dimension. You'll know it's ready when the key item starts spinning."
 				""
 				"Make sure you have a way of getting back if you need to!"
-				""
-				"Also, &cmake sure you don't use anything else on the CDT!&f It WILL lose it's tuning and destroy the current key item and/or the item you use on it."
 			]
 			dependencies: ["1BD8C96CC9C7495C"]
 			id: "562DF660E5C68A16"
@@ -88,7 +119,7 @@
 				""
 				"It will definitely be a good idea to place a Waystone in your base, and probably to place one in a safe spot in each dimension you visit, as that will allow you easy and predictable travel moving forward."
 				""
-				"Don't forget to take a Waystone through to the next dimension when you go!"
+				"Don't forget to take a Waystone through to the next dimension when you go! (Cuboid Corp (tm) assumes no responsibility for returning you to your original dimension should you ignore this advice)"
 			]
 			dependencies: ["447CD827C10015DD"]
 			id: "183CEC42DC0F408F"
@@ -190,6 +221,7 @@
 			tasks: [{
 				id: "040E59DAC02B5AA7"
 				type: "dimension"
+				title: "Visit The End Dimension"
 				dimension: "minecraft:the_end"
 			}]
 			rewards: [{
@@ -207,7 +239,7 @@
 			y: 2.0d
 			shape: "square"
 			description: [
-				"(If the dragon is missing, or you just fancy another go, check out the Emergency Items in Appendix E)"
+				"&e(If the dragon is missing, or you just fancy another go, check out the Emergency Items in Appendix E)&f"
 				""
 				"Once you have defeated the Dragon, three things of note will happen:"
 				""

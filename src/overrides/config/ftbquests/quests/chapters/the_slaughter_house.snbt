@@ -26,6 +26,13 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
+			description: [
+				"While the basic Mob Farm works reasonably well, you're going to have to significantly up your game to be able to gather up some of the more exotic materials we need to get your life back on track (or at least derailed and put onto a new track)."
+				""
+				"Once you've got your hands on some Plastic, you will be just about ready to crack on with this next phase of murderization (which is a foreign word, meaning \"obtaining items from beings who no longer have a need for them\")."
+				""
+				"&aSee how to make Plastic in the chapter entitled \"Industrial Foreboding\"&f"
+			]
 			dependencies: [
 				"0ED1096C2B8D864F"
 				"2CDC1C706AFA2E47"
@@ -58,10 +65,33 @@
 				"It's recommended that you use storage drawers with a controller to store the mob drops, and use void upgrades to get rid of any overflow."
 			]
 			id: "3DBEFFF52C75A9B0"
-			tasks: [{
-				id: "3CE179B75F566432"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "69FC9BCE34605A49"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "6292EF3ED698CE9A"
+					type: "item"
+					item: "cuboidmod:salt"
+				}
+				{
+					id: "31C35B85D37C6CEC"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "4606B745D5EFDA2A"
+					type: "item"
+					item: "minecraft:coal"
+				}
+				{
+					id: "65EE9004176945CA"
+					type: "item"
+					item: "cuboidmod:carbon_deposit"
+				}
+			]
 		}
 		{
 			x: -8.5d
@@ -190,6 +220,7 @@
 			y: 13.0d
 			description: ["A faster version of the Vector Plate."]
 			dependencies: ["4CFA3C02614AEF0C"]
+			optional: true
 			id: "7E70885B9774A0F4"
 			tasks: [{
 				id: "6A796785E92613A6"
@@ -202,6 +233,7 @@
 			y: 14.5d
 			description: ["An extremely fast version of the Vector Plate"]
 			dependencies: ["7E70885B9774A0F4"]
+			optional: true
 			id: "1A0547CCF01A6F29"
 			tasks: [{
 				id: "2DAD779C224D3194"
@@ -214,6 +246,7 @@
 			y: 11.5d
 			description: ["Damages mobs that touch it with magic damage. Does not drop player-only drops."]
 			dependencies: ["56BC496DD932D087"]
+			optional: true
 			id: "2C2D2785E6C04337"
 			tasks: [{
 				id: "09C070CB198F3E88"
@@ -226,6 +259,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and an Iron Sword you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "56BC496DD932D087"
 			tasks: [{
 				id: "1A13CDBE0FA90083"
@@ -292,6 +326,7 @@
 			y: 11.5d
 			description: ["Poisons mobs that touch it"]
 			dependencies: ["27FBE8609BFAB2CA"]
+			optional: true
 			id: "585ED5732E8783D1"
 			tasks: [{
 				id: "48BB959947C2B1BC"
@@ -304,6 +339,7 @@
 			y: 11.5d
 			description: ["Weakens mobs that touch it"]
 			dependencies: ["3C36E6A9A874BC75"]
+			optional: true
 			id: "1EE0357987D06DA7"
 			tasks: [{
 				id: "19DE368B5103D7CF"
@@ -316,6 +352,7 @@
 			y: 11.5d
 			description: ["Slows mobs that touch it"]
 			dependencies: ["038A57EFE4380545"]
+			optional: true
 			id: "1F43EA35F5870C9D"
 			tasks: [{
 				id: "6065F0745F16F6BD"
@@ -328,6 +365,7 @@
 			y: 11.5d
 			description: ["Inflicts mobs with withering"]
 			dependencies: ["7D46D282381244B0"]
+			optional: true
 			id: "47C1CF2DD5F11C1D"
 			tasks: [{
 				id: "7F414318D87EDA2C"
@@ -340,6 +378,7 @@
 			y: 11.5d
 			description: ["Sets mobs on fire"]
 			dependencies: ["5EEEE4D69AC77C00"]
+			optional: true
 			id: "2F7235946BA42D67"
 			tasks: [{
 				id: "129EB6CB7240CCA3"
@@ -352,6 +391,7 @@
 			y: 11.5d
 			description: ["Inflicts mobs with mining fatigue"]
 			dependencies: ["6BD537EE4A9505BE"]
+			optional: true
 			id: "643F8D9B242B7E3B"
 			tasks: [{
 				id: "7EB627BF28137B64"
@@ -364,6 +404,7 @@
 			y: 11.5d
 			description: ["Makes mobs that touch it more noticeable"]
 			dependencies: ["77770D218143403B"]
+			optional: true
 			id: "2AF7EB3C8E583BE6"
 			tasks: [{
 				id: "696DEB8D4BFC007B"
@@ -376,6 +417,7 @@
 			y: 11.5d
 			description: ["Inflicts mobs with hunger"]
 			dependencies: ["0485FD94C70A3624"]
+			optional: true
 			id: "194EC6D5F9F82F93"
 			tasks: [{
 				id: "004D5BCE4B3246ED"
@@ -388,6 +430,7 @@
 			y: 11.5d
 			description: ["Blinds mobs that touch it"]
 			dependencies: ["2388683702A74922"]
+			optional: true
 			id: "6CB8E29DD5BCD84C"
 			tasks: [{
 				id: "0E16F21CA7E49DF5"
@@ -400,6 +443,7 @@
 			y: 11.5d
 			description: ["Makes mobs nauseous"]
 			dependencies: ["1E36B230B43F850C"]
+			optional: true
 			id: "2AF57E65CBA85DD3"
 			tasks: [{
 				id: "319D16AC48B79F45"
@@ -413,6 +457,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and an Ink Sac, you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "2388683702A74922"
 			tasks: [{
 				id: "4EDD802B8828BDCF"
@@ -426,6 +471,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and a Nether Wart, you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "1E36B230B43F850C"
 			tasks: [{
 				id: "1EB60A90A94DEF66"
@@ -439,6 +485,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and a Pufferfish you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "27FBE8609BFAB2CA"
 			tasks: [{
 				id: "0956FAB0D0208927"
@@ -452,6 +499,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and a Block of Ice you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "038A57EFE4380545"
 			tasks: [{
 				id: "2C902733477696C8"
@@ -465,6 +513,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and a Flint and Steel you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "5EEEE4D69AC77C00"
 			tasks: [{
 				id: "0BE4837C1ADB0C79"
@@ -484,6 +533,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and some Glowstone you can make an ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "77770D218143403B"
 			tasks: [{
 				id: "386A7620610E593F"
@@ -497,6 +547,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and a Fermented Spider Eye, you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "3C36E6A9A874BC75"
 			tasks: [{
 				id: "3D50F790B3226D2A"
@@ -510,6 +561,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and a Wither Rose, you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "7D46D282381244B0"
 			tasks: [{
 				id: "7195C7E5537D5923"
@@ -523,6 +575,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and Prismarine Crystals, you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "6BD537EE4A9505BE"
 			tasks: [{
 				id: "328C51CCF3AC00F8"
@@ -536,6 +589,7 @@
 			y: 10.0d
 			description: ["With a few Blank Plates and some Rotten Flesh, you can make a ..."]
 			dependencies: ["23E7764EF9EF17B8"]
+			optional: true
 			id: "0485FD94C70A3624"
 			tasks: [{
 				id: "4983F1C13D781FD6"
@@ -572,11 +626,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "square"
-			description: [
-				"Grab yourself a bucket of Pink Slime - it's a required ingredient for making Advanced Machine Frames."
-				""
-				"If you want a Pink Slime ball, place down the Pink Slime bucket in a puddle and wait a bit. If your name rhymes with FrozenArchipecked, then make sure you don't look at it directly. For everyone else, it doesn't matter... it just takes a while sometimes for a Pink Slime mob to appear. Slay it, and hopefully it will drop a Pink Slime ball for you."
-			]
+			description: ["Grab yourself a bucket of Pink Slime - it's a required ingredient for making Advanced Machine Frames."]
 			dependencies: ["6DDDE1A0CBBF73F0"]
 			id: "370577641CAB9072"
 			tasks: [{
@@ -594,6 +644,7 @@
 			dependencies: [
 				"370577641CAB9072"
 				"3DE054F1DAE75C18"
+				"462F76F61874D5D7"
 			]
 			id: "3603C1EDE06AF667"
 			tasks: [{
@@ -618,6 +669,7 @@
 				"Essence is extremely useful though - so it might be a good idea to stock up on it a bit before changing mode."
 			]
 			dependencies: ["3603C1EDE06AF667"]
+			optional: true
 			id: "377C09C3874A8B57"
 			tasks: [{
 				id: "0C98892FC88CDF25"
@@ -631,11 +683,12 @@
 			y: -2.0d
 			subtitle: "(a parody by \"Weird Al\" Yankovic)"
 			description: [
-				"Ever wanted to clone a mob? Maybe clone a cow, or a skeleton, or perhaps a pink slime?"
+				"Ever wanted to clone a mob? Maybe clone a cow, or a skeleton, or perhaps a zombie?"
 				""
 				"Well, with a Mob Duplicator - you'll be one step closer!"
 			]
 			dependencies: ["7DB117C3899E0055"]
+			optional: true
 			id: "1206A4293BB2489D"
 			tasks: [{
 				id: "5E82CF71056BA49F"
@@ -653,11 +706,14 @@
 				"All you need to do is use one of these on a Mob and it will be trapped inside the Mob Imprisonment Tool."
 				""
 				"To release the Mob, just use the tool again."
+				""
+				"&aGhast Tears can be obtained by sieving Soul Sand using a Diamond Mesh&f"
 			]
 			dependencies: [
 				"33B9229822CC74AF"
 				"1D6A08BEFDD5DB77"
 			]
+			optional: true
 			id: "1DC41CB20494B832"
 			tasks: [{
 				id: "4CD2A4D8018F35E5"
@@ -678,12 +734,13 @@
 				""
 				"- double-check the working area and adjust as needed"
 				""
-				"Please be responsible / careful when attempting to duplicate the more demanding mobs like rabbits and withers."
+				"Please be responsible / careful when attempting to duplicate the more demanding mobs like rabbits and wither skeletons."
 			]
 			dependencies: [
 				"1206A4293BB2489D"
 				"1DC41CB20494B832"
 			]
+			optional: true
 			id: "720F353F9388C386"
 			tasks: [{
 				id: "4B658F73D630DBA5"
@@ -715,6 +772,11 @@
 			x: 2.0d
 			y: 2.0d
 			shape: "gear"
+			description: [
+				"Another important ingredient for moving on to the more advanced machines needed here is the Simple Machine Frame."
+				""
+				"&aSee how to make a Simple Machine Frame in the chapter entitled \"Industrial Foreboding\"&f"
+			]
 			dependencies: [
 				"0654D844EC12E8A2"
 				"33B9229822CC74AF"
@@ -822,6 +884,7 @@
 			y: -2.0d
 			description: ["Fill a bucket with Essence - you're going to want to put some in one of the machines up next."]
 			dependencies: ["377C09C3874A8B57"]
+			optional: true
 			id: "7DB117C3899E0055"
 			tasks: [{
 				id: "0149068486679F05"
@@ -834,13 +897,14 @@
 			x: 8.0d
 			y: 0.0d
 			description: [
-				"The Enchantment Extractor uses power to pull enchantments off enchanted items and places the on books (which you must supply). The item, without enchantments, gets placed into an output slot."
+				"The Enchantment Extractor uses power to pull enchantments off enchanted items and places them on books (which you must supply). The item, without enchantments, gets placed into an output slot."
 				""
 				"Some enchantments (primarily curses) cannot be extracted."
 				""
 				"This is a really useful way, when coupled with a mob farm that drops enchanted items or a Marine Fisher which provides some enchanted items, to get a wide variety of enchanted books to work with."
 			]
 			dependencies: ["3603C1EDE06AF667"]
+			optional: true
 			id: "1E352617334FDFBF"
 			tasks: [{
 				id: "2BA5C64B963F38A9"
@@ -860,6 +924,7 @@
 				"The outputs can be configured so that the enchanted and normal items can be piped out from different sides."
 			]
 			dependencies: ["1E352617334FDFBF"]
+			optional: true
 			id: "49BE28927FB5382E"
 			tasks: [{
 				id: "02DB45BE9C11B489"
@@ -877,6 +942,7 @@
 				"Coupled with an enchantment extractor, this is a great way to get the enchantments you really want on your armor, weaponry and tools."
 			]
 			dependencies: ["7DB117C3899E0055"]
+			optional: true
 			id: "49B20F558AA370B9"
 			tasks: [{
 				id: "521F65F641785462"
@@ -893,6 +959,7 @@
 				"49B20F558AA370B9"
 				"49BE28927FB5382E"
 			]
+			optional: true
 			id: "321DD135DB3E839F"
 			tasks: [{
 				id: "6C28BF2EFD98B0C2"
@@ -902,10 +969,11 @@
 		}
 		{
 			title: "Mechanical Spawning"
-			x: 4.0d
-			y: 2.0d
+			x: 3.0d
+			y: -1.0d
 			description: ["With Liquid Meat you can make Mechanical Dirt. This special dirt, when supplied with power and a steady supply of Liquid Meat, will force the spawning of hostile Mobs above it, which can be a great way to upgrade your mob farm."]
 			dependencies: ["6DDDE1A0CBBF73F0"]
+			optional: true
 			id: "3A83A36C23765FD2"
 			tasks: [{
 				id: "2E44C9088F53C760"

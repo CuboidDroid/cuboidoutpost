@@ -1,7 +1,7 @@
 {
 	id: "5B7F1F5BEAA79098"
 	group: "4F582DBBFACF1F69"
-	order_index: 2
+	order_index: 1
 	filename: "allo_allo_alloy"
 	title: "Allo? Allo? Alloy!"
 	icon: "thermal:signalum_ingot"
@@ -18,14 +18,17 @@
 				""
 				"Be careful though! If you try too much at once, you might end up creating alloys you did not mean to!"
 				""
+				"Many of the upcoming advanced machinery will require alloyed materials to be able to construct them, so if you ever find yourself wondering what is needed to make an alloy, you can check this section of the survival guide."
+				""
 				"Unlocked in:"
-				"- Getting Tinks Done"
+				"- &aGetting Tinks Done&f"
 			]
 			dependencies: ["495C59666CD6C3A0"]
 			id: "369719631E5F14B6"
 			tasks: [{
-				id: "6D5A4E7043C6D43E"
-				type: "checkmark"
+				id: "37128A3A1919068D"
+				type: "item"
+				item: "mekanism:ingot_osmium"
 			}]
 		}
 		{
@@ -158,7 +161,11 @@
 			x: 6.0d
 			y: 4.0d
 			shape: "square"
-			description: ["Some alloys cannot be made in a Smeltery and require specialized equipment like the Induction Smelter in order to make them."]
+			description: [
+				"Some alloys cannot be made in a Smeltery and require specialized equipment like the Induction Smelter in order to make them."
+				""
+				"We have included more information about the bits and bobs required for an Induction Smelter in the section called \"Ther-malcontents\""
+			]
 			dependencies: ["067D1B88BA7BF46C"]
 			id: "4212A4F682A37D7D"
 			tasks: [{
@@ -260,7 +267,7 @@
 			tasks: [{
 				id: "326A70FC9230332D"
 				type: "item"
-				title: "Any #forge:ingots/iron"
+				title: "Iron Ingot"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -275,7 +282,7 @@
 			x: -0.5d
 			y: 3.0d
 			description: [
-				"Pig Iron is an alloy of Iron, Blood, and Clay. You will need 1 ingot, 250mb of Blood, and 1 ball of clay for two Pig Iron Ingots."
+				"Pig Iron is an alloy of Iron, Blood, and Clay. You will need 1 Iron Ingot, 250mb of Blood, and 1 ball of clay for two Pig Iron Ingots."
 				""
 				"Hint: Putting Rotten Flesh into the smeltery will yield 50Mb of blood."
 			]

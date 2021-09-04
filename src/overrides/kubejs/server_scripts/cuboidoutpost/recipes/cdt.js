@@ -30,7 +30,8 @@ onEvent('recipes', e => {
         {"item": "minecraft:end_stone_bricks"},
         {"tag": "forge:storage_blocks/redstone"},
         {"item": "powah:capacitor_blazing"},
-        {"item": "powah:capacitor_blazing"}
+        {"item": "powah:capacitor_blazing"},
+        {"item": "ironfurnaces:rainbow_core"}
       ],
       "energy": 1500000,
       "result": {

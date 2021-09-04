@@ -16,7 +16,7 @@
 			description: [
 				"Now that you've pulled together all of the requirements needed, you should be able to make yourself a block of Energized Thatlduvium."
 				""
-				"Apart from looking a bit ridiculous and cool at the same time, the most important thing to recognise is that this block of material, is that when it is used in a Cryogenic Dimensional Teleporter, we believe it will open up a pathway to another new dimension - but this one is something special..."
+				"Apart from looking a bit ridiculous and cool at the same time, the most important thing to recognise is that this block of material, is that when it is used in a Cryogenic Dimensional Teleporter, we believe it will open up a pathway to another new dimension. Some postulate that this is just going to target an existing dimension, whereas others (including the cake lady, Chaynne, for whatever that's worth) think it's actually going to be brought into existence! Either way, we believe this one is something special..."
 				""
 				"According to the Science Division, this dimension should be teeming with life, should have sentient beings (albeit a little \"undercooked\"), and should offer you a chance at having a fairly normal, if agrarian, existence. Given where we are and what's happened to your home, this has got to be an upgrade. Right?"
 				""
@@ -37,6 +37,12 @@
 				id: "78AC14702F7E8F14"
 				type: "item"
 				item: "cuboidmod:energized_thatlduvium"
+			}]
+			rewards: [{
+				id: "4BB7F44427C78A91"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "cuboid_overworld_access"
 			}]
 		}
 		{
@@ -127,6 +133,8 @@
 				""
 				"There is more, though... there are a bunch of additional structures, dungeons, villagers and pillagers, and more. It's entirely up to you as to whether you feel you're done, want to explore some more, or want to dig deeper into the different tools and technologies available."
 				""
+				"Your main choice though is this... pillage this dimension for personnel and materials to supplement your existing base and world, or head out an subjugate the masses on this one?"
+				""
 				"Whatever you decide, thanks for taking the time and putting in the effort to get this far! We hope you've found the end of existence as you knew it to be a rewarding experience."
 				""
 				"Yours sincerely,"
@@ -138,6 +146,12 @@
 			tasks: [{
 				id: "01C2A1EAD965AA7F"
 				type: "checkmark"
+			}]
+			rewards: [{
+				id: "284B6E4AC7222E73"
+				type: "choice"
+				icon: "bountifulbaubles:horseshoe_balloon"
+				table_id: 14445345906588080L
 			}]
 		}
 	]

@@ -11,8 +11,8 @@
 		{
 			title: "Moving on down"
 			icon: "minecraft:oak_log"
-			x: -14.0d
-			y: -9.0d
+			x: -17.0d
+			y: -10.5d
 			shape: "gear"
 			description: [
 				"Congratulations! You've just about hit rock bottom!"
@@ -39,8 +39,8 @@
 		}
 		{
 			title: "Not for sheep"
-			x: -18.0d
-			y: -7.0d
+			x: -23.5d
+			y: -8.0d
 			shape: "square"
 			description: [
 				"Now that you have easy access to wood and sticks, you can make yourself a Wood Crook."
@@ -63,8 +63,8 @@
 		}
 		{
 			title: "Silk is mainly Protein Fiber"
-			x: -17.0d
-			y: -2.0d
+			x: -20.5d
+			y: -5.5d
 			shape: "square"
 			description: [
 				"Did you know that silk is primarily made up of Protein Fibers?"
@@ -82,8 +82,8 @@
 		}
 		{
 			title: "A crunchy little delicacy"
-			x: -19.0d
-			y: -1.0d
+			x: -19.5d
+			y: -7.0d
 			description: [
 				"After a while, you'll probably have more silkworms than you will know what to do with."
 				""
@@ -101,8 +101,8 @@
 		}
 		{
 			title: "String theory"
-			x: -16.0d
-			y: -3.0d
+			x: -19.0d
+			y: -5.5d
 			shape: "square"
 			description: [
 				"You should have string already, and know how to get more, but if you need a lot of it in short order, the easiest way now available to you is by puttng those silkworms to good use."
@@ -147,8 +147,8 @@
 		}
 		{
 			title: "The Shimmy Shimmy Shake"
-			x: -16.0d
-			y: -7.0d
+			x: -17.0d
+			y: -8.0d
 			shape: "gear"
 			description: [
 				"Now that we have some wood, we can put together a basic Sieve (or more) to help with resource gathering."
@@ -187,7 +187,7 @@
 		{
 			title: "What's in a name?"
 			x: -14.0d
-			y: -7.0d
+			y: -8.0d
 			shape: "square"
 			subtitle: "A lot! Honestly!"
 			description: [
@@ -252,8 +252,8 @@
 		}
 		{
 			title: "Barrels of fun"
-			x: -12.0d
-			y: -7.0d
+			x: -11.0d
+			y: -8.0d
 			shape: "square"
 			description: ["Oak barrels can be used to mix dry ingredients into liquids. They can also be used to catch rain water, as well as composting materials into Dirt."]
 			dependencies: ["3851A991AC7B9CC6"]
@@ -437,8 +437,8 @@
 		}
 		{
 			title: "The Unforbidden Fruit"
-			x: -20.0d
-			y: -5.0d
+			x: -23.5d
+			y: -5.5d
 			shape: "square"
 			description: [
 				"Once you have a few apples, a few more opportunities will open up to you."
@@ -480,8 +480,8 @@
 		}
 		{
 			title: "Rotten to the core"
-			x: -19.0d
-			y: -2.0d
+			x: -22.0d
+			y: -5.5d
 			shape: "square"
 			description: [
 				"An Apple and some Rotten Flesh in the QTC results in a Rotten Apple. The worms in it are pretty useless though - we're going to take care of that next."
@@ -535,7 +535,7 @@
 		{
 			title: "Rocks"
 			x: -13.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"Some pebbles in a crafting table can be combined into different forms of rock."
@@ -671,7 +671,7 @@
 		{
 			title: "Andesite Alloy Ahoy"
 			x: -13.0d
-			y: 0.0d
+			y: 0.5d
 			shape: "gear"
 			description: [
 				"Combining nuggets of Zinc with Andesite results in a unique and useful Andesite Alloy, which will open the gates to rediscovering the wonders of rotational force, and is the path the recovering the secrets of Iron production."
@@ -694,7 +694,7 @@
 		{
 			title: "Zinc and Tin"
 			x: -10.5d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: ["Sieving Crushed Andesite yields pieces of Zinc and Tin that can be combined into Chunks, which in turn can be processed into dusts or ingots."]
 			dependencies: [
@@ -720,7 +720,7 @@
 		{
 			title: "Silver and Aluminium"
 			x: -5.5d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: ["Sieving Crushed Diorite yields pieces of Silver and Aluminium (a.k.a. Aluminum) that can be combined into Chunks, which in turn can be processed into dusts or ingots."]
 			dependencies: [
@@ -746,7 +746,7 @@
 		{
 			title: "Copper and Nickel"
 			x: -8.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: ["Sieving Crushed Granite yields pieces of Copper and Nickel that can be combined into Chunks, which in turn can be processed into dusts or ingots."]
 			dependencies: [
@@ -772,7 +772,7 @@
 		{
 			title: "The Kitchen Zinc"
 			x: -11.5d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			dependencies: ["2A78D30A0B063CD4"]
 			id: "542FE8F3A4EDD091"
@@ -801,7 +801,7 @@
 		{
 			title: "Tinnitus"
 			x: -10.0d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"From Tin Cans to advanced machinery, tin is a super useful material for making all sorts of stuff."
@@ -835,7 +835,7 @@
 		{
 			title: "The Fuzz"
 			x: -8.5d
-			y: 0.0d
+			y: 0.5d
 			shape: "gear"
 			description: [
 				"Copper is a truly versatile metal. It is a key component in many machines, and has many alloys too."
@@ -870,7 +870,7 @@
 		{
 			title: "Half a Dime"
 			x: -7.0d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			description: ["Unfortunately, two Nickels don't make a Dime. Nickel, however, has a couple of important alloys you'll need to get your hands on later."]
 			dependencies: ["0FF5B2944BADD9E4"]
@@ -900,7 +900,7 @@
 		{
 			title: "Hi ho Silver!"
 			x: -5.5d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"It's so shiny!"
@@ -934,7 +934,7 @@
 		{
 			title: "Don't forget the second I"
 			x: -4.0d
-			y: 0.0d
+			y: 0.5d
 			shape: "gear"
 			description: [
 				"Ok, ok. You can call it Aluminum too."
@@ -968,8 +968,8 @@
 		}
 		{
 			title: "Curing is a process"
-			x: -20.0d
-			y: 0.0d
+			x: -20.5d
+			y: -1.0d
 			description: ["Curing is a food preservation process. By using Apple Cider Vinegar and Salt, it's possible to cure the nasties out of Rotten Flesh too."]
 			dependencies: [
 				"5FFEBF55D0A30DAB"
@@ -1004,8 +1004,8 @@
 		}
 		{
 			title: "A little helper"
-			x: -18.0d
-			y: -3.0d
+			x: -16.5d
+			y: -3.5d
 			description: [
 				"There's a way to automatically sieve using a machine. We're calling it the Auto Sieve."
 				""
@@ -1045,8 +1045,8 @@
 		}
 		{
 			title: "Gone fishing"
-			x: -16.0d
-			y: 0.0d
+			x: -19.0d
+			y: -2.5d
 			subtitle: "(waders optional)"
 			description: [
 				"It seems that some of the microbes in the soil you've been making have made their way into the water. The star in this solar system seems to be rapidly mutating the microbes into fish!"
@@ -1070,8 +1070,8 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: 1.0d
+			x: -17.5d
+			y: -2.0d
 			dependencies: ["35F547ACB0E2CFD8"]
 			id: "1D822A48AB7D58C5"
 			tasks: [{
@@ -1089,8 +1089,8 @@
 		}
 		{
 			title: "A taste of Iceland"
-			x: -16.0d
-			y: 2.0d
+			x: -15.5d
+			y: -1.5d
 			description: ["While traditional Hardfiskur is wind-dried on wooden racks on the foreshore, the drying cupboard can be used to produce a reasonable facsimile at a (relatively) rapid pace."]
 			dependencies: [
 				"1D822A48AB7D58C5"
@@ -1105,7 +1105,7 @@
 		}
 		{
 			title: "Biltong!"
-			x: -18.0d
+			x: -15.5d
 			y: 0.0d
 			description: ["Cured Flesh can be dried out to make Zombie Biltong - a pretty decent food source, even if it does taste nothing like Beef Biltong (which is absolutely delicious!)"]
 			dependencies: [

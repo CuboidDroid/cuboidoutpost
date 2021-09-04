@@ -174,5 +174,25 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			title: "Making the most of this Survival Guide"
+			x: 10.0d
+			y: 4.5d
+			description: [
+				"This Survival Guide has been lovingly crafted (even if mainly out of guilt) to help you make a new life for yourself in this barren and somewhat inhospitable land you're stranded in."
+				""
+				"The first thing to note is that it's important to read what we've written. Yes, we do waffle on a bit, but there's usually a point to it. If you skim through, you might miss an important bit of information, and die a cold, lonely, horrible death. The choice is yours though."
+				""
+				"To complete a step, you will need to complete the listed tasks. This surivival guide will automatically attempt to recognise when you have completed something, but it's attuned to you - so ensure you hold the item yourself for it to be automatically recognised!"
+				""
+				"If you're wondering why a particular step is greyed-out and unavailable to you, there is a little black arrow in the \"Tasks\" box - if you open that up you will see a list of other steps you will need to complete first. You can select one from that list to be taken to that step in the guide."
+			]
+			optional: true
+			id: "108D30AC48535DA5"
+			tasks: [{
+				id: "09B1BA699B8963A8"
+				type: "checkmark"
+			}]
+		}
 	]
 }

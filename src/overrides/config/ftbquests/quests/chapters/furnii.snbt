@@ -1,7 +1,7 @@
 {
 	id: "428ED2EA3F42160E"
 	group: "4F582DBBFACF1F69"
-	order_index: 1
+	order_index: 0
 	filename: "furnii"
 	title: "Baste the Rainbow"
 	icon: "ironfurnaces:million_furnace"
@@ -21,19 +21,29 @@
 				"In particular, the top tier Rainbow Furnace is really, really, really fast - so while it takes a bit of effort to obtain, it can significantly cut down the total time of crafting when there's a lot of smelting involved."
 				""
 				"All of this range of Furnaces can be configured in their GUI to control their input and output directions, can have upgrades applied, and have redstone control options, which is a step up from the stone and local variants of Furnaces."
+				""
+				"There's also something else... it's something called the Rainbow Core, which is not only part of the Rainbow Furnace, but an important part we'll need again later."
 			]
 			dependencies: ["164AA3AA7EEDB5DC"]
 			id: "6F523723CEDC4C89"
-			tasks: [{
-				id: "5BA938E96FD3665A"
-				type: "checkmark"
-				title: "Start Basting!"
-			}]
+			tasks: [
+				{
+					id: "00BEF0EFD5583F21"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "39EF1551D09C6EAE"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+			]
 		}
 		{
 			title: "Iron Furnaces"
 			x: 1.0d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"An Iron Furnace is the basic improved furnace."
 				""
@@ -93,6 +103,7 @@
 			title: "Golden Furnaces"
 			x: 3.0d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"The Golded Furnace smelts items in 6 seconds (just under 1.7x faster than a standard stone furnace)."
 				""
@@ -110,6 +121,7 @@
 			title: "Diamond Furnaces"
 			x: 4.5d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"A Diamond Furnace smelts an item in 4 seconds (2.5x faster than a standard stone furnace)."
 				""
@@ -127,6 +139,7 @@
 			title: "Emerald Furnaces"
 			x: 6.0d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"The the Crystal Furnace, the Emerald Furnace smelts an item in 2 seconds (5x faster than a standard stone furnace)."
 				""
@@ -144,6 +157,7 @@
 			title: "Obsidian Furnaces"
 			x: 7.5d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"The Obsidian Furnace smelts an item every second (10x faster than a standard stone furnace)."
 				""
@@ -178,10 +192,12 @@
 			title: "Netherite Furnaces"
 			x: 9.0d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"The Netherite furnace smelts an item every 0.25 seconds! That's 40x faster than a standard stone furnace."
 				""
 				"It is an upgrade from the Obsidian Furnace."
+				""
 			]
 			dependencies: ["37E89D33460536FD"]
 			id: "248E99BD7D655952"
@@ -219,15 +235,24 @@
 			title: "Rainbow Core"
 			x: 11.0d
 			y: 1.0d
+			shape: "gear"
 			description: [
 				"The top tier furnace, the Rainbow Furnace, requires a special Rainbow Core."
 				""
 				"It's made from 2 Netherite Furnaces and 7 specific Stained Glass blocks."
+				""
+				"The Rainbow Core is also going to be needed for a special item later - to save you from missing out on a Rainbow Furnace, we at Cuboid Corp (tm) have all scrounged together enough to present you with a spare as a reward."
 			]
 			dependencies: ["248E99BD7D655952"]
+			size: 1.5d
 			id: "58400C24E1A5B14B"
 			tasks: [{
 				id: "59727F13D36F6A8F"
+				type: "item"
+				item: "ironfurnaces:rainbow_core"
+			}]
+			rewards: [{
+				id: "11C3BCE68314B3DD"
 				type: "item"
 				item: "ironfurnaces:rainbow_core"
 			}]
