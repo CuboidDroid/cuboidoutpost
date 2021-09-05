@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Cuboid Outpost",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "CuboidDroid",
   "files": [
     {
@@ -262,6 +262,11 @@
     {
       "projectID": 277616,
       "fileID": 3355731,
+      "required": true
+    },
+    {
+      "projectID": 414640,
+      "fileID": 3424072,
       "required": true
     },
     {
