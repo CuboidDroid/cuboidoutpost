@@ -163,7 +163,10 @@
 				""
 				"It can be created by upgrading either a Crystal Furnace or an Emerald Furnace."
 			]
-			dependencies: ["16046F3BCF2AE6D4"]
+			dependencies: [
+				"16046F3BCF2AE6D4"
+				"19E59602755AA85F"
+			]
 			id: "37E89D33460536FD"
 			tasks: [{
 				id: "6C5D96B25CFC90A0"
@@ -369,6 +372,32 @@
 				id: "614174FEE0F06914"
 				type: "item"
 				item: "ironfurnaces:augment_fuel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"For the next upgrade, you'll need blaze rods. Unfortunately, there's really only one way to get them..."
+				""
+				"Make yourself a Blazing Doll and use it on a Stone Barrel full of Lava. That should, as far as we can tell, summon a mob called a Blaze. Kill the Blaze (it's self defense really - you'll see!), and hopefully it will drop some Blaze Rods for you."
+			]
+			hide_dependency_lines: true
+			dependencies: ["16046F3BCF2AE6D4"]
+			id: "19E59602755AA85F"
+			tasks: [{
+				id: "3E54806CC2FAEB93"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2L
+			}]
+			rewards: [{
+				id: "646DD3CFC39AC6FC"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2
+				random_bonus: 6
 			}]
 		}
 	]

@@ -28,15 +28,6 @@
 				""
 				"- have a set of tools, some food, some fuel and some building materials in case you end up needing to stay there a while"
 			]
-			dependencies: [
-				"10E2C4E20F68BED8"
-				"7DB0567D4BF1657C"
-				"5FB416898A60641C"
-				"09BC0B91BBCD00B8"
-				"0E9672A8D028CA06"
-				"131A4A51271715E2"
-				"58400C24E1A5B14B"
-			]
 			id: "3EB44710A602ED1E"
 			tasks: [
 				{
