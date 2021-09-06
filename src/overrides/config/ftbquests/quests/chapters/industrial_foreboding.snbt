@@ -93,7 +93,7 @@
 			y: 0.5d
 			shape: "square"
 			description: [
-				"Fluid extractors need to be placed facing a log. Have a look at the uses of a Fluid Extractor to see the list, but the thing you should know is that different types of wood produce different amounts of Latex, and Acacia is king in this regard! When correctly positioned, the Fluid Extractor will (very) slowly start destroying the log placed in front of it, sucking out all of the Latex and putting it into it's internal tank."
+				"Fluid extractors need to be placed facing a log. Have a look at the uses of a Fluid Extractor to see the list, but the thing you should know is that different types of wood produce different amounts of Latex, and Acacia is king in this regard! When correctly positioned, the Fluid Extractor will (very) slowly start destroying the log placed in front of it, sucking out all of the Latex and putting it into its internal tank."
 				""
 				"You'll very quickly notice that the Fluid Extractor runs quite slowly! There are a few ways you can speed this up..."
 				""

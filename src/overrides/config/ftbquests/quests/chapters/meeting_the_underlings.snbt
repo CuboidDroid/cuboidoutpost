@@ -16,7 +16,7 @@
 			description: [
 				"By now you've got the hang of that totally scientific method of creating Spawn Eggs. There are a few more creatures you can bring back into existence at this stage. Only one more requires a puddle of Witchwater, one requires Sea Water, and the rest can use some of the fruits of our labour so far - Milk, mixed with Salt, for Lactic Acid."
 				""
-				"Note that you only need any 3 of these spawn eggs to achieve sufficient biodiversity to move on to the \"Utterly Delicious\" chapter. If you'd really like more of a menagerie, please feel free to make them all!"
+				"Note that &ayou only need any 3 of these&f spawn eggs to achieve sufficient biodiversity to move on to the \"Utterly Delicious\" chapter. If you'd really like more of a menagerie, please feel free to make them all!"
 			]
 			dependencies: ["4D0F1810876E3DF6"]
 			id: "659F614DFFD07509"
@@ -321,6 +321,7 @@
 			x: -8.5d
 			y: 6.5d
 			shape: "gear"
+			description: ["As soon as you've made 3 of these additional eggs you should be able to complete this step."]
 			hide_dependency_lines: true
 			min_required_dependencies: 3
 			dependencies: [

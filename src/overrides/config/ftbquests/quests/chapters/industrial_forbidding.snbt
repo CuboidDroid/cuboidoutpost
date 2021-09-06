@@ -42,7 +42,7 @@
 			title: "Breaking Bad"
 			x: -1.5d
 			y: -1.0d
-			description: ["The Block Breaker is a simple machine that simply breaks any block immediately in front of it and puts the block into it's inventory, ready to be piped out or picked up later."]
+			description: ["The Block Breaker is a simple machine that simply breaks any block immediately in front of it and puts the block into its inventory, ready to be piped out or picked up later."]
 			dependencies: ["76732FBE9A8C66D9"]
 			id: "77411B682D02F4E2"
 			tasks: [{
@@ -69,7 +69,7 @@
 			title: "Slurp!"
 			x: -1.5d
 			y: -4.0d
-			description: ["The Fluid Collector will drain a fluid source block in front of it and put it into it's internal tank, ready to be piped out."]
+			description: ["The Fluid Collector will drain a fluid source block in front of it and put it into its internal tank, ready to be piped out."]
 			dependencies: ["76732FBE9A8C66D9"]
 			id: "067FBABC0776FE74"
 			tasks: [{
@@ -179,7 +179,7 @@
 			description: [
 				"If a steady supply of milk or wool is what you need, look no further than the Animal Rancher."
 				""
-				"This machine can automatically shear sheep and milk cows in it's range."
+				"This machine can automatically shear sheep and milk cows in its range."
 				""
 				"The range can be increased using range addons - for example a +1 Range Addon will move the centre of the area of effect 1 block further away from the Animal Rancher, and increase the area by 1 block in each direction, creating a 3x3 area of effect in front of the machine."
 				""
@@ -198,7 +198,7 @@
 			x: 7.0d
 			y: -4.5d
 			description: [
-				"The Animal Feeder can take animal feed items from its internal inventory and feed any animals in it's area of effect automatically as soon as they are hungry."
+				"The Animal Feeder can take animal feed items from its internal inventory and feed any animals in its area of effect automatically as soon as they are hungry."
 				""
 				"If feeding the animal meets its requirements to breed (e.g. wheat being fed to two cows), then the animals will breed. So long as you are able to keep the feed items stocked up, the animals will continue to be bred."
 				""

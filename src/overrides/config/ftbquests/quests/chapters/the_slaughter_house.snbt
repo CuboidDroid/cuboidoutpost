@@ -826,7 +826,7 @@
 				""
 				"It is recommended that precautions be taken in case the power supply fails - perhaps use something like Hardened Glass to protect yourself and the nearby area in case of catastrophic power failure. Remember to build the Wither before sealing it in."
 				""
-				"Just a reminder - to build a wither, make a T shape from 4 Soul Sand, and place 3 Wither Skeleton Skulls on top of the 3 Soul Sand making the top of the T shape. The Wither will appear as soon as the final Wither Skeleton Skull is placed. As it is in the stasis field (you remembered to turn it on first right?), it should be held in place in it's initial phase."
+				"Just a reminder - to build a wither, make a T shape from 4 Soul Sand, and place 3 Wither Skeleton Skulls on top of the 3 Soul Sand making the top of the T shape. The Wither will appear as soon as the final Wither Skeleton Skull is placed. As it is in the stasis field (you remembered to turn it on first right?), it should be held in place in its initial phase."
 			]
 			dependencies: [
 				"58EBBFFFCA2F18BE"
