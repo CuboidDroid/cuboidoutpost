@@ -350,7 +350,7 @@
 			description: [
 				"Slimesteel can be alloyed in a Smeltery by combining an Iron Ingot, a Skyslime Ball, and an ingot of Seared Stone."
 				""
-				"Hint: 1 grout in a smeltery will produce 2 seared stone, and a seared brick is the equivalent of 1 seared stone."
+				"Hint: 1 Grout in a smeltery will produce 2 Seared Stone, and a Seared Brick is the equivalent of 1 Seared Stone."
 			]
 			dependencies: ["369719631E5F14B6"]
 			id: "3B410436A764384A"

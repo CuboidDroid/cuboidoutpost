@@ -57,11 +57,11 @@
 			x: 1.5d
 			y: -5.0d
 			description: [
-				"This entry-level backpack let's you carry the equivalent of a whole chest around with you."
+				"This entry-level backpack lets you carry the equivalent of a whole chest around with you."
 				""
-				"It's easily accesible (can be bound to a key - B by default), and has one upgrade slot to provide functional improvements."
+				"It's easily accesible (can be bound to a key - \'b\' by default), and has one upgrade slot to provide functional improvements."
 				""
-				"The other handy thing about it is that you can put it into a special back slot on your person that's specifically designed for it and save an extra slot in your inventory."
+				"The other handy thing about it is that you can put it into a special back slot on your person that's specifically designed for it, and save an extra slot in your inventory."
 			]
 			dependencies: ["7F60ADA33828168E"]
 			id: "36703E93A5A1585B"
@@ -593,7 +593,7 @@
 			x: 0.0d
 			y: 9.0d
 			description: [
-				"Increases the maximum stack size of items in backpack slots by 8! For example, if an item normally stacks to 64, this upgrade would allow them to stack to 512."
+				"Increases the maximum stack size of items in backpack slots by 8! For example, if no other stack upgrades are in use, this would increase the maximum number of items in a slot to 512 if under normal circumstances the maximum is 64."
 				""
 				"&bCan be combined with other stack upgrades!&f"
 			]
@@ -683,7 +683,7 @@
 			description: [
 				"This upgrade will automatically feed you from food in the backpack when you get hungry."
 				""
-				"It filters to allow limiting what food items should be fed to you (pretty useful in case you're picking up stuff like rotten flesh and similar with negative effects)."
+				"It has filters to allow limiting what food items should be fed to you. It's pretty useful when you're picking up stuff like rotten flesh and similar foods with negative effects."
 				""
 				"Really useful when wanting to vary your diet - just make sure you have previously uneaten food in your backpack to get fed the new foods automatically."
 			]
@@ -706,9 +706,9 @@
 			x: -4.5d
 			y: 0.0d
 			description: [
-				"Let's you specify up to 6 different items to automatically keep stocked in your main inventory from items in your backpack."
+				"Lets you specify up to 6 different items to automatically keep stocked in your main inventory from items in your backpack."
 				""
-				"This can be useful if, for example, you want your arrows to keep topped up without needing to shuffle around your inventory, or when bridging long distances and just want your block supply to keep coming."
+				"This can be useful if, for example, you want your arrows to keep topped up without needing to shuffle around your inventory, or when bridging long distances and you just want your block supply to keep coming."
 			]
 			dependencies: ["01CBB02FDC0FAB88"]
 			optional: true
@@ -739,7 +739,7 @@
 				""
 				"Filter upgrades in sub-backpacks can be used to limit what items get inserted / pulled from them."
 				""
-				"Backpacks in the main backpack can be opened using the \"open backpack\" keybind (B by default) when the mouse cursor is over them."
+				"Backpacks in the main backpack can be opened using the \"open backpack\" keybind (\'b\' by default) when the mouse cursor is over them."
 			]
 			dependencies: ["01CBB02FDC0FAB88"]
 			optional: true
@@ -792,7 +792,7 @@
 			title: "Crafting on the go"
 			x: -4.0d
 			y: -1.5d
-			description: ["Let's you craft 3x3 recipes directly in your backpack."]
+			description: ["Lets you craft 3x3 recipes directly in your backpack."]
 			dependencies: ["01CBB02FDC0FAB88"]
 			optional: true
 			id: "57E6DC38C234DFE6"
@@ -814,7 +814,7 @@
 			description: [
 				"Have you ever decided to build something out of more than just plain blocks, but find yourself needing to run back to base to get more of a material from a stonecutter?"
 				""
-				"This upgrade let's you do stonecutting directly in your backpack! Now you just need to carry the raw materials with you, and you can cut according to need when it's needed!"
+				"This upgrade let's you do stonecutting directly in your backpack! Now you just need to carry the raw materials with you, and you can cut according to need, when it's needed!"
 			]
 			dependencies: ["01CBB02FDC0FAB88"]
 			optional: true
