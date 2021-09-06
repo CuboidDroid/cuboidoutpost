@@ -16,7 +16,7 @@
 			description: [
 				"Energy Storage is vital to a decent base. There's nothing worse than running out of power in the middle of something important, or having to wait around for enough energy to be produced to finish making something!"
 				""
-				"Using energy storage mechanisms can smooth out your bases operations, and ensure that none of that juicy energy being produced is being unnecessarily lost."
+				"Using energy storage mechanisms can smooth out your base's operations, and ensure that none of that juicy energy being produced is being unnecessarily lost."
 				""
 				"Here are most of the power storage options available (or that will soon be available) to you..."
 			]
@@ -218,7 +218,7 @@
 				""
 				"It can transfer power at a rate of 1000 RF/t without any upgrades, through to 24000 RF/t when fully upgraded."
 				""
-				"A fully upgraded cell would have Resonant Integral Components, a High-Flux RF Coil augment, and a Stabilized RF Coil augment. (if more than one augment is used, the highest multiplier across augments is used per statistic)."
+				"A fully upgraded cell would have Resonant Integral Components, a High-Flux RF Coil augment, and a Stabilized RF Coil augment. (If more than one augment is used, the highest multiplier across augments is used per statistic)."
 			]
 			id: "3F652A888F48C0F3"
 			tasks: [{

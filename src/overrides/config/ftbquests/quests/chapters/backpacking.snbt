@@ -59,7 +59,7 @@
 			description: [
 				"This entry-level backpack lets you carry the equivalent of a whole chest around with you."
 				""
-				"It's easily accesible (can be bound to a key - \'b\' by default), and has one upgrade slot to provide functional improvements."
+				"It's easily accesible (can be bound to a key - 'b' by default), and has one upgrade slot to provide functional improvements."
 				""
 				"The other handy thing about it is that you can put it into a special back slot on your person that's specifically designed for it, and save an extra slot in your inventory."
 			]
@@ -739,7 +739,7 @@
 				""
 				"Filter upgrades in sub-backpacks can be used to limit what items get inserted / pulled from them."
 				""
-				"Backpacks in the main backpack can be opened using the \"open backpack\" keybind (\'b\' by default) when the mouse cursor is over them."
+				"Backpacks in the main backpack can be opened using the \"open backpack\" keybind ('b' by default) when the mouse cursor is over them."
 			]
 			dependencies: ["01CBB02FDC0FAB88"]
 			optional: true

@@ -81,7 +81,7 @@
 				""
 				"Note that LV cables come in standard and insulated forms. Standard LV cables will shock you if powered, whereas Insulated LV Cables are safe to the touch."
 				""
-				"LV Wire Coils can be attached between a connector and a relay by using them on each point you wish to connect. They can be removed either by breaking the connector or relay, or by using Engineer's Wire Cutters on them."
+				"LV Wire Coils can be attached between an LV Connector and an LV Relay by using them on each point you wish to connect. They can be removed either by breaking the connector or relay, or by using Engineer's Wire Cutters on them."
 				""
 				"LV Wire Coils can transfer 2048 FE/t continuously before burning up, and lose approximately 0.312% FE per block distance travelled (maximum wire distance spanned is 16 blocks)."
 			]
@@ -174,7 +174,7 @@
 			x: 2.0d
 			y: 2.0d
 			description: [
-				"XNet can be used to transfer energy too. You will need a connected controller, an energy channel, and an energy source that has a connector attached, and then to place a connected on the block you wish to transfer energy to. In the controller, set the channel to extract from the power source and insert into the target block."
+				"XNet can be used to transfer energy too. You will need a connected controller, an energy channel, and an energy source that has a connector attached, and then to place a connector on the block you wish to transfer energy to. In the controller, set the channel to extract from the power source and insert into the target block."
 				""
 				"Normal connectors can transfer energy at a maximum rate of 50,000 FE/t. The Advanced Connectors can transfer energy at a rate of 500,000 FE/t."
 				""

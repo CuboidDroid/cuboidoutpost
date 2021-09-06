@@ -215,7 +215,7 @@
 			x: 8.0d
 			y: 7.0d
 			shape: "square"
-			description: ["Good progress so far! We need you to start work one another little side project now. To get going with this, make yourself a Black Iron Frame, which we'll use to house a Quantum Compressor..."]
+			description: ["Good progress so far! We need you to start work on another little side project now. To get going with this, make yourself a Black Iron Frame, which we'll use to house a Quantum Compressor..."]
 			dependencies: ["6771E8ED6A02A5B1"]
 			id: "6C7EA2C8289435E6"
 			tasks: [{
@@ -372,7 +372,7 @@
 			description: [
 				"Creating quantum linked singularities just involves dropping a Singularity and an Ender Dust and causing an explosion nearby - for example, setting off some TNT."
 				""
-				"These Quantum Linked Singularities can be used in an ME Quantum Link Chamber inside a ring of ME Quantum Ring blocks to create a gateway through while ME signals can pass over massive distances, and even cross-dimensionally."
+				"These Quantum Linked Singularities can be used in an ME Quantum Link Chamber inside a ring of ME Quantum Ring blocks to create a gateway through which ME signals can pass over massive distances, and even cross-dimensionally."
 			]
 			dependencies: ["17D6C3A7E868026C"]
 			id: "35FF6178EB0AE116"
