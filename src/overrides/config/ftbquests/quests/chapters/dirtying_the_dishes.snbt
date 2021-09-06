@@ -974,7 +974,7 @@
 			description: [
 				"You will be able to unlock the next chapter when all steps with a Pentagon shape have been completed."
 				""
-				"Remember that the more different foods you eat, the better your health and wellbeing, so even though it's not a requirement to complete all of these steps, it might help you on your way. And remember - there's plenty more food you can make too - we'll revisit food a bit later too once we've got a kitchen sorted out."
+				"Remember that the more different foods you eat, the better your health and wellbeing, so even though it's not a requirement to complete all of these steps, it might help you on your way. And remember - there's plenty more food you can make too - we'll revisit food a bit later once we've got a kitchen sorted out."
 			]
 			hide_dependency_lines: true
 			dependencies: [

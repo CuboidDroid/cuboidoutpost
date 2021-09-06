@@ -13,7 +13,7 @@
 			description: [
 				"The Energy Cables are fairly high capacity, and are quite special in that they do not block movement."
 				""
-				"The Starter Energy Cables can transfer at a rate of 100 FE/t"
+				"The Starter Energy Cables can transfer at a rate of 100 FE/t."
 			]
 			dependencies: [
 				"3A1537AD1DA341FB"
@@ -37,7 +37,7 @@
 		{
 			x: -6.5d
 			y: -0.5d
-			description: ["The Basic Energy Cables can transfer at a rate of 1.4k FE/t"]
+			description: ["The Basic Energy Cables can transfer at a rate of 1.4k FE/t."]
 			dependencies: [
 				"493C96471F84833F"
 				"51B58AF1E1899878"
@@ -60,7 +60,7 @@
 		{
 			x: -6.5d
 			y: 1.0d
-			description: ["The Hardened Energy Cables can transfer at a rate of 5k FE/t"]
+			description: ["The Hardened Energy Cables can transfer at a rate of 5k FE/t."]
 			dependencies: [
 				"2E77948235348C47"
 				"5C269BA7E9F8936E"
@@ -83,7 +83,7 @@
 		{
 			x: -6.5d
 			y: 2.5d
-			description: ["The Blazing Energy Cables can transfer at a rate of 18k FE/t"]
+			description: ["The Blazing Energy Cables can transfer at a rate of 18k FE/t."]
 			dependencies: [
 				"44912495B90112EA"
 				"5B2DE820AEC7AD5D"
@@ -106,7 +106,7 @@
 		{
 			x: -6.5d
 			y: 4.0d
-			description: ["The Niotic Energy Cables can transfer at a rate of 40k FE/t"]
+			description: ["The Niotic Energy Cables can transfer at a rate of 40k FE/t."]
 			dependencies: [
 				"4A372DE347128513"
 				"52129C82DA500585"
@@ -129,7 +129,7 @@
 		{
 			x: -6.5d
 			y: 5.5d
-			description: ["The Spirited Energy Cables can transfer at a rate of 90k FE/t"]
+			description: ["The Spirited Energy Cables can transfer at a rate of 90k FE/t."]
 			dependencies: [
 				"25D779C1E7CAC407"
 				"04956D12ACA7737F"
@@ -152,7 +152,7 @@
 		{
 			x: -6.5d
 			y: 7.0d
-			description: ["The Nitro Energy Cables can transfer at a rate of 200k FE/t"]
+			description: ["The Nitro Energy Cables can transfer at a rate of 200k FE/t."]
 			dependencies: [
 				"5B74CB59CABE874B"
 				"2D29B68E6C38D2C6"
@@ -799,7 +799,7 @@
 			description: [
 				"A Player Aerial Pearl is made by using an empty Aerial Pearl on a Zombie or a Husk. This activates the Aerial Pearl and binds it to you."
 				""
-				"These activated aerial pearls can then be used to create a method of wirelessly transferring power directly to your equipment or items in your inventory that need to be charged."
+				"These activated Aerial Pearls can then be used to create a method of wirelessly transferring power directly to your equipment or items in your inventory that need to be charged."
 			]
 			dependencies: ["380596D31AD90229"]
 			id: "6FB229A249E3E9A3"
@@ -818,7 +818,7 @@
 		{
 			x: 1.5d
 			y: -5.0d
-			description: ["An Aerial Pearl, on its own, is not much use. You will need to activate it and bind it to yourself."]
+			description: ["An Aerial Pearl on its own is not much use. You will need to activate it and bind it to yourself."]
 			dependencies: [
 				"17073588CB8CC58B"
 				"2A3A34A47D8AF234"
@@ -988,7 +988,7 @@
 		{
 			x: 5.5d
 			y: -2.0d
-			description: ["Energy Dischargers extract any energy stored in items and puts that power into an internal buffer. That power can then be extracted out to charge energy cells or power connected machinery."]
+			description: ["Energy Dischargers extract any energy stored in items and put that power into an internal buffer. That power can then be extracted out to charge energy cells or power connected machinery."]
 			dependencies: [
 				"4F6101F00C8E011E"
 				"03BEA2FE7419FFEF"
@@ -1136,7 +1136,7 @@
 			x: 9.0d
 			y: -2.0d
 			description: [
-				"The Furnator can be used to turn burnable materials into raw power."
+				"The Furnator turns burnable materials into raw power."
 				""
 				"The Starter version generates 15 FE per tick (300 FE per second)."
 			]
@@ -1161,7 +1161,7 @@
 			x: 9.0d
 			y: -0.5d
 			description: [
-				"The Furnator can be used to turn burnable materials into raw power."
+				"The Furnator turns burnable materials into raw power."
 				""
 				"The Basic version generates 70 FE per tick (1400 FE per second)."
 			]
@@ -1187,7 +1187,7 @@
 			x: 9.0d
 			y: 1.0d
 			description: [
-				"The Furnator can be used to turn burnable materials into raw power."
+				"The Furnator turns burnable materials into raw power."
 				""
 				"The Hardened version generates 180 FE per tick (3600 FE per second)."
 			]
@@ -1213,7 +1213,7 @@
 			x: 9.0d
 			y: 2.5d
 			description: [
-				"The Furnator can be used to turn burnable materials into raw power."
+				"The Furnator turns burnable materials into raw power."
 				""
 				"The Blazing version generates 400 FE per tick (8000 FE per second)."
 			]
@@ -1239,7 +1239,7 @@
 			x: 9.0d
 			y: 4.0d
 			description: [
-				"The Furnator can be used to turn burnable materials into raw power."
+				"The Furnator turns burnable materials into raw power."
 				""
 				"The Niotic version generates 900 FE per tick (18000 FE per second)."
 			]
@@ -1265,7 +1265,7 @@
 			x: 9.0d
 			y: 5.5d
 			description: [
-				"The Furnator can be used to turn burnable materials into raw power."
+				"The Furnator turns burnable materials into raw power."
 				""
 				"The Spirited version generates 2000 FE per tick (40000 FE per second)."
 			]
@@ -1291,7 +1291,7 @@
 			x: 9.0d
 			y: 7.0d
 			description: [
-				"The Furnator can be used to turn burnable materials into raw power."
+				"The Furnator turns burnable materials into raw power."
 				""
 				"The Nitro version generates 4800 FE per tick (96000 FE per second)."
 			]
@@ -1681,7 +1681,7 @@
 			description: [
 				"Thermogenerators work by using Thermo Plates to obtain Powah from the temperature differential between the liquid cooling (a.k.a. water) being pumped into them and the heat source underneath them."
 				""
-				"The efficiency of the Thermogenerator can be affected by the temperatute of the heat source underneath - the hotter the material, the more efficient the power production. A temperature of 1000 degrees underneath will produce at 100% efficiency. Lower temperatures will produce less power, and higher temperatures will produce more. For example, Magma is 800 degrees and will produce at a rate of 80%, whereas a block of blazing crystal is 2800 degrees, and will produce at 280%. Lava is 1000 degrees, and produces at 100%."
+				"The efficiency of the Thermogenerator depends on the temperatute of the heat source underneath - the hotter the material, the more efficient the power production. A temperature of 1000 degrees underneath will produce at 100% efficiency. Lower temperatures will produce less power, and higher temperatures will produce more. For example, Magma is 800 degrees and will produce at a rate of 80%, whereas a block of blazing crystal is 2800 degrees, and will produce at 280%. Lava is 1000 degrees, and produces at 100%."
 			]
 			dependencies: [
 				"03BEA2FE7419FFEF"
@@ -1890,7 +1890,7 @@
 			description: [
 				"The Starter Reactor generates 100 FE per tick."
 				""
-				"We suggest you have a look in the Powah Manual you were provided with for more information on how to build and use your reactor. At a minimum, you will need to provide your reactor with Water and Uraninite in order for it to work with reasonable efficiency."
+				"We suggest you have a look in the Powah Manual you were provided for more information on how to build and use your reactor. At a minimum, you will need to provide your reactor with Water and Uraninite in order for it to work with reasonable efficiency."
 			]
 			dependencies: [
 				"03BEA2FE7419FFEF"
@@ -2020,7 +2020,7 @@
 				""
 				"Each of the Reactors can be built without needing to build the previous tier first. In each case, you need 36 of the Reactor blocks in your inventory. To build the reactor, just look at the ground where you would like it built and you will be shown the footprint for the reactor. If the footprint is shown as red, then it cannot be built in that location (it requires a 3x3 space that is 4 blocks high). If the footprint shown is green, simply use the block and the reactor will be automatically built from the blocks in your inventory."
 				""
-				"p.s. You might want to consider making a Uraninite Quantum Singularity if you plan on using Reactors for power generation."
+				"You might want to consider making a Uraninite Quantum Singularity if you plan on using Reactors for power generation."
 			]
 			id: "57A96FC3C5CAB331"
 			tasks: [{

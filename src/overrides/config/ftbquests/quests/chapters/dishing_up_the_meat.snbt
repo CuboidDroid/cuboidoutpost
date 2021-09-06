@@ -76,7 +76,7 @@
 			y: -0.5d
 			shape: "square"
 			description: [
-				"The primary ingredient we're going to need is, according to our Science Division at least, going to be Rotten Flesh."
+				"According to our Science Division, the primary ingredient we're going to need is Rotten Flesh."
 				""
 				"You'll need quite a bit of it by the time we're done, so stock up!"
 			]
@@ -97,7 +97,7 @@
 			description: [
 				"Unsurprisingly, we need a fairly \"clean\" source of protein to work with."
 				""
-				"Make a stash of Protein Paste - we'll use it in different ways to eventually craft the specific DNA structures we need to create the animal lifeforms we're after."
+				"Make a stash of Protein Paste - we'll use it in different ways to eventually craft the specific DNA structures we need, to create the animal lifeforms we're after."
 			]
 			dependencies: ["76528FB8C0913777"]
 			id: "41496EE5EE76DC58"
@@ -140,7 +140,7 @@
 			x: 1.5d
 			y: 3.5d
 			shape: "square"
-			description: ["Mixing RNA with Protein Paste in a Quantum Transmutation Chamber produces a Primordial Gloop which will allow us to form base the DNA strands we need."]
+			description: ["Mixing RNA with Protein Paste in a Quantum Transmutation Chamber produces a Primordial Gloop which will allow us to form the base DNA strands we need."]
 			dependencies: [
 				"41496EE5EE76DC58"
 				"05E0AE86BB17A33C"
@@ -160,7 +160,7 @@
 			description: [
 				"Dioxyribonucleic Acid (DNA) is a helical double-stranded nucleic acid that is crucial for containing the genetic information for cell growth, division, and function and is ... more blah blah blah I'm afraid."
 				""
-				"The important bit you need to know at the moment is that you're now at a point where you can make some fairly generic DNA by putting Protein Strands and Primordial Gloop into the Quantum Transmutation Chamber."
+				"The important bit you need to know at the moment is that you're at a point where you can make some fairly generic DNA by putting Protein Strands and Primordial Gloop into the Quantum Transmutation Chamber."
 			]
 			dependencies: [
 				"53CEDE6D17D353F5"
@@ -299,7 +299,7 @@
 			description: [
 				"Again, it'd be sensible to make at least two Sheep Spawn Eggs, and spawn the sheep inside a fenced-off area. Breed them up with wheat in the usual fashion before you start slaughtering them."
 				""
-				"Be careful! You;ll want to ensure you always have at least 2 sheep alive at any one time to be able to easily breed up more."
+				"Be careful! You'll want to ensure you always have at least 2 sheep alive at any one time to be able to easily breed up more."
 			]
 			dependencies: ["62EB9B9BD1FB1035"]
 			id: "07E96BCF479B5C4D"
@@ -317,7 +317,7 @@
 			description: [
 				"Mmmm... bacon."
 				""
-				"Not long now - you just need to gather up some Raw Mutton, Dirt, and Egg and Primordial Gloop, toss them into a puddle of Witchwater, and next thing you know, it'll be bacon and sausages for brekkie!"
+				"Not long now - you just need to gather up some Raw Mutton, Dirt, an Egg, and Primordial Gloop, toss them into a puddle of Witchwater, and next thing you know, it'll be bacon and sausages for brekkie!"
 			]
 			dependencies: ["07E96BCF479B5C4D"]
 			id: "4823D1F8EC861304"
@@ -433,7 +433,7 @@
 				""
 				"Have two or more!"
 				""
-				"You can manufacture a Cow Spawn egg by tossing some Leather, a Bucket, an Egg and Primordial Gloop into a puddle of Witchwater."
+				"You can manufacture a Cow Spawn egg by tossing some Leather, a Bucket, an Egg, and Primordial Gloop into a puddle of Witchwater."
 			]
 			dependencies: ["4A1CC3ACD2F86E07"]
 			id: "3254E6F98E2CC544"
