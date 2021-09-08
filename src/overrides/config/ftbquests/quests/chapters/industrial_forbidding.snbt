@@ -370,8 +370,8 @@
 		}
 		{
 			title: "For lazy fishermen..."
-			x: 14.0d
-			y: -4.5d
+			x: 12.0d
+			y: -2.5d
 			description: [
 				"The Marine Fisher uses fairly hefty amount of power to catch fish, but saves you from endless boredom starting at a pool of water!"
 				""
@@ -383,6 +383,206 @@
 				id: "1306E26A35735D05"
 				type: "item"
 				item: "industrialforegoing:marine_fisher"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 14.0d
+			y: -4.5d
+			description: [
+				"Laser Drills, on their own, don't do much."
+				""
+				"You will need to aim them at a Laser Base of sorts - either an Ore Laser Base (if you want ores as an output) or a Fluid Laser Base (if you are targetting fluids)."
+				""
+				"You can use multiple Ore Lasers per base - so long as their operating areas overlap with the Laser Base, they should work."
+				""
+				"The Laser Drills need power, and can accept Speed and Efficiency upgrades."
+			]
+			dependencies: ["3D8ADEC8E08C0C88"]
+			dependency_requirement: "one_completed"
+			id: "1AD240B7CC719585"
+			tasks: [{
+				id: "550F655F0D522776"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			description: [
+				"This machine will detect how many mobs are in front of it (within its range) and output a redstone signal out the back equal to that number."
+				""
+				"This can be used to, for example, turn machines like the Mob Crusher on when there are mobs to kill, or turn them off when there's nothing to do, saving energy in the process."
+			]
+			dependencies: ["3D8ADEC8E08C0C88"]
+			id: "1B862F3D13008CAC"
+			tasks: [{
+				id: "2C712A68531FFE92"
+				type: "item"
+				item: "industrialforegoing:mob_detector"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -4.0d
+			description: [
+				"You probably shouldn't bother making this machine at the moment - it's part of a multi-stage process for ore quintupling, but since you have access to Singularity Resource Generators, what's the point really?"
+				""
+				"If you're curious, this machine will seal its contents when reaching the configured level and ferment the Raw Ore Meat (made in a Washing Factory) down to fermented ore meat, ready for the next stage in the process done in a Fluid Sieving Machine."
+			]
+			dependencies: ["3D8ADEC8E08C0C88"]
+			id: "0CBF45A8A7A7C44B"
+			tasks: [{
+				id: "641F6E26078349CB"
+				type: "item"
+				item: "industrialforegoing:fermentation_station"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 7.5d
+			shape: "gear"
+			description: ["Once you have a way of getting Pink Slime, you will be able to upgrade a Simple Machine Frame to an Advanced Machine Frame in a Dissolution Chamber."]
+			hide_dependency_lines: true
+			dependencies: ["3D8ADEC8E08C0C88"]
+			size: 1.5d
+			id: "2996F0F6C75C18CE"
+			tasks: [{
+				id: "25332D071220CA22"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["The Fluid Sieving Machine is the final stage in the 5x Ore Processing multi-stage process. It sieves the Fermented Ore Meat, yielding the resulting resource."]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "014B7AC405EA2A18"
+			tasks: [{
+				id: "6B0119B2FFC628B2"
+				type: "item"
+				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			description: ["This machine will charge items that contain power. If the item is an Infinity Item, it will charge it very quickly."]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "43C07C9C8F81B664"
+			tasks: [{
+				id: "1E0494FFD9F5477C"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			description: [
+				"Potions - I mean \"modern medicines\" - can be a pain to brew in a Brewing Stand."
+				""
+				"If you really want to brew potions in large quantities, then this machine should help!"
+			]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "6E8F6A093FCECB82"
+			tasks: [{
+				id: "23E845BDB7C0145D"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 1.5d
+			y: 9.0d
+			description: [
+				"The Fluid Laser Base, on its own, does nothing."
+				""
+				"With correctly place Laser Drills, however, the Fluid Laser Base is where you control the whole setup."
+				""
+				"The best way to see what's possible to mine with this is to look at the uses of the Fluid Laser Base in JEI."
+			]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "4DFA2CEA803CD973"
+			tasks: [{
+				id: "38855F4C0A352530"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 9.5d
+			description: [
+				"The Stasis Chamber can freeze mobs in place."
+				""
+				"This is done in a 3x3x3 area immediately above it."
+				""
+				"Be careful though! If the power runs dry, the stasis field will collapse, and the mob will be free again!"
+			]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "6C39F9EE5CD29A70"
+			tasks: [{
+				id: "16B46A186FD3D742"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			description: [
+				"This single machine can generate Obsidian, Granite, Diorite, Andesite, Cobblestone and Netherrack."
+				""
+				"Apart from Cobblestone, generating requires some input materials that are consumed. For Cobblestone, the internal tanks must have water and lava in them, but they will not be consumed."
+				""
+				"In addition to generating the different raw materials, this machine can also perform different processing steps too, giving a total to 36 additional outputs! Check JEI or the supplementary documentation \"Industrial Foregoing's Manual\" for more information."
+			]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "50A22A3ED8A775A3"
+			tasks: [{
+				id: "02D876C87AAF92A7"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			description: [
+				"The Ore Laser Base, on its own, does nothing."
+				""
+				"With correctly place Laser Drills, however, the Ore Laser Base is where you control the whole setup."
+				""
+				"The best way to see what's possible to mine with this is to look at the uses of the Ore Laser Base in JEI."
+			]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "4D4AD4D62B9AB65A"
+			tasks: [{
+				id: "2A86A5FB4F5D9A0B"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: [
+				"The Washing Factory washes ores in Liquid Meat to produce Raw Ore Meat, ready to be processed in the Fermentation Station. This is the first machine in a 3-stage process that yields 5x Ore Processing."
+				""
+				"Arguably this is not worth doing if you've already got Singularity Resource Generators and Quantum Singularities, but perhaps you prefer having lots of options, so here's another one for you!"
+			]
+			dependencies: ["2996F0F6C75C18CE"]
+			id: "265AB2D17A6FA8F2"
+			tasks: [{
+				id: "1EB59DFDA8EAF6FB"
+				type: "item"
+				item: "industrialforegoing:washing_factory"
 			}]
 		}
 	]

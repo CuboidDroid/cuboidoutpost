@@ -164,9 +164,9 @@
 			x: 7.5d
 			y: 4.0d
 			dependencies: [
-				"07D2E6B12373A0DF"
 				"7DC15B8B7C5762D9"
 				"02DE6BDF57356E02"
+				"07D2E6B12373A0DF"
 			]
 			id: "421C0BF503F1EC3D"
 			tasks: [{
@@ -617,19 +617,19 @@
 			}
 			x: 9.5d
 			y: 8.0d
-			dependencies: ["51903865FE73BECD"]
+			description: ["You will only need one of the Tier 3 jetpacks to proceed."]
+			min_required_dependencies: 1
+			dependencies: [
+				"51903865FE73BECD"
+				"5ED8E50C20DC774A"
+			]
+			dependency_requirement: "one_completed"
 			optional: true
 			id: "02DF37426C10390C"
 			tasks: [{
-				id: "7AA9F883D52C1FFE"
-				type: "item"
-				item: {
-					id: "ironjetpacks:gold_jetpack"
-					Count: 1b
-					tag: {
-						Throttle: 1.0d
-					}
-				}
+				id: "3A33F81409843DCB"
+				type: "checkmark"
+				title: "More speed!"
 			}]
 		}
 		{
