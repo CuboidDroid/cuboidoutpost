@@ -15,7 +15,7 @@
 			height: 4.62d
 			rotation: 0.0d
 			image: "kubejs:textures/quests/iron_contraption.png"
-			hover: ["An example of a fully automated setup using conveyor belts, gears to change speed of fan vs. belt, gearboxes to turn corners, an funnels to put things onto / take things off the belt."]
+			hover: ["An example of a fully automated setup using conveyor belts, gears to change speed of fan vs. belt, gearboxes to turn corners, and funnels to put things onto / take things off the belt."]
 			click: ""
 			dev: false
 			corner: false
@@ -54,7 +54,7 @@
 			description: [
 				"Ah, the Science Division. I bet you're really starting to like them by now!"
 				""
-				"Anyway... now that you've got Andesite Alloy, they believe that they've got a Create-ive method by which you can start producing Iron. I'll be honest, it's not what I would have expected, but I think you should stick with it... after all, Iron is such a useful and versatile material - you're definitely going to need to get a handle on it."
+				"Anyway... now that you've got Andesite Alloy, they believe that they've got a Create-ive method by which you can start producing Iron. I'll be honest, it's not what I would have expected, but I think you should stick with it... After all, Iron is such a useful and versatile material - you're definitely going to need to get a handle on it."
 			]
 			dependencies: ["55B899DC63CFA8E3"]
 			id: "6C3E0C8B8576F980"
@@ -319,7 +319,7 @@
 			y: -6.0d
 			shape: "square"
 			description: [
-				"The Wrench is a tool that can be used to rotate, disassemble and configure Create blocks. It's extremely useful and an absolute necessity, so now that you have access to everything you need to make one, you should go ahead right away!"
+				"The Wrench is a tool that can be used to rotate, disassemble, and configure Create blocks. It's extremely useful and an absolute necessity, so now that you have access to everything you need to make one, you should go ahead right away!"
 				""
 				"Note that many of the items in Create have got extensive tool tips, some of which you can only access by hovering over the item in your inventory or in JEI and pressing a key for more information."
 			]
@@ -344,7 +344,7 @@
 				""
 				"You can also convert a standard Gearbox into a Vertical Gearbox simply with a little bit of tinkering on a crafting table."
 				""
-				"Take a little time to \"Ponder\" their use (see tooltip) to ensure you understand their uses."
+				"Take a little time to \"Ponder\" them (see tooltip) to ensure you understand their uses."
 			]
 			dependencies: [
 				"3A506625FA262911"
@@ -484,7 +484,7 @@
 			description: [
 				"With a Compass, two SHAFT!s and an Andesite Casing you should be able to cobble together a gadget that will measure the speed of rotation when attached to a SHAFT or other source of rotational power."
 				""
-				"Make yourself 2 for now - 1 we'll keep, and the other we'll turn into something else."
+				"Make yourself two for now. One we'll keep, and the other we'll turn into something else."
 			]
 			dependencies: ["1777B82D402C5471"]
 			optional: true
