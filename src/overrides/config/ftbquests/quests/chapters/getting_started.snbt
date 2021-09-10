@@ -98,6 +98,22 @@
 					item: "cuboidmod:notsogudium_rod"
 				}
 			]
+			rewards: [
+				{
+					id: "2FFFACB6B417D2E5"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "1269EA81A9F3AB09"
+					type: "item"
+					item: "minecraft:lantern"
+					count: 2
+					random_bonus: 4
+				}
+			]
 		}
 		{
 			title: "Let's get cooking!"
@@ -481,7 +497,7 @@
 			x: 2.5d
 			y: -10.0d
 			shape: "square"
-			subtitle: "You probably only need 1"
+			subtitle: "You probably only need 1 for now"
 			description: [
 				"Let's face it, those solar power thingies on the roof are decent, but not so decent as to be a big problem if you lose one."
 				""
@@ -1535,6 +1551,12 @@
 				type: "item"
 				item: "cuboidmod:gruel"
 			}]
+			rewards: [{
+				id: "6683B88424A112DE"
+				type: "item"
+				item: "cuboidmod:gruel"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Food on the go"
@@ -1547,6 +1569,12 @@
 				id: "065A4C40C7BCA381"
 				type: "item"
 				item: "cuboidmod:protein_bar"
+			}]
+			rewards: [{
+				id: "24408FF4BF85DC91"
+				type: "item"
+				item: "cuboidmod:protein_bar"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1583,6 +1611,12 @@
 				id: "1B364B297B587236"
 				type: "item"
 				item: "cuboidmod:kebab_cooked"
+			}]
+			rewards: [{
+				id: "00CC9487A48B85B7"
+				type: "item"
+				item: "cuboidmod:kebab_cooked"
+				random_bonus: 3
 			}]
 		}
 		{

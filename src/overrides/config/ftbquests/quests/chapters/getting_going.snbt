@@ -294,6 +294,13 @@
 				type: "item"
 				item: "minecraft:redstone"
 			}]
+			rewards: [{
+				id: "6BE91C75DB2BA437"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			title: "Sometimes I sound like Gravel"
@@ -1117,6 +1124,13 @@
 				id: "0C329970815D2BFE"
 				type: "item"
 				item: "cuboidmod:biltong_zombie"
+			}]
+			rewards: [{
+				id: "74C8435037E8E6DD"
+				type: "item"
+				item: "cuboidmod:biltong_zombie"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
