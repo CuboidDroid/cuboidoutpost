@@ -84,7 +84,7 @@
 			x: 2.0d
 			y: -1.0d
 			description: [
-				"A Silver Furnace is the \"halfway house\" between an Iron Furnace and a Gold Furnace."
+				"A Silver Furnace is the \"halfway house\" between an Iron Furnace and a Golden Furnace."
 				""
 				"It smelts items in 7 seconds (just under 1.43x the standard furnace speed)"
 				""
@@ -105,7 +105,7 @@
 			y: 1.0d
 			shape: "square"
 			description: [
-				"The Golded Furnace smelts items in 6 seconds (just under 1.7x faster than a standard stone furnace)."
+				"The Golden Furnace smelts items in 6 seconds (just under 1.7x faster than a standard stone furnace)."
 				""
 				"It can be made by upgrading an Iron Furnace or a Silver Furnace."
 			]
@@ -141,7 +141,7 @@
 			y: 1.0d
 			shape: "square"
 			description: [
-				"The the Crystal Furnace, the Emerald Furnace smelts an item in 2 seconds (5x faster than a standard stone furnace)."
+				"Like the Crystal Furnace, the Emerald Furnace smelts an item in 2 seconds (5x faster than a standard stone furnace)."
 				""
 				"It is created by upgrading a Diamond Furnace."
 			]

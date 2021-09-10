@@ -203,7 +203,7 @@
 				"2) A working Quantum Transmutation Chamber."
 				"3) A Block each of Certus Quartz, Diamond, Gold and Quartz."
 				""
-				"By continuing with this survival guide you are confirming that you understand the risks (you might not have digital storage at the end of this if you mess up), and absolve whatever is left of the Cuboid Corp. (which is probably nothing by the time you do this) of any negligence or wrong-doing, whether present, future or past."
+				"By continuing with this survival guide you are confirming that you understand the risks (you might not have digital storage at the end of this if you mess up), and absolve whatever is left of the Cuboid Corp. (which is probably nothing by the time you do this) of any negligence or wrong-doing, whether present, future, or past."
 				""
 				"Please agree to this, grab a pickaxe, and let's get this done!"
 				""
@@ -259,7 +259,7 @@
 			x: 12.0d
 			y: 0.0d
 			shape: "square"
-			description: ["Having kissed your ME Crafting Terminal goodbye and popping it into the Molecular Recycler, one of the items you get back from processing should be an ME Terminal."]
+			description: ["Having kissed your ME Crafting Terminal goodbye and popped it into the Molecular Recycler, one of the items you get back from processing should be an ME Terminal."]
 			dependencies: ["5D4C8F09E8B28232"]
 			id: "6C117200608F720A"
 			tasks: [{
@@ -273,7 +273,7 @@
 			x: 12.0d
 			y: 2.0d
 			shape: "square"
-			description: ["Having kissed your ME Crafting Terminal goodbye and popping it into the Molecular Recycler, one of the items you get back from processing should be a Calculation Processor - hold onto it - you're going to need it soon!"]
+			description: ["Having kissed your ME Crafting Terminal goodbye and popped it into the Molecular Recycler, one of the items you get back from processing should be a Calculation Processor. Hold onto it - you're going to need it soon!"]
 			dependencies: ["5D4C8F09E8B28232"]
 			id: "2DA6F8C608369DAB"
 			tasks: [{
@@ -320,7 +320,7 @@
 			y: 2.0d
 			shape: "square"
 			description: [
-				"The Calculation Processor you obtained along with a Block of Certus Quartz should now be put into the Quantum Transmutation Chamber - this should make an Inscriber Calculation Press."
+				"Put the Calculation Processor you obtained, and a Block of Certus Quartz into the Quantum Transmutation Chamber - this should make an Inscriber Calculation Press."
 				""
 				"Note that once you have one Press, you can duplicate it in an inscriber using a Block of Iron."
 			]
@@ -338,7 +338,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"The Logic Processor you obtained along with a Block of Gold should now be put into the Quantum Transmutation Chamber - this should make an Inscriber Logic Press."
+				"Put the Logic Processor you obtained, and a Block of Gold into the Quantum Transmutation Chamber - this should make an Inscriber Logic Press."
 				""
 				"Note that once you have one Press, you can duplicate it in an inscriber using a Block of Iron."
 			]
@@ -356,7 +356,7 @@
 			y: -2.0d
 			shape: "square"
 			description: [
-				"The Engineering Processor you obtained along with a Block of Diamond should now be put into the Quantum Transmutation Chamber - this should make an Inscriber Engineering Press."
+				"Put the Engineering Processor you obtained, and a Block of Diamond into the Quantum Transmutation Chamber - this should make an Inscriber Engineering Press."
 				""
 				"Note that once you have one Press, you can duplicate it in an inscriber using a Block of Iron."
 			]
@@ -374,7 +374,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"At this point you should have 3 of the 4 main Inscriber Presses. For the 4th one, you're going to need one of the Printed Processors - you might as well make at least on of each right now."
+				"At this point you should have 3 of the 4 main Inscriber Presses. For the 4th one, you're going to need one of the Printed Processors - you might as well make at least one of each right now."
 				""
 				"Check JEI for details, but essentially all you need to do is pop the Press into the top slot of the inscriber, and the material to use for the press into the middle slot, and ensure that the Inscriber has power."
 			]
@@ -408,7 +408,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"Any one of the Printed processors you've just made, along with a Block of Quartz should now be put into the Quantum Transmutation Chamber - this should make an Inscriber Silicon Press."
+				"Put any one of the Printed processors you've just made,and a Block of Quartz into the Quantum Transmutation Chamber - this should make an Inscriber Silicon Press."
 				""
 				"Note that once you have one Press, you can duplicate it in an inscriber using a Block of Iron."
 			]

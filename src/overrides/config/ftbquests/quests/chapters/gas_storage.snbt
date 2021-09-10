@@ -14,7 +14,7 @@
 			y: 0.0d
 			shape: "gear"
 			description: [
-				"While there are only a few Mekanisms that produce or consume gas, it's still important to know your options for its storage."
+				"While there are only a few Mekanism machines that produce or consume gas, it's still important to know your options for its storage."
 				""
 				"More often than not, it's not the gas you're interested in - it's what it gets used to produce. However, it can be important in many multi-machine setups (whether involving gas or not) to have some sort of buffer to allow your processes to run more smoothly."
 				""

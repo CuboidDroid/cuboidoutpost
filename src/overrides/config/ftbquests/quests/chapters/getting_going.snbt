@@ -370,7 +370,7 @@
 			description: [
 				"While Oak is prefectly serviceable for most things, perhaps a bit more variety would be good."
 				""
-				"Now that we've already kick-started organic life on this planet, the Science Division thinks that simply sieving Blocks of Cellulose might  produce additional seeds your can plant on dirt to get a wider variety of tree species."
+				"Now that we've already kick-started organic life on this planet, the Science Division thinks that simply sieving Blocks of Cellulose might produce additional seeds you can plant on dirt to get a wider variety of tree species."
 			]
 			dependencies: ["6AF8FD5317351B8A"]
 			id: "622A14D949B6F090"
@@ -638,7 +638,7 @@
 			y: -7.5d
 			shape: "square"
 			description: [
-				"Sugarcane can grow on Dirt or Sand, but must be adjacent to water in the cardinal directions."
+				"Sugarcane can grow on Dirt or Sand, but must be adjacent to water in at least one of the cardinal directions."
 				""
 				"If you want to maximise planting in an area, start off by placing some water, then move 2 blocks forward and one to the side, and place more water."
 				""
@@ -674,7 +674,7 @@
 			y: 0.5d
 			shape: "gear"
 			description: [
-				"Combining nuggets of Zinc with Andesite results in a unique and useful Andesite Alloy, which will open the gates to rediscovering the wonders of rotational force, and is the path the recovering the secrets of Iron production."
+				"Combining nuggets of Zinc with Andesite results in a unique and useful Andesite Alloy, which will open the gates to rediscovering the wonders of rotational force, and is the path to recovering the secrets of Iron production."
 				""
 				"&aUnlocks: Getting Creative&f"
 			]
@@ -905,7 +905,7 @@
 			description: [
 				"It's so shiny!"
 				""
-				"It's also useful for making all sort of stuff soon, so knowing how to make it when you need it will be important."
+				"It's also useful for making all sorts of stuff soon, so knowing how to make it when you need it will be important."
 			]
 			dependencies: ["78B85E020187C16A"]
 			id: "33371313528B9C26"
