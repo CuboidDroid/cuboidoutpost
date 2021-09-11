@@ -419,7 +419,7 @@
 				""
 				"If you don't have an excess, just what have you been doing!? Head back out there and smash some more rock!"
 				""
-				"While you currently have a good source of power in through the Wind Generators on the roof, we can't, unfortunately, make any more just yet, and we're going to need alternative power sources."
+				"While you currently have a good source of power in the Wind Generators on the roof, we can't, unfortunately, make any more just yet, and we're going to need alternative power sources."
 				""
 				"The Science Division here at The Cuboid Corporation believe that a Coal Quantum Singularity might be possible to use in some kind of singularity-powered generator - so you might as well get started on collapsing a bunch of coal into one..."
 			]
@@ -1235,7 +1235,7 @@
 			description: [
 				"Go out and plant that sapling on your new piece of Dirt, and wait for the magic to happen!"
 				""
-				"Or use a bunch of Bone Meal on it if you're feeling a bit impatient by now! You can also encourage plants to grow in this cold climate by warming up the air around it - this can be done in one of two way... doing repetitive squats. Not only will this encourage plant growth, but is a great way to keep in shape and fend off boredom!"
+				"Or use a bunch of Bone Meal on it if you're feeling a bit impatient by now! You can also encourage plants to grow in this cold climate by warming up the air around it - this can be done in one of two ways... doing repetitive squats. Not only will this encourage plant growth, but it is a great way to keep in shape and fend off boredom!"
 				""
 				"Either way, grab (or make) an axe and chop it down to get some Oak Logs - at least 8 of them - and then we'll be able to move on to phase 2."
 				""
@@ -1297,7 +1297,7 @@
 			description: [
 				"As with Wikidium, you will need to generate the next tier of alien material in the Quantum Transmutation Chamber."
 				""
-				"Put a chunk of Wikidium into the top and bottom slot of the Quantum Transmutation Chamber, ensure it has power, and you'll end up with a Thatldu Chunk."
+				"Put a chunk of Wikidium each into the top and bottom slots of the Quantum Transmutation Chamber, ensure it has power, and you'll end up with a Thatldu Chunk."
 				""
 				"Again, it might be worth automating this until you have a Thatldu Quantum Singularity so that you can passively produce more of it going forward."
 			]

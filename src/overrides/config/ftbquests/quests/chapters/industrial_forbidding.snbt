@@ -121,7 +121,7 @@
 			x: 0.0d
 			y: 2.5d
 			description: [
-				"Sludge can be refined in a Sludge Refiner. This essentially takes the sludge produced as a by-product of a Plant Gatherer and turn it into something useful."
+				"Sludge can be refined in a Sludge Refiner. This essentially takes the sludge produced as a by-product of a Plant Gatherer and turns it into something useful."
 				""
 				"What you get from each operation is random, but includes things like Sand, Dirt, Clay, Gravel and Soul Sand."
 			]
@@ -190,7 +190,7 @@
 				""
 				"If feeding the animal meets its requirements to breed (e.g. wheat being fed to two cows), then the animals will breed. So long as you are able to keep the feed items stocked up, the animals will continue to be bred."
 				""
-				"It's probably not a good idea to keep this running indefinitely though! At the very least you will want to ensure you're culling the herd a bit too! For that, you should look at using something like the Animal Baby Separator or Mob Filter (child) to automatically move baby animal into a separate area for processing."
+				"It's probably not a good idea to keep this running indefinitely though! At the very least you will want to ensure you're culling the herd a bit too! For that, you should look at using something like the Animal Baby Separator or Mob Filter (child) to automatically move baby animals into a separate area for processing."
 			]
 			dependencies: ["5569711F6E3BEA01"]
 			id: "0204E4D9E6300101"
@@ -344,7 +344,7 @@
 			description: [
 				"The Plant Fertilizer will apply Bone Meal or Fertilizer to crops in its area of effect."
 				""
-				"It does this by continuously applying it to a crop in a block until it accepts to more before moving on to the next one. This makes it unsuitable for some crops, but works wonders on most crops (assuming you have a steady supply of input material)."
+				"It does this by continuously applying it to a crop in a block until it accepts no more before moving on to the next one. This makes it unsuitable for some crops, but works wonders on most crops (assuming you have a steady supply of input material)."
 				""
 				"The area of effect is, by default a 1x1 block immediately in front of the machine. This can be increased through the use of Range Addons. For example, a +2 Range Addon will move the center of the area 2 blocks further away from the machine, and increase the range by 2 blocks in each cardinal direction, resulting in a 5x5 working area."
 			]
@@ -361,7 +361,7 @@
 			x: 12.0d
 			y: -2.5d
 			description: [
-				"The Marine Fisher uses fairly hefty amount of power to catch fish, but saves you from endless boredom starting at a pool of water!"
+				"The Marine Fisher uses a fairly hefty amount of power to catch fish, but saves you from endless boredom staring at a pool of water!"
 				""
 				"When placed above a (at least) 3x3 pool of water, it will catch fish (and perhaps something else?) automatically at a cost of 5000 RF per operation."
 			]
@@ -624,7 +624,7 @@
 			description: [
 				"The Mycelial Reactor will produce a whopping 20 million RF per tick - but only with one of each of the 16 other Mycelial Generators running simultaneously!"
 				""
-				"The biggest challenge to having a running Mycelial Reactor is in automating each of the 16 generators so that they can run constantly. It's a real challenge to get right, and requires a fair amount of work to get right, so it might not be something you decide to pursue..."
+				"The biggest challenge to having a running Mycelial Reactor is in automating each of the 16 generators so that they can run constantly. It's a real challenge to get right, and requires a fair amount of work to set up, so it might not be something you decide to pursue..."
 			]
 			dependencies: ["531C316189E908F5"]
 			id: "087B1B24B1CEB64D"

@@ -93,7 +93,7 @@
 			y: 3.0d
 			shape: "square"
 			subtitle: "(of the Smeltery)"
-			description: ["With 29 Seared Bricks blocks, a Smeltery Controller, a Seared Fuel Tank, a Seared Chute and a Seared Drain, you can make a 3x3x2 Smeltery (internal measurement)."]
+			description: ["With 29 Seared Bricks blocks, a Smeltery Controller, a Seared Fuel Tank, a Seared Chute, and a Seared Drain, you can make a 3x3x2 Smeltery (internal measurement)."]
 			dependencies: ["54493C0419586822"]
 			id: "504A8DED31C4E3EC"
 			tasks: [{
@@ -747,7 +747,7 @@
 			y: -7.0d
 			shape: "square"
 			description: [
-				"Ancient Spores can be obtained by sieving Sililca Dust Blocks using a diamond mesh."
+				"Ancient Spores can be obtained by sieving Silica Dust Blocks using a diamond mesh."
 				""
 				"If you haven't figured it out yet, Diamonds can be obtained by sieving Gravel or Crushed Diorite with an Iron Mesh."
 				""
