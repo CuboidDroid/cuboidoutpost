@@ -17,7 +17,7 @@
 			description: [
 				"We're about to show you how to make some more industrial-grade machines."
 				""
-				"There's a definite process to these, and it can take a little while to get into at first, but the machines will definitely prove to be extremely useful, so it's definitely worth persisting with if you really want your quality of life to improve. Definitely. For definite."
+				"There's a definite process to these, and it can take a little while to get into at first, but the machines will definitely prove to be extremely useful, so it's definitely worth persisting if you really want your quality of life to improve. Definitely. For definite."
 				""
 				"Oh... and you'll need to do this if you ever want to see any other people too, of course."
 			]
@@ -123,7 +123,7 @@
 				""
 				"You can bucket in both Latex and Water at first, but it will probably be worth piping them into the Unit instead to automate this process."
 				""
-				"For a steady supply of water you could consider using a Water Condensator, an Aqueous Accumulator or a Sink (part of the multi-block kitchen)."
+				"For a steady supply of water you could consider using a Water Condensator, an Aqueous Accumulator, or a Sink (part of the multi-block kitchen)."
 			]
 			dependencies: ["2C246C82D6A79240"]
 			id: "24F0FE60CD37F65D"
@@ -223,7 +223,7 @@
 			description: [
 				"The Simple Machine Frame is made in the Dissolution Chamber."
 				""
-				"It requires a Pity Machine Frame, two bits of Plastic, two Nether Bricks, two Iron Ingots and a Gold Gear in terms of items, but also requires 250mb (1/4 of a bucket) of Latex in its internal tank too."
+				"It requires a Pity Machine Frame, two bits of Plastic, two Nether Bricks, two Iron Ingots, and a Gold Gear in terms of items, but also requires 250mb (1/4 of a bucket) of Latex in its internal tank too."
 				""
 				"Completing this step will open up &a\"The Slaughter House #2\"&f and access to other machines in Appendix D's section &a\"Industrial Forbidding\".&f"
 			]

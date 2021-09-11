@@ -61,7 +61,7 @@
 				""
 				"A few noisy seconds later, and you'll have the results of the infusion."
 				""
-				"If the noise is really getting to you, the can look into making Muffler Upgrades (up to 4 per machine), or you can use the built-in sound muffler from your inventory to mute specific sounds."
+				"If the noise is really getting to you, you can look into making Muffler Upgrades (up to 4 per machine), or you can use the built-in sound muffler from your inventory to mute specific sounds."
 			]
 			dependencies: ["222E7D1D24E47EE0"]
 			id: "2EDEBF605629EAF5"
@@ -81,7 +81,7 @@
 				""
 				"Infused Alloys are used in many machines, and can be infused again to produce higher tier alloys."
 				""
-				"You can also use this on already-placed Basic cables to upgrade up to 8 to Advanced cables without needing to do this in a crafting table."
+				"You can also use this on already-placed Basic cables to upgrade up to 8 connected Advanced Cables without needing to do this in a crafting table."
 			]
 			dependencies: ["2EDEBF605629EAF5"]
 			id: "1DFD647EF1A8254C"
@@ -133,7 +133,7 @@
 				""
 				"Making steel using a Metallurgic Infuser is a two-step process. First you put some carbon in the infusion tank (10mb per operation), and then put in some iron. This produces Enriched Iron dust."
 				""
-				"Putting the Enriched Iron dust back into the Metallurgic Infuser with another 10mb of Carbon will then produce Steel Dust, which can be smelter to make Steel Ingots."
+				"Putting the Enriched Iron dust back into the Metallurgic Infuser with another 10mb of Carbon will then produce Steel Dust, which can be smelted to make Steel Ingots."
 			]
 			dependencies: ["2EDEBF605629EAF5"]
 			id: "58C29DF76FB2F288"
@@ -265,7 +265,7 @@
 			y: 6.0d
 			shape: "square"
 			description: [
-				"20mb of Diamond in the infusion tank of the Metallurgic Infuser and an Infused Alloy will produce a Reinforced Alloy."
+				"20mb of Diamond Dust in the infusion tank of the Metallurgic Infuser and an Infused Alloy will produce a Reinforced Alloy."
 				""
 				"Reinforced Alloys are used in many machines, and can be infused again to produce a higher tier alloy."
 				""
@@ -481,7 +481,7 @@
 				""
 				"In particular, we're going to need Hydrogen soon, and later on might want Oxygen too."
 				""
-				"If we build and Electrolytic Separator, we can get our hands on both simply by splitting water molecules into their component atoms."
+				"If we build an Electrolytic Separator, we can get our hands on both simply by splitting water molecules into their component atoms."
 				""
 				"Once you've built an Electrolytic Separator, supply it with water and power and it will start producing Hydrogen and Oxygen gasses."
 				""
