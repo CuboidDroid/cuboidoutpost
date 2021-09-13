@@ -474,6 +474,8 @@
 				"Ender Gates will draw power from your Ender Cells wirelessly."
 				""
 				"What this means is that you can connect Ender Gates to machines or distant networks (for example, an Energy Cell in another building) and you will not need to run long lines of energy cable in order to get power transferred."
+				""
+				"&eNote: Due to a limitation in AE2, these can't be crafted in an ME Crafting Grid. You will need to craft these in a standard crafting table instead.&f"
 			]
 			dependencies: [
 				"05FE63B0135FF8CB"
