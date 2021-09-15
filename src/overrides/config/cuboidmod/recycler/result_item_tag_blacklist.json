@@ -3,6 +3,7 @@
   "minecraft:logs",
   "minecraft:planks",
   "minecraft:wooden_slabs",
+  "quark:vertical_slab",
   "forge:ingots/iron",
   "forge:storage_blocks/iron",
   "forge:dusts/iron",
