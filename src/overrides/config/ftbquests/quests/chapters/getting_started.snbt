@@ -54,7 +54,7 @@
 			description: [
 				"The planet you're on seems to have a thick crust of a fairly weak material, and, due to the minimal tectonics, is in a fairly thick and even top layer."
 				""
-				"Head out into the snow (there's a shovel in the AE system), grab your pickaxe, and go mine some of it up. You should be able to combine some of what you collect into chunks, ready for further processing."
+				"Head out into the snow (there's a shovel in the ME system), grab your pickaxe, and go mine some of it up. You should be able to combine some of what you collect into chunks, ready for further processing."
 			]
 			dependencies: ["61B38011A9C02237"]
 			id: "6A3AEAB7ACCE1B5D"
@@ -281,7 +281,7 @@
 			shape: "square"
 			subtitle: "Somewhere to keep some stuff"
 			description: [
-				"When it comes to automation, in the past we would have just suggested using your AE system, and would have sent over the necessary peripherals."
+				"When it comes to automation, in the past we would have just suggested using your ME system, and would have sent over the necessary peripherals."
 				""
 				"Unfortunately, that's no longer an option."
 				""
@@ -1264,7 +1264,7 @@
 			description: [
 				"You might have noticed by now that nights can be pretty scary. Those \"mobs\", as were calling them, seem to appear in droves after sunset. Be careful out there!"
 				""
-				"On the plus side, it seems that some of them are affected by the natural radiation produced by the local sun, and so many (but not all) of them perish in the sunlight. Even better, some of them leave behind some useful things."
+				"On the plus side, it seems that some of them are affected by the natural radiation produced by the local sun, and some (but not all) of them perish in the sunlight. Even better, some of them leave behind some useful things."
 				""
 				"You might want to make it a habit to head outside in the mornings and pick up some of what's left behind. If you're really lucky, you might even find some sort of meat product that could, perhaps, sustain you until we get a better food supply sorted out."
 			]
