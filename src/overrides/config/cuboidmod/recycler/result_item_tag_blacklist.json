@@ -1,5 +1,8 @@
 [
   "forge:rods/wooden",
+  "minecraft:logs",
+  "minecraft:planks",
+  "minecraft:wooden_slabs",
   "forge:ingots/iron",
   "forge:storage_blocks/iron",
   "forge:dusts/iron",
