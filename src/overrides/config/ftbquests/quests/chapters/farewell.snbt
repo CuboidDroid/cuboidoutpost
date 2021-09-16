@@ -159,11 +159,11 @@
 			x: 10.0d
 			y: 3.5d
 			description: [
-				"Steps / tasks with a Gear shape are typically either the start of a particular chapter, or a link to another chapter. In other words, you will usually want to try and open up all gears if your aim is to get access to all chapters."
+				"Steps / tasks with a &eGear&f shape are typically either the &astart of a particular chapter, or a link to another chapter&f. In other words, you will usually want to try and open up all gears if your aim is to get access to all chapters."
 				""
-				"Steps / tasks with a Square shape are part of the main survival guide requirements - if your aim is to progress through the pack and skip some of the less critical items, you can focus on completing the Square tasks first."
+				"Steps / tasks with a &eSquare&f shape are part of the &amain survival guide requirements&f - if your aim is to progress through the pack and skip some of the less critical items, you can &afocus on completing the Square tasks&f first."
 				""
-				"Steps / tasks with a Circle shape are usually either totally optional, or just not critical to your continued existence."
+				"Steps / tasks with a &eCircle&f shape are usually either &atotally optional, or just not critical&f to your continued existence."
 				""
 				"While this is the intent, it may be possible that this does not always hold true... but it hopefully gives you a bit of an idea of how to approach things."
 			]
@@ -181,9 +181,11 @@
 			description: [
 				"This Survival Guide has been lovingly crafted (even if mainly out of guilt) to help you make a new life for yourself in this barren and somewhat inhospitable land you're stranded in."
 				""
-				"The first thing to note is that it's important to read what we've written. Yes, we do waffle on a bit, but there's usually a point to it. If you skim through, you might miss an important bit of information, and die a cold, lonely, horrible death. The choice is yours though."
+				"The first thing to note is that it's important to read what we've written. Yes, we do waffle on a bit, but there's usually a point to it. &aIf you skim through, you might miss an important bit of information&f, and die a cold, lonely, horrible death. The choice is yours though."
 				""
-				"To complete a step, you will need to complete the listed tasks. This surivival guide will automatically attempt to recognise when you have completed something, but it's attuned to you - so ensure you hold the item yourself for it to be automatically recognised!"
+				"Some tasks have fairly long explanations, and even hints in them - &ayou might need to scroll down&f to see it all!"
+				""
+				"To complete a step, you will need to complete the listed tasks. This surivival guide will automatically attempt to recognise when you have completed something, but it's attuned to you - so &aensure you hold the item in your inventory for it to be automatically recognised!&f"
 				""
 				"If you're wondering why a particular step is greyed-out and unavailable to you, there is a little black arrow in the \"Tasks\" box - if you open that up you will see a list of other steps you will need to complete first. You can select one from that list to be taken to that step in the guide."
 			]
