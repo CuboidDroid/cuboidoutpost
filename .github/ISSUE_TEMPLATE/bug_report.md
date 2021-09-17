@@ -7,7 +7,7 @@ assignees: CuboidDroid
 
 ---
 
-** Modpack Version:**
+**Modpack Version:**
 e.g. 0.1.0
 
 **Describe the bug**
