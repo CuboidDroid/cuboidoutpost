@@ -291,11 +291,9 @@
 			x: -8.5d
 			y: 2.0d
 			description: [
-				"There are two ways to obtain a bucket of lactic acid."
+				"The way to obtain a Bucket of Lactic Acid is fairly straight-forward..."
 				""
-				"The easiest is to craft together a Bucket of Milk, some salt, and an empty Bucket (to mix it in)."
-				""
-				"A different way of doing this would be to place a barrel on a block of salt, and pump milk into it (for example, from a Tank that you can deposit Milk into)."
+				"In a crafting table, craft together a Bucket of Milk, some Salt, and an empty Bucket (to mix it in). You'll get back the empty bucket that had the milk in, and a Bucket of Lactic Acid."
 			]
 			dependencies: ["659F614DFFD07509"]
 			id: "1344D5915E1DA763"
