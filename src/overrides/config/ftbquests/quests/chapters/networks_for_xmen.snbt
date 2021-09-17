@@ -86,6 +86,11 @@
 			title: "Network Cable"
 			x: -0.5d
 			y: 1.5d
+			description: [
+				"Network Cables run from Connector to Connector. Connectors and Cables must be of the same color to connect to each other. This is handy if you want to run cables from separate networks next to each other - just ensure they're using different color cables/connectors."
+				""
+				"&cUnfortunately you can't look up the recipe from here directly due to corruption that occurred during transmission of this survival guide. Please use the search feature in JEI instead.&f"
+			]
 			dependencies: ["2EBE94F050C5DCA6"]
 			id: "08A8C51EB01F3C18"
 			tasks: [{
@@ -106,6 +111,13 @@
 			title: "Connectors"
 			x: -0.5d
 			y: -1.5d
+			description: [
+				"Standard connectors will connect to adjacent machines or XNet cables in all directions. Selecting a connector will allow you to give it a name, as well as disconnect from any of the 6 sides."
+				""
+				"The standard Connectors work slower than their advanced counterparts, and can only operate through the side of the block that they are connected to."
+				""
+				"&cUnfortunately you can't look up the recipe from here directly due to corruption that occurred during transmission of this survival guide. Please use the search feature in JEI instead.&f"
+			]
 			dependencies: ["2EBE94F050C5DCA6"]
 			id: "3074D94C2567198F"
 			tasks: [{
@@ -139,6 +151,11 @@
 		{
 			x: 2.5d
 			y: -1.5d
+			description: [
+				"Advanced Connectors work the same way as the standard ones, but are generally quicker and also allow interacting with connected blocks on any side of that block, regardless of where the connector is connected."
+				""
+				"&cUnfortunately you can't look up the recipe from here directly due to corruption that occurred during transmission of this survival guide. Please use the search feature in JEI instead.&f"
+			]
 			dependencies: ["3074D94C2567198F"]
 			id: "693B99EEE4A98DDF"
 			tasks: [{
@@ -158,6 +175,7 @@
 		{
 			x: 1.0d
 			y: -3.0d
+			description: ["Connector Upgrade Kits can be used on existing Connectors in-world to upgrade them without needing to break and replace them."]
 			dependencies: ["3074D94C2567198F"]
 			optional: true
 			id: "36731AE0D76D7BEE"

@@ -306,6 +306,8 @@
 				"XNet can be used to rapidly transfer items from connected inventories (chests, machines, etc). It's highly configurable, supports advanced features like filters, number of items to transfer per operation, multiple channels for transferring items to different destinations using a single network cable, and more."
 				""
 				"If you would like some examples of how to use it, take a look at the \"Networks for XMen\" topic in this appendix."
+				""
+				"&cUnfortunately you can't look up the recipe from here directly due to corruption that occurred during transmission of this survival guide. Please use the search feature in JEI instead.&f"
 			]
 			id: "2C69BA63A47A0E40"
 			tasks: [

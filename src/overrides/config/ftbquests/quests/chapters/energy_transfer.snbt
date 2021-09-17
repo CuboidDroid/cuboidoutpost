@@ -181,6 +181,8 @@
 				"A note on the advanced connectors for energy - you cannot consume power from other sides of the source energy block even with an advanced connector - energy can only be consumed from a side of the energy source that is providing power. Advanced connectors can, however, provide energy to sides the connector is not actually attached to."
 				""
 				"If you would like some examples of how to use it, take a look at the \"Networks for XMen\" topic in this appendix."
+				""
+				"&cUnfortunately you can't look up the recipe from here directly due to corruption that occurred during transmission of this survival guide. Please use the search feature in JEI instead.&f"
 			]
 			id: "4684D4B747C9FBB4"
 			tasks: [

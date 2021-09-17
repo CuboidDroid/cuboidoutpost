@@ -56,6 +56,150 @@
 		containerClass = "appeng.container.implementations.WirelessTermContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.collapser.inventory.NotsogudiumQuantumCollapserContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.collapser.inventory.KudbebeddaQuantumCollapserContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.collapser.inventory.NotarfbadiumQuantumCollapserContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.collapser.inventory.WikidiumQuantumCollapserContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.collapser.inventory.ThatlduQuantumCollapserContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.craftingtable.inventory.CuboidCraftingContainer"
+		sortRange = "10-36"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.dryingcupboard.inventory.DryingCupboardContainer"
+		sortRange = "16-42"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.furnace.inventory.NotsogudiumFurnaceContainer"
+		sortRange = "3-29"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.furnace.inventory.KudbebeddaFurnaceContainer"
+		sortRange = "3-29"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.furnace.inventory.NotarfbadiumFurnaceContainer"
+		sortRange = "3-29"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.furnace.inventory.WikidiumFurnaceContainer"
+		sortRange = "3-29"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.furnace.inventory.ThatlduFurnaceContainer"
+		sortRange = "3-29"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.furnace.inventory.EumusFurnaceContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.powergen.inventory.NotsogudiumSingularityPowerGeneratorContainer"
+		sortRange = "1-27"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.powergen.inventory.KudbebeddaSingularityPowerGeneratorContainer"
+		sortRange = "1-27"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.powergen.inventory.NotarfbadiumSingularityPowerGeneratorContainer"
+		sortRange = "1-27"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.powergen.inventory.WikidiumSingularityPowerGeneratorContainer"
+		sortRange = "1-27"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.powergen.inventory.ThatlduSingularityPowerGeneratorContainer"
+		sortRange = "1-27"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.recycler.inventory.MolecularRecyclerContainer"
+		sortRange = "7-33"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.refinedinscriber.inventory.RefinedInscriberContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.resourcegen.inventory.NotsogudiumSingularityResourceGeneratorContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.resourcegen.inventory.KudbebeddaSingularityResourceGeneratorContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.resourcegen.inventory.NotarfbadiumSingularityResourceGeneratorContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.resourcegen.inventory.WikidiumSingularityResourceGeneratorContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.resourcegen.inventory.ThatlduSingularityResourceGeneratorContainer"
+		sortRange = "2-28"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.cuboiddroid.cuboidmod.modules.transmuter.inventory.QuantumTransmutationChamberContainer"
+		sortRange = "3-29"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockCopperFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockCrystalFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockDiamondFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockEmeraldFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockGoldFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockIronFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockMillionFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockNetheriteFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockObsidianFurnaceContainer"
+		sortRange = "4-30"
+
+	[[sorting.containerOverrides]]
+		containerClass = "ironfurnaces.container.BlockSilverFurnaceContainer"
+		sortRange = "4-30"
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category

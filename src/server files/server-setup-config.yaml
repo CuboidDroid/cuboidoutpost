@@ -50,7 +50,7 @@ install:
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
   # e.g. This: https://www.curseforge.com/minecraft/modpacks/cuboid-outpost/files/3460607
   #   Becomes: https://media.forgecdn.net/files/3460/607/Cuboid-Outpost-0.1.10.zip
-  modpackUrl: https://media.forgecdn.net/files/3460/607/Cuboid-Outpost-0.1.10.zip
+  modpackUrl: https://media.forgecdn.net/files/3461/075/Cuboid-Outpost-0.1.12.zip
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
   # - curseforge or curse

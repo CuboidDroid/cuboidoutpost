@@ -167,6 +167,8 @@
 				"It does require an XNet Controller too, of course, but if you are looking to automate a process that includes fluids, it can be a great choice."
 				""
 				"If you would like some examples of how to use it, take a look at the \"Networks for XMen\" topic in this appendix."
+				""
+				"&cUnfortunately you can't look up the recipe from here directly due to corruption that occurred during transmission of this survival guide. Please use the search feature in JEI instead.&f"
 			]
 			id: "26642B00376F3070"
 			tasks: [
