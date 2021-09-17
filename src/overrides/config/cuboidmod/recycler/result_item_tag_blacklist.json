@@ -1,5 +1,7 @@
 [
   "forge:rods/wooden",
+  "forge:cobblestone",
+  "forge:stone",
   "minecraft:logs",
   "minecraft:planks",
   "minecraft:wooden_slabs",

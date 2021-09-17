@@ -25,6 +25,7 @@ global["unifypriorities"] = [
 // Items to exclude (will not be unified)
 global["unifyexclude"] = new Set([
     // "minecraft:stone"
+    "minecraft:potion"
 ])
 
 // Add oredictionary tags here to unify (or use javascript to generate it!). These are also higher priority than tagGen
