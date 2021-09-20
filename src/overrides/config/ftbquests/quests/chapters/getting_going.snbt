@@ -999,7 +999,7 @@
 			tasks: [{
 				id: "6F8831F876C2185C"
 				type: "item"
-				title: "Any #forge:dusts/salt"
+				title: "Salt"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

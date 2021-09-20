@@ -1344,9 +1344,9 @@
 		}
 		{
 			disable_toast: true
-			x: 13.5d
+			x: -11.5d
 			y: 23.5d
-			dependencies: ["301EB6FA4F26CCA2"]
+			dependencies: ["21703ECD81A72300"]
 			id: "7E0974F6BA61F360"
 			tasks: [{
 				id: "24F9F97FC6E025F0"
@@ -1527,14 +1527,25 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 24.0d
+			x: -13.5d
+			y: 23.5d
 			dependencies: ["21703ECD81A72300"]
 			id: "2736B33886DD93A5"
 			tasks: [{
 				id: "413C10840596C410"
 				type: "item"
 				item: "powah:uraninite_raw_dense"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 24.0d
+			dependencies: ["21703ECD81A72300"]
+			id: "10611D8902F60755"
+			tasks: [{
+				id: "549962CA411BCA37"
+				type: "item"
+				item: "exnihilosequentia:piece_platinum"
 			}]
 		}
 	]
