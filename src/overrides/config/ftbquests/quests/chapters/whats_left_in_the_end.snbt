@@ -75,9 +75,9 @@
 			description: [
 				"To enable the Cryogenic Dimensional Teleporter to pierce the veil between this dimension and our target Dimension (The End), we will need to attune it using an Energised End Stone Brick."
 				""
-				"Once you have that, use it on the CDT and you will see it hovering in place above the CDT. Once the CDT is fully charged, you will be able to right-click on it with an empty hand to be teleported to the target dimension. You'll know it's ready when the key item starts spinning."
+				"Once you have that, use it on the CDT and you will see it hovering in place above the CDT. Once the CDT is fully charged, you will be able to right-click on it with an empty hand to be teleported to the target dimension. You'll know it's ready when the key item starts spinning. &cKeys, once applied to the CDT are single use! Replacing with another key item, or picking up the CDT will not return a used key item to you.&f"
 				""
-				"Make sure you have a way of getting back if you need to!"
+				"Make sure you have a way of getting back if you need to, and ensure you have an easy way to get there again! Waystones are perfect for this."
 			]
 			dependencies: ["1BD8C96CC9C7495C"]
 			id: "562DF660E5C68A16"
@@ -180,6 +180,8 @@
 				"The CDT needs to be charged up, but will only start charging when \"loaded\" with an appropriate key item, which we will get onto next."
 				""
 				"For now, just ensure that you place down the CDT somewhere that means it is being provided with power, and ensure that there is an air gap directly above it."
+				""
+				"&cNOTE: Once a key is applied to a CDT, the key cannot be retrieved from the device. You would be well advised to ensure you place the CDT in a position you wish it to stay.&f"
 			]
 			dependencies: ["183CEC42DC0F408F"]
 			id: "1BD8C96CC9C7495C"
