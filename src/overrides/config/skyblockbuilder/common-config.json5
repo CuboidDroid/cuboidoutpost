@@ -157,7 +157,8 @@
     
     // The offset from 0, 0 to generate the islands
     // Can be used to generate them in the middle of .mca files
-    "offset": 248,
+    // Adjusted so outpost sits neatly in the middle of a chunk
+    "offset": 241,
     
     // Sea level in world [default: 63]
     // Range: 0 - 256
