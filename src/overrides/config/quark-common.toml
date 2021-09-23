@@ -7,9 +7,9 @@
 	"Piston Push Limit" = 12
 	#Set to true to make the quark big worldgen features such as stone clusters or underground biomes generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	#A list of screens that don't play well with quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
-	"Ignored Screens" = []
+	"Ignored Screens" = ["blusunrize.immersiveengineering.client.gui.CraftingTableScreen", "com.refinedmods.refinedstorage.screen.grid.GridScreen", "appeng.client.gui.implementations.CraftingTermScreen", "appeng.client.gui.implementations.PatternTermScreen", "com.blakebr0.extendedcrafting.client.screen.EliteTableScreen", "com.blakebr0.extendedcrafting.client.screen.EliteAutoTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateAutoTableScreen", "slimeknights.tconstruct.tables.client.inventory.module.SideInventoryScreen", "slimeknights.tconstruct.tables.client.inventory.module.TinkerTabsScreen", "slimeknights.tconstruct.tables.client.inventory.table.CraftingStationScreen", "slimeknights.tconstruct.smeltery.client.inventory.module.SmelterySideInventoryScreen", "slimeknights.tconstruct.smeltery.client.inventory.SmelteryScreen"]
 	"Use Anti Overlap" = true
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
@@ -226,12 +226,12 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true
 	"Right Click Armor" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 
 	[management.inventory_sorting]
 		#Play a click when sorting inventories using keybindings
@@ -241,7 +241,7 @@
 		"Enable Player Inventory" = true
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -1871,7 +1871,7 @@
 	"Improved Tooltips" = true
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Chest Searching" = true
 
 	[client.usage_ticker]

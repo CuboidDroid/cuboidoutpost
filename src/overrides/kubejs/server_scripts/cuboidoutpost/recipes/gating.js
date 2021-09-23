@@ -2,6 +2,9 @@
 
 onEvent('recipes', e => {
 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  // -- IRON --
+  
   // remove tinkers smelting recipes that would give
   // early access to iron
 
@@ -27,4 +30,23 @@ onEvent('recipes', e => {
   e.remove({id: 'minecraft:iron_nugget_from_blasting'})
   e.remove({id: 'minecraft:iron_nugget_from_smelting'})
 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  // -- GOLD --
+  
+  // remove tinkers smelting recipes that would give
+  // early access to gold
+
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/apple'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/boots'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/chestplate'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/clock'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/enchanted_apple'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/helmet'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/horse_armor'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/leggings'})
+
+  // remove minecraft recipes that would give
+  // early access to gold
+  e.remove({id: 'minecraft:gold_nugget_from_blasting'})
+  e.remove({id: 'minecraft:gold_nugget_from_smelting'})
 })
