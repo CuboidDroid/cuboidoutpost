@@ -4,3 +4,4 @@ src/kubejs/assets/kubejs/textures/item/example_item.png
 src/overrides/mods/*.jar
 src/Cuboid*.zip
 src/server files/*.zip
+src/server files/dist

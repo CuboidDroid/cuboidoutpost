@@ -74,11 +74,39 @@ onEvent('recipes', e => {
     "amount": 8
   })
   
-  // 15 - Uranium
+  // 10 - Blazewood
+  e.custom({
+    "type": "exnihilosequentia:heat",
+    "block": "tconstruct:blazewood",
+    "amount": 10
+  })
+
+  // 15 - Uranium block
   e.custom({
     "type": "exnihilosequentia:heat",
     "block": "mekanism:block_uranium",
     "amount": 15
+  })
+
+  // 20 - Uraninite block
+  e.custom({
+    "type": "exnihilosequentia:heat",
+    "block": "powah:uraninite_block",
+    "amount": 20
+  })
+    
+  // 30 - Blazing Crystal block
+  e.custom({
+    "type": "exnihilosequentia:heat",
+    "block": "powah:blazing_crystal_block",
+    "amount": 30
+  })
+
+  // 100 - Nitro Crystal block
+  e.custom({
+    "type": "exnihilosequentia:heat",
+    "block": "powah:nitro_crystal_block",
+    "amount": 100
   })
     
 })
