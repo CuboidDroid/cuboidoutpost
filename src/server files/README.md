@@ -73,6 +73,18 @@ If you want to make changes to the book, or provide your own, I will leave that 
 
 The details of the commands available can be found in the [Skyblock Builder readme](https://github.com/MelanX/SkyblockBuilder/blob/1.16.x/README.md) - just in case that ever "disappears", what follows is the stuff you need to know (pretty-much copy-pasted from that README file in case it gets removed at some point in the future).
 
+## Check settings
+
+Open up `config/skylblockbuilder/common-config.json5` using a text editor.
+
+Look for the "Utility" section and change settings to match the experience you want to offer players on your server.
+
+The defaults would probably be a good place to start. They mean that teams must be created by server admins, but once a team is created, users can pretty-much manage their team themselves. This would be better for an "open" server so as to stop too many Outposts being created by people just popping in.
+
+If yours is a "closed" server - i.e. not open to the general public, and you trust the players on there to behave themselves, then you might want to consider setting the "createOwnTeam" value to true so that the workload on admins is a bit less.
+
+Depending on how nice you are or aren't, you may also want to change the setting under "Inventory" to stop players dropped all their stuff when they leave / get kicked from a team - but that's up to you!
+
 ### Normal user
 
 #### Listing teams
