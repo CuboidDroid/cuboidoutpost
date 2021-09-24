@@ -44,6 +44,7 @@ onEvent('recipes', e => {
     )
 
     e.smelting('1x create:zinc_ingot', 'cuboidmod:zinc_dust')
+    e.blasting('1x create:zinc_ingot', 'cuboidmod:zinc_dust')
 
     // cobalt dust
     e.recipes.thermal.pulverizer(
@@ -57,6 +58,21 @@ onEvent('recipes', e => {
     )
 
     e.smelting('1x tconstruct:cobalt_ingot', 'cuboidmod:cobalt_dust')
+    e.blasting('1x tconstruct:cobalt_ingot', 'cuboidmod:cobalt_dust')
+
+    // platinum dust
+    e.recipes.thermal.pulverizer(
+      ['2x kubejs:platinum_dust'],
+      '#forge:ores/platinum'
+    )
+
+    e.recipes.mekanism.crushing(
+      '2x kubejs:platinum_dust',
+      '#forge:ores/platinum'
+    )
+
+    e.smelting('1x exnihilosequentia:ingot_platinum', 'kubejs:platinum_dust')
+    e.blasting('1x exnihilosequentia:ingot_platinum', 'kubejs:platinum_dust')
 
     // initial molecular recycler recipe
     e.shaped('cuboidmod:molecular_recycler', [

@@ -117,6 +117,34 @@ onEvent('recipes', e => {
 
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+  const kube_crushed_ore = (name) => {
+    e.custom({
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "cuboidmod:smoosher"
+        },
+        {
+          "tag": "forge:ores/" + name
+        }
+      ],
+      "result": {
+        "item": "kubejs:" + name + "_dust",
+        "count": 2
+      }
+    })
+  }
+
+  const kube_crushed_ores = [
+    "platinum"
+  ]
+
+  kube_crushed_ores.forEach((name) => {
+    kube_crushed_ore(name)
+  })
+
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
   const thermal_plate = (name) => {
     e.custom({
       "type": "minecraft:crafting_shapeless",

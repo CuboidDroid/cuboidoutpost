@@ -9,9 +9,7 @@ onEvent('item.registry', e => {
 
 	e.create('albumen').displayName('Albumen')
 
-    //e.create('platinum_ingot').displayName('Platinum Ingot')
-
-	//e.create('platinum_nugget').displayName('Platinum Nugget')
+	e.create('platinum_dust').displayName('Platinum Dust')
 
 })
 
