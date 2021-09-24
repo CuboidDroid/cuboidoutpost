@@ -234,4 +234,41 @@ onEvent('recipes', e => {
       'minecraft:bucket'
     ])
     
+    // make going from cellulose chiseled bricks back to cellulose blocks a "thing"
+    // to give people a chance at correcting / reclaiming blocks
+    e.custom({
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "##",
+        "##"
+      ],
+      "key": {
+        "#": {
+          "item": "cuboidmod:cellulose_chiseled_bricks"
+        }
+      },
+      "result": {
+        "item": "cuboidmod:cellulose_block",
+        "count": 4
+      }
+    })
+
+    // make producing cellulose a bit easier by letting people use water bottles instead
+    e.custom({
+      "type": "cuboidmod:transmuting",
+      "base": {
+        "item": "cuboidmod:carbon_deposit"
+      },
+      "addition": {
+          "type": "forge:nbt",
+          "item": "minecraft:potion",
+          "nbt": "{Potion:'minecraft:water'}"
+      },
+      "result": {
+        "item": "cuboidmod:cellulose",
+        "count": 2
+      },
+      "work_ticks": 150,
+      "energy": 5000
+    })
 })

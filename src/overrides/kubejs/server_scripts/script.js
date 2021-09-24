@@ -15,14 +15,3 @@ onEvent('item.tags', event => {
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
 })
-
-// Listen to player login event
-onEvent('player.logged_in', function (event) {
-	// Check if player doesn't have "starting_items" gamestage yet
-	if (!event.hasGameStage('starting_items')) {
-	    // Add the gamestage
-	    event.addGameStage('starting_items')
-	    // Give some items to player
-	    event.player.give('ftbquests:book')
-	}
-})
