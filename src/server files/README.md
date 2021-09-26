@@ -8,6 +8,8 @@ You can find out how to do that manually by reading this article on the Minecraf
 
 If you're using a server host, you will hopefully be able to choose the version and have it set up for you just by picking the above version.
 
+Essentially, once you have a Minecraft Forge Server up and running, copy the contents of the ZIP file containing this README.md file into the server instance root, then keep reading...
+
 ## Recommended Settings for `server.properties`
 
 The following settings in `server.properties` are recommended for servers:
@@ -40,6 +42,18 @@ Since the overworld is basically flat and only contains one kind of structure wh
 
 If you do decide to pre-generate chunks, you'll probably want to restrict doing so to the nether, the end, and the final dimension - the Cuboid Overworld (resource id: `cuboidmod:cuboid_overworld`). I'm also going to assume you know what you're doing, or are willing to seek advice elsewhere as it's not something I personally know much about at the time of writing this! (i.e. please **don't ask me for help on this!**)
 
+# Upgrading
+
+To upgrade, the process is basically the same as installing for the first time, except that if you have made any custom changes to config files, you will need to re-apply them after the upgrade has taken place.
+
+Follow these steps:
+* stop your server
+* I recommend that you backup your server files at this point in case you need to go back to the previous state if the upgrade fails
+* delete the contents of the mods folder on your server (if you have added additional mods on your server, you won't want to delete those, or if you do, you will just have to put them back again after the upgrade)
+* copy the contents of this ZIP file into your server root (just)
+* double-check the settings in config, especially if you previously made changes
+* start your server
+
 # Setting up for multiple players
 
 Behind the scenes, Cuboid Outpost uses [Skyblock Builder](https://github.com/MelanX/SkyblockBuilder) to create the "island" (Outpost) that players spawn on. What this means is that all players will spawn on the "main island" - i.e. the same outpost!
@@ -62,8 +76,9 @@ If you do not want the book to be craftable by players, change "true" to "false"
 var addRecipe = true as bool;
 ```
 
-
 If you want to make changes to the book, or provide your own, I will leave that up to you to figure out!
+
+**Note that if you're doing an upgrade and previously changed these settings, you will need to change them again after the upgrade.**
 
 ## Create a spawn area (optionally with instructions)
 
@@ -84,6 +99,8 @@ The defaults would probably be a good place to start. They mean that teams must 
 If yours is a "closed" server - i.e. not open to the general public, and you trust the players on there to behave themselves, then you might want to consider setting the "createOwnTeam" value to true so that the workload on admins is a bit less.
 
 Depending on how nice you are or aren't, you may also want to change the setting under "Inventory" to stop players dropped all their stuff when they leave / get kicked from a team - but that's up to you!
+
+**Note that if you're doing an upgrade and previously changed these settings, you will need to change them again after the upgrade.**
 
 ### Normal user
 
