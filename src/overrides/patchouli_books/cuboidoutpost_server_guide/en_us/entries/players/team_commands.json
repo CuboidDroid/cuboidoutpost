@@ -13,7 +13,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Allow Visits:$()$(br)$(1)/skyblock allowVisit <true/false>$()$(br2)Leave off <true/false> to see the current visiting state for your Outpost. You can enable/disable visits by specifying true or false.$(br2)$(l)Invite Player to your Team:$()$(br)$(1)/skyblock invite <player>$()$(br2)This sends an invitation to <player> asking them to join your team."
+            "text": "$(l)Allow Visits:$()$(br)$(1)/skyblock team allowVisit <true/false>$()$(br2)Leave off <true/false> to see the current visiting state for your Outpost. You can enable/disable visits by specifying true or false.$(br2)$(l)Invite Player to your Team:$()$(br)$(1)/skyblock invite <player>$()$(br2)This sends an invitation to <player> asking them to join your team."
         },
         {
             "type": "patchouli:text",

@@ -11,16 +11,14 @@ global["HIDE_UNIFIED_ITEMS"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
-    "minecraft",
     "cuboidmod",
-    "exnihilosequentia",
-    "alltheores",
+    "minecraft",
+    "tconstruct",
+    "immersiveengineering",
     "mekanism",
     "thermal",
-    "tconstruct",
-    "silents_mechanisms",
-    "silentgems",
-    "chemlib"
+    "create",
+    "exnihilosequentia"
 ]
 // Items to exclude (will not be unified)
 global["unifyexclude"] = new Set([
@@ -53,19 +51,19 @@ var tags = [
 var tagGen = [
     "gold=gears,plates",
     "diamond=gears,plates",
-    "copper=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "tin=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "aluminum=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "lead=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "silver=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "nickel=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
-    "bronze=storage_blocks,ingots,nuggets,dusts,ores,gears,plates",
+    "copper=storage_blocks,ingots,nuggets,dusts,gears,plates",
+    "tin=storage_blocks,ingots,nuggets,dusts,gears,plates",
+    "aluminum=storage_blocks,ingots,nuggets,dusts,gears,plates",
+    "lead=storage_blocks,ingots,nuggets,dusts,gears,plates",
+    "silver=storage_blocks,ingots,nuggets,dusts,gears,plates",
+    "nickel=storage_blocks,ingots,nuggets,dusts,gears,plates",
+    "bronze=storage_blocks,ingots,nuggets,dusts,gears,plates",
     "steel=storage_blocks,ingots,nuggets,dusts",
-    "platinum=storage_blocks,ingots,nuggets,dusts,ores",
-    "uranium=storage_blocks,ingots,nuggets,dusts,ores",
-    "iridium=storage_blocks,ingots,nuggets,dusts,ores",
-    "zinc=storage_blocks,ingots,nuggets,dusts,ores",
-    "osmium=ingots,ores",
+    "platinum=storage_blocks,ingots,nuggets,dusts",
+    "uranium=storage_blocks,ingots,nuggets,dusts",
+    "iridium=storage_blocks,ingots,nuggets,dusts",
+    "zinc=storage_blocks,ingots,nuggets,dusts",
+    "osmium=ingots",
     "sulfur=dusts,ores",
     "silicon=gems",
     "salt=dusts"

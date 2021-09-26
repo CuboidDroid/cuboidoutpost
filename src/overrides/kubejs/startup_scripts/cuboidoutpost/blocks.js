@@ -1,6 +1,11 @@
 onEvent('block.registry', e => {
 
-    //e.create('platinum_block').material('metal').hardness(3).displayName('Block of Platinum')
+    e.create('platinum_block')
+        .material('metal')
+        .hardness(6)
+        .harvestTool('pickaxe', 2)
+        .requiresTool(true)
+        .displayName('Block of Platinum')
 
 })
 

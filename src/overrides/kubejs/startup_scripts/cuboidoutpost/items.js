@@ -11,6 +11,8 @@ onEvent('item.registry', e => {
 
 	e.create('platinum_dust').displayName('Platinum Dust')
 
+	e.create('platinum_nugget').displayName('Platinum Nugget')
+
 })
 
 

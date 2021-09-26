@@ -803,9 +803,9 @@
 			shape: "square"
 			subtitle: "Not the kind you supposedly get from frogs"
 			description: [
-				"Sieving Soul Sand with an Iron Mesh can result in some Nether Wort."
+				"Sieving Soul Sand with an Iron Mesh can result in some Nether Wart."
 				""
-				"Nether Wort can be grown on Soul Sand, and is an ingredient in many recipes. It will be especially useful later on when we start brewing potions."
+				"Nether Wart can be grown on Soul Sand, and is an ingredient in many recipes. It will be especially useful later on when we start brewing potions."
 			]
 			dependencies: ["185FD41758B01CB1"]
 			id: "5D14F476E568B129"
