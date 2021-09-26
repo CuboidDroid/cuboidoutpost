@@ -49,4 +49,29 @@ onEvent('recipes', e => {
   // early access to gold
   e.remove({id: 'minecraft:gold_nugget_from_blasting'})
   e.remove({id: 'minecraft:gold_nugget_from_smelting'})
+
+  // remove standard unfired crucible recipe and add one in that
+  // requires grout to try enforce progression by using grout
+  // which requires gravel, sand and clay
+  e.remove({id: 'exnihilosequentia:ens_crucible_unfired'})
+  e.custom({
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "c c",
+      "c c",
+      "cgc"
+    ],
+    "key": {
+      "c": {
+        "item": "exnihilosequentia:porcelain_clay"
+      },
+      "g": {
+        "item": "tconstruct:grout"
+      }
+    },
+    "result": {
+      "item": "exnihilosequentia:crucible_unfired"
+    }
+  })
+
 })

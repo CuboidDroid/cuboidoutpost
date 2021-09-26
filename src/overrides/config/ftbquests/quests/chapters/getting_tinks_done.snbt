@@ -36,7 +36,7 @@
 	quests: [
 		{
 			title: "Getting Tinks Done"
-			x: -8.5d
+			x: -10.5d
 			y: 0.5d
 			shape: "gear"
 			description: ["It's time to start tinkering and getting some things done."]
@@ -50,7 +50,7 @@
 		}
 		{
 			title: "It's for the Grouter Good"
-			x: -6.5d
+			x: -8.5d
 			y: 0.5d
 			shape: "square"
 			description: [
@@ -71,7 +71,7 @@
 		}
 		{
 			title: "Slightly over-cooked bricks"
-			x: -4.5d
+			x: -5.5d
 			y: 0.5d
 			shape: "square"
 			description: [
@@ -279,7 +279,7 @@
 				""
 				"Make at least 7 balls of Porcelain Clay, and shape them into an Unfired Crucible."
 			]
-			dependencies: ["0BA4183E9254B2AD"]
+			dependencies: ["7689811B675CB663"]
 			id: "307E3B89B44B462C"
 			tasks: [
 				{

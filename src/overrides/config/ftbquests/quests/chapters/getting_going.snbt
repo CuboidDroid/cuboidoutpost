@@ -255,7 +255,11 @@
 			x: -11.0d
 			y: -8.0d
 			shape: "square"
-			description: ["Oak barrels can be used to mix dry ingredients into liquids. They can also be used to catch rain water, as well as composting materials into Dirt."]
+			description: [
+				"Oak barrels can be used to mix dry ingredients into liquids. They can also be used to catch rain water, as well as composting materials into Dirt."
+				""
+				"When making dirt (and for other automation), you can hopper into the barrel from the top and sides, and hopper out from the bottom. For example, a hopper into the top could insert leaves, which will then compost into dirt, and a hopper underneath can extract the dirt to be stored. Once you have two stacks of dirt, you'll be able to create a Dirt Quantum Singularity and use that in an SRG for an unlimited supply of dirt moving forward."
+			]
 			dependencies: ["3851A991AC7B9CC6"]
 			id: "53F89DDA31E8A134"
 			tasks: [{
@@ -314,6 +318,8 @@
 				"But it does have its uses."
 				""
 				"It can be a good source of flint for one, and can be sifted later on for more materials too,"
+				""
+				"Sifting Gravel will become a great source of materials moving forwards - you should consider making a Gravel Quantum Singularity before long."
 			]
 			dependencies: [
 				"7DFF7B15FCC186F8"
@@ -508,7 +514,11 @@
 			x: -15.0d
 			y: -4.0d
 			shape: "square"
-			description: ["Sifting Dirt can give Pebbles."]
+			description: [
+				"Sifting Dirt can give Pebbles."
+				""
+				"Hint: You might want to look at making a Dirt Quantum Singularity before embarking on sieving dirt for this task!"
+			]
 			dependencies: ["6AF8FD5317351B8A"]
 			id: "6151DF88A40CD55B"
 			tasks: [
@@ -549,7 +559,7 @@
 				""
 				"Go ahead and make some Andesite, Basalt, Blackstone, Diorite and Granite."
 				""
-				"Hint: As with most raw materials, there are Quantum Singularities for these too, but you probably won't need all of them. If you're able, you might want to invest the time and effort into obtaining an Andesite Quantum Singularity though."
+				"Hint: As with most raw materials, there are Quantum Singularities for these too, but you probably won't need all of them. If you're able, you might want to invest the time and effort into obtaining Andesite, Diorite and Granite Quantum Singularities though."
 			]
 			dependencies: ["6151DF88A40CD55B"]
 			id: "09E583ACB8521C0D"
@@ -781,6 +791,7 @@
 			x: -11.5d
 			y: 0.5d
 			shape: "square"
+			description: ["Zinc will be useful in the making of Andesite Alloy and other materials."]
 			dependencies: ["2A78D30A0B063CD4"]
 			id: "542FE8F3A4EDD091"
 			tasks: [
