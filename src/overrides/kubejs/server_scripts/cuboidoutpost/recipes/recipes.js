@@ -218,6 +218,12 @@ onEvent('recipes', e => {
       'kubejs:albumen'
     ])
 
+    // Concealment Key (aka shroud key)
+    e.shapeless('storagedrawers:shroud_key', [
+      'storagedrawers:drawer_key',
+      'minecraft:ender_pearl'
+    ])
+
     // eumus furnace recipe
     e.shaped('cuboidmod:eumus_furnace', [
       'EEE',

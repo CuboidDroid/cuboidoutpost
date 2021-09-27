@@ -134,6 +134,11 @@
 				type: "item"
 				item: "ironfurnaces:diamond_furnace"
 			}]
+			rewards: [{
+				id: "46728B93ADC1B2D2"
+				type: "item"
+				item: "ironfurnaces:upgrade_diamond"
+			}]
 		}
 		{
 			title: "Emerald Furnaces"
@@ -151,6 +156,11 @@
 				id: "46F8F76341F1F1CA"
 				type: "item"
 				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "390473B90671403C"
+				type: "item"
+				item: "ironfurnaces:upgrade_emerald"
 			}]
 		}
 		{
@@ -173,6 +183,18 @@
 				type: "item"
 				item: "ironfurnaces:obsidian_furnace"
 			}]
+			rewards: [
+				{
+					id: "060C441F64E2BED9"
+					type: "item"
+					item: "ironfurnaces:upgrade_obsidian"
+				}
+				{
+					id: "0A92B0871E6F8123"
+					type: "item"
+					item: "ironfurnaces:upgrade_obsidian2"
+				}
+			]
 		}
 		{
 			title: "Crystal Furnaces"
@@ -189,6 +211,11 @@
 				id: "041B112AF245CC17"
 				type: "item"
 				item: "ironfurnaces:crystal_furnace"
+			}]
+			rewards: [{
+				id: "37005624C9315AA2"
+				type: "item"
+				item: "ironfurnaces:upgrade_crystal"
 			}]
 		}
 		{
@@ -208,6 +235,11 @@
 				id: "29EC55E45E4D89DB"
 				type: "item"
 				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "4FE675B2D13B9A9A"
+				type: "item"
+				item: "ironfurnaces:upgrade_netherite"
 			}]
 		}
 		{
@@ -232,6 +264,12 @@
 				type: "item"
 				item: "ironfurnaces:rainbow_plating"
 				count: 8L
+			}]
+			rewards: [{
+				id: "14596729BA46F120"
+				type: "item"
+				item: "ironfurnaces:rainbow_plating"
+				count: 8
 			}]
 		}
 		{

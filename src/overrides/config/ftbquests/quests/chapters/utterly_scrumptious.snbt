@@ -200,6 +200,7 @@
 				type: "item"
 				item: "minecraft:ink_sac"
 				count: 4
+				random_bonus: 12
 			}]
 		}
 		{
@@ -235,6 +236,11 @@
 			id: "0E9672A8D028CA06"
 			tasks: [{
 				id: "459431DEEE88FA73"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+			}]
+			rewards: [{
+				id: "6195B7E1605ED4E1"
 				type: "item"
 				item: "cookingforblockheads:fridge"
 			}]
@@ -337,6 +343,11 @@
 				type: "item"
 				item: "cookingforblockheads:preservation_chamber"
 			}]
+			rewards: [{
+				id: "35D00E59EE169816"
+				type: "item"
+				item: "cookingforblockheads:preservation_chamber"
+			}]
 		}
 		{
 			title: "Bottled Milk"
@@ -410,6 +421,13 @@
 				type: "item"
 				item: "pamhc2foodcore:basichamburgeritem"
 			}]
+			rewards: [{
+				id: "21B614DCFA8C1AA2"
+				type: "item"
+				item: "pamhc2foodcore:basichamburgeritem"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 17.0d
@@ -420,6 +438,13 @@
 				id: "46537B08E2E6F428"
 				type: "item"
 				item: "pamhc2foodcore:basiccheeseburgeritem"
+			}]
+			rewards: [{
+				id: "6B3ABC26601AE6E5"
+				type: "item"
+				item: "pamhc2foodcore:basiccheeseburgeritem"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -432,6 +457,13 @@
 				type: "item"
 				item: "pamhc2foodextended:deluxecheeseburgeritem"
 			}]
+			rewards: [{
+				id: "763322CF12B0F4E5"
+				type: "item"
+				item: "pamhc2foodextended:deluxecheeseburgeritem"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 18.0d
@@ -443,6 +475,13 @@
 				type: "item"
 				item: "pamhc2foodcore:baconcheeseburgeritem"
 			}]
+			rewards: [{
+				id: "673161DA75E33E5B"
+				type: "item"
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 17.5d
@@ -450,9 +489,16 @@
 			dependencies: ["1F852D0FFC94FAD1"]
 			id: "2162C295885EECBD"
 			tasks: [{
-				id: "086715B5BA3F64BD"
+				id: "3E6CE0A0356061C6"
 				type: "item"
-				item: "pamhc2foodcore:baconcheeseburgeritem"
+				item: "pamhc2foodcore:basicchickensandwichitem"
+			}]
+			rewards: [{
+				id: "6D322647BE3BEF23"
+				type: "item"
+				item: "pamhc2foodcore:basicchickensandwichitem"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -465,6 +511,13 @@
 				type: "item"
 				item: "pamhc2foodextended:baconmushroomburgeritem"
 			}]
+			rewards: [{
+				id: "1D9F6D0546969A3E"
+				type: "item"
+				item: "pamhc2foodextended:baconmushroomburgeritem"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 18.0d
@@ -476,6 +529,13 @@
 				type: "item"
 				item: "pamhc2foodextended:mcpamitem"
 			}]
+			rewards: [{
+				id: "5FDCBC48AE2801B1"
+				type: "item"
+				item: "pamhc2foodextended:mcpamitem"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 20.0d
@@ -486,6 +546,13 @@
 				id: "3A2AC364C1C89DC9"
 				type: "item"
 				item: "pamhc2foodextended:delightedmealitem"
+			}]
+			rewards: [{
+				id: "3381A0CCFB14550B"
+				type: "item"
+				item: "pamhc2foodextended:delightedmealitem"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
