@@ -62,5 +62,25 @@
 				random_bonus: 4
 			}]
 		}
+		{
+			title: "I can't find my copy of \"Materials and You\"!"
+			icon: "tconstruct:materials_and_you"
+			x: 0.0d
+			y: -3.0d
+			shape: "octagon"
+			description: ["You should have received a copy when you started, but accidents do happen - so just in case you need one in a pinch, here's a spare copy of \"Materials and You\"."]
+			optional: true
+			id: "095A5628202AD4D1"
+			tasks: [{
+				id: "29F6AB0D917E24C1"
+				type: "checkmark"
+				title: "\"I'm really sorry! I promise to take care of this one!\""
+			}]
+			rewards: [{
+				id: "0CD5EE018418DFF8"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
 	]
 }

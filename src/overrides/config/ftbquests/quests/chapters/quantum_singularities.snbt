@@ -590,7 +590,7 @@
 		}
 		{
 			x: -13.5d
-			y: -2.0d
+			y: -1.5d
 			id: "5B8D5364889B26A2"
 			tasks: [{
 				id: "0C53B35A31B8D7C3"
@@ -620,7 +620,7 @@
 		}
 		{
 			x: -12.5d
-			y: -2.0d
+			y: -1.5d
 			id: "43174776572408D1"
 			tasks: [{
 				id: "1C08CB1999DA054F"
@@ -630,7 +630,7 @@
 		}
 		{
 			x: -11.5d
-			y: -2.0d
+			y: -1.5d
 			id: "1280ED29DB2476B4"
 			tasks: [{
 				id: "156336925668D1FD"
@@ -640,12 +640,32 @@
 		}
 		{
 			x: -12.5d
-			y: -1.0d
+			y: -0.5d
 			id: "788AFB2054343F12"
 			tasks: [{
 				id: "5026384FF16B6304"
 				type: "item"
 				item: "cuboidmod:electrum_quantum_singularity"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -3.0d
+			id: "4C97527DF943A853"
+			tasks: [{
+				id: "56CFC39980B68927"
+				type: "item"
+				item: "cuboidmod:endstone_quantum_singularity"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -4.0d
+			id: "4D90784573FE6D50"
+			tasks: [{
+				id: "68DB40221500E532"
+				type: "item"
+				item: "cuboidmod:netherrack_quantum_singularity"
 			}]
 		}
 	]
