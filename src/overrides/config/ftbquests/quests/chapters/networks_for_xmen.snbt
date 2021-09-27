@@ -33,18 +33,6 @@
 			corner: false
 		}
 		{
-			x: -0.5d
-			y: 4.0d
-			width: 6.0d
-			height: 3.0d
-			rotation: 0.0d
-			image: "kubejs:textures/quests/under_construction.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
 			x: 10.0d
 			y: 4.5d
 			width: 7.5d
@@ -68,6 +56,78 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 10.0d
+			y: 13.5d
+			width: 7.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/soulsand/xnet-soulsand-generator.png"
+			hover: ["The basic layout of the Soul Sand Generator."]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 16.5d
+			width: 7.5d
+			height: 3.5d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/soulsand/xnet-soulsand-1-water.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 19.75d
+			width: 7.5d
+			height: 3.5d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/soulsand/xnet-soulsand-2-witchwater.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 23.0d
+			width: 7.5d
+			height: 3.5d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/soulsand/xnet-soulsand-3-sand.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 26.25d
+			width: 7.5d
+			height: 3.5d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/soulsand/xnet-soulsand-4-soulsand.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.5d
+			y: 13.5d
+			width: 3.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/soulsand/xnet-soulsand-rain-protection.png"
+			hover: ["If you build this outdoors, add a slab above the barrel in which you make Soul Sand to stop rain from filling it up with plain water!"]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -75,6 +135,11 @@
 			x: -2.0d
 			y: 0.0d
 			shape: "gear"
+			description: [
+				"XNet is a powerful piece of kit for connecting blocks together using fewer cables than would otherwise be necessary. It requires a Controller, which allows you to set up 8 different channels which describe the behaviour of your network."
+				""
+				"We have included a few examples of how XNet can be used to automate some processes you might otherwise find challenging."
+			]
 			dependencies: ["3B00278F3DDF103C"]
 			id: "2EBE94F050C5DCA6"
 			tasks: [{
@@ -211,6 +276,7 @@
 				""
 				"&aChannel 3&f: The last channel used is set to Items, and deals with the output. We need this additional channel because we can't insert and extract on the same channel with a single connector. We simply extract from the Stone Barrel and insert into our output chest."
 			]
+			optional: true
 			id: "3597BCB5AFE09176"
 			tasks: [{
 				id: "1452B5581E97DEC3"
@@ -240,9 +306,119 @@
 				""
 				"You can expand this easily by adding more energizing orbs and using the remaining channels to insert the right ingredients into them. For example, channel 3 could extract from the chest and insert Blaze Powder (with a 4 in the # box) into the new Orb, that could have a new Energizing Rod assigned to it, and you can then set the extract on channel 7 for the orb to put the result (Blazing Crystal) back into the chest. Alternatively just duplicate the setup and have one of this sort of setup for each Energizing Orb output you're after (which would be simpler to manage for sure, if a bit more expensive)"
 			]
+			optional: true
 			id: "045B1C5B7E2A3503"
 			tasks: [{
 				id: "3959BA1C1F566282"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Soul Sand Generator using XNet - Step 1"
+			x: 6.0d
+			y: 15.0d
+			description: [
+				"This section of the Survival Guide explains how you can set up a Soul Sand Generator using XNet."
+				""
+				"You will need:"
+				"- 2 wooden barrels"
+				"- 4 XNet Connectors"
+				"- An XNet Controller"
+				"- An output chest or storage drawer"
+				"- Mycelium to place a barrel on"
+				"- A source of water (Kitchen Sink)"
+				"- A source of sand (e.g. an SRG)"
+				"- A source of power (e.g. an SPG)"
+				""
+				"Place a barrel on mycelium. Add a connector to the barrel (can be on top too if you're trying to maximise production with side-by-side barrels)."
+				""
+				"Place down your Controller and supply it with power."
+				""
+				"Put down a Kitchen Sink, and add a connector to it - this will be our source of infinite water. Now have a look at the image of the first channel setup for moving water. Set the insert first on the Wooden Barrel, and add a bucket of water into the filter slot, then set the extract from the Kitchen Sink (optionally specifying a filter with the bucket of water). Your barrel should start making Witchwater."
+			]
+			optional: true
+			id: "768A534C21FC6B8E"
+			tasks: [{
+				id: "1A8F1C63A3D6B0E6"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Soul Sand Generator using XNet - Step 2"
+			x: 6.0d
+			y: 20.0d
+			description: [
+				"Now that our first barrel is full of witchwater, we need to move that to our other barrel where we will make Soul Sand."
+				""
+				"For this we set up a second fluid channel, and then set the insert for the second barrel, making sure to set a filter using a Bucket of Witchwater. This ensures that we do not accidentally start pulling out the water before it has been converted."
+				""
+				"Once the insert to the second barrel is set correctly, you can go ahead and add the extract on the first barrel - optionally you can set a filter here for Witchwater too just in case."
+				""
+				"p.s. Once you've got the basics set up, you might want to add more barrels for producing Witchwater - simply add the additional barrels with connectors and set up their extract function in the same way."
+			]
+			dependencies: ["768A534C21FC6B8E"]
+			optional: true
+			id: "5BDB9BF9E69F02C2"
+			tasks: [{
+				id: "0DB6DC4DFD3B610A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Soul Sand Generator using XNet - Step 3"
+			x: 6.0d
+			y: 23.0d
+			description: [
+				"At this point, we now have a reliable source of Witchwater in a barrel. The next step is to insert sand into that barrel so that it turns into Soul Sand."
+				""
+				"Add a new Item channel, then add the insert function on the barrel that will be receiving the Witchwater. Set a filter on it using a block of sand."
+				""
+				"Next, set an extract function on your source of Sand, optionally setting a filter for Sand on that too."
+				""
+				"You should now have Soul Sand in your second barrel, and if you remove it by hand, the barrel should automatically fill up with Witchwater, have Sand inserted into it, and it should turn to more Soul Sand."
+			]
+			dependencies: ["5BDB9BF9E69F02C2"]
+			optional: true
+			id: "6FE284033A7200F2"
+			tasks: [{
+				id: "389FA5106FEF6627"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Soul Sand Generator using XNet - Step 4"
+			x: 6.0d
+			y: 26.0d
+			description: [
+				"The final step is to move the Soul Sand out of the Barrel and put it into storage."
+				""
+				"Create the 4th channel as items, then set the insert on your target storage, and put a piece of Soul Sand in the whitelist filter as shown."
+				""
+				"Lastly, create the extract function on the barrel where the Soul Sand is being produced too, optionally setting a filter for Soul Sand on that too."
+				""
+				"Congratulations! Your Soul Sand generator should now be working flawlessly!"
+				""
+				"One last note - if you have build yours outside, you should consider at least covering the barrel where the Soul Sand is being made with something - even if just a slab or trap door - to stop it from accidentally filling up with plain water when it rains."
+			]
+			dependencies: ["6FE284033A7200F2"]
+			optional: true
+			id: "65E6B36767117199"
+			tasks: [{
+				id: "4373A5BAE8F29A7D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Soul Sand Generator - Challenge!"
+			x: 6.0d
+			y: 29.0d
+			subtitle: "(just for fun!)"
+			description: ["If you'd like to challenge yourself, it's actually possible, using XNet, to build a Soul Sand Generator using just one barrel instead of two. Can you figure out how to do it?"]
+			dependencies: ["65E6B36767117199"]
+			optional: true
+			id: "25868E38BE8CD503"
+			tasks: [{
+				id: "070F5D6DFC067BCF"
 				type: "checkmark"
 			}]
 		}

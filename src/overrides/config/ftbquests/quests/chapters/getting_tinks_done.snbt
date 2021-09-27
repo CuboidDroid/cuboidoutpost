@@ -787,7 +787,11 @@
 			x: 10.0d
 			y: -6.5d
 			shape: "square"
-			description: ["Adding Sand to a barrel full of Witch Water will transform the Sand into Soul Sand, consuming the Witch Water in the process."]
+			description: [
+				"Adding Sand to a barrel full of Witch Water will transform the Sand into Soul Sand, consuming the Witch Water in the process."
+				""
+				"p.s. Automating the production of Soul Sand can be notoriously difficult. If you decide you would like to try it anyway, the Science Division gurus have come up with a step-by-step method for you to try. You will need to have access to gold and redstone first, but once those are in hand, take a look at the \"Networks for X-Men\" section of this Survival Guide in Appendix A."
+			]
 			dependencies: ["1640986D10506C1D"]
 			id: "185FD41758B01CB1"
 			tasks: [{

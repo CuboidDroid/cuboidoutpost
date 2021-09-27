@@ -195,6 +195,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
+			subtitle: "(totally optional!)"
 			description: [
 				"Our resident Queen of Cakes, Chaynne, is really worried that you might need to live out the rest of your life without access to her famous Sweet Rolls. A team of engineers here at Cuboid Corp (tm) have pulled together a plan to appease Chaynne, and also to allow you to eat as many Sweet Rolls as you can."
 				""
@@ -268,6 +269,7 @@
 			y: 2.0d
 			description: ["A Depot is a work surface that can hold items to be processed / worked on. The design that the Engineers have come up with requires a total of 3 - you need to supply 2, and we had a spare one lying around that you can have."]
 			dependencies: ["574CE4094B4ABC72"]
+			optional: true
 			id: "4FB9FA967B3EE350"
 			tasks: [{
 				id: "6361C0B2B607EDFF"
@@ -291,6 +293,7 @@
 				"You still attach them to an inventory in the same way, but there's a little slot on them once placed that allows you to put in an item to filter on (or a Filter if you wanted multiple types of items to pass through it), and you can use your Wrench on it to change the direction of operation (indicated by a small arrow on top)."
 			]
 			dependencies: ["35989B99214D45F6"]
+			optional: true
 			id: "79232363587AA883"
 			tasks: [{
 				id: "5065DC74E0553D42"
@@ -334,6 +337,7 @@
 			y: 4.0d
 			description: ["Sand Paper is made from, well, Sand and Paper. The main reason you will need some is to make Polished Rose Quartz."]
 			dependencies: ["4FB9FA967B3EE350"]
+			optional: true
 			id: "6690650E031AC11C"
 			tasks: [{
 				id: "1BCADA9B313BB6D3"
@@ -359,6 +363,7 @@
 			y: 4.0d
 			description: ["Rose Quartz is made by covering Nether Quartz with Redstone Dust in a crafting table. It has unique properties that manifest once it has been polished."]
 			dependencies: ["4FB9FA967B3EE350"]
+			optional: true
 			id: "2AC873F2B792C194"
 			tasks: [{
 				id: "1314E64FDD4E229F"
@@ -377,6 +382,7 @@
 				"6690650E031AC11C"
 				"2AC873F2B792C194"
 			]
+			optional: true
 			id: "35989B99214D45F6"
 			tasks: [{
 				id: "737B0AFFD2372F31"
@@ -406,6 +412,7 @@
 				"Remember to scroll in for a closer look at the example images if you need to."
 			]
 			dependencies: ["79232363587AA883"]
+			optional: true
 			id: "5B6C59479BE6A4F8"
 			tasks: [
 				{
@@ -454,6 +461,7 @@
 				"At this point you can test the system again - throw in some wheat, and when the Mill finishes processing one, the funnels should now automatically place the Wheat Flour onto the depot, and toss the Wheat Seeds into the Chute (which in turn will insert them into the Trash Can)."
 			]
 			dependencies: ["5B6C59479BE6A4F8"]
+			optional: true
 			id: "76781961999FE587"
 			tasks: [{
 				id: "04452542F7D92B10"
@@ -467,6 +475,7 @@
 			shape: "hexagon"
 			description: ["For this next step, you'll need some wooden stairs, a bucket of water, and an encased fan."]
 			dependencies: ["76781961999FE587"]
+			optional: true
 			id: "2FFAF634FDD29430"
 			tasks: [
 				{
@@ -503,6 +512,7 @@
 				"You should now be able to use your Water Bucket on the stairs to \"waterlog\" them without water running all over the place."
 			]
 			dependencies: ["2FFAF634FDD29430"]
+			optional: true
 			id: "64FE60E8C1EC5BFF"
 			tasks: [{
 				id: "3312653404ECCBCA"
@@ -516,6 +526,7 @@
 			shape: "hexagon"
 			description: ["Before moving on, you might want to place some Wheat Flour on the existing depot (the one for washing) and attach a hand crank to the back of the encased fan, then spin it until the Wheat Flour on the depot turns to Dough - you'll need a piece of dough to set the filter on this new Brass Funnel."]
 			dependencies: ["64FE60E8C1EC5BFF"]
+			optional: true
 			id: "213DA57A37086E6D"
 			tasks: [
 				{
@@ -540,6 +551,7 @@
 				"What this does is ensure that the Wheat Flour will stay on the first depot until it has turned to Dough, and as soon as it has changed, it will be placed onto this new Depot, ready for further processing."
 			]
 			dependencies: ["64FE60E8C1EC5BFF"]
+			optional: true
 			id: "60B3626BC014EFB6"
 			tasks: [{
 				id: "710443F4D8D98546"
@@ -552,6 +564,7 @@
 			y: 25.0d
 			description: ["We're about to hook up the first two processing stages using 4 small Cog Wheels and a Vertical Gearbox."]
 			dependencies: ["60B3626BC014EFB6"]
+			optional: true
 			id: "721DF79A9838A88D"
 			tasks: [
 				{
@@ -576,6 +589,7 @@
 				"Use two small Cog Wheels to connect the encased fan and the vertical gearbox, and a further two small Cog Wheels to connect the Mill to the Vertical Gearbox."
 			]
 			dependencies: ["721DF79A9838A88D"]
+			optional: true
 			id: "00D76BF71ADD54B1"
 			tasks: [{
 				id: "3D152ECA83D697A6"
@@ -596,6 +610,7 @@
 				"p.s. You're doing great! Have a cuppa on us!"
 			]
 			dependencies: ["00D76BF71ADD54B1"]
+			optional: true
 			id: "3BD9E729B4CF0882"
 			tasks: [
 				{
@@ -620,6 +635,7 @@
 			y: 32.0d
 			description: ["Place the Encased Fan with the blades facing the Depot that will be receiving the raw Dough (with a gap in between the Encased Fan and the Depot), then place down the campfire between them."]
 			dependencies: ["3BD9E729B4CF0882"]
+			optional: true
 			id: "4E31461BA80A95BD"
 			tasks: [{
 				id: "5E60B6828734C888"
@@ -638,6 +654,7 @@
 				"You'll need 4 small Cog Wheels, 4 SHAFT!s, and a Mechanical Belt."
 			]
 			dependencies: ["4E31461BA80A95BD"]
+			optional: true
 			id: "58D47E7A29724AC5"
 			tasks: [
 				{
@@ -677,6 +694,7 @@
 				"Ensure that you have some extra blocks at the end of the Mechanical Belts for now - we need them to \"back up\" when they hit the end of the belt."
 			]
 			dependencies: ["58D47E7A29724AC5"]
+			optional: true
 			id: "519951BD1642E5DA"
 			tasks: [{
 				id: "13536B13302E1547"
@@ -690,6 +708,7 @@
 			shape: "hexagon"
 			description: ["To turn Bread into a Sweet Roll, we will need to use a Spout."]
 			dependencies: ["519951BD1642E5DA"]
+			optional: true
 			id: "493DC7F5FB52E63C"
 			tasks: [{
 				id: "2E2D2A4B932E3BC3"
@@ -702,6 +721,7 @@
 			y: 42.0d
 			description: ["Place the spout above the final section of the mechanical belt."]
 			dependencies: ["493DC7F5FB52E63C"]
+			optional: true
 			id: "3978608E0C61E60D"
 			tasks: [{
 				id: "345F90F805D95E34"
@@ -721,6 +741,7 @@
 				"If you're wondering how to get a Cow in a Jar, you'll need 4 things... a Milk Jar next to a wall, a cow standing on top of the Milk Jar, and an Anvil to place above the cow (hence the wall - it's easier that way!). The Anvil will fall onto the cow, and force it into the bottle. Don't worry though... it's totally safe! The cow will slowly produce milk forever, making it a useful (if slow) way of getting the milk you need for this factory."
 			]
 			dependencies: ["3978608E0C61E60D"]
+			optional: true
 			id: "3B11688AFC597D5B"
 			tasks: [
 				{
@@ -741,6 +762,7 @@
 			y: 47.0d
 			description: ["Once you have a Cow in a Jar, connect it to the Spout using the Mechanical Pipe (ensure you set the pipe to extract from the jar by using your Configurator on it). The Spout should start filling up with Milk."]
 			dependencies: ["3B11688AFC597D5B"]
+			optional: true
 			id: "6C235AAF3C518909"
 			tasks: [{
 				id: "2A0A621762CC9565"
@@ -757,6 +779,7 @@
 				"You will need one in the next step, so don't eat the last one just yet! In the meantime, here's another cuppa tea to celebrate your success!"
 			]
 			dependencies: ["6C235AAF3C518909"]
+			optional: true
 			id: "08886DE0FD266ADB"
 			tasks: [{
 				id: "14F5C402450B37AE"
@@ -776,6 +799,7 @@
 			shape: "hexagon"
 			description: ["For the final part of this machine, you will need a Brass Funnel and a 1x1 Storage Drawer."]
 			dependencies: ["08886DE0FD266ADB"]
+			optional: true
 			id: "5FD4BF7EDEE97960"
 			tasks: [
 				{
@@ -802,6 +826,7 @@
 				"At this point, you're essentially done - all that's left to do is supply the mill with Wheat and attach Rotational Force from somewhere - you will just need to ensure that it is enough to perform both the washing and cooking stages correctly - both in terms of blowing in the right direction, and far enough. If you find that things are going backwards, you should really only need to put in an extra gearbox between the source of rotational force and this contraption, or connect to a different Cog Wheel."
 			]
 			dependencies: ["5FD4BF7EDEE97960"]
+			optional: true
 			id: "3985B75DD006791A"
 			tasks: [{
 				id: "3AEEF9C7CEAAB1A9"
@@ -835,6 +860,7 @@
 				"Our lovely Queen of Cakes, Chaynne, would be so proud!"
 			]
 			dependencies: ["3985B75DD006791A"]
+			optional: true
 			id: "2CC618DE549047D3"
 			tasks: [{
 				id: "3FCB54BD4FC06FB2"

@@ -292,7 +292,7 @@
 			description: [
 				"With some Blank Plates, Cyan Dye, a Diamond Sword and a Phantom Membrance, you can make a ..."
 				""
-				"(p.s. take off your sleep charm for a while and don't sleep if you need a Phantom Membrane)"
+				"&a(p.s. take off your sleep charm for a while and don't sleep if you need a Phantom Membrane)&f"
 			]
 			dependencies: ["23E7764EF9EF17B8"]
 			id: "127615B7EB69331F"

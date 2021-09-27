@@ -7,18 +7,6 @@
 	icon: "exnihilosequentia:crushed_netherrack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -1.0d
-		y: -1.0d
-		width: 6.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "kubejs:textures/quests/under_construction.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Exploring Nether Regions"
@@ -96,6 +84,11 @@
 		{
 			x: 0.0d
 			y: 10.0d
+			description: [
+				"You have quite possibly already encountered a Blaze by now. It turns out that they come from the Nether."
+				""
+				"They are most often found in the vicinity of Nether Fortresses, and often seem to be birthed from spawner devices."
+			]
 			dependencies: ["42F7BB732588FE2B"]
 			id: "1E782624571D6928"
 			tasks: [{
@@ -187,12 +180,20 @@
 		{
 			x: 1.0d
 			y: 11.5d
+			description: ["Destroy a few Blazes and gather up some blaze rods."]
 			dependencies: ["1E782624571D6928"]
 			id: "14DD4220E654B1A5"
 			tasks: [{
 				id: "117DC9F090335B5A"
 				type: "item"
 				item: "minecraft:blaze_rod"
+			}]
+			rewards: [{
+				id: "2ABED4487128C00B"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
