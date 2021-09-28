@@ -422,6 +422,11 @@
 				type: "item"
 				item: "minecraft:horse_spawn_egg"
 			}]
+			rewards: [{
+				id: "779B6B2F1F543258"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
 		}
 		{
 			title: "Moovin' on up!"
@@ -470,7 +475,6 @@
 				"Remember to make a couple of Cow Spawn eggs so that you can start breeding up cows (using Wheat). Cows will be a great source of Leather, but also Milk and Beef, which will open up a whole new world of options in terms of food and all the health benefits that come along with it."
 				""
 				"&aUnlocks: Meeting the Udders&f"
-				"&aUnlocks: Utterly Delicious&f"
 				"&aUnlocks: Deliciously Creative&f"
 				"&aUnlocks: Industrial Foreboding: Ranching&f"
 			]

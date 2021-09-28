@@ -22,7 +22,7 @@
 				""
 				"&aThere are some critical things you will need here too, as indicated by the square and gear-shaped tasks.&f"
 			]
-			dependencies: ["598456E909FF7AB8"]
+			dependencies: ["3D904B464EEC52B5"]
 			id: "748E7FD5E332FB32"
 			tasks: [{
 				id: "55E3F106DBB85C93"
@@ -380,6 +380,8 @@
 				"Get a cow to stand on top of a Milk Jar, then place an anvil above the cow. Gravity will take over and the anvil will drop (let's say \"gently\"), squeezing the cow into the Milk Jar. Voila! Cow in a Jar."
 				""
 				"The cow will slowly fill up the Milk Jar with Milk, which can then be used in recipes if the Milk Jar is placed onto a Kitchen Counter."
+				""
+				"p.s. If you haven't got a cow yet, find out how in the \"&aDishing up the meat&f\" chapter."
 			]
 			dependencies: ["1C85E25A64F902B3"]
 			id: "664278C6EF796B1A"

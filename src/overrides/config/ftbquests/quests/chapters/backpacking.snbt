@@ -21,11 +21,12 @@
 			y: -3.5d
 			shape: "gear"
 			description: [
-				"The time has come for you to try and work out what else is \"out there\". The veil between this dimension and the others seems to be thinning even more, and soon you might even be able to explore one or more of them."
+				"Perhaps the time has come for you to try and work out what else is \"out there\". The veil between this dimension and the others seems to be thinning even more, and soon you might even be able to explore one or more of them."
 				""
 				"Before you go, though, you might want to think about storage on the move. These backpacks are something special - no only do they offer more storage on your person, but they're upgradable in size and function too."
+				""
+				"Or maybe you just like carrying around more stuff! Either way, backpacks are awesome!"
 			]
-			dependencies: ["4D0F1810876E3DF6"]
 			id: "7F60ADA33828168E"
 			tasks: [
 				{

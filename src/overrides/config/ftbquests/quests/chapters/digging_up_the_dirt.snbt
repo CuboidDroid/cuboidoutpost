@@ -1401,10 +1401,11 @@
 			}]
 		}
 		{
-			title: "Unlock Chapter: Dirtying the Dishes"
+			title: "Seed or feed?"
 			x: -8.0d
 			y: 16.5d
 			shape: "gear"
+			description: ["If you'd like to carry on making more seeds for even greater variety in your diet, then by all means do so! You have, however, done enough to start making some interesting new foods too though, so feel free to get cracking on \"&aDirtying the Dishes&f\" if you prefer."]
 			dependencies: [
 				"0878696EBC55F9B4"
 				"01BA8437A5E8D358"

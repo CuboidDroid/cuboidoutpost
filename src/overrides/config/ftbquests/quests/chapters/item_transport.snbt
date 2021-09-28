@@ -814,5 +814,16 @@
 				item: "mekanism:ultimate_bin"
 			}]
 		}
+		{
+			x: -7.5d
+			y: -10.0d
+			description: ["The Concealment Key will stop your storage drawer from showing what's inside it. This is useful if you want to hide what a drawer contains - however, in some situations where there are lots and lots of drawers, displaying their contents can interfere with the speed at which you perceive reality (the Science Division has termed this phenomenon \"lag\"), and therefore in such situations it might be beneficial to use a concealment key to remove some of those negative effects."]
+			id: "2C99514A8166587C"
+			tasks: [{
+				id: "6C2E26D1FFE1F303"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+		}
 	]
 }

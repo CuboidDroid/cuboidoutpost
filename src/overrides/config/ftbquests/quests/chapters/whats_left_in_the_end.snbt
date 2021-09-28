@@ -969,6 +969,8 @@
 				"You will probably come across some useless broken portals, end ship wrecks, and even things like Outposts, Temples, and more."
 				""
 				"If you are feeling very adventurous (and have a decent method of getting around), you could even see if you can find an End Stronghold by the usual means - throwing an Eye of Ender and seeing which direction you need to travel in. Yes - there are actually End Strongholds, but be ready for a long trip - they're typically 10,000 blocks or more from the Dragon Island."
+				""
+				"&aTo complete this task, just visit one of those broken portals that look a bit like a Nether portal.&f"
 			]
 			dependencies: ["34A91AA5B35BB04F"]
 			optional: true

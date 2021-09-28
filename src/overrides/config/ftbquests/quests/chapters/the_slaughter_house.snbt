@@ -608,6 +608,8 @@
 				"The default working area is just 1x1, but this can be expanded through the use of Range Addons. For example, a +2 Range Addon will move the center of the working area 2 blocks away from the machine, and expand the working area by 2 blocks in all four cardinal directions giving a working area of 5x5."
 				""
 				"The Mob Slaughter Factory will produce Liquid Meat and Pink Slime, both in liquid form. It does not, however, leave any mob drops intact."
+				""
+				"Note that the Mob Slaughter Factory can operate through solid blocks so long as appropriate range addons are used. This is useful in that you can place the Mob Slaughter Factory outside the walls of your mob farm and it would still work - e.g. a 3x3 area surrounded by solid walls can be fully covered using a +2 Range Addon because that will give the Mob Slaughter Factory a 5x5 working area. Why would you do this? It drastically simplifies wiring, giving you access to 5/6 sides of the machine for providing power, pumping out liquids, etc."
 			]
 			dependencies: [
 				"33B9229822CC74AF"
@@ -971,7 +973,11 @@
 			title: "Mechanical Spawning"
 			x: 3.0d
 			y: -1.0d
-			description: ["With Liquid Meat you can make Mechanical Dirt. This special dirt, when supplied with power and a steady supply of Liquid Meat, will force the spawning of hostile Mobs above it, which can be a great way to upgrade your mob farm."]
+			description: [
+				"With Liquid Meat you can make Mechanical Dirt. This special dirt, when supplied with power and a steady supply of Liquid Meat, will force the spawning of hostile Mobs above it, which can be a great way to upgrade your mob farm."
+				""
+				"Note that if you place Mechanical Dirt blocks next to each other, they will share power and Liquid Meat automatically, so you will only need to provide power to one of them, and Liquid Meat to one of them, in order to supply all touching Mechanical Dirt blocks."
+			]
 			dependencies: ["6DDDE1A0CBBF73F0"]
 			optional: true
 			id: "3A83A36C23765FD2"

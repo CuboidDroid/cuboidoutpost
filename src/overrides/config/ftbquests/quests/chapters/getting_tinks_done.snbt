@@ -277,7 +277,7 @@
 			description: [
 				"It turns out that Bone Meal and Clay when mixed together form a kind of Porcelain which is suitable, once fired, to hold extremely hot liquids."
 				""
-				"Make at least 7 balls of Porcelain Clay, and shape them into an Unfired Crucible."
+				"Make at least 6 balls of Porcelain Clay and some Grout, and shape them into an Unfired Crucible."
 			]
 			dependencies: ["7689811B675CB663"]
 			id: "307E3B89B44B462C"
@@ -286,10 +286,15 @@
 					id: "1A4674119DEF63F2"
 					type: "item"
 					item: "exnihilosequentia:porcelain_clay"
-					count: 7L
+					count: 6L
 				}
 				{
 					id: "068DB47D59025F1D"
+					type: "item"
+					item: "tconstruct:grout"
+				}
+				{
+					id: "6876EAA3C6D0CE1A"
 					type: "item"
 					item: "exnihilosequentia:crucible_unfired"
 				}
@@ -483,7 +488,11 @@
 			x: 10.0d
 			y: -0.5d
 			shape: "square"
-			description: ["You can also get Netherite Scraps from sieving Crushed Netherrack, which is a nice bonus!"]
+			description: [
+				"You can also get Netherite Scraps from sieving Crushed Netherrack, which is a nice bonus!"
+				""
+				"As soon as you have your first scrap or two, you might want to check on how to make Ancient Debris, and how you might be able to crush and enrich that for a more reliable method of getting more Netherite Scraps."
+			]
 			dependencies: ["24E0AF40A7800C82"]
 			id: "2CDC1C706AFA2E47"
 			tasks: [{

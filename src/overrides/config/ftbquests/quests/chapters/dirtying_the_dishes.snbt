@@ -17,7 +17,7 @@
 				""
 				"We're going to start by making some fairly basic dishes to get some variety in, and will follow up later with some real hunger busters. You might need to bounce around to other sections in this survival guide to be able to complete this one, but it'll all be worth it in the end."
 				""
-				"Or you can just do the &abare minimum of completing the square and pentagon tasks here&f, and keep eating Gruel and slurping Broth if that's your thing!"
+				"Or you can just do the &abare minimum of completing at least 4 of the pentagon tasks here&f, and keep eating Gruel and slurping Broth if that's your thing!"
 				""
 				"Unlocked in:"
 				"  - Digging up the Dirt"
@@ -321,7 +321,7 @@
 		{
 			x: 4.0d
 			y: -7.5d
-			shape: "hexagon"
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: [
 				"3511EB6FA2F20690"
@@ -972,11 +972,12 @@
 			y: -2.5d
 			shape: "gear"
 			description: [
-				"You will be able to unlock the next chapter when all steps with a Pentagon shape have been completed."
+				"You will be able to unlock the next chapter when &aat least 4&f steps with a &aPentagon shape&f have been completed."
 				""
 				"Remember that the more different foods you eat, the better your health and wellbeing, so even though it's not a requirement to complete all of these steps, it might help you on your way. And remember - there's plenty more food you can make too - we'll revisit food a bit later once we've got a kitchen sorted out."
 			]
 			hide_dependency_lines: true
+			min_required_dependencies: 5
 			dependencies: [
 				"3E39D2A6397B1E14"
 				"37D7270B44CC0BB0"

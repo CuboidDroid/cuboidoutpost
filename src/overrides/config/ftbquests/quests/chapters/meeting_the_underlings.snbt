@@ -16,7 +16,7 @@
 			description: [
 				"By now you've got the hang of that totally scientific method of creating Spawn Eggs. There are a few more creatures you can bring back into existence at this stage. Only one more requires a puddle of Witchwater, one requires Sea Water, and the rest can use some of the fruits of our labour so far - Milk, mixed with Salt, for Lactic Acid."
 				""
-				"Note that &ayou only need any 3 of these&f spawn eggs to achieve sufficient biodiversity to move on to the \"Utterly Delicious\" chapter. If you'd really like more of a menagerie, please feel free to make them all!"
+				"Note that &ayou don't have to make any of these&f spawn eggs to achieve sufficient biodiversity - but the more the merrier right? If you'd really like more of a menagerie, please feel free to make them all! If you do &aat least 5&f, we've got a nice bonus for you!"
 			]
 			dependencies: ["4D0F1810876E3DF6"]
 			id: "659F614DFFD07509"
@@ -315,13 +315,13 @@
 			}]
 		}
 		{
-			title: "Ready to move on?"
+			title: "Challenge Bonus"
 			x: -8.5d
 			y: 6.5d
 			shape: "gear"
-			description: ["As soon as you've made 3 of these additional eggs you should be able to complete this step."]
+			description: ["Create a minimum of 5 of these additional spawn eggs and the Department of Fur Babies and Zoology at Cuboid Corp have decided to reward you with something truly special."]
 			hide_dependency_lines: true
-			min_required_dependencies: 3
+			min_required_dependencies: 5
 			dependencies: [
 				"7D5DF86B464F2092"
 				"1B0AF4CD426B9993"
@@ -334,11 +334,16 @@
 				"3EA0212C7626E6F0"
 				"4D7F418135FD9005"
 			]
-			id: "598456E909FF7AB8"
+			id: "51AED40724C46C09"
 			tasks: [{
-				id: "6C8FE1BEEC7D8D85"
+				id: "45CB64F373B4EEF0"
 				type: "checkmark"
-				title: "Let's go!"
+				title: "Claim reward!"
+			}]
+			rewards: [{
+				id: "380D8B796B819611"
+				type: "random"
+				table_id: 2037880618578575318L
 			}]
 		}
 	]
