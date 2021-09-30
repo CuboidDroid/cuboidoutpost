@@ -5,6 +5,7 @@ Cuboid Outpost is my first attempt at creating a ModPack for Minecraft. I hope y
 The basic premise is this... you're stranded on a barren planet, civilization as you knew it has come to an abrupt end, and need to recreate life as you knew it. There are a few twists and turns along the way of course!
 
 Watch the official trailer on YouTube by clicking on this image:
+
 [![Cuboid Outpost Trailer](https://img.youtube.com/vi/97BzxR_aAHc/0.jpg)](https://www.youtube.com/watch?v=97BzxR_aAHc "Cuboid Outpost Trailer")
 
 I designed this to be more of an intermediate tech pack for those just getting into Modded Minecraft, or who are looking for something not too hard / expert. As a result, while there are quite a few mods in the pack, I've intentionally kept the number of alternatives for things low (e.g. for digital storage there's only AE2, but channels are disabled to make it easier to work with).
