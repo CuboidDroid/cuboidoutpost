@@ -2,7 +2,7 @@
 
 Set up your Forge Server with version:
 
-**`forge-1.16.5-36-2-5.jar`**
+**`forge-1.16.5-36.2.5.jar`**
 
 You can find out how to do that manually by reading this article on the Minecraft Wiki: [Setting up a Minecraft Forge server](https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_Minecraft_Forge_server).
 
@@ -41,6 +41,24 @@ view-distance=8
 Since the overworld is basically flat and only contains one kind of structure which is fairly small, you probably don't need to worry about pre-generating chunks for the overworld (especially since individual outposts should be quite some distance apart)
 
 If you do decide to pre-generate chunks, you'll probably want to restrict doing so to the nether, the end, and the final dimension - the Cuboid Overworld (resource id: `cuboidmod:cuboid_overworld`). I'm also going to assume you know what you're doing, or are willing to seek advice elsewhere as it's not something I personally know much about at the time of writing this! (i.e. please **don't ask me for help on this!**)
+
+## If not running on a server host
+
+If running on a server host, you probably won't need these - typically this stuff is just managed via your server host's control panel, and most ask you not to use startup scripts like this...
+
+However, if you're running your own server, I've included some basic scripts as follows in case you are not sure how to start up your server:
+
+### For Windows
+
+Edit `settings.bat` and set the memory to match what you want to allocate. The default is a minimum of 2Gb and a max of 8Gb.
+
+Run `ServerStart.bat` to start up the server. It will probably fail the first time you run it due to EULA not being accepted. This is totally normal and expected. You will need to manually edit the `eula.txt` file and change `false` to `true` to in a text editor to indicate your acceptance of Mojang's End User License Agreement. Running `ServerStart.bat` again should get your server up and running.
+
+### For Linux
+
+Edit `settings.sh` and set the memory to match what you want to allocate. The default is a minimum of 2Gb and a max of 8Gb.
+
+Run `ServerStart.sh` to start up the server. It will probably fail the first time you run it due to EULA not being accepted. This is totally normal and expected. You will need to manually edit the `eula.txt` file and change `false` to `true` to in a text editor to indicate your acceptance of Mojang's End User License Agreement. Running `ServerStart.sh` again should get your server up and running.
 
 # Upgrading
 
