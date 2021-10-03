@@ -30,6 +30,7 @@ global["unifyexclude"] = new Set([
 var tags = [
     "forge:plates/iron",
     "forge:gears/iron",
+    "forge:dusts/iron",
     "forge:silicon"
 ]
 // Block tags for ore gen unification (DOES NOT WORK CURRENTLY)
@@ -49,7 +50,7 @@ var tags = [
 ]*/
 // Easier way to add multiple tags (feel free to add non-existant extra tags, this will ignore them)
 var tagGen = [
-    "gold=gears,plates",
+    "gold=gears,dusts,plates",
     "diamond=gears,plates",
     "copper=storage_blocks,ingots,nuggets,dusts,gears,plates",
     "tin=storage_blocks,ingots,nuggets,dusts,gears,plates",
@@ -63,6 +64,8 @@ var tagGen = [
     "uranium=storage_blocks,ingots,nuggets,dusts",
     "iridium=storage_blocks,ingots,nuggets,dusts",
     "zinc=storage_blocks,ingots,nuggets,dusts",
+    "electrum=storage_blocks,ingots,nuggets,dusts",
+    "constantan=storage_blocks,ingots,nuggets,dusts",
     "osmium=ingots",
     "sulfur=dusts,ores",
     "silicon=gems",

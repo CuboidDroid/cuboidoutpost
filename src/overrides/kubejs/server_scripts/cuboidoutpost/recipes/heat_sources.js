@@ -84,7 +84,7 @@ onEvent('recipes', e => {
   // 15 - Uranium block
   e.custom({
     "type": "exnihilosequentia:heat",
-    "block": "mekanism:block_uranium",
+    "block": "immersiveengineering:storage_uranium",
     "amount": 15
   })
 

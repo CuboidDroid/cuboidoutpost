@@ -351,6 +351,7 @@
 			}]
 		}
 		{
+			title: "Full Size 1x1 Drawers"
 			x: -11.0d
 			y: -9.5d
 			description: ["Before upgrades, a 1x1 drawer has a base storage value of 2048, which means it can hold up to 2048 of one type of item."]
@@ -359,10 +360,18 @@
 			tasks: [{
 				id: "512167B1A5797337"
 				type: "item"
-				item: "storagedrawers:oak_full_drawers_1"
+				title: "Any Full Size 1x1 Drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:full_drawers_1"
+					}
+				}
 			}]
 		}
 		{
+			title: "Full Size 1x2 Drawers"
 			x: -11.0d
 			y: -8.5d
 			description: ["Before upgrades, a 1x2 drawer has a base storage value of 1024, which means it can hold up to 1024 of each of two types of item in its two drawers."]
@@ -371,10 +380,18 @@
 			tasks: [{
 				id: "38FFB6FB2C9EDA51"
 				type: "item"
-				item: "storagedrawers:oak_full_drawers_2"
+				title: "Any Full Size 1x2 Drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:full_drawers_2"
+					}
+				}
 			}]
 		}
 		{
+			title: "Full Size 2x2 Drawers"
 			x: -11.0d
 			y: -7.5d
 			description: ["Before upgrades, a 2x2 drawer has a base storage value of 512, which means it can hold up to 512 of each of four types of item in its four drawers."]
@@ -383,7 +400,14 @@
 			tasks: [{
 				id: "581FE8D8AB5AB4DF"
 				type: "item"
-				item: "storagedrawers:oak_full_drawers_4"
+				title: "Any Full Size 2x2 Drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:full_drawers_4"
+					}
+				}
 			}]
 		}
 		{
