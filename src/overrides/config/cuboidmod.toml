@@ -306,9 +306,9 @@
 
 	[general.notsogudium_smasher]
 		# Durability for the Notsogudium Smasher.
-		# Default: 130
+		# Default: 261
 		#Range: 1 ~ 32767
-		durability = 130
+		durability = 261
 		# Attack speed for the Notsogudium Smasher.
 		# Default: 1.4
 		#Range: 0.0 ~ 4.0
@@ -326,9 +326,9 @@
 
 	[general.thatldu_smasher]
 		# Durability for the Thatldu Smasher.
-		# Default: 1974
+		# Default: 2577
 		#Range: 1 ~ 32767
-		durability = 1974
+		durability = 2577
 		# Attack speed for the Thatldu Smasher.
 		# Default: 1.5
 		#Range: 0.0 ~ 4.0
@@ -340,9 +340,9 @@
 
 	[general.notarfbadium_smasher]
 		# Durability for the Notarfbadium Smasher.
-		# Default: 363
+		# Default: 727
 		#Range: 1 ~ 32767
-		durability = 363
+		durability = 727
 		# Attack speed for the Notarfbadium Smasher.
 		# Default: 1.4
 		#Range: 0.0 ~ 4.0
@@ -354,9 +354,9 @@
 
 	[general.kudbebedda_smasher]
 		# Durability for the Kudbebedda Smasher.
-		# Default: 191
+		# Default: 383
 		#Range: 1 ~ 32767
-		durability = 191
+		durability = 383
 		# Attack speed for the Kudbebedda Smasher.
 		# Default: 1.4
 		#Range: 0.0 ~ 4.0
@@ -368,9 +368,9 @@
 
 	[general.wikidium_smasher]
 		# Durability for the Wikidium Smasher.
-		# Default: 727
+		# Default: 1337
 		#Range: 1 ~ 32767
-		durability = 727
+		durability = 1337
 		# Attack speed for the Wikidium Smasher.
 		# Default: 1.4
 		#Range: 0.0 ~ 4.0

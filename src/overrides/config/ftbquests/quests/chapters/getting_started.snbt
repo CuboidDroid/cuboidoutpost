@@ -673,9 +673,9 @@
 			x: -12.0d
 			y: -9.5d
 			description: [
-				"The Notsogudium Chest holds 18 stacks (2 rows), loses its content when broken, and cannot be opened if obstructed above."
+				"The Notsogudium Chest holds 18 stacks (2 rows), drops its content when broken, and cannot be opened if obstructed above."
 				""
-				"The Kudbebedda Chest holds 27 stacks (3 rows), loses its content when broken, and cannot be opened if obstructed above."
+				"The Kudbebedda Chest holds 27 stacks (3 rows), drops its content when broken, and cannot be opened if obstructed above."
 			]
 			dependencies: ["239BDF86B0F52664"]
 			optional: true
@@ -847,7 +847,7 @@
 		{
 			x: -15.0d
 			y: -6.5d
-			description: ["The Notarfbadium Chest holds 36 stacks (4 rows), loses its content when broken, and &acan&r be opened if obstructed above."]
+			description: ["The Notarfbadium Chest holds 36 stacks (4 rows), drops its content when broken, and &acan&r be opened if obstructed above."]
 			dependencies: ["44C381EA0A38D2A6"]
 			optional: true
 			id: "38CD58AE5FC73167"
