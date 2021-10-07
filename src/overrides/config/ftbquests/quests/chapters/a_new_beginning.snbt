@@ -14,7 +14,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Now that you've pulled together all of the requirements needed, you should be able to make yourself a block of Energized Thatlduvium."
+				"Now that you've visited (and hopefully conquered) the End and the Nether, and have pulled together all of the requirements needed, you should be able to make yourself a block of Energized Thatlduvium."
 				""
 				"Apart from looking a bit ridiculous and cool at the same time, the most important thing to recognise is that we believe that this block of material, when used in a Cryogenic Dimensional Teleporter, will open up a pathway to another new dimension. Some postulate that this is just going to target an existing dimension, whereas others (including the cake lady, Chaynne, for whatever that's worth) think it's actually going to be brought into existence! Either way, we believe this one is something special..."
 				""
@@ -31,6 +31,8 @@
 				"7F08B486E9150C8E"
 				"36D099113E0B2042"
 				"1CF4D6DD0070E2A6"
+				"10E3ABB4530A9F1A"
+				"248E373FA159A972"
 			]
 			id: "51C4DAB656980D21"
 			tasks: [{
@@ -101,14 +103,15 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 2.0d
 			y: 5.0d
 			shape: "gear"
 			id: "1CF4D6DD0070E2A6"
 			tasks: [{
-				id: "6960770C8EE6C80C"
+				id: "007124EB02A4D758"
 				type: "item"
-				item: "cuboidmod:dirt_quantum_singularity"
+				item: "quark:blaze_lantern"
 			}]
 		}
 		{

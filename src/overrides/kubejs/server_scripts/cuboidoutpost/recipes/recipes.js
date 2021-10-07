@@ -233,6 +233,18 @@ onEvent('recipes', e => {
       E: 'endergetic:eumus'
     })
 
+    // piston recipe
+    e.shaped('minecraft:name_tag', [
+      ' II',
+      'LSI',
+      'PL '
+    ], {
+      P: 'minecraft:paper',
+      L: 'minecraft:leather',
+      I: '#forge:ingots/iron',
+      S: '#minecraft:signs'
+    })
+
     // lactic acid bucket
     e.shapeless('kubejs:lactic_acid_bucket', [
       'minecraft:milk_bucket',

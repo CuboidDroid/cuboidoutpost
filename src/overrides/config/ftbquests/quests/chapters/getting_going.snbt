@@ -258,7 +258,7 @@
 			description: [
 				"Oak barrels can be used to mix dry ingredients into liquids. They can also be used to catch rain water, as well as composting materials into Dirt."
 				""
-				"When making dirt (and for other automation), you can hopper into the barrel from the top and sides, and hopper out from the bottom. For example, a hopper into the top could insert leaves, which will then compost into dirt, and a hopper underneath can extract the dirt to be stored. Once you have two stacks of dirt, you'll be able to create a Dirt Quantum Singularity and use that in an SRG for an unlimited supply of dirt moving forward."
+				"When making dirt (and for other automation), you can hopper into the barrel from the top and sides, and hopper out from the bottom. For example, a hopper into the top could insert leaves (use shears on leaves), wood chippings (use a hammer on logs), saplings, etc., which will then compost into dirt, and a hopper underneath can extract the dirt to be stored. Once you have two stacks of dirt, you'll be able to create a Dirt Quantum Singularity and use that in an SRG for an unlimited supply of dirt moving forward."
 			]
 			dependencies: ["3851A991AC7B9CC6"]
 			id: "53F89DDA31E8A134"

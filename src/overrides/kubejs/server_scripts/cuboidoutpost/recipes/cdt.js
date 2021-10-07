@@ -87,7 +87,7 @@ onEvent('recipes', e => {
         {"item": "extendedcrafting:ultimate_singularity"},
         {"item": "powah:capacitor_nitro"},
         {"item": "industrialforegoing:ether_gas_bucket"},
-        {"item": "cuboidmod:dirt_quantum_singularity"}
+        {"item": "quark:blaze_lantern"}
       ],
       "energy": 20000000,
       "result": {
@@ -96,7 +96,9 @@ onEvent('recipes', e => {
       }
     })
 
+    // force blaze lantern to be obtained, not crafted
+    e.remove({id: 'quark:building/crafting/blaze_lantern'})
+
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-  
   
   })

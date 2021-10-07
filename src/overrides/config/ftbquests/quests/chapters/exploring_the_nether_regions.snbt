@@ -380,5 +380,23 @@
 				criterion: ""
 			}]
 		}
+		{
+			title: "Obtain a Blaze Lantern"
+			x: -3.0d
+			y: 4.0d
+			shape: "gear"
+			description: [
+				"One of the key ingredients you will need from the Nether is a Blaze Lantern."
+				""
+				"You can find these in tall spires in lava oceans, and they are typically protected by their namesake."
+			]
+			dependencies: ["248E373FA159A972"]
+			id: "036A00C69FE8FD59"
+			tasks: [{
+				id: "5EE34EC0795F7010"
+				type: "item"
+				item: "quark:blaze_lantern"
+			}]
+		}
 	]
 }

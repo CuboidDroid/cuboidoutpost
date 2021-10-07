@@ -164,6 +164,7 @@
 			x: -9.5d
 			y: 8.5d
 			shape: "square"
+			description: ["(use Shears to pick up a fern that has been created by planting Fern Seeds on dirt or grass)"]
 			dependencies: ["09BF0E0C854B9D19"]
 			id: "1B4F63C1126E61B8"
 			tasks: [{

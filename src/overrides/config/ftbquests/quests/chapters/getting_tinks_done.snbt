@@ -760,7 +760,7 @@
 				""
 				"If you haven't figured it out yet, Diamonds can be obtained by sieving Gravel or Crushed Diorite with an Iron Mesh."
 				""
-				"Ancient spores can be used on dirt to turn it into Mycelium. Be careful though - the stuff spreads! It might be a good idea to make a border of some sort of stone around a 3x3 area of dirt and then use the Ancient Spores on the middle block."
+				"&aAncient spores can be used on dirt to turn it into Mycelium&f. Be careful though - the stuff spreads! It might be a good idea to make a border of some sort of stone around a 3x3 area of dirt and then use the Ancient Spores on the middle block."
 			]
 			dependencies: ["1D85898B092C9EC0"]
 			id: "7F6BB5E95997690C"
