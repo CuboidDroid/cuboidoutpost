@@ -96,8 +96,19 @@ onEvent('recipes', e => {
       }
     })
 
-    // force blaze lantern to be obtained, not crafted
+    // force blaze lantern to be obtained, not crafted in usual way
     e.remove({id: 'quark:building/crafting/blaze_lantern'})
+
+    // tweak recipe for play on servers or ppl who are scared of blazes
+    e.shaped('quark:blaze_lantern', [
+      'RBR',
+      'BSB',
+      'RBR'
+    ], {
+      R: 'minecraft:blaze_rod',
+      B: 'minecraft:blaze_powder',
+      S: 'rftoolsbase:dimensionalshard_nether'
+    })
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   

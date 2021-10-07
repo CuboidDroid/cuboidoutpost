@@ -389,8 +389,11 @@
 				"One of the key ingredients you will need from the Nether is a Blaze Lantern."
 				""
 				"You can find these in tall spires in lava oceans, and they are typically protected by their namesake."
+				""
+				"Alternatively, you can make one from Blaze Rods, Blaze Powder, and the nether variant of Dimensional Share Ore (you will need to use a pickaxe with Silk Touch or a Tinkers Tool with the Silky ability on it to pick up a block of it rather than just the shards)"
 			]
 			dependencies: ["248E373FA159A972"]
+			size: 1.5d
 			id: "036A00C69FE8FD59"
 			tasks: [{
 				id: "5EE34EC0795F7010"

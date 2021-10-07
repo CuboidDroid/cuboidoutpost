@@ -329,17 +329,24 @@
 			]
 			dependencies: ["0FBD70A678F713DE"]
 			id: "30E592B9968A4B46"
-			tasks: [{
-				id: "2B6EF24D09E52C6E"
-				type: "item"
-				item: {
-					id: "tconstruct:small_axe_head"
-					Count: 1b
-					tag: {
-						Material: "tconstruct:stone"
+			tasks: [
+				{
+					id: "2B6EF24D09E52C6E"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
 					}
 				}
-			}]
+				{
+					id: "25B26DD231CDA123"
+					type: "checkmark"
+					title: "I hereby confirm I have made an axe with a stone axe head."
+				}
+			]
 		}
 		{
 			title: "Better upgrades"

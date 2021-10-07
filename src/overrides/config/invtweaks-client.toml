@@ -37,6 +37,10 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
+		containerClass = "net.blay09.mods.excompressum.container.AutoSieveContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
 		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
 		sortRange = ""
 
