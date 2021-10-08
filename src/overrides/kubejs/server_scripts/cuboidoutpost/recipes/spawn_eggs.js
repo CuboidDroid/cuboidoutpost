@@ -173,4 +173,14 @@ onEvent('recipes', e => {
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
+    e.shapeless('minecraft:red_mushroom', [
+      '#forge:mushrooms',
+      '#forge:dyes/red'
+    ])
+
+    e.shapeless('minecraft:brown_mushroom', [
+      '#forge:mushrooms',
+      '#forge:dyes/brown'
+    ])
+
   })

@@ -605,6 +605,17 @@
 					title: "Got it!"
 				}
 			]
+			rewards: [{
+				id: "09723EBA537BB55C"
+				type: "item"
+				item: {
+					id: "ironjetpacks:iron_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
 		}
 		{
 			title: "Tier 3 Jetpack"

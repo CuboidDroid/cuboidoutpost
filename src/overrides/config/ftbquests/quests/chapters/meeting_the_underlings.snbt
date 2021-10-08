@@ -146,6 +146,8 @@
 				"Using a bucket on a Mooshroom yields Milk. Using a bowl on a mooshroom yields Mushroom Stew. If a flower is used on a Mooshroom first, and then a bowl, the result might be a Suspicious Stew, which can have different effects depending on the type of flower used."
 				""
 				"Mooshrooms, like Cows, can be bred using wheat."
+				""
+				"Hint: Ancient Spores in a barrel of Witch Water will give you a brown mushroom block."
 			]
 			dependencies: ["1344D5915E1DA763"]
 			id: "3EA0212C7626E6F0"
