@@ -264,7 +264,7 @@
 			description: [
 				"Next up we're going to recreate sheep."
 				""
-				"To do this, gather up a piece of White Wool, a block of Sky Stone, some Primordial Gloop and some RNA, and toss them into a puddle of Witchwater."
+				"To do this, gather up a piece of White Wool, a block of Sky Stone, some Primordial Gloop and an Egg, and toss them into a puddle of Witchwater."
 			]
 			dependencies: ["30E793C110473B32"]
 			id: "62EB9B9BD1FB1035"

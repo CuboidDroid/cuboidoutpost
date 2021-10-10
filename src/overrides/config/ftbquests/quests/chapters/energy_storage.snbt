@@ -54,6 +54,7 @@
 				""
 				"You could expand the size of the structure to a maximum of 18x18x18, but before you run off and build something massive, consider that even the smallest Induction Matrix of 3x4x3 but with one Ultimate Induction Cell and one Ultimate Induction Provider can store 1.6 Trillion RF and has an I/O rate of 52.42 million RF/t !"
 			]
+			dependencies: ["7545A28EC99DDD1C"]
 			id: "040AE11A8FC02A34"
 			tasks: [
 				{
@@ -334,6 +335,38 @@
 				id: "6DB979EF20A33557"
 				type: "item"
 				item: "powah:energy_cell_nitro"
+			}]
+		}
+		{
+			title: "Lithium Dust - From Water to Lithium Dust - what a palaver!"
+			x: 5.0d
+			y: -0.5d
+			description: [
+				"Lithium Dust is required for making component parts of an induction matrix. This task description covers a simple setup that will allow you to obtain the Lithium Dust you need. You can scale this up as you wish."
+				""
+				"You will need two thermal evaporation towers. The first will convert water into brine, and the second will convert brine into liquid lithium. Gather up 72 Thermal Evaporation Blocks, 6 Thermal Evaporation Valves, and 2 Thermal Evaporation Controllers. Place down two 4x4 bases with 3 blocks gap between them, then build up 2 blocks high around the edges. In the middle layer facing each other across the 3 block gap, have 2 valves on each tower in the center blocks of the side. Place the remaining valves on the outer sides in one of the middle 2 blocks. Finally, also in the middle row, add a controller for each tower. You will know they are correct when redstone particles show."
+				""
+				"{image:kubejs:textures/quests/lithium/lithium_dust_1.png width:600 height:227 align:1 fit:true}"
+				""
+				"Supply water to the first Thermal Evaporation Tower through an outer valve. Use something like a Kitchen Sink (from Cooking for Blockheads) or a Pump so that you have a steady supply of water being provided to the tower. It should start working immediately, but will be quite slow initially."
+				""
+				"{image:kubejs:textures/quests/lithium/lithium_dust_2.png width:600 height:354 align:1 fit:true}"
+				""
+				"Next, pipe the brine from the first tower into the second tower using Mechanical Pipes. Optionally, place a Resistive Heater onto each of the remaining valves and supply them with power. Inside the interface for the Resistive Heaters you can adjust the power usage - the more power you provide, the higher the temperature of the heaters. If using a Thatldu SRG with a Uranium Quantum Singularity, you can set both heaters to 125 FE/t and it should keep pace (as it produces 250 FE/t)"
+				""
+				"{image:kubejs:textures/quests/lithium/lithium_dust_3.png width:600 height:331 align:1 fit:true}"
+				""
+				"Extract the liquid Lithium from the second tower and transfer it to a Rotary Condensentrator. Inside the Rotary Condensentrator's user interface, toggle the operation to Decondensentrating to turn the liquid Lithium into Lithium gas, and turn on the auto output for the gas to a Chemical Crystalizer, which will convert the Lithium gas into Lithium Dust."
+				""
+				"{image:kubejs:textures/quests/lithium/lithium_dust_4.png width:600 height:331 align:1 fit:true}"
+				""
+				"Optionally, set the item output to auto-eject to some kind of inventory (like a storage drawer as shown in the picture above). You should now just be able to let it run and will (eventually) have all the Lithium Dust you need."
+			]
+			id: "7545A28EC99DDD1C"
+			tasks: [{
+				id: "559AEB5C0C5BCD12"
+				type: "item"
+				item: "mekanism:dust_lithium"
 			}]
 		}
 	]

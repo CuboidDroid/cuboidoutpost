@@ -308,6 +308,11 @@
 		{
 			x: -6.0d
 			y: 1.5d
+			description: [
+				"Sea water can be obtained by placing a barrel on a block of sand and filling the barrel with water - the water will transform into sea water after a few seconds."
+				""
+				"Alternatively, using a block of sand on a barrel of water will consume the sand, but will immediately transform the water into sea water."
+			]
 			dependencies: ["659F614DFFD07509"]
 			id: "4BB8CB60EAFE1F62"
 			tasks: [{

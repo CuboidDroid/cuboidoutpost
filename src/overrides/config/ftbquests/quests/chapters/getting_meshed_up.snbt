@@ -154,7 +154,7 @@
 		{
 			disable_toast: true
 			x: -9.0d
-			y: 2.0d
+			y: 1.0d
 			dependencies: ["3084E06F2B80B74E"]
 			id: "4A17FD6114DFBDEE"
 			tasks: [{
@@ -548,10 +548,10 @@
 		{
 			title: "Sea Pickle Egg"
 			disable_toast: true
-			x: 3.5d
-			y: -9.0d
+			x: -10.0d
+			y: 2.5d
 			subtitle: "Sieve must be waterlogged"
-			dependencies: ["2EC85D49867C2036"]
+			dependencies: ["3084E06F2B80B74E"]
 			id: "40F10AC03856E05E"
 			tasks: [{
 				id: "4372B3AB5C529CF8"
@@ -562,10 +562,10 @@
 		{
 			title: "Kelp Seeds"
 			disable_toast: true
-			x: 2.5d
-			y: -9.5d
+			x: -9.0d
+			y: 2.0d
 			subtitle: "Sieve must be waterlogged"
-			dependencies: ["2EC85D49867C2036"]
+			dependencies: ["3084E06F2B80B74E"]
 			id: "0E36BC9FFDB5C389"
 			tasks: [{
 				id: "53B6E7A2ED2AF0E7"
