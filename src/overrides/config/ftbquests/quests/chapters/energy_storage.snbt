@@ -1,7 +1,7 @@
 {
 	id: "1DFBC234A86906B5"
 	group: "24F09E0B1AD125E9"
-	order_index: 4
+	order_index: 5
 	filename: "energy_storage"
 	title: "Energy Storage"
 	icon: "powah:energy_cell_basic"

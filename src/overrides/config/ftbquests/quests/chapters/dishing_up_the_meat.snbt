@@ -44,10 +44,7 @@
 				""
 				"Get on with it."
 			]
-			dependencies: [
-				"4903A7F989486276"
-				"76528FB8C0913777"
-			]
+			dependencies: ["76528FB8C0913777"]
 			dependency_requirement: "one_completed"
 			id: "05E0AE86BB17A33C"
 			tasks: [{
