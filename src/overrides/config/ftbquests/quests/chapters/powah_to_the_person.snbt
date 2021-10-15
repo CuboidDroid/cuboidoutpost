@@ -157,7 +157,7 @@
 			description: [
 				"The Energizing Orb is where you can place (or pipe in) items to be energized. The Orb itself does not accept power directly, but must be powered by Energizing Rods."
 				""
-				"A comparator can be used to determine if a recipe is finished being energized, or you can use X-Net to help automate this process. If you just put a hopper underneath, ingredients will most like be pulled out before they can finish being energized, so automation might take a bit of work to get right."
+				"A comparator can be used to determine if a recipe is finished being energized, or you can use X-Net to help automate this process. If you put a hopper underneath, it will pull out completed crafts, but hoppers feeding to the orb will keep feeding in ingredients until the orb is full, so automation might take a bit of work to get right as you will need to control what gets input and how many at a time."
 			]
 			dependencies: ["4F6101F00C8E011E"]
 			id: "313C2018A2C04815"

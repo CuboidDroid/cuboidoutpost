@@ -8,7 +8,7 @@ Watch the official trailer on YouTube by clicking on this image:
 
 [![Cuboid Outpost Trailer](https://img.youtube.com/vi/97BzxR_aAHc/0.jpg)](https://www.youtube.com/watch?v=97BzxR_aAHc "Cuboid Outpost Trailer")
 
-I designed this to be more of an intermediate tech pack for those just getting into Modded Minecraft, or who are looking for something not too hard / expert. As a result, while there are quite a few mods in the pack, I've intentionally kept the number of alternatives for things low (e.g. for digital storage there's only AE2, but channels are disabled to make it easier to work with).
+I designed this to be more of an intermediate tech pack for those just getting into Modded Minecraft, or who are looking for something not too hard / expert. As a result, while there are quite a few mods in the pack, I've intentionally kept the number of alternatives for things low (e.g. for digital storage there's only AE2 initially, but channels are disabled to make it easier to work with - RS is available later on).
 
 Some great content mods have been added too to keep things interesting and a bit different. And then there are a few unique mods that you won't have seen in any other pack before too - so hopefully there's something for everyone.
 
