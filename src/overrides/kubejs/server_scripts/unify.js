@@ -18,7 +18,8 @@ global["unifypriorities"] = [
     "mekanism",
     "thermal",
     "create",
-    "exnihilosequentia"
+    "exnihilosequentia",
+    "appliedenergistics2"
 ]
 // Items to exclude (will not be unified)
 global["unifyexclude"] = new Set([
