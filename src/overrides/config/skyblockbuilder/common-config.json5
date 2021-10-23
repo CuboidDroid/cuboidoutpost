@@ -98,14 +98,6 @@
     // add a plus (+) or a minus (-) in front of the rule. This will make it a whitelist or blacklist rule respectively.
     // You can also add regex rules. These are objects with two keys: `allow` - a boolean that specifies whether this
     // is a whitelist or blacklist rule and `regex` - which is a regex that must match the resource location.
-
-    // "generationStructures": {
-    //   "whitelist": true,
-    //   "elements": [
-    //     "minecraft:fortress"
-    //   ]
-    // }
-
     "generationStructures": {
       "whitelist": true,
       "elements": []
@@ -146,7 +138,7 @@
   
     // The radius for the biomes to repeat [default: 8192]
     // By default it's the perfect range that each team has the same biomes
-    // WARNING: Too small biome range will prevent some structures to generate, if structures are enabled, because some need a special biome!
+    // WARNING: Too small biome range will prevent some structures to generate, if structures are enabled, because some need a special biome! You may fix this by decreasing the "structureModifier"
     // Range: 64 - 29999900
     "biomeRange": 8192,
     
@@ -157,12 +149,17 @@
     
     // The offset from 0, 0 to generate the islands
     // Can be used to generate them in the middle of .mca files
-    // Adjusted so outpost sits neatly in the middle of a chunk
     "offset": 241,
     
     // Sea level in world [default: 63]
     // Range: 0 - 256
     "seaHeight": 63,
+    
+    // The modifier for spacing and separation of structures. These values can be defined by a data pack. However, this is a multiplier to change these values.
+    // Minimal spacing is 1
+    // Minimal separation is 0
+    // Range: 0.0 - 10.0
+    "structureModifier": 1.0,
     
     // Should a surface be generated in overworld? [default: false]
     "surface": true,

@@ -81,6 +81,7 @@ repurposed_structures:village_giant_taiga
 repurposed_structures:village_oak
 repurposed_structures:village_crimson
 repurposed_structures:village_warped
+repurposed_structures:village_mushroom
 repurposed_structures:ruined_portal_end
 repurposed_structures:ruins_nether
 repurposed_structures:ruins_land_warm

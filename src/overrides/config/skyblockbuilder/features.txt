@@ -180,6 +180,7 @@ endergetic:corrock_arch
 endergetic:weighted_features
 endergetic:gateway
 tconstruct:slime_tree
+tconstruct:slime_fungus
 appliedenergistics2:charged_quartz_ore
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore

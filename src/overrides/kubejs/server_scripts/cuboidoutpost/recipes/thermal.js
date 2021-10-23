@@ -175,7 +175,6 @@ onEvent('recipes', e => {
       T: 'cuboidmod:wikidium_ingot'
     })
 
-
     // remove dust blends
     e.remove({id: 'thermal:bronze_dust_4'})
     e.remove({id: 'thermal:electrum_dust_2'})
@@ -192,5 +191,14 @@ onEvent('recipes', e => {
     e.remove({id: 'thermal:fire_charge/bronze_ingot_4'})
     e.remove({id: 'thermal:fire_charge/enderium_ingot_2'})
     e.remove({id: 'thermal:fire_charge/lumium_ingot_4'})
+
+  // - - - - - - - INDUCTION SMELTER RECIPES - - - - - - - -
+  
+  e.recipes.thermal.smelter('2x immersiveengineering:ingot_electrum', ['#forge:ingots/silver','#forge:ingots/gold'])
+  e.recipes.thermal.smelter('3x thermal:invar_ingot', ['#forge:ingots/nickel','2x #forge:ingots/iron'])
+
+  // constantan
+
+
 
 })

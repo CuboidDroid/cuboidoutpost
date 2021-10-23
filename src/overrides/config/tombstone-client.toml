@@ -6,6 +6,8 @@
 	text_color_death_date = 2962496
 	#Allows your grave to appear in water [false/true|default:true]
 	allow_grave_in_water = true
+	#Allows the ghost to appear around you during Halloween [false/true|default:true]
+	allow_halloween_ghost = true
 	#Equips elytra in priority when recovering your lost items [false/true|default:false]
 	equip_elytra_in_priority = false
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]
@@ -46,8 +48,6 @@
 	fog_color = 16777215
 	#Favor the tools on the hotbar when recovering a grave [false/true|default:false]
 	priorize_tool_on_hotbar = false
-	#Enables the special rendering and particles for Halloween [false/true|default:true]
-	enable_halloween_effect = true
 	#Shows shield particles on villager [false/true|default:true]
 	show_shield_particle = true
 	#Allows to activate a grave by sneaking [false/true|default:true]

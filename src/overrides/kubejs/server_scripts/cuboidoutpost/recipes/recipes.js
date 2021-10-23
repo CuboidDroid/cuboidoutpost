@@ -21,6 +21,9 @@ onEvent('recipes', e => {
           'cuboidmod:' + name + '_chunk')
 
         e.recipes.mekanism.crushing('2x cuboidmod:' + name + '_dust', 'cuboidmod:' + name + '_chunk')
+        e.recipes.mekanism.enriching('2x cuboidmod:' + name + '_dust', 'cuboidmod:' + name + '_chunk')
+
+        e.recipes.mekanism.crushing('cuboidmod:' + name + '_dust', 'cuboidmod:' + name + '_ingot')
     }
 
     const cuboid_ores = [
@@ -73,6 +76,27 @@ onEvent('recipes', e => {
 
     e.smelting('1x exnihilosequentia:ingot_platinum', 'kubejs:platinum_dust')
     e.blasting('1x exnihilosequentia:ingot_platinum', 'kubejs:platinum_dust')
+
+    // nickel dust - enrichment chamber
+    e.recipes.mekanism.enriching(
+      '2x immersiveengineering:dust_nickel',
+      '#forge:ores/nickel'
+    )
+
+    // ingot crushing - mekanism
+    e.recipes.mekanism.crushing('immersiveengineering:dust_nickel', '#forge:ingots/nickel')
+    e.recipes.mekanism.crushing('cuboidmod:zinc_dust', '#forge:ingots/zinc')
+    e.recipes.mekanism.crushing('create:crushed_brass', '#forge:ingots/brass')
+    e.recipes.mekanism.crushing('thermal:invar_dust', '#forge:ingots/invar')
+    e.recipes.mekanism.crushing('thermal:signalum_dust', '#forge:ingots/signalum')
+    e.recipes.mekanism.crushing('thermal:lumium_dust', '#forge:ingots/lumium')
+    e.recipes.mekanism.crushing('thermal:enderium_dust', '#forge:ingots/enderium')
+    e.recipes.mekanism.crushing('cuboidmod:cobalt_dust', '#forge:ingots/cobalt')
+    e.recipes.mekanism.crushing('immersiveengineering:dust_aluminum', '#forge:ingots/aluminum')
+    e.recipes.mekanism.crushing('immersiveengineering:dust_silver', '#forge:ingots/silver')
+    e.recipes.mekanism.crushing('immersiveengineering:dust_constantan', '#forge:ingots/constantan')
+    e.recipes.mekanism.crushing('immersiveengineering:dust_electrum', '#forge:ingots/electrum')
+    e.recipes.mekanism.crushing('kubejs:platinum_dust', '#forge:ingots/platinum')
 
     // initial molecular recycler recipe
     e.shaped('cuboidmod:molecular_recycler', [

@@ -196,6 +196,9 @@
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
 
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
+
 	[building.more_brick_types]
 		"Enable Magma Bricks" = true
 		"Enable Sandy Bricks" = true
@@ -253,6 +256,7 @@
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
+	"Endermosh Music Disc" = true
 	"Ancient Tomes" = true
 	"Slime In A Bucket" = true
 	Camera = true
@@ -317,6 +321,12 @@
 		"Show All Variants In Creative" = true
 		"Shift Range" = 3
 		"Max Items" = 640
+
+	[tools.endermosh_music_disc]
+		"Play Endermosh During Enderdragon Fight" = false
+		"Loot Quality" = 1
+		"Add To End City Loot" = true
+		"Loot Weight" = 5
 
 	[tools.color_runes]
 		"Jungle Temple Weight" = 8
@@ -869,6 +879,7 @@
 			"Is Blacklist" = false
 
 	[world.blossom_trees]
+		"Drop Leaf Particles" = true
 
 		[world.blossom_trees.orange]
 			Rarity = 100
@@ -1663,6 +1674,12 @@
 
 	[mobs.toretoise]
 		"Max Y Level" = 32
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["quark:root_item", "minecraft:cactus"]
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, or 0 to disable.
+		"Regrow Chance" = 3
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
@@ -1893,6 +1910,7 @@
 		"Enable Shiny Rabbit" = true
 		"Enable L G B T Bees" = true
 		"Enable Cow" = true
+		"Enable Shiny Dolphin" = true
 
 	[client.improved_tooltips]
 		"Shulker Box Require Shift" = false
@@ -2020,6 +2038,7 @@
 	"Overlay Shader" = false
 	"Custom Underground Biome" = false
 	"Game Nerfs" = false
+	Pallet = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
