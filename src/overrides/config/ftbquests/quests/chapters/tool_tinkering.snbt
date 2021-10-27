@@ -8,13 +8,17 @@
 		id: "tconstruct:cleaver"
 		Count: 1b
 		tag: {
+			tic_multipliers: {
+				"tconstruct:mining_speed": 0.25f
+				"tconstruct:attack_damage": 1.5f
+				"tconstruct:durability": 3.5f
+			}
 			tic_stats: {
-				"tconstruct:attack_speed": 0.9f
-				"tconstruct:reach": 6.0f
-				"tconstruct:attack_damage": 14.625f
+				"tconstruct:attack_speed": 0.85499996f
+				"tconstruct:mining_speed": 1.4625f
+				"tconstruct:attack_damage": 13.125f
 				"tconstruct:harvest_level": 4.0f
-				"tconstruct:durability": 6300.0f
-				"tconstruct:mining_speed": 2.0f
+				"tconstruct:durability": 4812.5f
 			}
 			tic_broken: 0b
 			tic_modifiers: [
@@ -168,6 +172,7 @@
 				id: "tconstruct:hand_axe"
 				Count: 1b
 				tag: {
+					tic_multipliers: { }
 					tic_stats: {
 						"tconstruct:attack_speed": 0.9f
 						"tconstruct:mining_speed": 2.0f
@@ -221,6 +226,7 @@
 					id: "tconstruct:hand_axe"
 					Count: 1b
 					tag: {
+						tic_multipliers: { }
 						tic_stats: {
 							"tconstruct:attack_speed": 0.9f
 							"tconstruct:mining_speed": 2.0f
@@ -487,15 +493,18 @@
 						id: "tconstruct:cleaver"
 						Count: 1b
 						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.25f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+							}
 							tic_stats: {
 								"tconstruct:attack_speed": 0.9f
 								"tconstruct:mining_speed": 0.25f
-								"tconstruct:attack_damage": 6.75f
-								"tconstruct:reach": 6.0f
+								"tconstruct:attack_damage": 5.25f
 								"tconstruct:durability": 3.5f
 							}
 							tic_broken: 0b
-							Damage: 0
 							tic_modifiers: [
 								{
 									name: "tconstruct:severing"
@@ -510,6 +519,7 @@
 									level: 1s
 								}
 							]
+							Damage: 0
 							tic_persistent_data: { }
 						}
 					}
@@ -518,7 +528,7 @@
 			rewards: [{
 				id: "77BD2372096ED616"
 				type: "item"
-				item: "tconstruct:creative_upgrade"
+				item: "tconstruct:creative_slot"
 			}]
 		}
 		{
@@ -563,14 +573,18 @@
 						id: "tconstruct:excavator"
 						Count: 1b
 						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.3f
+								"tconstruct:attack_damage": 1.2f
+								"tconstruct:durability": 3.75f
+							}
 							tic_stats: {
 								"tconstruct:attack_speed": 1.0f
 								"tconstruct:mining_speed": 0.3f
-								"tconstruct:attack_damage": 3.0f
+								"tconstruct:attack_damage": 1.8000001f
 								"tconstruct:durability": 3.75f
 							}
 							tic_broken: 0b
-							Damage: 0
 							tic_modifiers: [
 								{
 									name: "tconstruct:knockback"
@@ -585,6 +599,7 @@
 									level: 1s
 								}
 							]
+							Damage: 0
 							tic_persistent_data: { }
 						}
 					}
@@ -593,7 +608,7 @@
 			rewards: [{
 				id: "17F4210169A86461"
 				type: "item"
-				item: "tconstruct:creative_ability"
+				item: "tconstruct:creative_slot"
 			}]
 		}
 	]

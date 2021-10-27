@@ -11,6 +11,6 @@
 		{ item: "bountifulbaubles:mixed_dragon_scale" }
 		{ item: "bountifulbaubles:ring_free_action" }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
-		{ item: "tconstruct:creative_ability" }
+		{ item: "tconstruct:creative_slot" }
 	]
 }

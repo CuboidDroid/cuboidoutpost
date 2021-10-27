@@ -74,4 +74,8 @@ onEvent('recipes', e => {
     }
   })
 
+  e.remove({id: 'thermal:machine/pulverizer/pulverizer_granite'})
+  e.remove({id: 'thermal:machine/pulverizer/pulverizer_diorite'})
+  e.remove({id: 'thermal:machine/pulverizer/pulverizer_andesite'})
+
 })

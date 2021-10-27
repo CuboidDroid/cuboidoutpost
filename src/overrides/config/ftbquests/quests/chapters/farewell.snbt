@@ -187,7 +187,8 @@
 				""
 				"To complete a step, you will need to complete the listed tasks. This surivival guide will automatically attempt to recognise when you have completed something, but it's attuned to you - so &aensure you hold the item in your inventory for it to be automatically recognised!&f"
 				""
-				"If you're wondering why a particular step is greyed-out and unavailable to you, there is a little black arrow in the \"Tasks\" box - if you open that up you will see a list of other steps you will need to complete first. You can select one from that list to be taken to that step in the guide."
+				"If you're wondering why a particular step is greyed-out and unavailable to you, there is a little black arrow in the \"Tasks\" box - if you open that up you will see a list of other steps you will need to complete first. You can select one from that list to be taken to that step in the guide. This is the \"little black arrow\" we mean:"
+				"{image:kubejs:textures/quests/farewell_ftb_dependencies.png width:600 height:175 align:1 fit:true}"
 			]
 			optional: true
 			id: "108D30AC48535DA5"
