@@ -11,7 +11,7 @@
 		{
 			title: "Missing: Dragon"
 			icon: "minecraft:dragon_head"
-			x: 0.0d
+			x: 3.0d
 			y: 0.0d
 			shape: "octagon"
 			description: [
@@ -65,8 +65,8 @@
 		{
 			title: "I can't find my copy of \"Materials and You\"!"
 			icon: "tconstruct:materials_and_you"
-			x: 0.0d
-			y: -3.0d
+			x: 1.5d
+			y: -1.5d
 			shape: "octagon"
 			description: ["You should have received a copy when you started, but accidents do happen - so just in case you need one in a pinch, here's a spare copy of \"Materials and You\"."]
 			optional: true
@@ -80,6 +80,74 @@
 				id: "0CD5EE018418DFF8"
 				type: "item"
 				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			title: "The Replacement Key to The End"
+			icon: "cuboidmod:energized_end_stone_bricks"
+			x: 3.0d
+			y: -1.5d
+			shape: "octagon"
+			description: ["If you have completed the \"Key to the End\", but still can't get there, try ticking this checkbox and try again!"]
+			dependencies: ["562DF660E5C68A16"]
+			optional: true
+			id: "4BFEA90E3190E5D1"
+			tasks: [{
+				id: "5E1B390EC364E2CE"
+				type: "checkmark"
+				title: "Let's do this!"
+			}]
+			rewards: [{
+				id: "2F3DF9C2B125482F"
+				type: "gamestage"
+				team_reward: true
+				auto: "invisible"
+				stage: "end_access"
+			}]
+		}
+		{
+			title: "The Replacement Key to The Nether"
+			icon: "cuboidmod:energized_nether_bricks"
+			x: 4.5d
+			y: -1.5d
+			shape: "octagon"
+			description: ["If you have completed the \"Energized Nether Bricks\" quest, but still can't get through to The Nether, try ticking this checkbox and try again!"]
+			dependencies: ["46821A52352BBC8F"]
+			optional: true
+			id: "002E9AE6A28F22CF"
+			tasks: [{
+				id: "5CEB140C0276AEAC"
+				type: "checkmark"
+				title: "Let's do this!"
+			}]
+			rewards: [{
+				id: "2643F170CE20050B"
+				type: "gamestage"
+				team_reward: true
+				auto: "invisible"
+				stage: "nether_access"
+			}]
+		}
+		{
+			title: "The Replacement Key to Everything"
+			icon: "cuboidmod:energized_thatlduvium"
+			x: 6.0d
+			y: -1.5d
+			shape: "octagon"
+			description: ["If you have completed the \"The Key to Everything\" quest, but still can't get through to The Cuboid Overworld, try ticking this checkbox and try again!"]
+			dependencies: ["51C4DAB656980D21"]
+			id: "0C30417644852F83"
+			tasks: [{
+				id: "4C3BE3C13A9CC9B1"
+				type: "checkmark"
+				title: "Let's do this!"
+			}]
+			rewards: [{
+				id: "11FA987797D93B5E"
+				type: "gamestage"
+				team_reward: true
+				auto: "invisible"
+				stage: "cuboid_overworld_access"
 			}]
 		}
 	]

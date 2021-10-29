@@ -229,7 +229,7 @@ onEvent('recipes', e => {
         item: 'minecraft:iron_nugget'
       },
       result: {
-        item: 'thermal:iron_dust',
+        item: 'immersiveengineering:dust_iron',
         count: 1
       },
       work_ticks: 300,

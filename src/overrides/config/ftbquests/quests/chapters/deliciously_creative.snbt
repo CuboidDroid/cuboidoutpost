@@ -188,6 +188,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 9.0d
+			y: 61.0d
+			width: 7.2d
+			height: 6.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/create_sweet_roll_step_power.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -689,7 +701,7 @@
 			description: [
 				"Start by placing down the 4 small cog wheels as shown in the picture. Attach 3 SHAFT!s to the bottom cog, leading to under the bottom-most Depot. Use a few more building blocks to build out a little from the bottom step, and place down the final SHAFT!. Connect the SHAFT! under the bottom Depot to the one a few blocks away using a Mechanical Belt."
 				""
-				"Ensure that you have some Bread available, then place down the Brass Funnel onto the Depot, and add Bread to the Funnel's filter. You can test that this will work by putting some bread on the bottom-most depot, attach a hand crank somewhere, and then give it a spin - the belt should move away from the depot, and that should pull the bread onto the belt."
+				"Ensure that you have some Bread available, then place down the Brass Funnel onto the Depot, and add Bread to the Funnel's filter. You can test that this will work by putting some bread on the bottom-most depot, attach a hand crank somewhere, and then give it a spin - the belt should move away from the depot, and that should pull the bread onto the belt. (You might need to temporarily remove a gear to be able to use the hand crank, or attach some other form of rotational force)"
 				""
 				"Ensure that you have some extra blocks at the end of the Mechanical Belts for now - we need them to \"back up\" when they hit the end of the belt."
 			]
@@ -858,6 +870,8 @@
 				"While you could find some other way of feeding Wheat into the Mill (including a farm powered by rotational force), you can also make use of a Hopping Bonsai Pot growing wheat to provide a slow and steady stream of Wheat which, when combined with the slow and steady flow of infinite Milk from the Cow in a Jar, means you have a slow and steady supply of infinite Sweet Rolls!"
 				""
 				"Our lovely Queen of Cakes, Chaynne, would be so proud!"
+				""
+				"p.s. An encased fan, magma block and a switch to turn the encased fan on will be enough rotational force to power this whole contraption! See the image to the right for placement."
 			]
 			dependencies: ["3985B75DD006791A"]
 			optional: true

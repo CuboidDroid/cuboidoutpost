@@ -113,6 +113,65 @@ onEvent('recipes', e => {
     })
 
     // remove the iron-based auto compressed hammer recipe
+    e.remove({id: 'excompressum:auto_compressed_hammer_with_steel'})
     e.remove({id: 'excompressum:auto_compressed_hammer_without_steel'})
+
+    e.custom({
+      "type": "minecraft:crafting_shaped",
+      "result": {
+        "item": "excompressum:auto_compressed_hammer"
+      },
+      "pattern": [
+        "SWS",
+        "SHS",
+        "SPS"
+      ],
+      "key": {
+        "P": {
+          "item": "thermal:machine_pulverizer"
+        },
+        "H": {
+          "item": "excompressum:compressed_hammer_diamond"
+        },
+        "S": {
+          "tag": "forge:ingots/steel"
+        },
+        "W": {
+          "item": "minecraft:heavy_weighted_pressure_plate"
+        }
+      }
+    })
+
+    // remove the compressed sieve recipe
+    e.remove({id: 'excompressum:auto_heavy_sieve_with_steel'})
+
+    e.custom({
+      "type": "minecraft:crafting_shaped",
+      "result": {
+        "item": "excompressum:auto_heavy_sieve"
+      },
+      "pattern": [
+        "BGB",
+        "GHG",
+        "IPI"
+      ],
+      "key": {
+        "P": {
+          "item": "thermal:machine_pulverizer"
+        },
+        "H": {
+          "tag": "excompressum:heavy_sieve"
+        },
+        "I": {
+          "tag": "forge:ingots/steel"
+        },
+        "B": {
+          "tag": "forge:storage_blocks/steel"
+        },
+        "G": {
+          "tag": "forge:glass_panes/colorless"
+        }
+      }
+    })
 
 })

@@ -15,5 +15,8 @@
   "minecraft:jungle_sapling",
   "minecraft:oak_sapling",
   "minecraft:spruce_sapling",
-  "darkutils:dark_glass"
+  "darkutils:dark_glass",
+  "mekanism:hdpe_pellet",
+  "mekanism:hpde_rod",
+  "mekanism:hpde_sheet"
 ]
