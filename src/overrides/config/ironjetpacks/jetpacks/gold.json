@@ -14,9 +14,9 @@
   "usage": 300,
   "speedVertical": 0.61,
   "accelVertical": 0.13,
-  "speedSideways": 0.15,
+  "speedSideways": 0.1,
   "speedHoverDescend": 0.34,
-  "speedHover": 0.03,
+  "speedHover": 0.0,
   "sprintSpeedMulti": 1.5,
   "sprintSpeedMultiVertical": 1.25,
   "sprintFuelMulti": 3.2

@@ -331,7 +331,7 @@
 			description: [
 				"Having a Preservation Chamber in a fridge ensures that the last item in a slot is not consumed by recipes made through the Cooking Table."
 				""
-				"This can be very useful when you want to pipe ingredients into the fridge as they become available - by ensuring at least one of an item remains, yuor neat layout in your fridge won't get messed up, and you won't end up in a situation where your fridge is filled up with nothing but one kind of item."
+				"This can be very useful when you want to pipe ingredients into the fridge as they become available - by ensuring at least one of an item remains, your neat layout in your fridge won't get messed up, and you won't end up in a situation where your fridge is filled up with nothing but one kind of item."
 				""
 				"&aRequired by: What's left in the End?&f"
 			]

@@ -526,9 +526,15 @@
 				}
 			]
 			rewards: [{
-				id: "77BD2372096ED616"
+				id: "4F1D4F7B7956ADEF"
 				type: "item"
-				item: "tconstruct:creative_slot"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "abilities"
+					}
+				}
 			}]
 		}
 		{
@@ -606,9 +612,15 @@
 				}
 			]
 			rewards: [{
-				id: "17F4210169A86461"
+				id: "3E52F9E4C37915EC"
 				type: "item"
-				item: "tconstruct:creative_slot"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
 			}]
 		}
 	]

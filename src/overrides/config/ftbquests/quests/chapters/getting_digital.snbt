@@ -448,7 +448,7 @@
 			description: [
 				"You now have the ability to make your own Calculation Processors in the Inscriber. To do so, put these items in the specified slots in the Inscriber:"
 				""
-				"Top: Printed Calculation Processor"
+				"Top: Printed Calculation Circuit"
 				"Middle: Redstone Dust"
 				"Bottom: Printed Silicon"
 			]
@@ -468,7 +468,7 @@
 			description: [
 				"You now have the ability to make your own Engineering Processors in the Inscriber. To do so, put these items in the specified slots in the Inscriber:"
 				""
-				"Top: Inscriber Engineering Press"
+				"Top: Printed Engineering Circuit"
 				"Middle: Redstone Dust"
 				"Bottom: Printed Silicon"
 			]

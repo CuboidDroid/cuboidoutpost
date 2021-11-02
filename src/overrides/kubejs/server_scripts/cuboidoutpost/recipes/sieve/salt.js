@@ -29,4 +29,32 @@ onEvent('recipes', e => {
         "item": "cuboidmod:salt"
       }
     })
+
+    // remove drop for mekanism salt from sand
+    e.remove({"id": "exnihilomekanism:sieve/ens_piece_osmium_3"})
+
+    // add salt from sand drop instead
+    e.custom({
+      "type": "exnihilosequentia:sieve",
+      "rolls": [
+        {
+          "chance": 0.01,
+          "mesh": "flint"
+        },
+        {
+          "chance": 0.02,
+          "mesh": "iron"
+        },
+        {
+          "chance": 0.4,
+          "mesh": "diamond"
+        }
+      ],
+      "input": {
+        "item": "minecraft:sand"
+      },
+      "result": {
+        "item": "cuboidmod:salt"
+      }
+    })
   })

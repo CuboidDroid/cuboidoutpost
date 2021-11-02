@@ -16,7 +16,7 @@
   "accelVertical": 0.135,
   "speedSideways": 0.155,
   "speedHoverDescend": 0.35,
-  "speedHover": 0.025,
+  "speedHover": 0.0,
   "sprintSpeedMulti": 1.5,
   "sprintSpeedMultiVertical": 1.25,
   "sprintFuelMulti": 3.2
