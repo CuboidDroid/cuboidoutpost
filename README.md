@@ -18,7 +18,8 @@ I would really appreciate any issues you encounter while playing being reported 
 
 If you'd like to chat about Cuboid Outpost with other players, you can join my [Discord server](https://discord.gg/j9zWKFuBtU). Please keep it clean, and make sure you read the rules before posting anything on there! Thanks.
 
-If you want to support me financiallynot required!), I have set up a [Patreon page](https://www.patreon.com/cuboiddroid). I'll try and post updates on progress regularly on there for my supporters to stay up to date with my efforts. Alternatively, you can donate via [PayPal](https://www.paypal.com/donate?hosted_button_id=3NREHL7EUD5JG)
-And if you enjoy playing Cuboid Outpost, then tell you friends to give it a go too!
+If you want to support me financially (totally not required!), I have set up a [Patreon page](https://www.patreon.com/cuboiddroid). I'll try and post updates on progress regularly on there for my supporters to stay up to date with my efforts. Alternatively, you can donate via [PayPal](https://www.paypal.com/donate?hosted_button_id=3NREHL7EUD5JG)
+
+And if you enjoy playing Cuboid Outpost, then tell you friends, family and favourite steamers to give it a go too!
 
 Thanks for reading this, and hopefully you enjoy playing Cuboid Outpost even more than I have enjoyed making it!
