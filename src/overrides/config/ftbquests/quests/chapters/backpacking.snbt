@@ -247,11 +247,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
 			}]
-			rewards: [{
-				id: "4AB00A1EB5D03C55"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
 		}
 		{
 			title: "Computer says no"
@@ -284,11 +279,6 @@
 				id: "17578ADCFE435A77"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
-			}]
-			rewards: [{
-				id: "51789791C0B93ECA"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
 			}]
 		}
 		{
@@ -331,11 +321,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
 			}]
-			rewards: [{
-				id: "0E1C9A869FC5F924"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
 		}
 		{
 			title: "Efficient Haulage"
@@ -368,11 +353,6 @@
 				id: "027BF80D4955F23E"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
-			}]
-			rewards: [{
-				id: "699DF735C6EB0F56"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
 			}]
 		}
 		{
@@ -411,11 +391,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
 			}]
-			rewards: [{
-				id: "45B0C9F954460547"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
 		}
 		{
 			title: "Quick Pick-ups"
@@ -452,11 +427,6 @@
 				id: "67AFD480528607DA"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
-			}]
-			rewards: [{
-				id: "2B8C12ED16AF4362"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
 			}]
 		}
 		{
@@ -495,11 +465,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
 			}]
-			rewards: [{
-				id: "4A7F80FC8EE5EAEA"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
 		}
 		{
 			title: "Hot Pocket"
@@ -536,11 +501,6 @@
 				id: "0D41408E7EDE67E6"
 				type: "item"
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
-			}]
-			rewards: [{
-				id: "4175639063092CE8"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
 			}]
 		}
 		{
@@ -583,11 +543,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 			}]
-			rewards: [{
-				id: "0DD0FFDBE43DF812"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
 		}
 		{
 			title: "Magic 8"
@@ -606,11 +561,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 			}]
-			rewards: [{
-				id: "29548BCC86D630CF"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
 		}
 		{
 			title: "Hexdecawhat?"
@@ -628,11 +578,6 @@
 				id: "2D623AE7F52383B9"
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
-			}]
-			rewards: [{
-				id: "27B635CE5A317CE4"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
 			}]
 		}
 		{
@@ -670,11 +615,6 @@
 				id: "5D9532FFC3778787"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
-			}]
-			rewards: [{
-				id: "283C6599D4F80C30"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
 			}]
 		}
 		{

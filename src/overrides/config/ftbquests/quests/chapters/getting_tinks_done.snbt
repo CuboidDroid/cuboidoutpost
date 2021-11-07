@@ -399,7 +399,11 @@
 			x: 1.5d
 			y: -4.5d
 			shape: "square"
-			description: ["Take 9 of the cobble you've made and pop them into a furnace to get 9 Stone."]
+			description: [
+				"Take 9 of the cobble you've made and pop them into a furnace to get 9 Stone."
+				""
+				"p.s. Now that you have ways to get your hands on Stone, you might want to start thinking about making a Mob farm if you haven't already done so. There's a chapter in section 4 called \"&aThe Slaughterhouse&f\", which has a sub-section for tools you might find useful in making a decent starter Mob farm."
+			]
 			dependencies: ["02B6D4809390E44E"]
 			id: "554C2B8969903BC6"
 			tasks: [{

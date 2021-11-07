@@ -279,6 +279,8 @@
 				"The Ultimate Singularity is a theoretical construction that we postulate will enable you to target (possibly create?) a new dimension when combined with a few other bits and bobs."
 				""
 				"It totally isn't anything like one of the three singularities our Science Division tried to combine when The Incident happened though, so don't worry."
+				""
+				"p.s. If you have trouble crafting the Ultimate Singularity, make sure you've got all of the correct ingredients in the Ultimate Crafting Table and then (even if the singularity is not shown in the output slot), try and take it out! There's something weird about how it messes up space and time that means it can sometimes enter a quantum state where it can be invisible to the naked eye."
 			]
 			dependencies: [
 				"5816A28D1A733245"
@@ -332,7 +334,7 @@
 			description: [
 				"Ok, ok, so this is a third kind of singularity. It's pure coincidence though - just because those twits in Science Division somehow entangled 3 singularities and caused the end of existence in our corner of the galaxy does not mean it's about to happen again. Trust in the process!"
 				""
-				"To make this kind of singularity is quite simple. Place a 64k ME Component into the top slot, change the output mode to produce singularities, and then feed in 256000 items for it to squish down to nothingness and \"pop\", out comes a Singularity."
+				"To make this kind of singularity is quite simple. Place a 64k ME Component into the top slot, &achange the output mode to produce singularities&f, and then feed in 256000 items for it to squish down to nothingness and \"pop\", out comes a Singularity."
 			]
 			dependencies: [
 				"55E9D9E41FCDB264"

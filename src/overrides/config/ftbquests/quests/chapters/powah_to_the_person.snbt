@@ -652,22 +652,32 @@
 			}]
 		}
 		{
+			title: "Nitro Requirements"
 			disable_toast: true
 			x: 10.0d
 			y: 13.0d
 			shape: "gear"
 			description: [
-				"To get your hands on a Nether Star, you'll need to visit the Nether Dimension first."
+				"To get your hands on a Nether Star, you'll need to defeat the Wither."
+				""
+				"To get hold of a Blaze Lantern, you will need to visit the Nether first..."
 				""
 				"See how in the chapter &a\"Exploring Nether Regions\"&f"
 			]
 			dependencies: ["7D30BCCFA1ACF48B"]
 			id: "66CD57943D87FA8D"
-			tasks: [{
-				id: "661DEA7AF9FA2F9D"
-				type: "item"
-				item: "minecraft:nether_star"
-			}]
+			tasks: [
+				{
+					id: "661DEA7AF9FA2F9D"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "06F7DB3A02B848E7"
+					type: "item"
+					item: "quark:blaze_lantern"
+				}
+			]
 		}
 	]
 }

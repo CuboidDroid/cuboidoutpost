@@ -292,7 +292,7 @@
 			description: [
 				"With some Blank Plates, Cyan Dye, a Diamond Sword and a Phantom Membrance, you can make a ..."
 				""
-				"&a(p.s. take off your sleep charm for a while and don't sleep if you need a Phantom Membrane)&f"
+				"&a(p.s. take off your sleep charm for a while and don't sleep for 3 or 4 nights in a row if you need a Phantom Membrane)&f"
 			]
 			dependencies: ["23E7764EF9EF17B8"]
 			id: "127615B7EB69331F"
@@ -320,6 +320,13 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "7AE98999D7C430D6"
+				type: "item"
+				item: "minecraft:phantom_membrane"
+				count: 2
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -12.5d
@@ -798,7 +805,7 @@
 			description: [
 				"Laser Drills, on their own, don't do much."
 				""
-				"You will need to aim them at a Laser Base of sorts - either an Ore Laser Base (if you want ores as an output) or a Fluid Laser Base (if you are targetting fluids)."
+				"You will need to aim them at a Laser Base of sorts - either an Ore Laser Base (if you want ores as an output) or a Fluid Laser Base (if you are targetting fluids, which is something you're going to need to do in a bit...)."
 				""
 				"You can use multiple Ore Lasers per base - so long as their operating areas overlap with the Laser Base, they should work."
 				""
@@ -810,6 +817,13 @@
 				id: "1206E83844BC986E"
 				type: "item"
 				item: "industrialforegoing:laser_drill"
+			}]
+			rewards: [{
+				id: "4128D8532E339714"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{

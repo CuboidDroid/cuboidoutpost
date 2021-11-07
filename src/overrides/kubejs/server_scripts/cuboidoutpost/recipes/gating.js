@@ -78,4 +78,22 @@ onEvent('recipes', e => {
   e.remove({id: 'thermal:machine/pulverizer/pulverizer_diorite'})
   e.remove({id: 'thermal:machine/pulverizer/pulverizer_andesite'})
 
+  e.remove({id: 'powah:energizing/nitro_crystal'})
+
+  e.custom({
+    "type": "powah:energizing",
+    "ingredients": [
+      {"tag": "forge:nether_stars"},
+      {"tag": "forge:storage_blocks/redstone"},
+      {"tag": "forge:storage_blocks/redstone"},
+      {"item": "powah:blazing_crystal_block"},
+      {"item": "quark:blaze_lantern"}
+    ],
+    "energy": 20000000,
+    "result": {
+      "item": "powah:crystal_nitro",
+      "count": 16
+    }
+  })
+
 })
