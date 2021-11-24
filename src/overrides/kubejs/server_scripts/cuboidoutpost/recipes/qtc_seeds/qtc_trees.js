@@ -61,6 +61,8 @@ onEvent('recipes', e => {
     qtc("pamhc2trees:grapefruit_sapling", "pamhc2trees:orange_sapling", "pamhc2trees:apricot_sapling")
     qtc("pamhc2trees:guava_sapling", "pamhc2trees:almond_sapling", "pamhc2trees:coconut_sapling")
 
+    qtc("tconstruct:earth_slime_sapling", "tconstruct:sky_slime_sapling", "minecraft:slime_block")
+
     // - H -
     qtc("pamhc2trees:hazelnut_sapling", "pamhc2trees:pawpaw_sapling", "pamhc2trees:walnut_sapling")
 
@@ -94,6 +96,8 @@ onEvent('recipes', e => {
     qtc("pamhc2trees:passionfruit_sapling", "pamhc2trees:grapefruit_sapling", "pamhc2trees:fig_sapling")
     qtc("pamhc2trees:peppercorn_sapling", "pamhc2trees:coconut_sapling", "pamhc2trees:olive_sapling")
     qtc("pamhc2trees:pecan_sapling", "pamhc2trees:vanillabean_sapling", "pamhc2trees:jackfruit_sapling")
+    qtc("pamhc2trees:persimmon_sapling", "pamhc2crops:tomatilloseeditem", "pamhc2trees:jackfruit_sapling")
+    qtc("pamhc2trees:pistachio_sapling", "pamhc2trees:peppercorn_sapling", "pamhc2crops:soybeanseeditem")
 
     // - Q - 
     // - R -

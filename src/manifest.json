@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Cuboid Outpost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "CuboidDroid",
   "files": [
     {
@@ -225,6 +225,11 @@
       "required": true
     },
     {
+      "projectID": 314904,
+      "fileID": 3482306,
+      "required": true
+    },
+    {
       "projectID": 363363,
       "fileID": 3483059,
       "required": true
@@ -421,7 +426,7 @@
     },
     {
       "projectID": 517810,
-      "fileID": 3528726,
+      "fileID": 3535784,
       "required": true
     },
     {
@@ -480,13 +485,13 @@
       "required": true
     },
     {
-      "projectID": 347954,
-      "fileID": 3232534,
+      "projectID": 228756,
+      "fileID": 3405717,
       "required": true
     },
     {
-      "projectID": 228756,
-      "fileID": 3405717,
+      "projectID": 347954,
+      "fileID": 3232534,
       "required": true
     },
     {
@@ -635,13 +640,13 @@
       "required": true
     },
     {
-      "projectID": 383182,
-      "fileID": 3435369,
+      "projectID": 242818,
+      "fileID": 3456069,
       "required": true
     },
     {
-      "projectID": 242818,
-      "fileID": 3456069,
+      "projectID": 383182,
+      "fileID": 3435369,
       "required": true
     },
     {
