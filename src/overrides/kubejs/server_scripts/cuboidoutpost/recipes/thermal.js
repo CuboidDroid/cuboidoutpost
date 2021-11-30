@@ -197,8 +197,4 @@ onEvent('recipes', e => {
   e.recipes.thermal.smelter('2x immersiveengineering:ingot_electrum', ['#forge:ingots/silver','#forge:ingots/gold'])
   e.recipes.thermal.smelter('3x thermal:invar_ingot', ['#forge:ingots/nickel','2x #forge:ingots/iron'])
 
-  // constantan
-
-
-
 })

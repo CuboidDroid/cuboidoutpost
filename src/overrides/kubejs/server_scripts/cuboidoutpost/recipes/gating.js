@@ -78,6 +78,105 @@ onEvent('recipes', e => {
   e.remove({id: 'thermal:machine/pulverizer/pulverizer_diorite'})
   e.remove({id: 'thermal:machine/pulverizer/pulverizer_andesite'})
 
+  e.remove({id: 'thermal:machine/pulverizer/pulverizer_nickel_ore'})
+  e.custom({
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "tag": "forge:ores/nickel"
+    },
+    "result": [
+      {
+        "item": "immersiveengineering:dust_nickel",
+        "chance": 2.0
+      },
+      {
+        "item": "immersiveengineering:dust_copper",
+        "chance": 0.1
+      }
+    ],
+    "experience": 0.2
+  })
+
+  e.remove({id: 'thermal:machine/pulverizer/pulverizer_copper_ore'})
+  e.custom({
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "tag": "forge:ores/copper"
+    },
+    "result": [
+      {
+        "item": "immersiveengineering:dust_copper",
+        "chance": 2.0
+      },
+      {
+        "item": "immersiveengineering:dust_gold",
+        "chance": 0.1
+      }
+    ],
+    "experience": 0.2
+  })
+
+  e.remove({id: 'thermal:machine/pulverizer/pulverizer_tin_ore'})
+  e.custom({
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "tag": "forge:ores/tin"
+    },
+    "result": [
+      {
+        "item": "mekanism:dust_tin",
+        "chance": 2.0
+      },
+      {
+        "item": "thermal:apatite",
+        "chance": 0.5
+      }
+    ],
+    "experience": 0.2
+  })
+
+  e.remove({id: 'thermal:machine/pulverizer/pulverizer_silver_ore'})
+  e.custom({
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "tag": "forge:ores/silver"
+    },
+    "result": [
+      {
+        "item": "immersiveengineering:dust_silver",
+        "chance": 2.0
+      },
+      {
+        "item": "immersiveengineering:dust_lead",
+        "chance": 0.1
+      }
+    ],
+    "experience": 0.2
+  })
+
+  e.remove({id: 'thermal:compat/create/pulverizer_create_zinc_ore'})
+
+  e.remove({id: 'thermal:compat/immersiveengineering/pulverizer_ie_aluminum_ore'})
+  e.custom({
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "tag": "forge:ores/aluminum"
+    },
+    "result": [
+      {
+        "item": "immersiveengineering:dust_aluminum",
+        "chance": 2.0
+      },
+      {
+        "item": "immersiveengineering:dust_aluminum",
+        "chance": 0.1
+      }
+    ],
+    "experience": 0.2
+  })
+
+
+
   e.remove({id: 'powah:energizing/nitro_crystal'})
 
   e.custom({

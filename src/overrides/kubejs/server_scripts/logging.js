@@ -2,7 +2,7 @@
 
 // Note to self: change to true for release
 
-var isRelease = false
+var isRelease = true
 
 settings.logAddedRecipes = !isRelease
 settings.logRemovedRecipes = !isRelease

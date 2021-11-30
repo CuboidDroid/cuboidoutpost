@@ -380,7 +380,7 @@
 			tasks: [{
 				id: "69AB275F2D31E29C"
 				type: "item"
-				title: "Any #forge:nuggets/iron"
+				title: "Iron Nuggets"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
