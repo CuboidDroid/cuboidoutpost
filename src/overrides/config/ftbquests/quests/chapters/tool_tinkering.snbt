@@ -397,7 +397,7 @@
 				""
 				"So what's next? More tools!"
 				""
-				"The reward for getting this far is a bundle of 5 Silky Cloth. You can apply these to a Tinkers Tool (probably best used on a pickaxe or shovel) to allow you to pick up blocks instead of breaking them in the same way as the Silk Touch enchantment works. Doing this requires that your tool have 1 Ability slot available."
+				"The reward for getting this far is a bundle of 5 Silky Cloth. You can apply these to a Tinkers Tool (probably best used on a pickaxe or mattock) to allow you to pick up blocks instead of breaking them in the same way as the Silk Touch enchantment works. Doing this requires that your tool have 1 Ability slot available."
 			]
 			dependencies: ["382ACEA3B14FE049"]
 			id: "2497581D002D9694"

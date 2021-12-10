@@ -11,6 +11,22 @@
 		{ item: "bountifulbaubles:mixed_dragon_scale" }
 		{ item: "bountifulbaubles:ring_free_action" }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
-		{ item: "tconstruct:creative_slot" }
+		{
+			title: "Creative Ability"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
 	]
 }

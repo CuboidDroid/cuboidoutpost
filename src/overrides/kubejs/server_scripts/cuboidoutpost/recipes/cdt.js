@@ -112,4 +112,20 @@ onEvent('recipes', e => {
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
+    e.custom({
+      "type": "cuboidmod:transmuting",
+      "base": {
+        "item": "minecraft:dirt"
+      },
+      "addition": {
+        "item": "pamhc2foodcore:freshwateritem"
+      },
+      "result": {
+        "item": "minecraft:farmland",
+        "count": 1
+      },
+      "work_ticks": 60,
+      "energy": 1000
+    })
+
   })

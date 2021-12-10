@@ -9,7 +9,7 @@ onEvent('recipes', e => {
       "type": "exnihilosequentia:sieve",
       "rolls": [
         {
-          "chance": 0.15,
+          "chance": 0.25,
           "mesh": "flint"
         },
         {

@@ -313,4 +313,19 @@ onEvent('recipes', e => {
       "work_ticks": 150,
       "energy": 5000
     })
+
+    // fiber optic tree
+    e.shaped('cuboidmod:fiber_optic_tree', [
+      'FOT',
+      ' S ',
+      'BDB'
+    ], {
+      F: 'cuboidmod:protein_fiber',
+      O: 'minecraft:spider_eye',
+      S: 'minecraft:stick',
+      T: '#forge:sapling',
+      B: 'minecraft:brick',
+      D: 'minecraft:dirt'
+    })
+    
 })
