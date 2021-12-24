@@ -1239,5 +1239,20 @@
 				item: "thermal:sulfur"
 			}]
 		}
+		{
+			title: "As tough as leather"
+			x: -15.5d
+			y: 1.5d
+			subtitle: "Personally, I prefer it less dry"
+			description: ["If you put some biltong back in the drying cupboard, it becomes as tough as leather."]
+			dependencies: ["4867992DCBF29C06"]
+			optional: true
+			id: "16F4815BB74482D3"
+			tasks: [{
+				id: "59415A5FA700F7C4"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+		}
 	]
 }

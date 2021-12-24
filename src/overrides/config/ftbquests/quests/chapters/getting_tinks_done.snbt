@@ -643,7 +643,7 @@
 				""
 				"Use faucets with levers above them, casting tables and basins under the faucets, and Hoppers to pull items out of the casting tables and basins in much the same way as was suggested for the Seared Melter setup."
 				""
-				"Our Science Division has provided an image of a sample setup for you to review."
+				"Our Science Division has provided an image of a sample setup for you to review. The Cellulose Bricks are decorative additions to allow for the levers above the faucets."
 			]
 			dependencies: [
 				"06701B9E3630EED8"
@@ -689,7 +689,7 @@
 			y: 5.5d
 			shape: "gear"
 			description: [
-				"Osmium, a key element for use in advanced mechanisms, can be made through alloying Fullerine (molten Carbon Nanotubes), Iron, and Thatldu."
+				"Osmium, a key element for use in advanced mechanisms, can be made through alloying Fullerene (molten Carbon Nanotubes), Iron, and Thatldu."
 				""
 				"Osmium is actually a pure element, so even our Science Division is uncertain as to what the actual process here is, but there's something \"hinky\" about that Thatldu stuff that seems to make this possible."
 				""

@@ -586,11 +586,11 @@
 			x: -23.0d
 			y: 3.0d
 			description: [
-				"Wouldn't it be nice to be able to get around slightly quicker? And maybe even not have to worry quite so much about taking damage when you fall?"
+				"Wouldn't it be nice to be able to get around slightly quicker by not having to jump all the time? And maybe even not have to worry quite so much about taking damage when you fall?"
 				""
 				"Good news!"
 				""
-				"Free Runners are boots that have you covered! They just need to be powered up, and will use energy both to provide you with a speed boost, as well as absorb fall damage by consuming energy."
+				"Free Runners are boots that have you covered! They just need to be powered up, and will use energy both to provide you with step up, as well as absorb fall damage by consuming energy."
 				""
 				"Just remember to keep them charged up, or you might find yourself going splat when you least expect it."
 			]

@@ -56,7 +56,7 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Osmium can be made through alloying Fullerine (molten Carbon Nanotubes), Iron, and Thatldu in a 1:1:1 ratio."]
+			description: ["Osmium can be made through alloying Fullerene (molten Carbon Nanotubes), Iron, and Thatldu in a 1:1:1 ratio."]
 			dependencies: ["369719631E5F14B6"]
 			id: "090F38009D34E249"
 			tasks: [{

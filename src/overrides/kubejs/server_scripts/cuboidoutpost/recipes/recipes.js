@@ -327,5 +327,15 @@ onEvent('recipes', e => {
       B: 'minecraft:brick',
       D: 'minecraft:dirt'
     })
+  
+    // saddle
+    e.shaped('minecraft:saddle', [
+      'L N',
+      'LLL',
+      ' N '
+    ], {
+      L: 'minecraft:leather',
+      N: '#forge:nuggets/iron'
+    })
     
 })

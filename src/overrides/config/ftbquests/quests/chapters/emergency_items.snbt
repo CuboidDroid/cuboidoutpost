@@ -100,8 +100,10 @@
 			rewards: [{
 				id: "2F3DF9C2B125482F"
 				type: "gamestage"
+				title: "Let me in to the End!"
+				icon: "cuboidmod:energized_end_stone_bricks"
 				team_reward: true
-				auto: "invisible"
+				auto: "disabled"
 				stage: "end_access"
 			}]
 		}
@@ -123,8 +125,10 @@
 			rewards: [{
 				id: "2643F170CE20050B"
 				type: "gamestage"
+				title: "Let me in to the Nether!"
+				icon: "cuboidmod:energized_nether_bricks"
 				team_reward: true
-				auto: "invisible"
+				auto: "disabled"
 				stage: "nether_access"
 			}]
 		}
@@ -143,10 +147,12 @@
 				title: "Let's do this!"
 			}]
 			rewards: [{
-				id: "11FA987797D93B5E"
+				id: "54CDC1A580F92D11"
 				type: "gamestage"
+				title: "Let me in to the Cuboid Overworld!"
+				icon: "cuboidmod:energized_thatlduvium"
 				team_reward: true
-				auto: "invisible"
+				auto: "disabled"
 				stage: "cuboid_overworld_access"
 			}]
 		}

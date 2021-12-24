@@ -57,7 +57,9 @@
 			rewards: [{
 				id: "672DC08DB4F9A8FB"
 				type: "gamestage"
-				auto: "invisible"
+				title: "Let's go!"
+				icon: "storagedrawers:shroud_key"
+				auto: "disabled"
 				stage: "nether_access"
 			}]
 		}

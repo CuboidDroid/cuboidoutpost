@@ -116,7 +116,7 @@ The defaults would probably be a good place to start. They mean that teams must 
 
 If yours is a "closed" server - i.e. not open to the general public, and you trust the players on there to behave themselves, then you might want to consider setting the "createOwnTeam" value to true so that the workload on admins is a bit less.
 
-Depending on how nice you are or aren't, you may also want to change the setting under "Inventory" to stop players dropped all their stuff when they leave / get kicked from a team - but that's up to you!
+Depending on how nice you are or aren't, you may also want to change the setting under "Inventory" to stop players dropping all their stuff when they leave / get kicked from a team - but that's up to you!
 
 **Note that if you're doing an upgrade and previously changed these settings, you will need to change them again after the upgrade.**
 

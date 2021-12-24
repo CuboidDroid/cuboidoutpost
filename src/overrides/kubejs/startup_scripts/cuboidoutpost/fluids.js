@@ -3,8 +3,8 @@
 // New Fluids
 events.listen('fluid.registry', event => {
 
-    event.create('fullerine_fluid').textureThick(0x9377AD)
-        .displayName('Fullerine Fluid').bucketColor(0x9377AD) 
+    event.create('fullerene_fluid').textureThick(0x9377AD)
+        .displayName('Fullerene Fluid').bucketColor(0x9377AD) 
     
     event.create('molten_notsogudium').textureThick(0x88A5A5)
         .displayName('Molten Notsogudium').bucketColor(0x88A5A5)

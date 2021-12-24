@@ -35,4 +35,73 @@ onEvent('recipes', e => {
 
   e.shapeless('9x exnihilosequentia:crushed_granite', ['excompressum:compressed_crushed_granite'])
 
+  // -- extra compressed hammer recipes
+
+  e.shaped('excompressum:compressed_hammer_wood', [
+    ' RR',
+    'RSR',
+    'SR '
+  ], {
+    R: '#minecraft:logs',
+    S: 'cuboidmod:stick_bundle'
+  })
+
+  e.shaped('excompressum:compressed_hammer_stone', [
+    ' R ',
+    ' SR',
+    'S  '
+  ], {
+    R: 'excompressum:compressed_cobblestone',
+    S: 'cuboidmod:stick_bundle'
+  })
+  
+  e.shaped('excompressum:compressed_hammer_iron', [
+    ' R ',
+    ' SR',
+    'S  '
+  ], {
+    R: '#forge:storage_blocks/iron',
+    S: 'cuboidmod:stick_bundle'
+  })
+  
+  e.shaped('excompressum:compressed_hammer_gold', [
+    ' R ',
+    ' SR',
+    'S  '
+  ], {
+    R: '#forge:storage_blocks/gold',
+    S: 'cuboidmod:stick_bundle'
+  })
+  
+  e.shaped('excompressum:compressed_hammer_diamond', [
+    ' R ',
+    ' SR',
+    'S  '
+  ], {
+    R: '#forge:storage_blocks/diamond',
+    S: 'cuboidmod:stick_bundle'
+  })
+  
+  e.custom({
+    "type": "minecraft:smithing",
+    "base": {
+      "item": "excompressum:compressed_hammer_diamond"
+    },
+    "addition": {
+      "item": "minecraft:netherite_block"
+    },
+    "result": {
+      "item": "excompressum:compressed_hammer_netherite"
+    }
+  })
+
+  e.shaped('excompressum:compressed_crook', [
+    'BB',
+    ' S',
+    ' S'
+  ], {
+    B: 'cuboidmod:stick_bundle',
+    S: '#forge:rods/wooden'
+  })
+ 
 })

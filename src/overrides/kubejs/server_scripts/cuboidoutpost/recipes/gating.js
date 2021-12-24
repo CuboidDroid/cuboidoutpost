@@ -36,20 +36,23 @@ onEvent('recipes', e => {
   // remove tinkers smelting recipes that would give
   // early access to gold
 
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/apple'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/boots'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/chestplate'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/clock'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/enchanted_apple'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/helmet'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/horse_armor'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/leggings'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/apple'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/boots'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/chestplate'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/clock'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/enchanted_apple'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/helmet'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/horse_armor'})
+  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/leggings'})
 
   // remove minecraft recipes that would give
   // early access to gold
   e.remove({id: 'minecraft:gold_nugget_from_blasting'})
   e.remove({id: 'minecraft:gold_nugget_from_smelting'})
 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  // -- LAVA / COBBLE --
+  
   // remove standard unfired crucible recipe and add one in that
   // requires grout to try enforce progression by using grout
   // which requires gravel, sand and clay
@@ -175,8 +178,9 @@ onEvent('recipes', e => {
     "experience": 0.2
   })
 
-
-
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  // -- NITRO CRYSTAL (enforce visiting nether before Cuboid Overworld) --
+  
   e.remove({id: 'powah:energizing/nitro_crystal'})
 
   e.custom({

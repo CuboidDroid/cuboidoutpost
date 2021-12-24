@@ -90,7 +90,9 @@
 				{
 					id: "2AE3D2BED2F2FD8E"
 					type: "gamestage"
-					auto: "invisible"
+					title: "Let's go!"
+					icon: "storagedrawers:shroud_key"
+					auto: "disabled"
 					stage: "end_access"
 				}
 				{

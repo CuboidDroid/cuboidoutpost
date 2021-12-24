@@ -43,7 +43,9 @@
 			rewards: [{
 				id: "4BB7F44427C78A91"
 				type: "gamestage"
-				auto: "invisible"
+				title: "Let's go!"
+				icon: "storagedrawers:shroud_key"
+				auto: "disabled"
 				stage: "cuboid_overworld_access"
 			}]
 		}
@@ -124,6 +126,7 @@
 			tasks: [{
 				id: "22F98966F6AC219A"
 				type: "dimension"
+				title: "Visit the Cuboid Overworld (tm)"
 				dimension: "cuboidmod:cuboid_overworld"
 			}]
 		}

@@ -17,5 +17,30 @@ onEvent('recipes', e => {
       })
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    // additional leather recipe
+
+    e.custom({
+      "type": "cuboidmod:drying",
+      "ingredient": {
+        "item": "cuboidmod:biltong_zombie"
+      },
+      "result": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "work_ticks": 800
+    })
+
+    e.custom({
+      "type": "cuboidmod:drying",
+      "ingredient": {
+        "item": "cuboidmod:biltong_beef"
+      },
+      "result": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "work_ticks": 800
+    })
   
   })

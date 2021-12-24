@@ -26,6 +26,13 @@
 				"Before you go, though, you might want to think about storage on the move. These backpacks are something special - no only do they offer more storage on your person, but they're upgradable in size and function too."
 				""
 				"Or maybe you just like carrying around more stuff! Either way, backpacks are awesome!"
+				""
+				"&ap.s. If you're wondering how to get your hands on some leather, you could:&f"
+				""
+				"- Smelt 4 Rotten Flesh in a Redstone Furnace"
+				"- Breed up and then \"retire\" horses, cows,  rabbits or llamas."
+				"- Go fishing - very rarely you might get some leather as a \"junk\" item"
+				"- Put some Biltong in a Drying Cupboard"
 			]
 			id: "7F60ADA33828168E"
 			tasks: [
