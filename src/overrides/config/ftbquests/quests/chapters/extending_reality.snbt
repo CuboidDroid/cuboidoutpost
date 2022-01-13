@@ -339,13 +339,21 @@
 			dependencies: [
 				"55E9D9E41FCDB264"
 				"7D30BCCFA1ACF48B"
+				"7AB259F629E00DD9"
 			]
 			id: "6559792A54D4ABA8"
-			tasks: [{
-				id: "6322398849494365"
-				type: "item"
-				item: "appliedenergistics2:condenser"
-			}]
+			tasks: [
+				{
+					id: "6322398849494365"
+					type: "item"
+					item: "appliedenergistics2:condenser"
+				}
+				{
+					id: "6B0BD333EB49D32D"
+					type: "item"
+					item: "appliedenergistics2:64k_cell_component"
+				}
+			]
 		}
 		{
 			x: 14.0d

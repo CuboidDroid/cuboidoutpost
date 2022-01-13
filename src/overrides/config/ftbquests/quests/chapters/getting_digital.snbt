@@ -612,6 +612,7 @@
 			title: "4k Storage Components"
 			x: 14.0d
 			y: 10.0d
+			shape: "square"
 			description: ["4k ME Storage Components can either be placed into a Storage Housing to create a 4k Storage Cell, or 3 can be combined into a 16k ME Storage Component."]
 			dependencies: ["2A0BA655B05B5F2D"]
 			dependency_requirement: "one_completed"
@@ -632,6 +633,7 @@
 			title: "16k Storage Components"
 			x: 12.0d
 			y: 10.0d
+			shape: "square"
 			description: ["16k ME Storage Components can either be placed into a Storage Housing to create a 16k Storage Cell, or 3 can be combined into a 64k ME Storage Component."]
 			dependencies: ["23CE2E93B226AFFC"]
 			id: "156FC2E5AB8F3967"
@@ -651,6 +653,7 @@
 			title: "64k Storage Components"
 			x: 10.0d
 			y: 10.0d
+			shape: "square"
 			description: ["64k ME Storage Components can be placed into a Storage Housing to create a 64k Storage Cell."]
 			dependencies: ["156FC2E5AB8F3967"]
 			id: "7AB259F629E00DD9"

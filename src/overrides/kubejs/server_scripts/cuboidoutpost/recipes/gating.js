@@ -2,6 +2,8 @@
 
 onEvent('recipes', e => {
 
+  e.remove({id: 'exnihilosequentia:ens_end_cake'})
+
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   // -- IRON --
   

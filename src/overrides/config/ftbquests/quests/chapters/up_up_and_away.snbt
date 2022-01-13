@@ -24,10 +24,7 @@
 				""
 				"These ones use energy as a power source, so you might also want to look into something like a portable power source or even a Player Transmitter in the \"Powah to the Person!\" chapter to keep you moving."
 			]
-			dependencies: [
-				"2A3A34A47D8AF234"
-				"4D0F1810876E3DF6"
-			]
+			dependencies: ["2A3A34A47D8AF234"]
 			id: "2D7913541C49FFF6"
 			tasks: [
 				{
