@@ -6,3 +6,6 @@ net.minecraft.client.gui.screen.MainMenuScreen {
 net.minecraft.client.gui.screen.CreateWorldScreen {
 }
 
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+

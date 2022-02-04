@@ -338,4 +338,13 @@ onEvent('recipes', e => {
       N: '#forge:nuggets/iron'
     })
     
+    // stonecutter
+    e.shaped('minecraft:stonecutter', [
+      ' W ',
+      'SSS'
+    ], {
+      W: 'cuboidmod:wikidium_ingot',
+      S: '#forge:stone'
+    })
+
 })

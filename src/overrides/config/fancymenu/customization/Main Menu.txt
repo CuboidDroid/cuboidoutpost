@@ -86,3 +86,7 @@ customization {
   y = -33
 }
 
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
