@@ -14,6 +14,11 @@ customization {
 }
 
 customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
   identifier = %id=400322%
   orientation = mid-left
   x = 89
@@ -54,6 +59,14 @@ customization {
 }
 
 customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 89
+  action = movebutton
+  y = -33
+}
+
+customization {
   identifier = %id=400346%
   orientation = mid-left
   x = 89
@@ -74,19 +87,7 @@ customization {
 }
 
 customization {
-  identifier = %id=376346%
+  identifier = %id=376322%
   action = hidebutton
 }
 
-customization {
-  identifier = %id=400298%
-  orientation = mid-left
-  x = 89
-  action = movebutton
-  y = -33
-}
-
-customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
